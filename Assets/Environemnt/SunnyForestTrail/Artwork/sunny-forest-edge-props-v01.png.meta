@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: fc003de073c99fb45a67a5a2e4517691
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2285717737500615163
+    second: sunny-forest-edge-props-v01_0
+  - first:
+      213: -2088571286050601700
+    second: sunny-forest-edge-props-v01_1
+  - first:
+      213: 3229664771382294109
+    second: sunny-forest-edge-props-v01_2
+  - first:
+      213: -2682318790573385034
+    second: sunny-forest-edge-props-v01_3
+  - first:
+      213: 3645238752456615496
+    second: sunny-forest-edge-props-v01_4
+  - first:
+      213: 2697808949564979088
+    second: sunny-forest-edge-props-v01_5
+  - first:
+      213: 1833180449986440706
+    second: sunny-forest-edge-props-v01_6
+  - first:
+      213: -453335673131494511
+    second: sunny-forest-edge-props-v01_7
+  - first:
+      213: 8733898757101186238
+    second: sunny-forest-edge-props-v01_8
+  - first:
+      213: -1529683030915587174
+    second: sunny-forest-edge-props-v01_9
+  - first:
+      213: -1654694790470245649
+    second: sunny-forest-edge-props-v01_10
+  - first:
+      213: -2222010952839189956
+    second: sunny-forest-edge-props-v01_11
+  - first:
+      213: 8971867306976485891
+    second: sunny-forest-edge-props-v01_12
+  - first:
+      213: -4387584589222023211
+    second: sunny-forest-edge-props-v01_13
+  - first:
+      213: -535607471985311269
+    second: sunny-forest-edge-props-v01_14
+  - first:
+      213: -3788604229689466942
+    second: sunny-forest-edge-props-v01_15
+  - first:
+      213: -5169115681320533766
+    second: sunny-forest-edge-props-v01_16
+  - first:
+      213: -7345159509840414910
+    second: sunny-forest-edge-props-v01_17
+  - first:
+      213: 7167323170925020422
+    second: sunny-forest-edge-props-v01_18
+  - first:
+      213: 4920654111875558398
+    second: sunny-forest-edge-props-v01_19
+  - first:
+      213: 4953962292988187139
+    second: sunny-forest-edge-props-v01_20
+  - first:
+      213: 3434583407814542995
+    second: sunny-forest-edge-props-v01_21
+  - first:
+      213: 2323635274780640558
+    second: sunny-forest-edge-props-v01_22
+  - first:
+      213: -4044112844755663907
+    second: sunny-forest-edge-props-v01_23
+  - first:
+      213: -459257289089640137
+    second: sunny-forest-edge-props-v01_24
+  - first:
+      213: 8012105154730142914
+    second: sunny-forest-edge-props-v01_25
+  - first:
+      213: -3249376178667926160
+    second: sunny-forest-edge-props-v01_26
+  - first:
+      213: -65007080006635707
+    second: sunny-forest-edge-props-v01_27
+  - first:
+      213: -2816459281705244726
+    second: sunny-forest-edge-props-v01_28
+  - first:
+      213: 5019072854668289324
+    second: sunny-forest-edge-props-v01_29
+  - first:
+      213: -5877713399439951292
+    second: sunny-forest-edge-props-v01_30
+  - first:
+      213: 7707107315856568637
+    second: sunny-forest-edge-props-v01_31
+  - first:
+      213: 2748518566106743738
+    second: sunny-forest-edge-props-v01_32
+  - first:
+      213: -6004423851066576453
+    second: sunny-forest-edge-props-v01_33
+  - first:
+      213: 6908382213869014377
+    second: sunny-forest-edge-props-v01_34
+  - first:
+      213: -5617271477243543891
+    second: sunny-forest-edge-props-v01_35
+  - first:
+      213: 5887115200241646401
+    second: sunny-forest-edge-props-v01_36
+  - first:
+      213: -8581594473997191068
+    second: sunny-forest-edge-props-v01_37
+  - first:
+      213: -5424034046591334266
+    second: sunny-forest-edge-props-v01_38
+  - first:
+      213: -3492904273511355344
+    second: sunny-forest-edge-props-v01_39
+  - first:
+      213: -5699823127440939843
+    second: sunny-forest-edge-props-v01_40
+  - first:
+      213: -7536438062510857060
+    second: sunny-forest-edge-props-v01_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_0
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1053
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1a8880c2088bf10800000000000000
+      internalID: 2285717737500615163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 589
+        width: 520
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c158fd62b77e303e0800000000000000
+      internalID: -2088571286050601700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_2
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1042
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56b5d18ff212dc20800000000000000
+      internalID: 3229664771382294109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_3
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1038
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba9481854d76cad0800000000000000
+      internalID: -2682318790573385034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_4
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 955
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8462aa1055d769230800000000000000
+      internalID: 3645238752456615496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_5
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 963
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097b0be22fa807520800000000000000
+      internalID: 2697808949564979088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 605
+        width: 391
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ee1aa18e3c07910800000000000000
+      internalID: 1833180449986440706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_7
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 1024
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1931cfe6b9d65b9f0800000000000000
+      internalID: -453335673131494511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_8
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1036
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebced3935aa053970800000000000000
+      internalID: 8733898757101186238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1004
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a936553536975cae0800000000000000
+      internalID: -1529683030915587174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_10
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 987
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2e452ead75909e0800000000000000
+      internalID: -1654694790470245649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_11
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 994
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a2ef4afc4d921e0800000000000000
+      internalID: -2222010952839189956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_12
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 965
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302264cd7c9728c70800000000000000
+      internalID: 8971867306976485891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_13
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 971
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df6171001b2c13c0800000000000000
+      internalID: -4387584589222023211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_14
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 968
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1454d87d32198f0800000000000000
+      internalID: -535607471985311269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_15
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 988
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf11d6a68c2c6bc0800000000000000
+      internalID: -3788604229689466942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_16
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 973
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af00dfbccac9348b0800000000000000
+      internalID: -5169115681320533766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_17
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 971
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24731659750c01a90800000000000000
+      internalID: -7345159509840414910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_18
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 623
+        width: 344
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60589692372777360800000000000000
+      internalID: 7167323170925020422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_19
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 666
+        width: 319
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb68e018dca94440800000000000000
+      internalID: 4920654111875558398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_20
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 937
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3029d30557200c440800000000000000
+      internalID: 4953962292988187139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 387
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3968c3689671aaf20800000000000000
+      internalID: 3434583407814542995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 558
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e250ed4a8f53f3020800000000000000
+      internalID: 2323635274780640558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_23
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 589
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd38eb85bcc60e7c0800000000000000
+      internalID: -4044112844755663907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 311
+        width: 347
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7399d47cde360a9f0800000000000000
+      internalID: -459257289089640137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 586
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc24c23037b03f60800000000000000
+      internalID: 8012105154730142914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_26
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 580
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dc1e8d495e7e2d0800000000000000
+      internalID: -3249376178667926160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_27
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 356
+        width: 347
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fa158b76c091ff0800000000000000
+      internalID: -65007080006635707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_28
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 581
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac76b9d943de9e8d0800000000000000
+      internalID: -2816459281705244726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_29
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 359
+        width: 350
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c252f4c4b2457a540800000000000000
+      internalID: 5019072854668289324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 537
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44af3defdca2e6ea0800000000000000
+      internalID: -5877713399439951292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_31
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 540
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31f17f054525fa60800000000000000
+      internalID: 7707107315856568637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_32
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 371
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3cb57d213b42620800000000000000
+      internalID: 2748518566106743738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_33
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 360
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb13b4cf1500caca0800000000000000
+      internalID: -6004423851066576453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_34
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 19
+        width: 357
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d0a4675018fdf50800000000000000
+      internalID: 6908382213869014377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_35
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 307
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daef6ff5a517b02b0800000000000000
+      internalID: -5617271477243543891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_36
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 29
+        width: 353
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bb436551c33b150800000000000000
+      internalID: 5887115200241646401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_37
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 355
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46831fa0b4d08e880800000000000000
+      internalID: -8581594473997191068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 357
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888c4bb5c5f9b4b0800000000000000
+      internalID: -5424034046591334266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_39
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 289
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c69e6c116b68fc0800000000000000
+      internalID: -3492904273511355344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_40
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 82
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4a356801926e0b0800000000000000
+      internalID: -5699823127440939843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sunny-forest-edge-props-v01_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94ae4c0381396790800000000000000
+      internalID: -7536438062510857060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sunny-forest-edge-props-v01_0: 2285717737500615163
+      sunny-forest-edge-props-v01_1: -2088571286050601700
+      sunny-forest-edge-props-v01_10: -1654694790470245649
+      sunny-forest-edge-props-v01_11: -2222010952839189956
+      sunny-forest-edge-props-v01_12: 8971867306976485891
+      sunny-forest-edge-props-v01_13: -4387584589222023211
+      sunny-forest-edge-props-v01_14: -535607471985311269
+      sunny-forest-edge-props-v01_15: -3788604229689466942
+      sunny-forest-edge-props-v01_16: -5169115681320533766
+      sunny-forest-edge-props-v01_17: -7345159509840414910
+      sunny-forest-edge-props-v01_18: 7167323170925020422
+      sunny-forest-edge-props-v01_19: 4920654111875558398
+      sunny-forest-edge-props-v01_2: 3229664771382294109
+      sunny-forest-edge-props-v01_20: 4953962292988187139
+      sunny-forest-edge-props-v01_21: 3434583407814542995
+      sunny-forest-edge-props-v01_22: 2323635274780640558
+      sunny-forest-edge-props-v01_23: -4044112844755663907
+      sunny-forest-edge-props-v01_24: -459257289089640137
+      sunny-forest-edge-props-v01_25: 8012105154730142914
+      sunny-forest-edge-props-v01_26: -3249376178667926160
+      sunny-forest-edge-props-v01_27: -65007080006635707
+      sunny-forest-edge-props-v01_28: -2816459281705244726
+      sunny-forest-edge-props-v01_29: 5019072854668289324
+      sunny-forest-edge-props-v01_3: -2682318790573385034
+      sunny-forest-edge-props-v01_30: -5877713399439951292
+      sunny-forest-edge-props-v01_31: 7707107315856568637
+      sunny-forest-edge-props-v01_32: 2748518566106743738
+      sunny-forest-edge-props-v01_33: -6004423851066576453
+      sunny-forest-edge-props-v01_34: 6908382213869014377
+      sunny-forest-edge-props-v01_35: -5617271477243543891
+      sunny-forest-edge-props-v01_36: 5887115200241646401
+      sunny-forest-edge-props-v01_37: -8581594473997191068
+      sunny-forest-edge-props-v01_38: -5424034046591334266
+      sunny-forest-edge-props-v01_39: -3492904273511355344
+      sunny-forest-edge-props-v01_4: 3645238752456615496
+      sunny-forest-edge-props-v01_40: -5699823127440939843
+      sunny-forest-edge-props-v01_41: -7536438062510857060
+      sunny-forest-edge-props-v01_5: 2697808949564979088
+      sunny-forest-edge-props-v01_6: 1833180449986440706
+      sunny-forest-edge-props-v01_7: -453335673131494511
+      sunny-forest-edge-props-v01_8: 8733898757101186238
+      sunny-forest-edge-props-v01_9: -1529683030915587174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
