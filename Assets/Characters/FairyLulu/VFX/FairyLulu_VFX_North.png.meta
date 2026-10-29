@@ -1,0 +1,6890 @@
+fileFormatVersion: 2
+guid: 16789355cdaa28a44915df1a2bc3e5d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8892647502661717558
+    second: FairyLulu_VFX_North_0
+  - first:
+      213: -1805364007216040604
+    second: FairyLulu_VFX_North_1
+  - first:
+      213: -1948642795667231894
+    second: FairyLulu_VFX_North_2
+  - first:
+      213: -5305436553541579358
+    second: FairyLulu_VFX_North_3
+  - first:
+      213: 944073954292746154
+    second: FairyLulu_VFX_North_4
+  - first:
+      213: -6176880416231875441
+    second: FairyLulu_VFX_North_5
+  - first:
+      213: 3873985314215932181
+    second: FairyLulu_VFX_North_6
+  - first:
+      213: -8046487185685562393
+    second: FairyLulu_VFX_North_7
+  - first:
+      213: 5475280653803302282
+    second: FairyLulu_VFX_North_8
+  - first:
+      213: 1451919039399474201
+    second: FairyLulu_VFX_North_9
+  - first:
+      213: -8420082460151357812
+    second: FairyLulu_VFX_North_10
+  - first:
+      213: -3781115728094666520
+    second: FairyLulu_VFX_North_11
+  - first:
+      213: 4285078194553994360
+    second: FairyLulu_VFX_North_12
+  - first:
+      213: 8548440023599474611
+    second: FairyLulu_VFX_North_13
+  - first:
+      213: -2828421446898781045
+    second: FairyLulu_VFX_North_14
+  - first:
+      213: 6043313106797140897
+    second: FairyLulu_VFX_North_15
+  - first:
+      213: 2017384164090593390
+    second: FairyLulu_VFX_North_16
+  - first:
+      213: 3795190875435930845
+    second: FairyLulu_VFX_North_17
+  - first:
+      213: 122120255847219559
+    second: FairyLulu_VFX_North_18
+  - first:
+      213: -9080631670867232360
+    second: FairyLulu_VFX_North_19
+  - first:
+      213: -3326202724927660614
+    second: FairyLulu_VFX_North_20
+  - first:
+      213: 2395082698860341356
+    second: FairyLulu_VFX_North_21
+  - first:
+      213: 6755770674761308281
+    second: FairyLulu_VFX_North_22
+  - first:
+      213: 6671669940223335980
+    second: FairyLulu_VFX_North_23
+  - first:
+      213: 4122932468936700666
+    second: FairyLulu_VFX_North_24
+  - first:
+      213: 4808145747559489456
+    second: FairyLulu_VFX_North_25
+  - first:
+      213: 5720815606666797307
+    second: FairyLulu_VFX_North_26
+  - first:
+      213: -170683980808336717
+    second: FairyLulu_VFX_North_27
+  - first:
+      213: 4223414749674375240
+    second: FairyLulu_VFX_North_28
+  - first:
+      213: 3015090926597372149
+    second: FairyLulu_VFX_North_29
+  - first:
+      213: 6131616740345169660
+    second: FairyLulu_VFX_North_30
+  - first:
+      213: -8857755778383480895
+    second: FairyLulu_VFX_North_31
+  - first:
+      213: 6526644540919823978
+    second: FairyLulu_VFX_North_32
+  - first:
+      213: -5012578297520797219
+    second: FairyLulu_VFX_North_33
+  - first:
+      213: -4235122943068246403
+    second: FairyLulu_VFX_North_34
+  - first:
+      213: -2273567108277606391
+    second: FairyLulu_VFX_North_35
+  - first:
+      213: 6417160661580645643
+    second: FairyLulu_VFX_North_36
+  - first:
+      213: 4801006193996696572
+    second: FairyLulu_VFX_North_37
+  - first:
+      213: 4465696179898448009
+    second: FairyLulu_VFX_North_38
+  - first:
+      213: -6020859401716821774
+    second: FairyLulu_VFX_North_39
+  - first:
+      213: 6169584941546537553
+    second: FairyLulu_VFX_North_40
+  - first:
+      213: -8722046187780226429
+    second: FairyLulu_VFX_North_41
+  - first:
+      213: 1623412487866321657
+    second: FairyLulu_VFX_North_42
+  - first:
+      213: -4354067876248881676
+    second: FairyLulu_VFX_North_43
+  - first:
+      213: 4177232254766774143
+    second: FairyLulu_VFX_North_44
+  - first:
+      213: 6055235080638278189
+    second: FairyLulu_VFX_North_45
+  - first:
+      213: -6182682263789715457
+    second: FairyLulu_VFX_North_46
+  - first:
+      213: 2595992532829432150
+    second: FairyLulu_VFX_North_47
+  - first:
+      213: 544787812460838795
+    second: FairyLulu_VFX_North_48
+  - first:
+      213: -3598228467460551277
+    second: FairyLulu_VFX_North_49
+  - first:
+      213: 1350558719286780318
+    second: FairyLulu_VFX_North_50
+  - first:
+      213: 1749652267041233790
+    second: FairyLulu_VFX_North_51
+  - first:
+      213: 40480138250995883
+    second: FairyLulu_VFX_North_52
+  - first:
+      213: -3763257163076526597
+    second: FairyLulu_VFX_North_53
+  - first:
+      213: 1606315615253953170
+    second: FairyLulu_VFX_North_54
+  - first:
+      213: -3988117470176397505
+    second: FairyLulu_VFX_North_55
+  - first:
+      213: 4451858852138075398
+    second: FairyLulu_VFX_North_56
+  - first:
+      213: -2370852953126369735
+    second: FairyLulu_VFX_North_57
+  - first:
+      213: 6994824839389150249
+    second: FairyLulu_VFX_North_58
+  - first:
+      213: 9005792576899211212
+    second: FairyLulu_VFX_North_59
+  - first:
+      213: -8013761366252931128
+    second: FairyLulu_VFX_North_60
+  - first:
+      213: -7488947124435535607
+    second: FairyLulu_VFX_North_61
+  - first:
+      213: 1853249114317948043
+    second: FairyLulu_VFX_North_62
+  - first:
+      213: -8138565752504155909
+    second: FairyLulu_VFX_North_63
+  - first:
+      213: -4181320236452330201
+    second: FairyLulu_VFX_North_64
+  - first:
+      213: -4653599916006403180
+    second: FairyLulu_VFX_North_65
+  - first:
+      213: 8827065425605493629
+    second: FairyLulu_VFX_North_66
+  - first:
+      213: -5248894832753667977
+    second: FairyLulu_VFX_North_67
+  - first:
+      213: 3351458570817645171
+    second: FairyLulu_VFX_North_68
+  - first:
+      213: -7374060725606593187
+    second: FairyLulu_VFX_North_69
+  - first:
+      213: 6158548635296392570
+    second: FairyLulu_VFX_North_70
+  - first:
+      213: -3850451481155560353
+    second: FairyLulu_VFX_North_71
+  - first:
+      213: -3875772016692508292
+    second: FairyLulu_VFX_North_72
+  - first:
+      213: -4322097013792109221
+    second: FairyLulu_VFX_North_73
+  - first:
+      213: -7565768446138753341
+    second: FairyLulu_VFX_North_74
+  - first:
+      213: -6698271706911048840
+    second: FairyLulu_VFX_North_75
+  - first:
+      213: -5168913824393295385
+    second: FairyLulu_VFX_North_76
+  - first:
+      213: -1550696399451060758
+    second: FairyLulu_VFX_North_77
+  - first:
+      213: 5256921769238879370
+    second: FairyLulu_VFX_North_78
+  - first:
+      213: -775490371061584021
+    second: FairyLulu_VFX_North_79
+  - first:
+      213: -3173806347779066046
+    second: FairyLulu_VFX_North_80
+  - first:
+      213: -1194200017193445096
+    second: FairyLulu_VFX_North_81
+  - first:
+      213: 7757544896891798055
+    second: FairyLulu_VFX_North_82
+  - first:
+      213: 6964220587616386385
+    second: FairyLulu_VFX_North_83
+  - first:
+      213: 1221211731013724481
+    second: FairyLulu_VFX_North_84
+  - first:
+      213: -8799247233712564099
+    second: FairyLulu_VFX_North_85
+  - first:
+      213: -6651511007333808958
+    second: FairyLulu_VFX_North_86
+  - first:
+      213: -8286475569734114589
+    second: FairyLulu_VFX_North_87
+  - first:
+      213: -6989925119603502765
+    second: FairyLulu_VFX_North_88
+  - first:
+      213: -8139538560103862167
+    second: FairyLulu_VFX_North_89
+  - first:
+      213: 4543567307919607178
+    second: FairyLulu_VFX_North_90
+  - first:
+      213: -7261430429085135422
+    second: FairyLulu_VFX_North_91
+  - first:
+      213: -8246665662037574553
+    second: FairyLulu_VFX_North_92
+  - first:
+      213: -447060184652493863
+    second: FairyLulu_VFX_North_93
+  - first:
+      213: 5839260057543535923
+    second: FairyLulu_VFX_North_94
+  - first:
+      213: -5823498069637541544
+    second: FairyLulu_VFX_North_95
+  - first:
+      213: -1927890483580255783
+    second: FairyLulu_VFX_North_96
+  - first:
+      213: 3157860573306790965
+    second: FairyLulu_VFX_North_97
+  - first:
+      213: -1435681339115723704
+    second: FairyLulu_VFX_North_98
+  - first:
+      213: 8980447098529089836
+    second: FairyLulu_VFX_North_99
+  - first:
+      213: -6563536324261455573
+    second: FairyLulu_VFX_North_100
+  - first:
+      213: 9093167812952446678
+    second: FairyLulu_VFX_North_101
+  - first:
+      213: -5297734233426235720
+    second: FairyLulu_VFX_North_102
+  - first:
+      213: 3227445656420059870
+    second: FairyLulu_VFX_North_103
+  - first:
+      213: -1430544385007100035
+    second: FairyLulu_VFX_North_104
+  - first:
+      213: 4759996735432686815
+    second: FairyLulu_VFX_North_105
+  - first:
+      213: 6819955693475905806
+    second: FairyLulu_VFX_North_106
+  - first:
+      213: -1377895854384653829
+    second: FairyLulu_VFX_North_107
+  - first:
+      213: 7565411080752200081
+    second: FairyLulu_VFX_North_108
+  - first:
+      213: 3078783150460005307
+    second: FairyLulu_VFX_North_109
+  - first:
+      213: 731100712685910893
+    second: FairyLulu_VFX_North_110
+  - first:
+      213: -4003740488825609199
+    second: FairyLulu_VFX_North_111
+  - first:
+      213: 1421790374962421783
+    second: FairyLulu_VFX_North_112
+  - first:
+      213: -4052737598950058530
+    second: FairyLulu_VFX_North_113
+  - first:
+      213: 6887666394329296544
+    second: FairyLulu_VFX_North_114
+  - first:
+      213: 6388987356956583107
+    second: FairyLulu_VFX_North_115
+  - first:
+      213: 1543296311481984904
+    second: FairyLulu_VFX_North_116
+  - first:
+      213: 323461066697166606
+    second: FairyLulu_VFX_North_117
+  - first:
+      213: 7215725560043141971
+    second: FairyLulu_VFX_North_118
+  - first:
+      213: 6884986383437433677
+    second: FairyLulu_VFX_North_119
+  - first:
+      213: 527639455228980096
+    second: FairyLulu_VFX_North_120
+  - first:
+      213: 3426056610428452111
+    second: FairyLulu_VFX_North_121
+  - first:
+      213: 9158218141634000177
+    second: FairyLulu_VFX_North_122
+  - first:
+      213: -1295595701890122099
+    second: FairyLulu_VFX_North_123
+  - first:
+      213: -3192914579470316971
+    second: FairyLulu_VFX_North_124
+  - first:
+      213: -8370938369625911559
+    second: FairyLulu_VFX_North_125
+  - first:
+      213: -1231667623120289808
+    second: FairyLulu_VFX_North_126
+  - first:
+      213: 1697592541661299770
+    second: FairyLulu_VFX_North_127
+  - first:
+      213: -4424116864065045169
+    second: FairyLulu_VFX_North_128
+  - first:
+      213: 108961841022254250
+    second: FairyLulu_VFX_North_129
+  - first:
+      213: 2272763061907186133
+    second: FairyLulu_VFX_North_130
+  - first:
+      213: -4906717091849771656
+    second: FairyLulu_VFX_North_131
+  - first:
+      213: -5658787267301096005
+    second: FairyLulu_VFX_North_132
+  - first:
+      213: 2925367047079222648
+    second: FairyLulu_VFX_North_133
+  - first:
+      213: -8143835158499264899
+    second: FairyLulu_VFX_North_134
+  - first:
+      213: -8859948277567425020
+    second: FairyLulu_VFX_North_135
+  - first:
+      213: 2989455684333309902
+    second: FairyLulu_VFX_North_136
+  - first:
+      213: 6127130951569611995
+    second: FairyLulu_VFX_North_137
+  - first:
+      213: 8192085021628858143
+    second: FairyLulu_VFX_North_138
+  - first:
+      213: -6391860144170510648
+    second: FairyLulu_VFX_North_139
+  - first:
+      213: -5892985185171825669
+    second: FairyLulu_VFX_North_140
+  - first:
+      213: 6371340042313772768
+    second: FairyLulu_VFX_North_141
+  - first:
+      213: 3816939826149712551
+    second: FairyLulu_VFX_North_142
+  - first:
+      213: 7155186544090363153
+    second: FairyLulu_VFX_North_143
+  - first:
+      213: -6807647249087156239
+    second: FairyLulu_VFX_North_144
+  - first:
+      213: -7110681775541816750
+    second: FairyLulu_VFX_North_145
+  - first:
+      213: -3033531934954125860
+    second: FairyLulu_VFX_North_146
+  - first:
+      213: -5495258661411047020
+    second: FairyLulu_VFX_North_147
+  - first:
+      213: -247106826270955923
+    second: FairyLulu_VFX_North_148
+  - first:
+      213: -2807470203303156759
+    second: FairyLulu_VFX_North_149
+  - first:
+      213: -8653870490479080223
+    second: FairyLulu_VFX_North_150
+  - first:
+      213: -455555623713225480
+    second: FairyLulu_VFX_North_151
+  - first:
+      213: 1518027076126372530
+    second: FairyLulu_VFX_North_152
+  - first:
+      213: -8901432409732612681
+    second: FairyLulu_VFX_North_153
+  - first:
+      213: 4620271672295864049
+    second: FairyLulu_VFX_North_154
+  - first:
+      213: 151253140262353759
+    second: FairyLulu_VFX_North_155
+  - first:
+      213: -6613134756284149186
+    second: FairyLulu_VFX_North_156
+  - first:
+      213: -9164468521854175254
+    second: FairyLulu_VFX_North_157
+  - first:
+      213: -2453497159513548813
+    second: FairyLulu_VFX_North_158
+  - first:
+      213: -2680257098355639398
+    second: FairyLulu_VFX_North_159
+  - first:
+      213: -8471210531205117491
+    second: FairyLulu_VFX_North_160
+  - first:
+      213: -8633739181554207929
+    second: FairyLulu_VFX_North_161
+  - first:
+      213: 8019947063907163815
+    second: FairyLulu_VFX_North_162
+  - first:
+      213: 5315393928860976236
+    second: FairyLulu_VFX_North_163
+  - first:
+      213: 5847732843428385485
+    second: FairyLulu_VFX_North_164
+  - first:
+      213: 8041159454790860426
+    second: FairyLulu_VFX_North_165
+  - first:
+      213: 3987771911704796750
+    second: FairyLulu_VFX_North_166
+  - first:
+      213: 2076558484840155756
+    second: FairyLulu_VFX_North_167
+  - first:
+      213: 7638282883592672914
+    second: FairyLulu_VFX_North_168
+  - first:
+      213: 5808883202674305777
+    second: FairyLulu_VFX_North_169
+  - first:
+      213: -18329383992525677
+    second: FairyLulu_VFX_North_170
+  - first:
+      213: 1842226088115837108
+    second: FairyLulu_VFX_North_171
+  - first:
+      213: -6566432971675356180
+    second: FairyLulu_VFX_North_172
+  - first:
+      213: 4354510193521116843
+    second: FairyLulu_VFX_North_173
+  - first:
+      213: 7754275639111758860
+    second: FairyLulu_VFX_North_174
+  - first:
+      213: 4632162734948692975
+    second: FairyLulu_VFX_North_175
+  - first:
+      213: 6524464864213286076
+    second: FairyLulu_VFX_North_176
+  - first:
+      213: -7638677966567650000
+    second: FairyLulu_VFX_North_177
+  - first:
+      213: 7433590473530691779
+    second: FairyLulu_VFX_North_178
+  - first:
+      213: -2317056483459989385
+    second: FairyLulu_VFX_North_179
+  - first:
+      213: 5046035942908601995
+    second: FairyLulu_VFX_North_180
+  - first:
+      213: -8866926746925328387
+    second: FairyLulu_VFX_North_181
+  - first:
+      213: 4226514657581281940
+    second: FairyLulu_VFX_North_182
+  - first:
+      213: 8354415584376086582
+    second: FairyLulu_VFX_North_183
+  - first:
+      213: 2150327533075783481
+    second: FairyLulu_VFX_North_184
+  - first:
+      213: -5785863901636398144
+    second: FairyLulu_VFX_North_185
+  - first:
+      213: 6005484705875752743
+    second: FairyLulu_VFX_North_186
+  - first:
+      213: 6995664807355738584
+    second: FairyLulu_VFX_North_187
+  - first:
+      213: 999025347967927328
+    second: FairyLulu_VFX_North_188
+  - first:
+      213: 6613524658424317258
+    second: FairyLulu_VFX_North_189
+  - first:
+      213: 3762453783636412858
+    second: FairyLulu_VFX_North_190
+  - first:
+      213: 4137157047247045670
+    second: FairyLulu_VFX_North_191
+  - first:
+      213: -7957948189033123707
+    second: FairyLulu_VFX_North_192
+  - first:
+      213: -1958296964789275055
+    second: FairyLulu_VFX_North_193
+  - first:
+      213: 1786451142830620803
+    second: FairyLulu_VFX_North_194
+  - first:
+      213: 8609693079682596622
+    second: FairyLulu_VFX_North_195
+  - first:
+      213: 5116679501132960978
+    second: FairyLulu_VFX_North_196
+  - first:
+      213: 6901899776129009584
+    second: FairyLulu_VFX_North_197
+  - first:
+      213: 1435657732051595050
+    second: FairyLulu_VFX_North_198
+  - first:
+      213: -5541033769958197465
+    second: FairyLulu_VFX_North_199
+  - first:
+      213: 7356477134297420196
+    second: FairyLulu_VFX_North_200
+  - first:
+      213: 8351461711471184132
+    second: FairyLulu_VFX_North_201
+  - first:
+      213: -910124624403745444
+    second: FairyLulu_VFX_North_202
+  - first:
+      213: -103963919906974928
+    second: FairyLulu_VFX_North_203
+  - first:
+      213: 9057891538954141823
+    second: FairyLulu_VFX_North_204
+  - first:
+      213: 7009606552183000104
+    second: FairyLulu_VFX_North_205
+  - first:
+      213: -1274001916081643267
+    second: FairyLulu_VFX_North_206
+  - first:
+      213: -1676304564521773872
+    second: FairyLulu_VFX_North_207
+  - first:
+      213: 3270946611848306735
+    second: FairyLulu_VFX_North_208
+  - first:
+      213: -2574605947632414923
+    second: FairyLulu_VFX_North_209
+  - first:
+      213: 260228842939458595
+    second: FairyLulu_VFX_North_210
+  - first:
+      213: -4948748917479160861
+    second: FairyLulu_VFX_North_211
+  - first:
+      213: -4210276611670410807
+    second: FairyLulu_VFX_North_212
+  - first:
+      213: -209725222801717149
+    second: FairyLulu_VFX_North_213
+  - first:
+      213: 7137642881909442090
+    second: FairyLulu_VFX_North_214
+  - first:
+      213: -7475717344722324576
+    second: FairyLulu_VFX_North_215
+  - first:
+      213: 6497157064765461773
+    second: FairyLulu_VFX_North_216
+  - first:
+      213: -2509446111773928504
+    second: FairyLulu_VFX_North_217
+  - first:
+      213: 2126291333732474612
+    second: FairyLulu_VFX_North_218
+  - first:
+      213: -7784944370664823764
+    second: FairyLulu_VFX_North_219
+  - first:
+      213: -3111825769464022188
+    second: FairyLulu_VFX_North_220
+  - first:
+      213: 3230603140834556357
+    second: FairyLulu_VFX_North_221
+  - first:
+      213: 3586304161070876991
+    second: FairyLulu_VFX_North_222
+  - first:
+      213: 2216106501000703668
+    second: FairyLulu_VFX_North_223
+  - first:
+      213: -8382299258071415081
+    second: FairyLulu_VFX_North_224
+  - first:
+      213: 4740160829515908624
+    second: FairyLulu_VFX_North_225
+  - first:
+      213: 3786546466875106336
+    second: FairyLulu_VFX_North_226
+  - first:
+      213: 7254575042249562175
+    second: FairyLulu_VFX_North_227
+  - first:
+      213: -1384137025975107382
+    second: FairyLulu_VFX_North_228
+  - first:
+      213: -6481504471423244736
+    second: FairyLulu_VFX_North_229
+  - first:
+      213: -4438333135351575499
+    second: FairyLulu_VFX_North_230
+  - first:
+      213: -6351750588885902258
+    second: FairyLulu_VFX_North_231
+  - first:
+      213: -8444027786406118152
+    second: FairyLulu_VFX_North_232
+  - first:
+      213: 6754436102456294422
+    second: FairyLulu_VFX_North_233
+  - first:
+      213: -3051650073848425132
+    second: FairyLulu_VFX_North_234
+  - first:
+      213: -8700739019560956146
+    second: FairyLulu_VFX_North_235
+  - first:
+      213: -926751721597706540
+    second: FairyLulu_VFX_North_236
+  - first:
+      213: -6841648043859098833
+    second: FairyLulu_VFX_North_237
+  - first:
+      213: -7935291959319576559
+    second: FairyLulu_VFX_North_238
+  - first:
+      213: 5099161036159178269
+    second: FairyLulu_VFX_North_239
+  - first:
+      213: 3983697755935336050
+    second: FairyLulu_VFX_North_240
+  - first:
+      213: 1201428300681314931
+    second: FairyLulu_VFX_North_241
+  - first:
+      213: 1893105764674550200
+    second: FairyLulu_VFX_North_242
+  - first:
+      213: 4976359233966386921
+    second: FairyLulu_VFX_North_243
+  - first:
+      213: 902054973116645269
+    second: FairyLulu_VFX_North_244
+  - first:
+      213: 8463975126150703433
+    second: FairyLulu_VFX_North_245
+  - first:
+      213: 513306752632425713
+    second: FairyLulu_VFX_North_246
+  - first:
+      213: 5428693509369941322
+    second: FairyLulu_VFX_North_247
+  - first:
+      213: 6506740046061698398
+    second: FairyLulu_VFX_North_248
+  - first:
+      213: 2798271253344975766
+    second: FairyLulu_VFX_North_249
+  - first:
+      213: 8965559231868162805
+    second: FairyLulu_VFX_North_250
+  - first:
+      213: 1476513016635187850
+    second: FairyLulu_VFX_North_251
+  - first:
+      213: 7738983736257221609
+    second: FairyLulu_VFX_North_252
+  - first:
+      213: -6114400142485494316
+    second: FairyLulu_VFX_North_253
+  - first:
+      213: -5831108956903988232
+    second: FairyLulu_VFX_North_254
+  - first:
+      213: 8941038830761182308
+    second: FairyLulu_VFX_North_255
+  - first:
+      213: -7538930314428588823
+    second: FairyLulu_VFX_North_256
+  - first:
+      213: -5834795644588916222
+    second: FairyLulu_VFX_North_257
+  - first:
+      213: -452200358265951695
+    second: FairyLulu_VFX_North_258
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 733
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e8ae4d9c7096b70800000000000000
+      internalID: 8892647502661717558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 696
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465bc9b200f02f6e0800000000000000
+      internalID: -1805364007216040604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_2
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 648
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b6122a3b705f4e0800000000000000
+      internalID: -1948642795667231894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 688
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad08cf509d4f56b0800000000000000
+      internalID: -5305436553541579358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 699
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7415f62460a1d00800000000000000
+      internalID: 944073954292746154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 659
+        width: 69
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c9e6aecff474aa0800000000000000
+      internalID: -6176880416231875441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 534
+        width: 140
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511bbe63e1923c530800000000000000
+      internalID: 3873985314215932181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 723
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebba776982255090800000000000000
+      internalID: -8046487185685562393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 682
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8da38fceba1cfb40800000000000000
+      internalID: 5475280653803302282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 706
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914380a7ca0462410800000000000000
+      internalID: 1451919039399474201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 652
+        width: 106
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e5e2f2d9bd52b80800000000000000
+      internalID: -8420082460151357812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 720
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e0664c4747c68bc0800000000000000
+      internalID: -3781115728094666520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 688
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cb9252ae7a77b30800000000000000
+      internalID: 4285078194553994360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 664
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7e06ee8e822a670800000000000000
+      internalID: 8548440023599474611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_14
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 686
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84708efdad6fb8d0800000000000000
+      internalID: -2828421446898781045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 675
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab1b1570492ed350800000000000000
+      internalID: 6043313106797140897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 659
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e604e1c65303ffb10800000000000000
+      internalID: 2017384164090593390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 675
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd499215ef93ba430800000000000000
+      internalID: 3795190875435930845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 701
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76147a5c9bbd1b100800000000000000
+      internalID: 122120255847219559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 661
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899fbc94b9d1bf180800000000000000
+      internalID: -9080631670867232360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 651
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd10c1ae34f6d1d0800000000000000
+      internalID: -3326202724927660614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 534
+        width: 173
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c682141660b0d3120800000000000000
+      internalID: 2395082698860341356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_22
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 689
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978162592a151cd50800000000000000
+      internalID: 6755770674761308281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 726
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ed9ad6678869c50800000000000000
+      internalID: 6671669940223335980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_24
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 710
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af275eb7c39973930800000000000000
+      internalID: 4122932468936700666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 727
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf969f2517f9b240800000000000000
+      internalID: 4808145747559489456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_26
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 708
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0a2eceb7b646f40800000000000000
+      internalID: 5720815606666797307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_27
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 714
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bac113e2db91adf0800000000000000
+      internalID: -170683980808336717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_28
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 686
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8488c7596559c9a30800000000000000
+      internalID: 4223414749674375240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_29
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 688
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8f65d1931c7d920800000000000000
+      internalID: 3015090926597372149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_30
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 641
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6cc1b40f0e71550800000000000000
+      internalID: 6131616740345169660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_31
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 693
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7f94acc0ee21580800000000000000
+      internalID: -8857755778383480895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 534
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6eb4cc51ac439a50800000000000000
+      internalID: 6526644540919823978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_33
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 697
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9c07f989ebf6ab0800000000000000
+      internalID: -5012578297520797219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_34
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 534
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e6f463f12d935c0800000000000000
+      internalID: -4235122943068246403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_35
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 534
+        width: 211
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e91ac2caa270e0800000000000000
+      internalID: -2273567108277606391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_36
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 698
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0500244f955e0950800000000000000
+      internalID: 6417160661580645643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_37
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 600
+        width: 52
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb8f9552b990a240800000000000000
+      internalID: 4801006193996696572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_38
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 691
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9887aade30759fd30800000000000000
+      internalID: 4465696179898448009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_39
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 684
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f01916264c917ca0800000000000000
+      internalID: -6020859401716821774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_40
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 717
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1520b7401d4ce9550800000000000000
+      internalID: 6169584941546537553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_41
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 725
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3824fce143115f680800000000000000
+      internalID: -8722046187780226429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_42
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 691
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa84377e05878610800000000000000
+      internalID: 1623412487866321657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_43
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 688
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5fe3cd55e3393c0800000000000000
+      internalID: -4354067876248881676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_44
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 667
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f777da19a9288f930800000000000000
+      internalID: 4177232254766774143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_45
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 635
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aadec4934880450800000000000000
+      internalID: 6055235080638278189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_46
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 698
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffb4b30d33b23aa0800000000000000
+      internalID: -6182682263789715457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_47
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 663
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6596dd65471d60420800000000000000
+      internalID: 2595992532829432150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_48
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 658
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8fb0b701a97f8700800000000000000
+      internalID: 544787812460838795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_49
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 675
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39dc058e546801ec0800000000000000
+      internalID: -3598228467460551277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_50
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 698
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e912567eff52eb210800000000000000
+      internalID: 1350558719286780318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_51
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 658
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b13718773084810800000000000000
+      internalID: 1749652267041233790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_52
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 692
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8c8e4a870df8000800000000000000
+      internalID: 40480138250995883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_53
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 710
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd116c7c8936cbc0800000000000000
+      internalID: -3763257163076526597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_54
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 681
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aff5c9a87ca4610800000000000000
+      internalID: 1606315615253953170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_55
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 696
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f373b937a4c57a8c0800000000000000
+      internalID: -3988117470176397505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_56
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 688
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6054edff90e28cd30800000000000000
+      internalID: 4451858852138075398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 645
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936873aecc9091fd0800000000000000
+      internalID: -2370852953126369735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_58
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 583
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c7ed9912c921160800000000000000
+      internalID: 6994824839389150249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_59
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf5dea42a00bfc70800000000000000
+      internalID: 9005792576899211212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_60
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 573
+        width: 34
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7beb10f7669c090800000000000000
+      internalID: -8013761366252931128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_61
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 624
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909365ab44ae11890800000000000000
+      internalID: -7488947124435535607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_62
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 634
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b848a33204018b910800000000000000
+      internalID: 1853249114317948043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_63
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 584
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf084dc61910e0f80800000000000000
+      internalID: -8138565752504155909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_64
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 534
+        width: 108
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7254b160667f8f5c0800000000000000
+      internalID: -4181320236452330201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_65
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 627
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49396af38871b6fb0800000000000000
+      internalID: -4653599916006403180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_66
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 648
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73095e9c39008a70800000000000000
+      internalID: 8827065425605493629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_67
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 637
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770955e95fd2827b0800000000000000
+      internalID: -5248894832753667977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_68
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 644
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a260930d5c28e20800000000000000
+      internalID: 3351458570817645171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_69
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 635
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d4f0ae6d21aa990800000000000000
+      internalID: -7374060725606593187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_70
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 619
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75eecaba5f877550800000000000000
+      internalID: 6158548635296392570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_71
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 608
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c98d847c2709ac0800000000000000
+      internalID: -3850451481155560353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_72
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 624
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79c4a2b2ed763ac0800000000000000
+      internalID: -3875772016692508292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_73
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 555
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d05285aa3d404c0800000000000000
+      internalID: -4322097013792109221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_74
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 607
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce5a03feadf00790800000000000000
+      internalID: -7565768446138753341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_75
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 575
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b748c1f55fa03a0800000000000000
+      internalID: -6698271706911048840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 534
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e98e6643445448b0800000000000000
+      internalID: -5168913824393295385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_77
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 574
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae50e3437d1da7ae0800000000000000
+      internalID: -1550696399451060758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_78
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 577
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c508b2f7654f840800000000000000
+      internalID: 5256921769238879370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_79
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 534
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f6322cd97ec35f0800000000000000
+      internalID: -775490371061584021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_80
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 575
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 247bfb631ff54f3d0800000000000000
+      internalID: -3173806347779066046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_81
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 566
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8195b6859695d6fe0800000000000000
+      internalID: -1194200017193445096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_82
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 598
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72241648bf558ab60800000000000000
+      internalID: 7757544896891798055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_83
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 592
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d3656f9b1e5a060800000000000000
+      internalID: 6964220587616386385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_84
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 591
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ec9e599d92f010800000000000000
+      internalID: 1221211731013724481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_85
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 534
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7859b7e24bc2e580800000000000000
+      internalID: -8799247233712564099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_86
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 565
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c48444eaf511b3a0800000000000000
+      internalID: -6651511007333808958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_87
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 582
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2ab0a7f56800d80800000000000000
+      internalID: -8286475569734114589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_88
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 559
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351147f432ccefe90800000000000000
+      internalID: -6989925119603502765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_89
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 565
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9603a610ecc8a0f80800000000000000
+      internalID: -8139538560103862167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_90
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 534
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8540a9c46efd0f30800000000000000
+      internalID: 4543567307919607178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_91
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 534
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd0b295f773a3b90800000000000000
+      internalID: -7261430429085135422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_92
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 555
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cb6d8e545fd8d80800000000000000
+      internalID: -8246665662037574553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_93
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 550
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db41947129bbc9f0800000000000000
+      internalID: -447060184652493863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 539
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d6209a518390150800000000000000
+      internalID: 5839260057543535923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_95
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 541
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d4112c57ce2fa0800000000000000
+      internalID: -5823498069637541544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_96
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 541
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1c750d1d1ce35e0800000000000000
+      internalID: -1927890483580255783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_97
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 538
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534a92ad579f2db20800000000000000
+      internalID: 3157860573306790965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_98
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 539
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844a95bbd6f631ce0800000000000000
+      internalID: -1435681339115723704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_99
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 542
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2983004e05f0ac70800000000000000
+      internalID: 8980447098529089836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_100
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 534
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29d50afc72a9e4a0800000000000000
+      internalID: -6563536324261455573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_101
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 534
+        width: 55
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6db0eb2fb613e70800000000000000
+      internalID: 9093167812952446678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_102
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 470
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bee33688caaa76b0800000000000000
+      internalID: -5297734233426235720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_103
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 422
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda8bca89b03acc20800000000000000
+      internalID: 3227445656420059870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_104
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 428
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fd830167fa52ce0800000000000000
+      internalID: -1430544385007100035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_105
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 467
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcfb73bfc7ee0240800000000000000
+      internalID: 4759996735432686815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_106
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 370
+        width: 69
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01c88dc19955ae50800000000000000
+      internalID: 6819955693475905806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_107
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 483
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf95be5550bb0ece0800000000000000
+      internalID: -1377895854384653829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_108
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 479
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199f9007b4dbdf860800000000000000
+      internalID: 7565411080752200081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_109
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 279
+        width: 180
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb60a796f80aba20800000000000000
+      internalID: 3078783150460005307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_110
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 469
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bbda28934652a00800000000000000
+      internalID: 731100712685910893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_111
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 466
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11463b6fc3bdf68c0800000000000000
+      internalID: -4003740488825609199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_112
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 466
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71064b420d63bb310800000000000000
+      internalID: 1421790374962421783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_113
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 480
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed556b640a8c1c7c0800000000000000
+      internalID: -4052737598950058530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_114
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 484
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aea46dd718e59f50800000000000000
+      internalID: 6887666394329296544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_115
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4ebdd962e3aa850800000000000000
+      internalID: 6388987356956583107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_116
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887ed0d81d3ea6510800000000000000
+      internalID: 1543296311481984904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_117
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 279
+        width: 211
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f472b502a2d7400800000000000000
+      internalID: 323461066697166606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_118
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 408
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bf3139a28632460800000000000000
+      internalID: 7215725560043141971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_119
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 446
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b803433a26c8f50800000000000000
+      internalID: 6884986383437433677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_120
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 480
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b676af94d825700800000000000000
+      internalID: 527639455228980096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_121
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 474
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d77fcc55ccb8f20800000000000000
+      internalID: 3426056610428452111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_122
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 473
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135f1a3a0e6881f70800000000000000
+      internalID: 9158218141634000177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_123
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 411
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ef050d29e150ee0800000000000000
+      internalID: -1295595701890122099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_124
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 452
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a81845b1d70b3d0800000000000000
+      internalID: -3192914579470316971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_125
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 462
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe82c967e374db80800000000000000
+      internalID: -8370938369625911559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_126
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 326
+        width: 52
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffb09a82dc38eee0800000000000000
+      internalID: -1231667623120289808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_127
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 463
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3403132c6f0f8710800000000000000
+      internalID: 1697592541661299770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_128
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 456
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d7690f6216a92c0800000000000000
+      internalID: -4424116864065045169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_129
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 405
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac3434973c138100800000000000000
+      internalID: 108961841022254250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 435
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d16b9396f97a8f10800000000000000
+      internalID: 2272763061907186133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_131
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 433
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875e4f64dc6d7ebb0800000000000000
+      internalID: -4906717091849771656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_132
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 279
+        width: 182
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5c30146f2f771b0800000000000000
+      internalID: -5658787267301096005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_133
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 445
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d5ace74ddf89820800000000000000
+      internalID: 2925367047079222648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_134
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 443
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76705c32194bfe80800000000000000
+      internalID: -8143835158499264899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_135
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 445
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406724bcbf32b0580800000000000000
+      internalID: -8859948277567425020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_136
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 402
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf85782b1eac7920800000000000000
+      internalID: 2989455684333309902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_137
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 402
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc9b943321f70550800000000000000
+      internalID: 6127130951569611995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_138
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 280
+        width: 128
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f7cf37ce120b170800000000000000
+      internalID: 8192085021628858143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_139
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 403
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c65dbc701d8b47a0800000000000000
+      internalID: -6391860144170510648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_140
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 403
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb913b4239e73ea0800000000000000
+      internalID: -5892985185171825669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_141
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 402
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eea55df20c8b6850800000000000000
+      internalID: 6371340042313772768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_142
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 360
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e1b28c8e78f430800000000000000
+      internalID: 3816939826149712551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_143
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 370
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115392680445c4360800000000000000
+      internalID: 7155186544090363153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_144
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 374
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffaef935e06681a0800000000000000
+      internalID: -6807647249087156239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_145
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 327
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2527cf16998c15d90800000000000000
+      internalID: -7110681775541816750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_146
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 372
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5814a07cab6e5d0800000000000000
+      internalID: -3033531934954125860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_147
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 379
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499b4b1dc5becb3b0800000000000000
+      internalID: -5495258661411047020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_148
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 371
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66ab8696a9129cf0800000000000000
+      internalID: -247106826270955923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_149
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 354
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e32f9689bcd909d0800000000000000
+      internalID: -2807470203303156759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_150
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec42ca93a647e780800000000000000
+      internalID: -8653870490479080223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_151
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 323
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f44429e29a8da9f0800000000000000
+      internalID: -455555623713225480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_152
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 340
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2ffe7359d111510800000000000000
+      internalID: 1518027076126372530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_153
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 336
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdfcb99262c77480800000000000000
+      internalID: -8901432409732612681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_154
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 349
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6bef05b908e1040800000000000000
+      internalID: 4620271672295864049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_155
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 343
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bff700eeb591200800000000000000
+      internalID: 151253140262353759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_156
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 326
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32d4ef1afc6934a0800000000000000
+      internalID: -6613134756284149186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_157
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7f1af4f6441d080800000000000000
+      internalID: -9164468521854175254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_158
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 319
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7d3c5255d63fdd0800000000000000
+      internalID: -2453497159513548813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_159
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 312
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9bfac1ae50ddcad0800000000000000
+      internalID: -2680257098355639398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_160
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 297
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc988fd77e6307a80800000000000000
+      internalID: -8471210531205117491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_161
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 301
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743f61835fbce2880800000000000000
+      internalID: -8633739181554207929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_162
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 306
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae9f95fc539c4f60800000000000000
+      internalID: 8019947063907163815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_163
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 298
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64c60bbd9214c940800000000000000
+      internalID: 5315393928860976236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_164
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 297
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc21fe9d902572150800000000000000
+      internalID: 5847732843428385485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_165
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 296
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e35159befe79f60800000000000000
+      internalID: 8041159454790860426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_166
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 298
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ed172fc69675730800000000000000
+      internalID: 3987771911704796750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_167
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 291
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a883c90fa61dc10800000000000000
+      internalID: 2076558484840155756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_168
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 298
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296dc7230d1a00a60800000000000000
+      internalID: 7638282883592672914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_169
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 297
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa22dfe7c4d9050800000000000000
+      internalID: 5808883202674305777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_170
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 301
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c7c2ab581eebff0800000000000000
+      internalID: -18329383992525677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_171
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 300
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81a1addd6e09910800000000000000
+      internalID: 1842226088115837108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_172
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 279
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3b0e1b0085fd4a0800000000000000
+      internalID: -6566432971675356180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_173
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 294
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c4a723f35e6c30800000000000000
+      internalID: 4354510193521116843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_174
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 283
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04b8bf1c98bc9b60800000000000000
+      internalID: 7754275639111758860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_175
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 287
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe33b66177fb84040800000000000000
+      internalID: 4632162734948692975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_176
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 286
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc33f4d93e8b8a50800000000000000
+      internalID: 6524464864213286076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_177
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 279
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03dc1216cd6fdf590800000000000000
+      internalID: -7638677966567650000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_178
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 279
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0568c962b692760800000000000000
+      internalID: 7433590473530691779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_179
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 279
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7700ad2976928dfd0800000000000000
+      internalID: -2317056483459989385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_180
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 286
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86abec74fe170640800000000000000
+      internalID: 5046035942908601995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_181
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 286
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df71b184a1952f480800000000000000
+      internalID: -8866926746925328387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_182
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 279
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4923d1320b897aa30800000000000000
+      internalID: 4226514657581281940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_183
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 279
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63069bcd5b8d0f370800000000000000
+      internalID: 8354415584376086582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_184
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 279
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f59b79f7f77dd10800000000000000
+      internalID: 2150327533075783481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_185
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 279
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3f430bf6b74bfa0800000000000000
+      internalID: -5785863901636398144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_186
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 279
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727f3c58584c75350800000000000000
+      internalID: 6005484705875752743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_187
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 206
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9e322e318951160800000000000000
+      internalID: 6995664807355738584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_188
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 225
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0244d3bc2404ddd00800000000000000
+      internalID: 999025347967927328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_189
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 195
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a450baa03a5f7cb50800000000000000
+      internalID: 6613524658424317258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_190
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 216
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9097928cbe63430800000000000000
+      internalID: 3762453783636412858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_191
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 222
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6240a253a622a6930800000000000000
+      internalID: 4137157047247045670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_192
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 228
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580b7bbf840bf8190800000000000000
+      internalID: -7957948189033123707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_193
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 226
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1567209394bb2d4e0800000000000000
+      internalID: -1958296964789275055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_194
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 209
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380820179dfbac810800000000000000
+      internalID: 1786451142830620803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_195
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 197
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fbe976d36cb7770800000000000000
+      internalID: 8609693079682596622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_196
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 216
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d49d8e95e8120740800000000000000
+      internalID: 5116679501132960978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_197
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 145
+        width: 62
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7848f474978cf50800000000000000
+      internalID: 6901899776129009584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_198
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 196
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f6af1d91b7ce310800000000000000
+      internalID: 1435657732051595050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_199
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727b235d42b4a13b0800000000000000
+      internalID: -5541033769958197465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_200
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1d4143af4771660800000000000000
+      internalID: 7356477134297420196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_201
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 22
+        width: 211
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409048bbd2a56e370800000000000000
+      internalID: 8351461711471184132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_202
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c553415e9769e53f0800000000000000
+      internalID: -910124624403745444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_203
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 185
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033dc7c9d55ae8ef0800000000000000
+      internalID: -103963919906974928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_204
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 159
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70c0692d5814bd70800000000000000
+      internalID: 9057891538954141823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_205
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 216
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c4e1e4500274160800000000000000
+      internalID: 7009606552183000104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_206
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 215
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df069ccd106d15ee0800000000000000
+      internalID: -1274001916081643267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_207
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 153
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4505841e19cb8e0800000000000000
+      internalID: -1676304564521773872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_208
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 205
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f206c7efc9cb46d20800000000000000
+      internalID: 3270946611848306735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_209
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 207
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f03ce0889254cd0800000000000000
+      internalID: -2574605947632414923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_210
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 196
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324a7bff0c48c9300800000000000000
+      internalID: 260228842939458595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_211
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 199
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e34e034413825bb0800000000000000
+      internalID: -4948748917479160861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_212
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 137
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9ff3b8ab71295c0800000000000000
+      internalID: -4210276611670410807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_213
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 22
+        width: 170
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c6726508e61df0800000000000000
+      internalID: -209725222801717149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_214
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 195
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26cecd52600e0360800000000000000
+      internalID: 7137642881909442090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_215
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 195
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3799adeaae04890800000000000000
+      internalID: -7475717344722324576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_216
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 171
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05d34f4de98a2a50800000000000000
+      internalID: 6497157064765461773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_217
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 188
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3dab49e08ac2dd0800000000000000
+      internalID: -2509446111773928504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_218
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 184
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe9d14d3ba128d10800000000000000
+      internalID: 2126291333732474612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_219
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 71
+        width: 97
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24a85e575256f390800000000000000
+      internalID: -7784944370664823764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_220
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 171
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bb03823f290d4d0800000000000000
+      internalID: -3111825769464022188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_221
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 171
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c974bba07865dc20800000000000000
+      internalID: 3230603140834556357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_222
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 175
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39822922ac15c130800000000000000
+      internalID: 3586304161070876991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_223
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 153
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bea4980f1131ce10800000000000000
+      internalID: 2216106501000703668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_224
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 92
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d602a17c371cab80800000000000000
+      internalID: -8382299258071415081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_225
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 115
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0164485f82f68c140800000000000000
+      internalID: 4740160829515908624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_226
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024e99b13f38c8430800000000000000
+      internalID: 3786546466875106336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_227
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 129
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3813b5809d6da460800000000000000
+      internalID: 7254575042249562175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_228
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 126
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0c94655be8acce0800000000000000
+      internalID: -1384137025975107382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_229
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 123
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04626b216021d06a0800000000000000
+      internalID: -6481504471423244736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_230
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 82
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c0688578fd762c0800000000000000
+      internalID: -4438333135351575499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_231
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 125
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cd39f0e7c0ad7a0800000000000000
+      internalID: -6351750588885902258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_232
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 119
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc3cb57779c0da80800000000000000
+      internalID: -8444027786406118152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_233
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 31
+        width: 86
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c3bf049d39cbd50800000000000000
+      internalID: 6754436102456294422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_234
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 22
+        width: 204
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45558791d6c56a5d0800000000000000
+      internalID: -3051650073848425132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_235
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 91
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f40bfc5f3c04780800000000000000
+      internalID: -8700739019560956146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_236
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 66
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dedf2728348323f0800000000000000
+      internalID: -926751721597706540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_237
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 79
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23488b4a559d01a0800000000000000
+      internalID: -6841648043859098833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_238
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 95
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1104eb7810e20e190800000000000000
+      internalID: -7935291959319576559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_239
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 92
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16d7c422fbd3c640800000000000000
+      internalID: 5099161036159178269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_240
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 22
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276eb03a000f84730800000000000000
+      internalID: 3983697755935336050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_241
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 91
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372063d8ca45ca010800000000000000
+      internalID: 1201428300681314931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_242
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 30
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9bba1b9a9a54a10800000000000000
+      internalID: 1893105764674550200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_243
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 70
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee2d4f7b549f0540800000000000000
+      internalID: 4976359233966386921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_244
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 57
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ffd70083eb48c00800000000000000
+      internalID: 902054973116645269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_245
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 39
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94964fd7884167570800000000000000
+      internalID: 8463975126150703433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_246
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 33
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc077b95c1af1700800000000000000
+      internalID: 513306752632425713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_247
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 54
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dc67cfbf7965b40800000000000000
+      internalID: 5428693509369941322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_248
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 56
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5df05309959c4a50800000000000000
+      internalID: 6506740046061698398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_249
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 34
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b70d801e475d620800000000000000
+      internalID: 2798271253344975766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_250
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 22
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2d93cae901c6c70800000000000000
+      internalID: 8965559231868162805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_251
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 36
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82e7c604c0ad7410800000000000000
+      internalID: 1476513016635187850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_252
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 35
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3132a84b4666b60800000000000000
+      internalID: 7738983736257221609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_253
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 22
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5ed844779452ba0800000000000000
+      internalID: -6114400142485494316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_254
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3a3295c4db31fa0800000000000000
+      internalID: -5831108956903988232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_255
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4648e76e173f41c70800000000000000
+      internalID: 8941038830761182308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_256
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 22
+        width: 94
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec5f0e62d6506790800000000000000
+      internalID: -7538930314428588823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_257
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 30
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202084b7644a60fa0800000000000000
+      internalID: -5834795644588916222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FairyLulu_VFX_North_258
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 22
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ae0468b2679b9f0800000000000000
+      internalID: -452200358265951695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FairyLulu_VFX_North_0: 8892647502661717558
+      FairyLulu_VFX_North_1: -1805364007216040604
+      FairyLulu_VFX_North_10: -8420082460151357812
+      FairyLulu_VFX_North_100: -6563536324261455573
+      FairyLulu_VFX_North_101: 9093167812952446678
+      FairyLulu_VFX_North_102: -5297734233426235720
+      FairyLulu_VFX_North_103: 3227445656420059870
+      FairyLulu_VFX_North_104: -1430544385007100035
+      FairyLulu_VFX_North_105: 4759996735432686815
+      FairyLulu_VFX_North_106: 6819955693475905806
+      FairyLulu_VFX_North_107: -1377895854384653829
+      FairyLulu_VFX_North_108: 7565411080752200081
+      FairyLulu_VFX_North_109: 3078783150460005307
+      FairyLulu_VFX_North_11: -3781115728094666520
+      FairyLulu_VFX_North_110: 731100712685910893
+      FairyLulu_VFX_North_111: -4003740488825609199
+      FairyLulu_VFX_North_112: 1421790374962421783
+      FairyLulu_VFX_North_113: -4052737598950058530
+      FairyLulu_VFX_North_114: 6887666394329296544
+      FairyLulu_VFX_North_115: 6388987356956583107
+      FairyLulu_VFX_North_116: 1543296311481984904
+      FairyLulu_VFX_North_117: 323461066697166606
+      FairyLulu_VFX_North_118: 7215725560043141971
+      FairyLulu_VFX_North_119: 6884986383437433677
+      FairyLulu_VFX_North_12: 4285078194553994360
+      FairyLulu_VFX_North_120: 527639455228980096
+      FairyLulu_VFX_North_121: 3426056610428452111
+      FairyLulu_VFX_North_122: 9158218141634000177
+      FairyLulu_VFX_North_123: -1295595701890122099
+      FairyLulu_VFX_North_124: -3192914579470316971
+      FairyLulu_VFX_North_125: -8370938369625911559
+      FairyLulu_VFX_North_126: -1231667623120289808
+      FairyLulu_VFX_North_127: 1697592541661299770
+      FairyLulu_VFX_North_128: -4424116864065045169
+      FairyLulu_VFX_North_129: 108961841022254250
+      FairyLulu_VFX_North_13: 8548440023599474611
+      FairyLulu_VFX_North_130: 2272763061907186133
+      FairyLulu_VFX_North_131: -4906717091849771656
+      FairyLulu_VFX_North_132: -5658787267301096005
+      FairyLulu_VFX_North_133: 2925367047079222648
+      FairyLulu_VFX_North_134: -8143835158499264899
+      FairyLulu_VFX_North_135: -8859948277567425020
+      FairyLulu_VFX_North_136: 2989455684333309902
+      FairyLulu_VFX_North_137: 6127130951569611995
+      FairyLulu_VFX_North_138: 8192085021628858143
+      FairyLulu_VFX_North_139: -6391860144170510648
+      FairyLulu_VFX_North_14: -2828421446898781045
+      FairyLulu_VFX_North_140: -5892985185171825669
+      FairyLulu_VFX_North_141: 6371340042313772768
+      FairyLulu_VFX_North_142: 3816939826149712551
+      FairyLulu_VFX_North_143: 7155186544090363153
+      FairyLulu_VFX_North_144: -6807647249087156239
+      FairyLulu_VFX_North_145: -7110681775541816750
+      FairyLulu_VFX_North_146: -3033531934954125860
+      FairyLulu_VFX_North_147: -5495258661411047020
+      FairyLulu_VFX_North_148: -247106826270955923
+      FairyLulu_VFX_North_149: -2807470203303156759
+      FairyLulu_VFX_North_15: 6043313106797140897
+      FairyLulu_VFX_North_150: -8653870490479080223
+      FairyLulu_VFX_North_151: -455555623713225480
+      FairyLulu_VFX_North_152: 1518027076126372530
+      FairyLulu_VFX_North_153: -8901432409732612681
+      FairyLulu_VFX_North_154: 4620271672295864049
+      FairyLulu_VFX_North_155: 151253140262353759
+      FairyLulu_VFX_North_156: -6613134756284149186
+      FairyLulu_VFX_North_157: -9164468521854175254
+      FairyLulu_VFX_North_158: -2453497159513548813
+      FairyLulu_VFX_North_159: -2680257098355639398
+      FairyLulu_VFX_North_16: 2017384164090593390
+      FairyLulu_VFX_North_160: -8471210531205117491
+      FairyLulu_VFX_North_161: -8633739181554207929
+      FairyLulu_VFX_North_162: 8019947063907163815
+      FairyLulu_VFX_North_163: 5315393928860976236
+      FairyLulu_VFX_North_164: 5847732843428385485
+      FairyLulu_VFX_North_165: 8041159454790860426
+      FairyLulu_VFX_North_166: 3987771911704796750
+      FairyLulu_VFX_North_167: 2076558484840155756
+      FairyLulu_VFX_North_168: 7638282883592672914
+      FairyLulu_VFX_North_169: 5808883202674305777
+      FairyLulu_VFX_North_17: 3795190875435930845
+      FairyLulu_VFX_North_170: -18329383992525677
+      FairyLulu_VFX_North_171: 1842226088115837108
+      FairyLulu_VFX_North_172: -6566432971675356180
+      FairyLulu_VFX_North_173: 4354510193521116843
+      FairyLulu_VFX_North_174: 7754275639111758860
+      FairyLulu_VFX_North_175: 4632162734948692975
+      FairyLulu_VFX_North_176: 6524464864213286076
+      FairyLulu_VFX_North_177: -7638677966567650000
+      FairyLulu_VFX_North_178: 7433590473530691779
+      FairyLulu_VFX_North_179: -2317056483459989385
+      FairyLulu_VFX_North_18: 122120255847219559
+      FairyLulu_VFX_North_180: 5046035942908601995
+      FairyLulu_VFX_North_181: -8866926746925328387
+      FairyLulu_VFX_North_182: 4226514657581281940
+      FairyLulu_VFX_North_183: 8354415584376086582
+      FairyLulu_VFX_North_184: 2150327533075783481
+      FairyLulu_VFX_North_185: -5785863901636398144
+      FairyLulu_VFX_North_186: 6005484705875752743
+      FairyLulu_VFX_North_187: 6995664807355738584
+      FairyLulu_VFX_North_188: 999025347967927328
+      FairyLulu_VFX_North_189: 6613524658424317258
+      FairyLulu_VFX_North_19: -9080631670867232360
+      FairyLulu_VFX_North_190: 3762453783636412858
+      FairyLulu_VFX_North_191: 4137157047247045670
+      FairyLulu_VFX_North_192: -7957948189033123707
+      FairyLulu_VFX_North_193: -1958296964789275055
+      FairyLulu_VFX_North_194: 1786451142830620803
+      FairyLulu_VFX_North_195: 8609693079682596622
+      FairyLulu_VFX_North_196: 5116679501132960978
+      FairyLulu_VFX_North_197: 6901899776129009584
+      FairyLulu_VFX_North_198: 1435657732051595050
+      FairyLulu_VFX_North_199: -5541033769958197465
+      FairyLulu_VFX_North_2: -1948642795667231894
+      FairyLulu_VFX_North_20: -3326202724927660614
+      FairyLulu_VFX_North_200: 7356477134297420196
+      FairyLulu_VFX_North_201: 8351461711471184132
+      FairyLulu_VFX_North_202: -910124624403745444
+      FairyLulu_VFX_North_203: -103963919906974928
+      FairyLulu_VFX_North_204: 9057891538954141823
+      FairyLulu_VFX_North_205: 7009606552183000104
+      FairyLulu_VFX_North_206: -1274001916081643267
+      FairyLulu_VFX_North_207: -1676304564521773872
+      FairyLulu_VFX_North_208: 3270946611848306735
+      FairyLulu_VFX_North_209: -2574605947632414923
+      FairyLulu_VFX_North_21: 2395082698860341356
+      FairyLulu_VFX_North_210: 260228842939458595
+      FairyLulu_VFX_North_211: -4948748917479160861
+      FairyLulu_VFX_North_212: -4210276611670410807
+      FairyLulu_VFX_North_213: -209725222801717149
+      FairyLulu_VFX_North_214: 7137642881909442090
+      FairyLulu_VFX_North_215: -7475717344722324576
+      FairyLulu_VFX_North_216: 6497157064765461773
+      FairyLulu_VFX_North_217: -2509446111773928504
+      FairyLulu_VFX_North_218: 2126291333732474612
+      FairyLulu_VFX_North_219: -7784944370664823764
+      FairyLulu_VFX_North_22: 6755770674761308281
+      FairyLulu_VFX_North_220: -3111825769464022188
+      FairyLulu_VFX_North_221: 3230603140834556357
+      FairyLulu_VFX_North_222: 3586304161070876991
+      FairyLulu_VFX_North_223: 2216106501000703668
+      FairyLulu_VFX_North_224: -8382299258071415081
+      FairyLulu_VFX_North_225: 4740160829515908624
+      FairyLulu_VFX_North_226: 3786546466875106336
+      FairyLulu_VFX_North_227: 7254575042249562175
+      FairyLulu_VFX_North_228: -1384137025975107382
+      FairyLulu_VFX_North_229: -6481504471423244736
+      FairyLulu_VFX_North_23: 6671669940223335980
+      FairyLulu_VFX_North_230: -4438333135351575499
+      FairyLulu_VFX_North_231: -6351750588885902258
+      FairyLulu_VFX_North_232: -8444027786406118152
+      FairyLulu_VFX_North_233: 6754436102456294422
+      FairyLulu_VFX_North_234: -3051650073848425132
+      FairyLulu_VFX_North_235: -8700739019560956146
+      FairyLulu_VFX_North_236: -926751721597706540
+      FairyLulu_VFX_North_237: -6841648043859098833
+      FairyLulu_VFX_North_238: -7935291959319576559
+      FairyLulu_VFX_North_239: 5099161036159178269
+      FairyLulu_VFX_North_24: 4122932468936700666
+      FairyLulu_VFX_North_240: 3983697755935336050
+      FairyLulu_VFX_North_241: 1201428300681314931
+      FairyLulu_VFX_North_242: 1893105764674550200
+      FairyLulu_VFX_North_243: 4976359233966386921
+      FairyLulu_VFX_North_244: 902054973116645269
+      FairyLulu_VFX_North_245: 8463975126150703433
+      FairyLulu_VFX_North_246: 513306752632425713
+      FairyLulu_VFX_North_247: 5428693509369941322
+      FairyLulu_VFX_North_248: 6506740046061698398
+      FairyLulu_VFX_North_249: 2798271253344975766
+      FairyLulu_VFX_North_25: 4808145747559489456
+      FairyLulu_VFX_North_250: 8965559231868162805
+      FairyLulu_VFX_North_251: 1476513016635187850
+      FairyLulu_VFX_North_252: 7738983736257221609
+      FairyLulu_VFX_North_253: -6114400142485494316
+      FairyLulu_VFX_North_254: -5831108956903988232
+      FairyLulu_VFX_North_255: 8941038830761182308
+      FairyLulu_VFX_North_256: -7538930314428588823
+      FairyLulu_VFX_North_257: -5834795644588916222
+      FairyLulu_VFX_North_258: -452200358265951695
+      FairyLulu_VFX_North_26: 5720815606666797307
+      FairyLulu_VFX_North_27: -170683980808336717
+      FairyLulu_VFX_North_28: 4223414749674375240
+      FairyLulu_VFX_North_29: 3015090926597372149
+      FairyLulu_VFX_North_3: -5305436553541579358
+      FairyLulu_VFX_North_30: 6131616740345169660
+      FairyLulu_VFX_North_31: -8857755778383480895
+      FairyLulu_VFX_North_32: 6526644540919823978
+      FairyLulu_VFX_North_33: -5012578297520797219
+      FairyLulu_VFX_North_34: -4235122943068246403
+      FairyLulu_VFX_North_35: -2273567108277606391
+      FairyLulu_VFX_North_36: 6417160661580645643
+      FairyLulu_VFX_North_37: 4801006193996696572
+      FairyLulu_VFX_North_38: 4465696179898448009
+      FairyLulu_VFX_North_39: -6020859401716821774
+      FairyLulu_VFX_North_4: 944073954292746154
+      FairyLulu_VFX_North_40: 6169584941546537553
+      FairyLulu_VFX_North_41: -8722046187780226429
+      FairyLulu_VFX_North_42: 1623412487866321657
+      FairyLulu_VFX_North_43: -4354067876248881676
+      FairyLulu_VFX_North_44: 4177232254766774143
+      FairyLulu_VFX_North_45: 6055235080638278189
+      FairyLulu_VFX_North_46: -6182682263789715457
+      FairyLulu_VFX_North_47: 2595992532829432150
+      FairyLulu_VFX_North_48: 544787812460838795
+      FairyLulu_VFX_North_49: -3598228467460551277
+      FairyLulu_VFX_North_5: -6176880416231875441
+      FairyLulu_VFX_North_50: 1350558719286780318
+      FairyLulu_VFX_North_51: 1749652267041233790
+      FairyLulu_VFX_North_52: 40480138250995883
+      FairyLulu_VFX_North_53: -3763257163076526597
+      FairyLulu_VFX_North_54: 1606315615253953170
+      FairyLulu_VFX_North_55: -3988117470176397505
+      FairyLulu_VFX_North_56: 4451858852138075398
+      FairyLulu_VFX_North_57: -2370852953126369735
+      FairyLulu_VFX_North_58: 6994824839389150249
+      FairyLulu_VFX_North_59: 9005792576899211212
+      FairyLulu_VFX_North_6: 3873985314215932181
+      FairyLulu_VFX_North_60: -8013761366252931128
+      FairyLulu_VFX_North_61: -7488947124435535607
+      FairyLulu_VFX_North_62: 1853249114317948043
+      FairyLulu_VFX_North_63: -8138565752504155909
+      FairyLulu_VFX_North_64: -4181320236452330201
+      FairyLulu_VFX_North_65: -4653599916006403180
+      FairyLulu_VFX_North_66: 8827065425605493629
+      FairyLulu_VFX_North_67: -5248894832753667977
+      FairyLulu_VFX_North_68: 3351458570817645171
+      FairyLulu_VFX_North_69: -7374060725606593187
+      FairyLulu_VFX_North_7: -8046487185685562393
+      FairyLulu_VFX_North_70: 6158548635296392570
+      FairyLulu_VFX_North_71: -3850451481155560353
+      FairyLulu_VFX_North_72: -3875772016692508292
+      FairyLulu_VFX_North_73: -4322097013792109221
+      FairyLulu_VFX_North_74: -7565768446138753341
+      FairyLulu_VFX_North_75: -6698271706911048840
+      FairyLulu_VFX_North_76: -5168913824393295385
+      FairyLulu_VFX_North_77: -1550696399451060758
+      FairyLulu_VFX_North_78: 5256921769238879370
+      FairyLulu_VFX_North_79: -775490371061584021
+      FairyLulu_VFX_North_8: 5475280653803302282
+      FairyLulu_VFX_North_80: -3173806347779066046
+      FairyLulu_VFX_North_81: -1194200017193445096
+      FairyLulu_VFX_North_82: 7757544896891798055
+      FairyLulu_VFX_North_83: 6964220587616386385
+      FairyLulu_VFX_North_84: 1221211731013724481
+      FairyLulu_VFX_North_85: -8799247233712564099
+      FairyLulu_VFX_North_86: -6651511007333808958
+      FairyLulu_VFX_North_87: -8286475569734114589
+      FairyLulu_VFX_North_88: -6989925119603502765
+      FairyLulu_VFX_North_89: -8139538560103862167
+      FairyLulu_VFX_North_9: 1451919039399474201
+      FairyLulu_VFX_North_90: 4543567307919607178
+      FairyLulu_VFX_North_91: -7261430429085135422
+      FairyLulu_VFX_North_92: -8246665662037574553
+      FairyLulu_VFX_North_93: -447060184652493863
+      FairyLulu_VFX_North_94: 5839260057543535923
+      FairyLulu_VFX_North_95: -5823498069637541544
+      FairyLulu_VFX_North_96: -1927890483580255783
+      FairyLulu_VFX_North_97: 3157860573306790965
+      FairyLulu_VFX_North_98: -1435681339115723704
+      FairyLulu_VFX_North_99: 8980447098529089836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

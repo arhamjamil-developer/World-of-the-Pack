@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 55720832af8746348944d7f95ff92e9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -321109233443478501
+    second: CaptainBobo_VFX_North_0
+  - first:
+      213: 5502895850854782430
+    second: CaptainBobo_VFX_North_1
+  - first:
+      213: -2111436231182106164
+    second: CaptainBobo_VFX_North_2
+  - first:
+      213: 493920398716187150
+    second: CaptainBobo_VFX_North_3
+  - first:
+      213: 1983933629093294158
+    second: CaptainBobo_VFX_North_4
+  - first:
+      213: -5327136848676703872
+    second: CaptainBobo_VFX_North_5
+  - first:
+      213: 2234384799929869612
+    second: CaptainBobo_VFX_North_6
+  - first:
+      213: 4615088923041637331
+    second: CaptainBobo_VFX_North_7
+  - first:
+      213: 4002570939753889868
+    second: CaptainBobo_VFX_North_8
+  - first:
+      213: -1624696442965408301
+    second: CaptainBobo_VFX_North_9
+  - first:
+      213: -8235661589188194625
+    second: CaptainBobo_VFX_North_10
+  - first:
+      213: 2669106169262699162
+    second: CaptainBobo_VFX_North_11
+  - first:
+      213: 681655997376080757
+    second: CaptainBobo_VFX_North_12
+  - first:
+      213: -5943020855555846299
+    second: CaptainBobo_VFX_North_13
+  - first:
+      213: -8637235043446508140
+    second: CaptainBobo_VFX_North_14
+  - first:
+      213: 7467397941850722523
+    second: CaptainBobo_VFX_North_15
+  - first:
+      213: 8578869313205914831
+    second: CaptainBobo_VFX_North_16
+  - first:
+      213: -4490762243618919027
+    second: CaptainBobo_VFX_North_17
+  - first:
+      213: 7335162726026820934
+    second: CaptainBobo_VFX_North_18
+  - first:
+      213: 5008351464283995889
+    second: CaptainBobo_VFX_North_19
+  - first:
+      213: 2788872726655027445
+    second: CaptainBobo_VFX_North_20
+  - first:
+      213: 4476858836612512882
+    second: CaptainBobo_VFX_North_21
+  - first:
+      213: -6715806194037009947
+    second: CaptainBobo_VFX_North_22
+  - first:
+      213: 647944312168585561
+    second: CaptainBobo_VFX_North_23
+  - first:
+      213: 3580856978990002855
+    second: CaptainBobo_VFX_North_24
+  - first:
+      213: 7937797269742073694
+    second: CaptainBobo_VFX_North_25
+  - first:
+      213: 5747064027168732639
+    second: CaptainBobo_VFX_North_26
+  - first:
+      213: 6878701298759408035
+    second: CaptainBobo_VFX_North_27
+  - first:
+      213: 7513611247461179231
+    second: CaptainBobo_VFX_North_28
+  - first:
+      213: -3694952556501394221
+    second: CaptainBobo_VFX_North_29
+  - first:
+      213: -7031218684374890662
+    second: CaptainBobo_VFX_North_30
+  - first:
+      213: -7581424297266242069
+    second: CaptainBobo_VFX_North_31
+  - first:
+      213: 476263218010543796
+    second: CaptainBobo_VFX_North_32
+  - first:
+      213: 3347231237934409867
+    second: CaptainBobo_VFX_North_33
+  - first:
+      213: -6601571731374979176
+    second: CaptainBobo_VFX_North_34
+  - first:
+      213: -4756678319872592266
+    second: CaptainBobo_VFX_North_35
+  - first:
+      213: 4936810827243491265
+    second: CaptainBobo_VFX_North_36
+  - first:
+      213: 599881780476342691
+    second: CaptainBobo_VFX_North_37
+  - first:
+      213: 7787068042745452796
+    second: CaptainBobo_VFX_North_38
+  - first:
+      213: -146861766008933413
+    second: CaptainBobo_VFX_North_39
+  - first:
+      213: 8268151111682809353
+    second: CaptainBobo_VFX_North_40
+  - first:
+      213: 4875578905148156162
+    second: CaptainBobo_VFX_North_41
+  - first:
+      213: -1689972413378281172
+    second: CaptainBobo_VFX_North_42
+  - first:
+      213: 1327028593776385340
+    second: CaptainBobo_VFX_North_43
+  - first:
+      213: -250775034140046178
+    second: CaptainBobo_VFX_North_44
+  - first:
+      213: -6726478670398319522
+    second: CaptainBobo_VFX_North_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 601
+        width: 109
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14e08e7ad03b8bf0800000000000000
+      internalID: -321109233443478501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 731
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed59b2aee963e5c40800000000000000
+      internalID: 5502895850854782430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 721
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc140824feba2b2e0800000000000000
+      internalID: -2111436231182106164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 692
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e023cc85cf1cad600800000000000000
+      internalID: 493920398716187150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 534
+        width: 211
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40be04df19588b10800000000000000
+      internalID: 1983933629093294158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_5
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 534
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0813bb0b2453216b0800000000000000
+      internalID: -5327136848676703872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_6
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 534
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c252a532321220f10800000000000000
+      internalID: 2234384799929869612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 534
+        width: 211
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3acb87ce61c0040800000000000000
+      internalID: 4615088923041637331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_8
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 709
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40055c201dfb8730800000000000000
+      internalID: 4002570939753889868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_9
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 534
+        width: 212
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5c431713be379e0800000000000000
+      internalID: -1624696442965408301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_10
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 731
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbecb164b6d05bd80800000000000000
+      internalID: -8235661589188194625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 703
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92f4be5be19a0520800000000000000
+      internalID: 2669106169262699162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_12
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 703
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bad9e948ab57900800000000000000
+      internalID: 681655997376080757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 699
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f0bd3f406268da0800000000000000
+      internalID: -5943020855555846299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 706
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495b0d17d70622880800000000000000
+      internalID: -8637235043446508140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_15
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 698
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0de783dd681a760800000000000000
+      internalID: 7467397941850722523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 671
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc432400344e0770800000000000000
+      internalID: 8578869313205914831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_17
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 534
+        width: 157
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8dab52588b9da1c0800000000000000
+      internalID: -4490762243618919027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 667
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db38ec2abbbc560800000000000000
+      internalID: 7335162726026820934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 674
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe74f21f1d318540800000000000000
+      internalID: 5008351464283995889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 665
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f84c0408f014b620800000000000000
+      internalID: 2788872726655027445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 664
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c7bd9746ff02e30800000000000000
+      internalID: 4476858836612512882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 668
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e15e0039d9acc2a0800000000000000
+      internalID: -6715806194037009947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 621
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9591b014be5fdf800800000000000000
+      internalID: 647944312168585561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 630
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a27d204372c1b130800000000000000
+      internalID: 3580856978990002855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_25
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 613
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57ba028f88b82e60800000000000000
+      internalID: 7937797269742073694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_26
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 605
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd571d0984ca1cf40800000000000000
+      internalID: 5747064027168732639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 613
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a99294e26e067f50800000000000000
+      internalID: 6878701298759408035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 612
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f9d49ee95b54860800000000000000
+      internalID: 7513611247461179231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 534
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc10dff934e8bcc0800000000000000
+      internalID: -3694952556501394221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 576
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57cebb0cd71c6e90800000000000000
+      internalID: -7031218684374890662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_31
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 534
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed1eed05ce59c690800000000000000
+      internalID: -7581424297266242069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b65a199fd60c9600800000000000000
+      internalID: 476263218010543796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 409
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88eb269311c37e20800000000000000
+      internalID: 3347231237934409867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_34
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 279
+        width: 211
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8974228ac718264a0800000000000000
+      internalID: -6601571731374979176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67631312542ecfdb0800000000000000
+      internalID: -4756678319872592266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_36
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf86218a43138440800000000000000
+      internalID: 4936810827243491265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_37
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 279
+        width: 211
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a175801d45335800800000000000000
+      internalID: 599881780476342691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_38
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 279
+        width: 212
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf893a19029311c60800000000000000
+      internalID: 7787068042745452796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_39
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 354
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd373fd700e36fdf0800000000000000
+      internalID: -146861766008933413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eda1921af5eb270800000000000000
+      internalID: 8268151111682809353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_41
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 22
+        width: 211
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2096ebbae2989a340800000000000000
+      internalID: 4875578905148156162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_42
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21c06c3b030c88e0800000000000000
+      internalID: -1689972413378281172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_43
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dd3d2a97d8a6210800000000000000
+      internalID: 1327028593776385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_44
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 22
+        width: 211
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ccb836f61158cf0800000000000000
+      internalID: -250775034140046178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_VFX_North_45
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 22
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e549aa5a94fb6a2a0800000000000000
+      internalID: -6726478670398319522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CaptainBobo_VFX_North_0: -321109233443478501
+      CaptainBobo_VFX_North_1: 5502895850854782430
+      CaptainBobo_VFX_North_10: -8235661589188194625
+      CaptainBobo_VFX_North_11: 2669106169262699162
+      CaptainBobo_VFX_North_12: 681655997376080757
+      CaptainBobo_VFX_North_13: -5943020855555846299
+      CaptainBobo_VFX_North_14: -8637235043446508140
+      CaptainBobo_VFX_North_15: 7467397941850722523
+      CaptainBobo_VFX_North_16: 8578869313205914831
+      CaptainBobo_VFX_North_17: -4490762243618919027
+      CaptainBobo_VFX_North_18: 7335162726026820934
+      CaptainBobo_VFX_North_19: 5008351464283995889
+      CaptainBobo_VFX_North_2: -2111436231182106164
+      CaptainBobo_VFX_North_20: 2788872726655027445
+      CaptainBobo_VFX_North_21: 4476858836612512882
+      CaptainBobo_VFX_North_22: -6715806194037009947
+      CaptainBobo_VFX_North_23: 647944312168585561
+      CaptainBobo_VFX_North_24: 3580856978990002855
+      CaptainBobo_VFX_North_25: 7937797269742073694
+      CaptainBobo_VFX_North_26: 5747064027168732639
+      CaptainBobo_VFX_North_27: 6878701298759408035
+      CaptainBobo_VFX_North_28: 7513611247461179231
+      CaptainBobo_VFX_North_29: -3694952556501394221
+      CaptainBobo_VFX_North_3: 493920398716187150
+      CaptainBobo_VFX_North_30: -7031218684374890662
+      CaptainBobo_VFX_North_31: -7581424297266242069
+      CaptainBobo_VFX_North_32: 476263218010543796
+      CaptainBobo_VFX_North_33: 3347231237934409867
+      CaptainBobo_VFX_North_34: -6601571731374979176
+      CaptainBobo_VFX_North_35: -4756678319872592266
+      CaptainBobo_VFX_North_36: 4936810827243491265
+      CaptainBobo_VFX_North_37: 599881780476342691
+      CaptainBobo_VFX_North_38: 7787068042745452796
+      CaptainBobo_VFX_North_39: -146861766008933413
+      CaptainBobo_VFX_North_4: 1983933629093294158
+      CaptainBobo_VFX_North_40: 8268151111682809353
+      CaptainBobo_VFX_North_41: 4875578905148156162
+      CaptainBobo_VFX_North_42: -1689972413378281172
+      CaptainBobo_VFX_North_43: 1327028593776385340
+      CaptainBobo_VFX_North_44: -250775034140046178
+      CaptainBobo_VFX_North_45: -6726478670398319522
+      CaptainBobo_VFX_North_5: -5327136848676703872
+      CaptainBobo_VFX_North_6: 2234384799929869612
+      CaptainBobo_VFX_North_7: 4615088923041637331
+      CaptainBobo_VFX_North_8: 4002570939753889868
+      CaptainBobo_VFX_North_9: -1624696442965408301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

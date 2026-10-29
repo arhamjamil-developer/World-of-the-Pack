@@ -1,0 +1,24 @@
+Generation method: built-in image generation, referencing approved cartoon gameplay.
+Output: Assets/Visuals/environment-path-comparison-v01.png
+
+Use case: stylized-concept. Create ONE polished horizontal landscape ENVIRONMENT PATH EXPLORATION BOARD for the cartoon mobile game WORLD OF THE PACK. Use supplied gameplay reference for exact cheerful painted art style, colors, top-down camera and forest vegetation. User wants to compare what the path/environment should look like, so ENVIRONMENTS are primary, NOT characters or UI.
+
+Title "WORLD OF THE PACK — PATH EXPLORATION". Subtitle "Three top-down environments • One clear battlefield". Landscape around2400x1500 or highest supported.
+Three equally sized LARGE portrait environment panels side by side, each an independent north-oriented top-down playable scene, camera straight overhead/high overhead orthographic. Path runs BOTTOM TO TOP, pack enters below and enemies enter above. No sky, horizon, isometric landscape, side view, cinematic front-facing castle or gameplay cards. Consistent map scale across all3. Strong concept-art polish, but clean simple large shapes readable on iPhone/iPad. Kid-friendly storybook cartoon mobile strategy game: smooth rounded foliage, painted green/turquoise bushes, soft warm light, peach sand, friendly mushrooms, simple fences, soft ambient shadows. No gritty realistic texture, scary dark forests, gore, overcomplicated ground detail.
+Outside panels concise labels identify their purposes. Inside paths keep sparse, small colored circular markers for scale only:3 blue markers near bottom pointing north,3 orange markers near top pointing south; do not draw full characters. Small arrows indicate travel. Central combat area broad and OPEN with no props that obscure units. Environment objects stay at outer edges, not in middle of battle path.
+
+LEFT panel heading "01 • SUNNY FOREST TRAIL" with green small badge "RECOMMENDED START".
+Warm peach dirt path fills central45% of view and stays vertical, almost straight, with natural rounded edges. Lush green canopy clusters around left/right margins, large rounded rocks, tiny mushrooms and daisies near shoulders, a few short wood fence sections, root shapes at outer edge. Bottom entrance slightly widens into a small spawn clearing, mid area broad combat clearing, upper continuation clear. Variation in foliage silhouette not obstacle clutter. A small overhead ruined stone arch at top edge only, doesn't narrow playable width. Bright calm greens, gold sunlight, strongest visual readability.
+Below panel caption "Clear space • Easy first battles".
+
+CENTER heading "02 • MUSHROOM GROVE".
+SAME playable footprint and wide vertical dirt path, with teal and mint foliage at edges, whimsical purple and coral mushrooms, soft lavender flowers, a few bright firefly-like motes well outside path. Slightly more magical, still sunny and inviting. Round mushroom clusters frame combat clearing without blocking view or seeming like hazards. Path remains light warm sand in contrast to blue ally rings and orange enemy rings. No luminous fog that hides action.
+Below caption "Gentle magic • A fresh chapter".
+
+RIGHT heading "03 • RIVER CROSSING".
+Same top-down scale, blue stream runs LEFT TO RIGHT across middle, a broad wood-plank bridge runs VERTICALLY from bottom to top across it, at least the same width as battle path so multiple squads fit side by side. Railings low and on extreme edges only, no overhead arch hiding units. Dirt path continues north and south of bridge. Soft rounded river stones, lily pads and reeds only outside bridge, green banks, small waterfall detail on far right edge seen from above, no frontal waterfall landscape. Crystal turquoise river and warm golden bridge planks. Interesting landmark while clear combat floor.
+Below caption "Memorable landmark • Later challenge".
+
+Under all3 a narrow developer strip with four little flat overhead icons and exact labels "Open combat center", "Decorate the edges", "Allies move up", "Enemies move down". One bottom sentence "Start with the forest. Add scenery variety without changing the combat camera."
+Small footer "ENVIRONMENT CONCEPT v01 • Layout proposal".
+Composition should convincingly show practical playable environment footprints, high art quality but achievable in 2D layers. No gradients suggesting a vanishing point; stable path width across view. No HUD, summon cards, shop, menus, trees covering center, labels over battlefloor, extra paragraphs or watermarks. Match approved reference's kid-friendly cartoon world.

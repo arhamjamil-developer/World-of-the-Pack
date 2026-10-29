@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 99e6eda7bd70f2f44b133ddee21f7b14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5834261806157263839
+    second: PrincessElva_Human_North_0
+  - first:
+      213: -5966434178607048532
+    second: PrincessElva_Human_North_1
+  - first:
+      213: 5110754071868770432
+    second: PrincessElva_Human_North_2
+  - first:
+      213: 8909856347535202563
+    second: PrincessElva_Human_North_3
+  - first:
+      213: 3406331798809283463
+    second: PrincessElva_Human_North_4
+  - first:
+      213: -1539039053870474051
+    second: PrincessElva_Human_North_5
+  - first:
+      213: -427316995446519635
+    second: PrincessElva_Human_North_6
+  - first:
+      213: 5014646735442559613
+    second: PrincessElva_Human_North_7
+  - first:
+      213: -8771301714338604590
+    second: PrincessElva_Human_North_8
+  - first:
+      213: -2679309706745080010
+    second: PrincessElva_Human_North_9
+  - first:
+      213: -8657271171536740915
+    second: PrincessElva_Human_North_10
+  - first:
+      213: 2983612881087493326
+    second: PrincessElva_Human_North_11
+  - first:
+      213: 1152704515989285103
+    second: PrincessElva_Human_North_12
+  - first:
+      213: -1763800716151849161
+    second: PrincessElva_Human_North_13
+  - first:
+      213: -867781694208124126
+    second: PrincessElva_Human_North_14
+  - first:
+      213: -525754684181527384
+    second: PrincessElva_Human_North_15
+  - first:
+      213: -8041951278037841365
+    second: PrincessElva_Human_North_16
+  - first:
+      213: 1212665401852413476
+    second: PrincessElva_Human_North_17
+  - first:
+      213: 1490972738114144283
+    second: PrincessElva_Human_North_18
+  - first:
+      213: 4086218129439920084
+    second: PrincessElva_Human_North_19
+  - first:
+      213: -2858178201129383321
+    second: PrincessElva_Human_North_20
+  - first:
+      213: -5585382804567496346
+    second: PrincessElva_Human_North_21
+  - first:
+      213: -6619732384715001682
+    second: PrincessElva_Human_North_22
+  - first:
+      213: -1916479703041391970
+    second: PrincessElva_Human_North_23
+  - first:
+      213: -8272539728523439020
+    second: PrincessElva_Human_North_24
+  - first:
+      213: -4534018624566124357
+    second: PrincessElva_Human_North_25
+  - first:
+      213: -4829238928539209864
+    second: PrincessElva_Human_North_26
+  - first:
+      213: 645019234478065787
+    second: PrincessElva_Human_North_27
+  - first:
+      213: -4671844499832689515
+    second: PrincessElva_Human_North_28
+  - first:
+      213: 4740682096454020434
+    second: PrincessElva_Human_North_29
+  - first:
+      213: -4398065849143539937
+    second: PrincessElva_Human_North_30
+  - first:
+      213: -6955669048595899157
+    second: PrincessElva_Human_North_31
+  - first:
+      213: 8742881462933679681
+    second: PrincessElva_Human_North_32
+  - first:
+      213: 2362481032141333558
+    second: PrincessElva_Human_North_33
+  - first:
+      213: 2641359563012606949
+    second: PrincessElva_Human_North_34
+  - first:
+      213: 283866678807743346
+    second: PrincessElva_Human_North_35
+  - first:
+      213: -7473016234570555227
+    second: PrincessElva_Human_North_36
+  - first:
+      213: 4159533167416235189
+    second: PrincessElva_Human_North_37
+  - first:
+      213: 4647199684179288132
+    second: PrincessElva_Human_North_38
+  - first:
+      213: 2763705417893502538
+    second: PrincessElva_Human_North_39
+  - first:
+      213: 8550306367387120609
+    second: PrincessElva_Human_North_40
+  - first:
+      213: 462324663957459609
+    second: PrincessElva_Human_North_41
+  - first:
+      213: 1595693401167961898
+    second: PrincessElva_Human_North_42
+  - first:
+      213: -2516406383446569414
+    second: PrincessElva_Human_North_43
+  - first:
+      213: 6008047769162010531
+    second: PrincessElva_Human_North_44
+  - first:
+      213: -2838329222409710167
+    second: PrincessElva_Human_North_45
+  - first:
+      213: 6628354998757438913
+    second: PrincessElva_Human_North_46
+  - first:
+      213: 256155620762862285
+    second: PrincessElva_Human_North_47
+  - first:
+      213: -5752554317981291519
+    second: PrincessElva_Human_North_48
+  - first:
+      213: -8873770243368284336
+    second: PrincessElva_Human_North_49
+  - first:
+      213: -5072805055109421586
+    second: PrincessElva_Human_North_50
+  - first:
+      213: 1238385132579434777
+    second: PrincessElva_Human_North_51
+  - first:
+      213: 2480355566987413882
+    second: PrincessElva_Human_North_52
+  - first:
+      213: -8381956961246213856
+    second: PrincessElva_Human_North_53
+  - first:
+      213: -2812882374593406277
+    second: PrincessElva_Human_North_54
+  - first:
+      213: 7043078614358804504
+    second: PrincessElva_Human_North_55
+  - first:
+      213: 4775569437370772762
+    second: PrincessElva_Human_North_56
+  - first:
+      213: 1577857106919817346
+    second: PrincessElva_Human_North_57
+  - first:
+      213: 2893560444433766391
+    second: PrincessElva_Human_North_58
+  - first:
+      213: 696715359213201521
+    second: PrincessElva_Human_North_59
+  - first:
+      213: -9222018828220156829
+    second: PrincessElva_Human_North_60
+  - first:
+      213: 2277457052633344600
+    second: PrincessElva_Human_North_61
+  - first:
+      213: 4517331909223829775
+    second: PrincessElva_Human_North_62
+  - first:
+      213: -1523126813405635120
+    second: PrincessElva_Human_North_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 796
+        width: 178
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c0e5d6cc9880fa0800000000000000
+      internalID: -5834261806157263839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 922
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca89060e9b7f23da0800000000000000
+      internalID: -5966434178607048532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 794
+        width: 200
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0888e1c10cb0de640800000000000000
+      internalID: 5110754071868770432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_3
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 794
+        width: 211
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3095892442b26ab70800000000000000
+      internalID: 8909856347535202563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_4
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 791
+        width: 211
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b052739b8b54f20800000000000000
+      internalID: 3406331798809283463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_5
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 922
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbcd89a722c34aae0800000000000000
+      internalID: -1539039053870474051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_6
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 787
+        width: 211
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da84ce7e47dd11af0800000000000000
+      internalID: -427316995446519635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_7
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 919
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72402c13aa979540800000000000000
+      internalID: 5014646735442559613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_8
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 929
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9921b2093164680800000000000000
+      internalID: -8771301714338604590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_9
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 796
+        width: 180
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637143e640e21dad0800000000000000
+      internalID: -2679309706745080010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_10
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 902
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd9258dcb13bd780800000000000000
+      internalID: -8657271171536740915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_11
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 871
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4ff748b1ce76920800000000000000
+      internalID: 2983612881087493326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_12
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 844
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8a78666aa3fff00800000000000000
+      internalID: 1152704515989285103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_13
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 841
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f703bf798b587e0800000000000000
+      internalID: -1763800716151849161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_14
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 787
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b5326952505f3f0800000000000000
+      internalID: -867781694208124126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_15
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 799
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4cc5a76e424b8f0800000000000000
+      internalID: -525754684181527384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 536
+        width: 189
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4e83bbef356090800000000000000
+      internalID: -8041951278037841365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_17
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 531
+        width: 211
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426c1dc02c044d010800000000000000
+      internalID: 1212665401852413476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_18
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 542
+        width: 194
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18c5194ecff0b410800000000000000
+      internalID: 1490972738114144283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_19
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 714
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df07003db925b830800000000000000
+      internalID: 4086218129439920084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 531
+        width: 209
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a0be0c116b558d0800000000000000
+      internalID: -2858178201129383321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_21
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 718
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669ed2f8eebbc72b0800000000000000
+      internalID: -5585382804567496346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_22
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 531
+        width: 202
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0b9ec087cf124a0800000000000000
+      internalID: -6619732384715001682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_23
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 532
+        width: 202
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92c8f03ddb4765e0800000000000000
+      internalID: -1916479703041391970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_24
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 688
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454dd0b52f8023d80800000000000000
+      internalID: -8272539728523439020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_25
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 678
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb02bbd451ee311c0800000000000000
+      internalID: -4534018624566124357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_26
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 643
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87faee8e7c81bfcb0800000000000000
+      internalID: -4829238928539209864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_27
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 633
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b780c58839193f800800000000000000
+      internalID: 645019234478065787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_28
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 571
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c2c9d0e264a2fb0800000000000000
+      internalID: -4671844499832689515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_29
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 551
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d2230ef394ac140800000000000000
+      internalID: 4740682096454020434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_30
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 540
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17c503896ee6f2c0800000000000000
+      internalID: -4398065849143539937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_31
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 531
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec134f5adf787f90800000000000000
+      internalID: -6955669048595899157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 275
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e62876e54f45970800000000000000
+      internalID: 8742881462933679681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 275
+        width: 211
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 634e1655bf739c020800000000000000
+      internalID: 2362481032141333558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_34
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 458
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb827d278ef7a420800000000000000
+      internalID: 2641359563012606949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_35
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 275
+        width: 211
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27bc7e98d3f70f300800000000000000
+      internalID: 283866678807743346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_36
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 275
+        width: 208
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0e1b114538a4890800000000000000
+      internalID: -7473016234570555227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_37
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 275
+        width: 211
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4dc4ba061a9b930800000000000000
+      internalID: 4159533167416235189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_38
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 280
+        width: 195
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44060d7ad7b2e7040800000000000000
+      internalID: 4647199684179288132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_39
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 438
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e5d515f67aa5620800000000000000
+      internalID: 2763705417893502538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_40
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 341
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3bed4f65ac8a670800000000000000
+      internalID: 8550306367387120609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_41
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 341
+        width: 6
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992161615d18a6600800000000000000
+      internalID: 462324663957459609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_42
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 329
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f1d0ba1ba052610800000000000000
+      internalID: 1595693401167961898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_43
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e442c0abde31dd0800000000000000
+      internalID: -2516406383446569414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_44
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 282
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afca723d9fd06350800000000000000
+      internalID: 6008047769162010531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 42
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a598ae3c9a3c98d0800000000000000
+      internalID: -2838329222409710167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_46
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 19
+        width: 206
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c53f1ab0c5acfb50800000000000000
+      internalID: 6628354998757438913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 203
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc24ace0e2c0e8300800000000000000
+      internalID: 256155620762862285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_48
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 217
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ce59d7352da20b0800000000000000
+      internalID: -5752554317981291519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_49
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 210
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f0a999af80ad480800000000000000
+      internalID: -8873770243368284336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_50
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 217
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5a563eda6c999b0800000000000000
+      internalID: -5072805055109421586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_51
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 19
+        width: 212
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911b58287b0af2110800000000000000
+      internalID: 1238385132579434777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_52
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 189
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7982f62f3efb6220800000000000000
+      internalID: 2480355566987413882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_53
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 34
+        width: 208
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0298e42ad8e4dab80800000000000000
+      internalID: -8381956961246213856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_54
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 19
+        width: 212
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba17633262a6f8d0800000000000000
+      internalID: -2812882374593406277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_55
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 205
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818c1061faa0eb160800000000000000
+      internalID: 7043078614358804504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_56
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 39
+        width: 212
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d62bae91b364240800000000000000
+      internalID: 4775569437370772762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_57
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 197
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280084ccdaca5e510800000000000000
+      internalID: 1577857106919817346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_58
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 179
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7989ab4edf72820800000000000000
+      internalID: 2893560444433766391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_59
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 131
+        width: 7
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17826778dea3ba900800000000000000
+      internalID: 696715359213201521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_60
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 131
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36439ff6cbec40080800000000000000
+      internalID: -9222018828220156829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_61
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 120
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a2b657f172b9f10800000000000000
+      internalID: 2277457052633344600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_62
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 116
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01d2d50079c0be30800000000000000
+      internalID: 4517331909223829775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PrincessElva_Human_North_63
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 39
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd951bab34ccdae0800000000000000
+      internalID: -1523126813405635120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PrincessElva_Human_North_0: -5834261806157263839
+      PrincessElva_Human_North_1: -5966434178607048532
+      PrincessElva_Human_North_10: -8657271171536740915
+      PrincessElva_Human_North_11: 2983612881087493326
+      PrincessElva_Human_North_12: 1152704515989285103
+      PrincessElva_Human_North_13: -1763800716151849161
+      PrincessElva_Human_North_14: -867781694208124126
+      PrincessElva_Human_North_15: -525754684181527384
+      PrincessElva_Human_North_16: -8041951278037841365
+      PrincessElva_Human_North_17: 1212665401852413476
+      PrincessElva_Human_North_18: 1490972738114144283
+      PrincessElva_Human_North_19: 4086218129439920084
+      PrincessElva_Human_North_2: 5110754071868770432
+      PrincessElva_Human_North_20: -2858178201129383321
+      PrincessElva_Human_North_21: -5585382804567496346
+      PrincessElva_Human_North_22: -6619732384715001682
+      PrincessElva_Human_North_23: -1916479703041391970
+      PrincessElva_Human_North_24: -8272539728523439020
+      PrincessElva_Human_North_25: -4534018624566124357
+      PrincessElva_Human_North_26: -4829238928539209864
+      PrincessElva_Human_North_27: 645019234478065787
+      PrincessElva_Human_North_28: -4671844499832689515
+      PrincessElva_Human_North_29: 4740682096454020434
+      PrincessElva_Human_North_3: 8909856347535202563
+      PrincessElva_Human_North_30: -4398065849143539937
+      PrincessElva_Human_North_31: -6955669048595899157
+      PrincessElva_Human_North_32: 8742881462933679681
+      PrincessElva_Human_North_33: 2362481032141333558
+      PrincessElva_Human_North_34: 2641359563012606949
+      PrincessElva_Human_North_35: 283866678807743346
+      PrincessElva_Human_North_36: -7473016234570555227
+      PrincessElva_Human_North_37: 4159533167416235189
+      PrincessElva_Human_North_38: 4647199684179288132
+      PrincessElva_Human_North_39: 2763705417893502538
+      PrincessElva_Human_North_4: 3406331798809283463
+      PrincessElva_Human_North_40: 8550306367387120609
+      PrincessElva_Human_North_41: 462324663957459609
+      PrincessElva_Human_North_42: 1595693401167961898
+      PrincessElva_Human_North_43: -2516406383446569414
+      PrincessElva_Human_North_44: 6008047769162010531
+      PrincessElva_Human_North_45: -2838329222409710167
+      PrincessElva_Human_North_46: 6628354998757438913
+      PrincessElva_Human_North_47: 256155620762862285
+      PrincessElva_Human_North_48: -5752554317981291519
+      PrincessElva_Human_North_49: -8873770243368284336
+      PrincessElva_Human_North_5: -1539039053870474051
+      PrincessElva_Human_North_50: -5072805055109421586
+      PrincessElva_Human_North_51: 1238385132579434777
+      PrincessElva_Human_North_52: 2480355566987413882
+      PrincessElva_Human_North_53: -8381956961246213856
+      PrincessElva_Human_North_54: -2812882374593406277
+      PrincessElva_Human_North_55: 7043078614358804504
+      PrincessElva_Human_North_56: 4775569437370772762
+      PrincessElva_Human_North_57: 1577857106919817346
+      PrincessElva_Human_North_58: 2893560444433766391
+      PrincessElva_Human_North_59: 696715359213201521
+      PrincessElva_Human_North_6: -427316995446519635
+      PrincessElva_Human_North_60: -9222018828220156829
+      PrincessElva_Human_North_61: 2277457052633344600
+      PrincessElva_Human_North_62: 4517331909223829775
+      PrincessElva_Human_North_63: -1523126813405635120
+      PrincessElva_Human_North_7: 5014646735442559613
+      PrincessElva_Human_North_8: -8771301714338604590
+      PrincessElva_Human_North_9: -2679309706745080010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

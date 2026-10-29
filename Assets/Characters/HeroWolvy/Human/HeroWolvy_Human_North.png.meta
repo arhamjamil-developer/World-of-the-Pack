@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: c82f455f08218ae44a64e4b49eaf48a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6447017641550429932
+    second: HeroWolvy_Human_North_0
+  - first:
+      213: -7786745772000843822
+    second: HeroWolvy_Human_North_1
+  - first:
+      213: -6528756334089247739
+    second: HeroWolvy_Human_North_2
+  - first:
+      213: 8438064732518223745
+    second: HeroWolvy_Human_North_3
+  - first:
+      213: -8125395515083839688
+    second: HeroWolvy_Human_North_4
+  - first:
+      213: -7870664861632340911
+    second: HeroWolvy_Human_North_5
+  - first:
+      213: 980173876744650221
+    second: HeroWolvy_Human_North_6
+  - first:
+      213: 2884233318365255930
+    second: HeroWolvy_Human_North_7
+  - first:
+      213: 2576591195746093896
+    second: HeroWolvy_Human_North_8
+  - first:
+      213: 5439057872340733374
+    second: HeroWolvy_Human_North_9
+  - first:
+      213: -8059434690060932241
+    second: HeroWolvy_Human_North_10
+  - first:
+      213: -2941748289876121461
+    second: HeroWolvy_Human_North_11
+  - first:
+      213: 2518849874093063199
+    second: HeroWolvy_Human_North_12
+  - first:
+      213: 4516982130205172293
+    second: HeroWolvy_Human_North_13
+  - first:
+      213: -8355915178205367913
+    second: HeroWolvy_Human_North_14
+  - first:
+      213: -6896053251099006323
+    second: HeroWolvy_Human_North_15
+  - first:
+      213: -7634892386569738455
+    second: HeroWolvy_Human_North_16
+  - first:
+      213: -9156866501336778066
+    second: HeroWolvy_Human_North_17
+  - first:
+      213: 2067282636651426006
+    second: HeroWolvy_Human_North_18
+  - first:
+      213: 7980658637092291027
+    second: HeroWolvy_Human_North_19
+  - first:
+      213: -8374341128565300045
+    second: HeroWolvy_Human_North_20
+  - first:
+      213: -6018489315861802472
+    second: HeroWolvy_Human_North_21
+  - first:
+      213: -1694846381257464021
+    second: HeroWolvy_Human_North_22
+  - first:
+      213: 4067980621019826709
+    second: HeroWolvy_Human_North_23
+  - first:
+      213: 1664206976285490201
+    second: HeroWolvy_Human_North_24
+  - first:
+      213: -7521354572672099717
+    second: HeroWolvy_Human_North_25
+  - first:
+      213: -2424275755887586744
+    second: HeroWolvy_Human_North_26
+  - first:
+      213: 6047739286520766785
+    second: HeroWolvy_Human_North_27
+  - first:
+      213: 373137448773960859
+    second: HeroWolvy_Human_North_28
+  - first:
+      213: -8835789876849936053
+    second: HeroWolvy_Human_North_29
+  - first:
+      213: -1959856200899244720
+    second: HeroWolvy_Human_North_30
+  - first:
+      213: 9197007301555977670
+    second: HeroWolvy_Human_North_31
+  - first:
+      213: -4498692934206336860
+    second: HeroWolvy_Human_North_32
+  - first:
+      213: 7022386039098579317
+    second: HeroWolvy_Human_North_33
+  - first:
+      213: 3228507463859672482
+    second: HeroWolvy_Human_North_34
+  - first:
+      213: 9174010662936247288
+    second: HeroWolvy_Human_North_35
+  - first:
+      213: -753041180903647360
+    second: HeroWolvy_Human_North_36
+  - first:
+      213: 9091934229676542920
+    second: HeroWolvy_Human_North_37
+  - first:
+      213: 2191866406512317674
+    second: HeroWolvy_Human_North_38
+  - first:
+      213: -3027289614288960146
+    second: HeroWolvy_Human_North_39
+  - first:
+      213: 6139863031833154213
+    second: HeroWolvy_Human_North_40
+  - first:
+      213: 2244657982001561709
+    second: HeroWolvy_Human_North_41
+  - first:
+      213: 250455348160317184
+    second: HeroWolvy_Human_North_42
+  - first:
+      213: 1169898723749674481
+    second: HeroWolvy_Human_North_43
+  - first:
+      213: 3562430331559819342
+    second: HeroWolvy_Human_North_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_0
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 990
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411c5bedc979786a0800000000000000
+      internalID: -6447017641550429932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 791
+        width: 192
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d76d9fe9fbefe390800000000000000
+      internalID: -7786745772000843822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_2
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 939
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504678974b23565a0800000000000000
+      internalID: -6528756334089247739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 926
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f008dda270a1570800000000000000
+      internalID: 8438064732518223745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 784
+        width: 212
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83720e744dbcc3f80800000000000000
+      internalID: -8125395515083839688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 796
+        width: 203
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c51484208c5c290800000000000000
+      internalID: -7870664861632340911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_6
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 796
+        width: 198
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded7b7d92f64a9d00800000000000000
+      internalID: 980173876744650221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 939
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8d186fbead60820800000000000000
+      internalID: 2884233318365255930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 936
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b48d98a04e1c320800000000000000
+      internalID: 2576591195746093896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 922
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd49a9415a6b7b40800000000000000
+      internalID: 5439057872340733374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_10
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 796
+        width: 203
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b2570a9d2272090800000000000000
+      internalID: -8059434690060932241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_11
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 795
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b882253348fcc27d0800000000000000
+      internalID: -2941748289876121461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_12
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 858
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1cbad37d90c4f220800000000000000
+      internalID: 2518849874093063199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_13
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 859
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542aaafb05b8fae30800000000000000
+      internalID: 4516982130205172293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_14
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 827
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79136cdba63d90c80800000000000000
+      internalID: -8355915178205367913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_15
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 811
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae010ea1c4c40a0800000000000000
+      internalID: -6896053251099006323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_16
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 784
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9272d2863d96b0690800000000000000
+      internalID: -7634892386569738455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 540
+        width: 205
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaab524ae664ce080800000000000000
+      internalID: -9156866501336778066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_18
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 729
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0f0f7ea9670bc10800000000000000
+      internalID: 2067282636651426006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_19
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 537
+        width: 210
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d10a814fbef0ce60800000000000000
+      internalID: 7980658637092291027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_20
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 528
+        width: 210
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4ebebdc1d58cb80800000000000000
+      internalID: -8374341128565300045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_21
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 528
+        width: 217
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812d293cad70a7ca0800000000000000
+      internalID: -6018489315861802472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 540
+        width: 214
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27ea482232ba78e0800000000000000
+      internalID: -1694846381257464021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_23
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 528
+        width: 187
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a4f0d52de547830800000000000000
+      internalID: 4067980621019826709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_24
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 717
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c39367d63781710800000000000000
+      internalID: 1664206976285490201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_25
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 713
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a9e12bdd7ce9790800000000000000
+      internalID: -7521354572672099717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_26
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 715
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8429abc5b0e3b5ed0800000000000000
+      internalID: -2424275755887586744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_27
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 272
+        width: 193
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141ae3bb6d2ede350800000000000000
+      internalID: 6047739286520766785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_28
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 284
+        width: 217
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94419e5886ad2500800000000000000
+      internalID: 373137448773960859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 444
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49fd58cbe7f06580800000000000000
+      internalID: -8835789876849936053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_30
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 272
+        width: 210
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dcd864b213dc4e0800000000000000
+      internalID: -1959856200899244720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_31
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 272
+        width: 206
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdfae5b96552af70800000000000000
+      internalID: 9197007301555977670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_32
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 272
+        width: 218
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a052178c9e6191c0800000000000000
+      internalID: -4498692934206336860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_33
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 396
+        width: 27
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579122875e6847160800000000000000
+      internalID: 7022386039098579317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_34
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 283
+        width: 170
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a59d0ade66fdcc20800000000000000
+      internalID: 3228507463859672482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_35
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 412
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbf5f98712a05f70800000000000000
+      internalID: 9174010662936247288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_36
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 346
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0875ff62909ac85f0800000000000000
+      internalID: -753041180903647360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_37
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 332
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc511c20a0d2e70800000000000000
+      internalID: 9091934229676542920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 16
+        width: 198
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4574b32e21b6e10800000000000000
+      internalID: 2191866406512317674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_39
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 43
+        width: 206
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65c3149228ecf5d0800000000000000
+      internalID: -3027289614288960146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_40
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 30
+        width: 204
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2d7f5a5ec253550800000000000000
+      internalID: 6139863031833154213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_41
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 37
+        width: 217
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60c27bba80a62f10800000000000000
+      internalID: 2244657982001561709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_42
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 38
+        width: 217
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007413befcbc97300800000000000000
+      internalID: 250455348160317184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_43
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 206
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd384cd0b05c3010800000000000000
+      internalID: 1169898723749674481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroWolvy_Human_North_44
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 41
+        width: 192
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4833b1138b407130800000000000000
+      internalID: 3562430331559819342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HeroWolvy_Human_North_0: -6447017641550429932
+      HeroWolvy_Human_North_1: -7786745772000843822
+      HeroWolvy_Human_North_10: -8059434690060932241
+      HeroWolvy_Human_North_11: -2941748289876121461
+      HeroWolvy_Human_North_12: 2518849874093063199
+      HeroWolvy_Human_North_13: 4516982130205172293
+      HeroWolvy_Human_North_14: -8355915178205367913
+      HeroWolvy_Human_North_15: -6896053251099006323
+      HeroWolvy_Human_North_16: -7634892386569738455
+      HeroWolvy_Human_North_17: -9156866501336778066
+      HeroWolvy_Human_North_18: 2067282636651426006
+      HeroWolvy_Human_North_19: 7980658637092291027
+      HeroWolvy_Human_North_2: -6528756334089247739
+      HeroWolvy_Human_North_20: -8374341128565300045
+      HeroWolvy_Human_North_21: -6018489315861802472
+      HeroWolvy_Human_North_22: -1694846381257464021
+      HeroWolvy_Human_North_23: 4067980621019826709
+      HeroWolvy_Human_North_24: 1664206976285490201
+      HeroWolvy_Human_North_25: -7521354572672099717
+      HeroWolvy_Human_North_26: -2424275755887586744
+      HeroWolvy_Human_North_27: 6047739286520766785
+      HeroWolvy_Human_North_28: 373137448773960859
+      HeroWolvy_Human_North_29: -8835789876849936053
+      HeroWolvy_Human_North_3: 8438064732518223745
+      HeroWolvy_Human_North_30: -1959856200899244720
+      HeroWolvy_Human_North_31: 9197007301555977670
+      HeroWolvy_Human_North_32: -4498692934206336860
+      HeroWolvy_Human_North_33: 7022386039098579317
+      HeroWolvy_Human_North_34: 3228507463859672482
+      HeroWolvy_Human_North_35: 9174010662936247288
+      HeroWolvy_Human_North_36: -753041180903647360
+      HeroWolvy_Human_North_37: 9091934229676542920
+      HeroWolvy_Human_North_38: 2191866406512317674
+      HeroWolvy_Human_North_39: -3027289614288960146
+      HeroWolvy_Human_North_4: -8125395515083839688
+      HeroWolvy_Human_North_40: 6139863031833154213
+      HeroWolvy_Human_North_41: 2244657982001561709
+      HeroWolvy_Human_North_42: 250455348160317184
+      HeroWolvy_Human_North_43: 1169898723749674481
+      HeroWolvy_Human_North_44: 3562430331559819342
+      HeroWolvy_Human_North_5: -7870664861632340911
+      HeroWolvy_Human_North_6: 980173876744650221
+      HeroWolvy_Human_North_7: 2884233318365255930
+      HeroWolvy_Human_North_8: 2576591195746093896
+      HeroWolvy_Human_North_9: 5439057872340733374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

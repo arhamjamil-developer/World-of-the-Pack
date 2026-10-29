@@ -1,0 +1,25 @@
+Generation method: built-in image generation.
+Output: Assets/Visuals/pack-squad-spawn-gameplay-v01.png
+Purpose: gameplay concept reference; not implemented gameplay or sliced production UI.
+
+Use case: ui-mockup.
+Create ONE highly polished FULL-SCREEN PORTRAIT 9:16 mobile game GAMEPLAY MOCKUP for "WORLD OF THE PACK". Aim for 1080x1920 or best available tall portrait resolution. This image will be saved into Unity Assets/Visuals as a developer gameplay reference. It must clearly show a NEW army summoning gameplay idea: groups of allied wolf shapeshifters fight human soldiers, soldier kills fill EACH unit card's own energy meter, and a fully charged card spawns another copy of that unit then resets its own meter. Cards remain reusable indefinitely. Show the actual in-game screen ONLY, edge-to-edge, no physical phone, no presentation board, no poster, no side diagrams, no outer annotations.
+
+ART: premium hand-painted 2D side-view dark fantasy game, atmospheric moonlit blue-teal forest, layered silhouettes, silver moonbeams, drifting fog, warm amber allied accents, muted crimson enemy warnings. Clear collectible unit card portraits and tasteful dark stone / antique brass UI. Stylized painted characters suitable for Unity 2D, NOT photorealistic, NOT 3D isometric, NOT top down. Gameplay clarity higher priority than ornate decoration. Beautiful vivid illustration, high-contrast large readable UI.
+
+SCREEN HIERARCHY:
+Top 15% compact HUD. Header title "WORLD OF THE PACK", pause button. Beneath: "WAVE 03" and "SOLDIERS DEFEATED 12". A shared five-segment health bar labelled "PACK". No mana bar or passive energy timer. A compact unit counter "ALLIES 7".
+
+Middle approximately 53% screen is a large readable side-view battlefield. ONE continuous horizontal ground path, forest behind. Allied pack is clearly on LEFT, enemy soldiers clearly on RIGHT, all facing opponents. Show SEVEN allied units in recognizable small GROUPS, with overlapping but legible spacing: three large dark werewolf Fangguards at the front center-left, two hooded human shapeshifter Moonstalkers with short bows further left, two lighter-furred Packcallers with crescent staffs behind them. These are repeat copies of the same three card archetypes, make duplicates recognizable. Show 4 human soldiers on RIGHT, helmeted uniformed infantry with rifles and lanterns, one officer holding a search lantern, aiming LEFT at allied pack. One soldier dissolves into restrained red-gray smoke and drops small GOLD ENERGY MOTES, no gore. Several motes arc DOWNWARD toward ALL THREE bottom card energy meters. Small floating text near defeat "+20 ENERGY". Enemy and ally health bars unobtrusive, visible only above engaged units. Show wolf claw impacts, a blue support pulse, arrows, and a faint circular arrival rune behind an existing Fangguard that indicates another copy has just been summoned. Units and groups, combat direction and energy reward must be clear at phone scale.
+
+Between battlefield and cards a slim clean tutorial/status ribbon containing EXACT text "Soldier kills charge every card". Under it smaller but readable text "Full energy = spawn another ally". Use energy mote icon.
+
+Bottom approximately 30% screen is a THREE-CARD SUMMONING HAND, not spell cards. All three cards equal height, large and thumb tappable, arranged in one row. Distinct detailed UNIT PORTRAITS that match battlefield units, concise names and role:
+LEFT card: "FANGGUARD", small "Frontline", a large angry dark werewolf portrait. Individual GOLD ENERGY BAR absolutely FULL, label "100 / 100". Bright gold-green button "SPAWN". Card softly glows ready. Small reusable circular arrow icon on lower corner.
+MIDDLE card: "MOONSTALKER", small "Ranged", hooded human wolf-shapeshifter archer portrait. Individual energy bar 60% filled, label "60 / 100". Dim button "CHARGING". Small circular arrow reusable icon.
+RIGHT card: "PACKCALLER", small "Support", light-furred wolf shaman with crescent staff portrait. Individual energy bar 40% filled, label "40 / 100". Dim button "CHARGING". Small circular arrow reusable icon.
+These are persistent repeatable spawn cards, no mana costs, no card discard, no next-card queue. Each energy meter belongs clearly to its own card, and one can be full while others are not, because spawning resets only the chosen card. No finger obscuring art, no fake mouse cursor.
+
+Below cards a small readable integrated helper line "Spawn • Reset • Recharge • Spawn again". Footer has subtle breathing room for phone safe area.
+
+Maintain LARGE legible text with accurate spelling, uncluttered control count, visually believable mobile game UI. Show several units already on battlefield so there is no empty-board kill-energy deadlock. Do not portray energy as automatically filling with time. No cash shop, gems, joystick, random unrelated buttons, extra currencies, giant marketing title, splashing blood, gore, production-ready claims, watermark, or annotation arrows outside gameplay. Overall image should feel like a polished attainable developer target for a portrait 2D squad combat survival game.

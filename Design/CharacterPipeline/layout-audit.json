@@ -1,0 +1,296 @@
+[
+  {
+    "character": "HeroWolvy",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\HeroWolvy\\Human\\HeroWolvy_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 2,
+      "transparentPixels": 896487,
+      "scale": 0.74766356,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "HeroWolvy",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\HeroWolvy\\Wolf\\HeroWolvy_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 20,
+      "transparentPixels": 771573,
+      "scale": 0.8839779,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "PrincessElva",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\PrincessElva\\Human\\PrincessElva_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 3,
+      "transparentPixels": 799007,
+      "scale": 0.7305936,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "PrincessElva",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\PrincessElva\\Wolf\\PrincessElva_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 19,
+      "transparentPixels": 727048,
+      "scale": 0.9039548,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "FairyLulu",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\FairyLulu\\Human\\FairyLulu_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 7,
+      "transparentPixels": 804473,
+      "scale": 0.7407407,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "FairyLulu",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\FairyLulu\\Wolf\\FairyLulu_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 22,
+      "transparentPixels": 769826,
+      "scale": 0.95238096,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "CaptainBobo",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\CaptainBobo\\Human\\CaptainBobo_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 1,
+      "transparentPixels": 820988,
+      "scale": 0.7692308,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "CaptainBobo",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\CaptainBobo\\Wolf\\CaptainBobo_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 10,
+      "transparentPixels": 767308,
+      "scale": 0.85106385,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "ScoutPip",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\ScoutPip\\Human\\ScoutPip_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 3,
+      "transparentPixels": 969642,
+      "scale": 0.7207207,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "ScoutPip",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\ScoutPip\\Wolf\\ScoutPip_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 5,
+      "transparentPixels": 823333,
+      "scale": 0.9248555,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "WizardMomo",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\WizardMomo\\Human\\WizardMomo_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 2,
+      "transparentPixels": 861011,
+      "scale": 0.754717,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "WizardMomo",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\WizardMomo\\Wolf\\WizardMomo_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 9,
+      "transparentPixels": 801237,
+      "scale": 0.9876543,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "TinkerTilly",
+    "form": "Human",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\TinkerTilly\\Human\\TinkerTilly_Human_North.png",
+    "measurement": {
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "frames": 24,
+      "sourceEdgeCells": 5,
+      "transparentPixels": 922685,
+      "scale": 0.7881773,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "TinkerTilly",
+    "form": "Wolf",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\TinkerTilly\\Wolf\\TinkerTilly_Wolf_North.png",
+    "measurement": {
+      "sourceWidth": 1254,
+      "sourceHeight": 1254,
+      "frames": 36,
+      "sourceEdgeCells": 28,
+      "transparentPixels": 818673,
+      "scale": 0.90909094,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "HeroWolvy",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\HeroWolvy\\VFX\\HeroWolvy_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 7,
+      "transparentPixels": 338686,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "PrincessElva",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\PrincessElva\\VFX\\PrincessElva_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 0,
+      "transparentPixels": 820831,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "FairyLulu",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\FairyLulu\\VFX\\FairyLulu_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 4,
+      "transparentPixels": 747256,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "CaptainBobo",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\CaptainBobo\\VFX\\CaptainBobo_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 9,
+      "transparentPixels": 309243,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "ScoutPip",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\ScoutPip\\VFX\\ScoutPip_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 0,
+      "transparentPixels": 938914,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "WizardMomo",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\WizardMomo\\VFX\\WizardMomo_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 4,
+      "transparentPixels": 815627,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  },
+  {
+    "character": "TinkerTilly",
+    "form": "VFX",
+    "destination": "B:\\World of the Pack\\Assets\\Characters\\TinkerTilly\\VFX\\TinkerTilly_VFX_North.png",
+    "measurement": {
+      "sourceWidth": 1774,
+      "sourceHeight": 887,
+      "frames": 18,
+      "sourceEdgeCells": 14,
+      "transparentPixels": 762052,
+      "scale": 0.7099888,
+      "clippedFrames": 0
+    }
+  }
+]

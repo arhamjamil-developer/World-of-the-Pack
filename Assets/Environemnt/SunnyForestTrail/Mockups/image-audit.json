@@ -1,0 +1,23 @@
+[
+  {
+    "file": "sunny-forest-edge-props-v01.png",
+    "width": 1448,
+    "height": 1086,
+    "transparentSamples": 5594,
+    "totalSamples": 11011
+  },
+  {
+    "file": "sunny-forest-loop-source-v01.png",
+    "width": 1254,
+    "height": 1254,
+    "transparentSamples": 0,
+    "totalSamples": 11025
+  },
+  {
+    "file": "sunny-forest-stage-master-v01.png",
+    "width": 724,
+    "height": 2172,
+    "transparentSamples": 0,
+    "totalSamples": 11041
+  }
+]

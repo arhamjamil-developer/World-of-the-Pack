@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: fd18cc9c193d1944586dcf4185cca376
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8660922614364741290
+    second: CaptainBobo_Wolf_North_0
+  - first:
+      213: 5627466460890037434
+    second: CaptainBobo_Wolf_North_1
+  - first:
+      213: -566182688451429956
+    second: CaptainBobo_Wolf_North_2
+  - first:
+      213: -8953706916673784009
+    second: CaptainBobo_Wolf_North_3
+  - first:
+      213: 2213046140565370842
+    second: CaptainBobo_Wolf_North_4
+  - first:
+      213: -2454481132262463196
+    second: CaptainBobo_Wolf_North_5
+  - first:
+      213: -1551431679530085509
+    second: CaptainBobo_Wolf_North_6
+  - first:
+      213: -4205859585021286747
+    second: CaptainBobo_Wolf_North_7
+  - first:
+      213: 4665083227073135689
+    second: CaptainBobo_Wolf_North_8
+  - first:
+      213: -8388637006411914941
+    second: CaptainBobo_Wolf_North_9
+  - first:
+      213: 6253201645603816200
+    second: CaptainBobo_Wolf_North_10
+  - first:
+      213: 3858512572746070510
+    second: CaptainBobo_Wolf_North_11
+  - first:
+      213: 437339839734211992
+    second: CaptainBobo_Wolf_North_12
+  - first:
+      213: 5720145719301518520
+    second: CaptainBobo_Wolf_North_13
+  - first:
+      213: 3267302997973221971
+    second: CaptainBobo_Wolf_North_14
+  - first:
+      213: -5198879549248554741
+    second: CaptainBobo_Wolf_North_15
+  - first:
+      213: -963656724612446795
+    second: CaptainBobo_Wolf_North_16
+  - first:
+      213: -7470996737084790830
+    second: CaptainBobo_Wolf_North_17
+  - first:
+      213: 522975525648711100
+    second: CaptainBobo_Wolf_North_18
+  - first:
+      213: 196344919793682973
+    second: CaptainBobo_Wolf_North_19
+  - first:
+      213: 7386695878911015808
+    second: CaptainBobo_Wolf_North_20
+  - first:
+      213: 1704678239379644210
+    second: CaptainBobo_Wolf_North_21
+  - first:
+      213: 5621561498318902964
+    second: CaptainBobo_Wolf_North_22
+  - first:
+      213: 2105286065212416130
+    second: CaptainBobo_Wolf_North_23
+  - first:
+      213: 8360624489848248098
+    second: CaptainBobo_Wolf_North_24
+  - first:
+      213: 3826075249377609572
+    second: CaptainBobo_Wolf_North_25
+  - first:
+      213: 484893742324085488
+    second: CaptainBobo_Wolf_North_26
+  - first:
+      213: 3391856544239290634
+    second: CaptainBobo_Wolf_North_27
+  - first:
+      213: 3065225110230753959
+    second: CaptainBobo_Wolf_North_28
+  - first:
+      213: 6761707972010551832
+    second: CaptainBobo_Wolf_North_29
+  - first:
+      213: 696257987844881499
+    second: CaptainBobo_Wolf_North_30
+  - first:
+      213: 6234021708937611936
+    second: CaptainBobo_Wolf_North_31
+  - first:
+      213: 742515907040906767
+    second: CaptainBobo_Wolf_North_32
+  - first:
+      213: -3667889686723036845
+    second: CaptainBobo_Wolf_North_33
+  - first:
+      213: -3017877971295523042
+    second: CaptainBobo_Wolf_North_34
+  - first:
+      213: 376315411979217554
+    second: CaptainBobo_Wolf_North_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1328
+        width: 137
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae9b50fa37c13870800000000000000
+      internalID: 8660922614364741290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1326
+        width: 134
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc76ca3ee6c81e40800000000000000
+      internalID: 5627466460890037434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_2
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1326
+        width: 140
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb970e838d38428f0800000000000000
+      internalID: -566182688451429956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1322
+        width: 143
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73773b08ffa0eb380800000000000000
+      internalID: -8953706916673784009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1328
+        width: 141
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7b2f75db156be10800000000000000
+      internalID: 2213046140565370842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_5
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1327
+        width: 134
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429e8932a6eefedd0800000000000000
+      internalID: -2454481132262463196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1071
+        width: 140
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7352587b15387ae0800000000000000
+      internalID: -1551431679530085509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1070
+        width: 133
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a662a3bdf8c1a5c0800000000000000
+      internalID: -4205859585021286747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_8
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1077
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944c3557a74bdb040800000000000000
+      internalID: 4665083227073135689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_9
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1071
+        width: 131
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3412f1b6613959b80800000000000000
+      internalID: -8388637006411914941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1070
+        width: 130
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8038a1b04c5d7c650800000000000000
+      internalID: 6253201645603816200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_11
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1070
+        width: 127
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee978ebddb03c8530800000000000000
+      internalID: 3858512572746070510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 818
+        width: 130
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895eb71644eb11600800000000000000
+      internalID: 437339839734211992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 815
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4307e993a026f40800000000000000
+      internalID: 5720145719301518520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 819
+        width: 138
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35243c704cac75d20800000000000000
+      internalID: 3267302997973221971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_15
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 813
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b093ff4489ed9d7b0800000000000000
+      internalID: -5198879549248554741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_16
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 814
+        width: 163
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b50f0c805760a2f0800000000000000
+      internalID: -963656724612446795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_17
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 818
+        width: 129
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d765f7fc00b15890800000000000000
+      internalID: -7470996737084790830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 564
+        width: 136
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdb380487bf14700800000000000000
+      internalID: 522975525648711100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 556
+        width: 137
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a41cd0aae89b200800000000000000
+      internalID: 196344919793682973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_20
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 558
+        width: 124
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b3556f3c0d28660800000000000000
+      internalID: 7386695878911015808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_21
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 563
+        width: 159
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fdf82b3db38a710800000000000000
+      internalID: 1704678239379644210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_22
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 553
+        width: 162
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b69f4ef56cc30e40800000000000000
+      internalID: 5621561498318902964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_23
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 561
+        width: 163
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280e093a58a773d10800000000000000
+      internalID: 2105286065212416130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_24
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 295
+        width: 130
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22716d15da7e60470800000000000000
+      internalID: 8360624489848248098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 304
+        width: 128
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467011bfa23f81530800000000000000
+      internalID: 3826075249377609572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_26
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 302
+        width: 124
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f279012a40bab600800000000000000
+      internalID: 484893742324085488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_27
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 307
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0987706e8b421f20800000000000000
+      internalID: 3391856544239290634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_28
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 305
+        width: 140
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a269eb5ffdd98a20800000000000000
+      internalID: 3065225110230753959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_29
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 302
+        width: 122
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81aad92539966dd50800000000000000
+      internalID: 6761707972010551832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_30
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 46
+        width: 120
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cb58573fa99a900800000000000000
+      internalID: 696257987844881499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 38
+        width: 144
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aacc4b07b1b38650800000000000000
+      internalID: 6234021708937611936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_32
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 47
+        width: 153
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e004f8842fd4a00800000000000000
+      internalID: 742515907040906767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_33
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 45
+        width: 143
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359fd8363c9091dc0800000000000000
+      internalID: -3667889686723036845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 48
+        width: 139
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f247979f75e16d0800000000000000
+      internalID: -3017877971295523042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainBobo_Wolf_North_35
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 48
+        width: 135
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa6869fd0f83500800000000000000
+      internalID: 376315411979217554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CaptainBobo_Wolf_North_0: 8660922614364741290
+      CaptainBobo_Wolf_North_1: 5627466460890037434
+      CaptainBobo_Wolf_North_10: 6253201645603816200
+      CaptainBobo_Wolf_North_11: 3858512572746070510
+      CaptainBobo_Wolf_North_12: 437339839734211992
+      CaptainBobo_Wolf_North_13: 5720145719301518520
+      CaptainBobo_Wolf_North_14: 3267302997973221971
+      CaptainBobo_Wolf_North_15: -5198879549248554741
+      CaptainBobo_Wolf_North_16: -963656724612446795
+      CaptainBobo_Wolf_North_17: -7470996737084790830
+      CaptainBobo_Wolf_North_18: 522975525648711100
+      CaptainBobo_Wolf_North_19: 196344919793682973
+      CaptainBobo_Wolf_North_2: -566182688451429956
+      CaptainBobo_Wolf_North_20: 7386695878911015808
+      CaptainBobo_Wolf_North_21: 1704678239379644210
+      CaptainBobo_Wolf_North_22: 5621561498318902964
+      CaptainBobo_Wolf_North_23: 2105286065212416130
+      CaptainBobo_Wolf_North_24: 8360624489848248098
+      CaptainBobo_Wolf_North_25: 3826075249377609572
+      CaptainBobo_Wolf_North_26: 484893742324085488
+      CaptainBobo_Wolf_North_27: 3391856544239290634
+      CaptainBobo_Wolf_North_28: 3065225110230753959
+      CaptainBobo_Wolf_North_29: 6761707972010551832
+      CaptainBobo_Wolf_North_3: -8953706916673784009
+      CaptainBobo_Wolf_North_30: 696257987844881499
+      CaptainBobo_Wolf_North_31: 6234021708937611936
+      CaptainBobo_Wolf_North_32: 742515907040906767
+      CaptainBobo_Wolf_North_33: -3667889686723036845
+      CaptainBobo_Wolf_North_34: -3017877971295523042
+      CaptainBobo_Wolf_North_35: 376315411979217554
+      CaptainBobo_Wolf_North_4: 2213046140565370842
+      CaptainBobo_Wolf_North_5: -2454481132262463196
+      CaptainBobo_Wolf_North_6: -1551431679530085509
+      CaptainBobo_Wolf_North_7: -4205859585021286747
+      CaptainBobo_Wolf_North_8: 4665083227073135689
+      CaptainBobo_Wolf_North_9: -8388637006411914941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

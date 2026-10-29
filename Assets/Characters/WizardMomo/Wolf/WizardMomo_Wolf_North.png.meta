@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 3197e758bbaf33b4cb4049d8c86476a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1501091188717701404
+    second: WizardMomo_Wolf_North_0
+  - first:
+      213: 5185151205159310907
+    second: WizardMomo_Wolf_North_1
+  - first:
+      213: -3371729251234379587
+    second: WizardMomo_Wolf_North_2
+  - first:
+      213: 2849147425288189931
+    second: WizardMomo_Wolf_North_3
+  - first:
+      213: -651076268643030532
+    second: WizardMomo_Wolf_North_4
+  - first:
+      213: 6738779462886097593
+    second: WizardMomo_Wolf_North_5
+  - first:
+      213: -6335648756739465955
+    second: WizardMomo_Wolf_North_6
+  - first:
+      213: 5701130147229524326
+    second: WizardMomo_Wolf_North_7
+  - first:
+      213: -4611397332355507790
+    second: WizardMomo_Wolf_North_8
+  - first:
+      213: -4240042371505023662
+    second: WizardMomo_Wolf_North_9
+  - first:
+      213: -1796916262567282705
+    second: WizardMomo_Wolf_North_10
+  - first:
+      213: -1354829132539562814
+    second: WizardMomo_Wolf_North_11
+  - first:
+      213: 2262735591528684754
+    second: WizardMomo_Wolf_North_12
+  - first:
+      213: 628247985557258006
+    second: WizardMomo_Wolf_North_13
+  - first:
+      213: -1176442278918909906
+    second: WizardMomo_Wolf_North_14
+  - first:
+      213: -6404624146496841308
+    second: WizardMomo_Wolf_North_15
+  - first:
+      213: 5512688760687127915
+    second: WizardMomo_Wolf_North_16
+  - first:
+      213: -5827158841411684851
+    second: WizardMomo_Wolf_North_17
+  - first:
+      213: 3324257187008986295
+    second: WizardMomo_Wolf_North_18
+  - first:
+      213: 876322777007110948
+    second: WizardMomo_Wolf_North_19
+  - first:
+      213: -8457935681395498675
+    second: WizardMomo_Wolf_North_20
+  - first:
+      213: 3612217735494906427
+    second: WizardMomo_Wolf_North_21
+  - first:
+      213: 904163104754045225
+    second: WizardMomo_Wolf_North_22
+  - first:
+      213: -7741145548045005773
+    second: WizardMomo_Wolf_North_23
+  - first:
+      213: 3147442793779705208
+    second: WizardMomo_Wolf_North_24
+  - first:
+      213: 6866027076826865932
+    second: WizardMomo_Wolf_North_25
+  - first:
+      213: -4583735836341164245
+    second: WizardMomo_Wolf_North_26
+  - first:
+      213: 8682839390036160739
+    second: WizardMomo_Wolf_North_27
+  - first:
+      213: -2344463769944590047
+    second: WizardMomo_Wolf_North_28
+  - first:
+      213: -6537709831364693115
+    second: WizardMomo_Wolf_North_29
+  - first:
+      213: 775599869801975284
+    second: WizardMomo_Wolf_North_30
+  - first:
+      213: -2257171748164288229
+    second: WizardMomo_Wolf_North_31
+  - first:
+      213: 5075198254728172619
+    second: WizardMomo_Wolf_North_32
+  - first:
+      213: -9127569234513794037
+    second: WizardMomo_Wolf_North_33
+  - first:
+      213: -2159519881713621005
+    second: WizardMomo_Wolf_North_34
+  - first:
+      213: -4807739110415375240
+    second: WizardMomo_Wolf_North_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1326
+        width: 149
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19ccf6ab72f4d410800000000000000
+      internalID: 1501091188717701404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_1
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1326
+        width: 144
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b36953a8c8b55f740800000000000000
+      internalID: 5185151205159310907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_2
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1326
+        width: 147
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db881653c163531d0800000000000000
+      internalID: -3371729251234379587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1325
+        width: 142
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be77505ec743a8720800000000000000
+      internalID: 2849147425288189931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_4
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1326
+        width: 143
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf968dd4599e6f6f0800000000000000
+      internalID: -651076268643030532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_5
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1325
+        width: 142
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b20609c734f48d50800000000000000
+      internalID: 6738779462886097593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1075
+        width: 151
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d16e006014318a0800000000000000
+      internalID: -6335648756739465955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1072
+        width: 145
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661e2ebb9ab7e1f40800000000000000
+      internalID: 5701130147229524326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1070
+        width: 142
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b914c6fe860100c0800000000000000
+      internalID: -4611397332355507790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_9
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1069
+        width: 154
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25596d58de75825c0800000000000000
+      internalID: -4240042371505023662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_10
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1066
+        width: 145
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7fd8efd221017e0800000000000000
+      internalID: -1796916262567282705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_11
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1077
+        width: 145
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4f0a7051ea23de0800000000000000
+      internalID: -1354829132539562814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 818
+        width: 160
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc53b1380ad66f10800000000000000
+      internalID: 2262735591528684754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 818
+        width: 154
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fbef9d63cf7b800800000000000000
+      internalID: 628247985557258006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_14
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 814
+        width: 158
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20994afaff6cafe0800000000000000
+      internalID: -1176442278918909906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_15
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 814
+        width: 142
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a99a2c95443e17a0800000000000000
+      internalID: -6404624146496841308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_16
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 811
+        width: 178
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d6b0a6831018c40800000000000000
+      internalID: 5512688760687127915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_17
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 816
+        width: 143
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0631e748e5c12fa0800000000000000
+      internalID: -5827158841411684851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 558
+        width: 165
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcb5b58c42222e20800000000000000
+      internalID: 3324257187008986295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 558
+        width: 155
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bb7183ce2592c00800000000000000
+      internalID: 876322777007110948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_20
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 563
+        width: 170
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41e1515f406f9a80800000000000000
+      internalID: -8457935681395498675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_21
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 558
+        width: 176
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323a8f54ec212230800000000000000
+      internalID: 3612217735494906427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_22
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 562
+        width: 181
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92111e5ad8b3c8c00800000000000000
+      internalID: 904163104754045225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_23
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 565
+        width: 178
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c4e2e632de19490800000000000000
+      internalID: -7741145548045005773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_24
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 303
+        width: 163
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8753a1a8b86fdab20800000000000000
+      internalID: 3147442793779705208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 306
+        width: 154
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01aa74af37094f50800000000000000
+      internalID: 6866027076826865932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 301
+        width: 156
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2728a2ea8c4360c0800000000000000
+      internalID: -4583735836341164245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_27
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 302
+        width: 190
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0ffdceb64af7870800000000000000
+      internalID: 8682839390036160739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 300
+        width: 169
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129fdab6f9ac67fd0800000000000000
+      internalID: -2344463769944590047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_29
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 302
+        width: 148
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583bde0fb836545a0800000000000000
+      internalID: -6537709831364693115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 56
+        width: 159
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdc267e8fb73ca00800000000000000
+      internalID: 775599869801975284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_31
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 56
+        width: 177
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11ce99014aeca0e0800000000000000
+      internalID: -2257171748164288229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_32
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 42
+        width: 148
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4451c15ce9be6640800000000000000
+      internalID: 5075198254728172619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_33
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 46
+        width: 140
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c6502242c545180800000000000000
+      internalID: -9127569234513794037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_34
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 44
+        width: 147
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e015fb18d702e0800000000000000
+      internalID: -2159519881713621005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WizardMomo_Wolf_North_35
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 52
+        width: 146
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87460f660ca774db0800000000000000
+      internalID: -4807739110415375240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WizardMomo_Wolf_North_0: 1501091188717701404
+      WizardMomo_Wolf_North_1: 5185151205159310907
+      WizardMomo_Wolf_North_10: -1796916262567282705
+      WizardMomo_Wolf_North_11: -1354829132539562814
+      WizardMomo_Wolf_North_12: 2262735591528684754
+      WizardMomo_Wolf_North_13: 628247985557258006
+      WizardMomo_Wolf_North_14: -1176442278918909906
+      WizardMomo_Wolf_North_15: -6404624146496841308
+      WizardMomo_Wolf_North_16: 5512688760687127915
+      WizardMomo_Wolf_North_17: -5827158841411684851
+      WizardMomo_Wolf_North_18: 3324257187008986295
+      WizardMomo_Wolf_North_19: 876322777007110948
+      WizardMomo_Wolf_North_2: -3371729251234379587
+      WizardMomo_Wolf_North_20: -8457935681395498675
+      WizardMomo_Wolf_North_21: 3612217735494906427
+      WizardMomo_Wolf_North_22: 904163104754045225
+      WizardMomo_Wolf_North_23: -7741145548045005773
+      WizardMomo_Wolf_North_24: 3147442793779705208
+      WizardMomo_Wolf_North_25: 6866027076826865932
+      WizardMomo_Wolf_North_26: -4583735836341164245
+      WizardMomo_Wolf_North_27: 8682839390036160739
+      WizardMomo_Wolf_North_28: -2344463769944590047
+      WizardMomo_Wolf_North_29: -6537709831364693115
+      WizardMomo_Wolf_North_3: 2849147425288189931
+      WizardMomo_Wolf_North_30: 775599869801975284
+      WizardMomo_Wolf_North_31: -2257171748164288229
+      WizardMomo_Wolf_North_32: 5075198254728172619
+      WizardMomo_Wolf_North_33: -9127569234513794037
+      WizardMomo_Wolf_North_34: -2159519881713621005
+      WizardMomo_Wolf_North_35: -4807739110415375240
+      WizardMomo_Wolf_North_4: -651076268643030532
+      WizardMomo_Wolf_North_5: 6738779462886097593
+      WizardMomo_Wolf_North_6: -6335648756739465955
+      WizardMomo_Wolf_North_7: 5701130147229524326
+      WizardMomo_Wolf_North_8: -4611397332355507790
+      WizardMomo_Wolf_North_9: -4240042371505023662
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
