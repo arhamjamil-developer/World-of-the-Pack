@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -180,7 +180,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -244,793 +244,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_0
+      name: ScoutPip_Wolf_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 57
-        y: 1328
-        width: 139
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04b978c188959fa00800000000000000
-      internalID: 790761650709306176
+      spriteID: d570bd36343397f405f260403169c6cb
+      internalID: 1666875369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_1
+      name: ScoutPip_Wolf_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 310
-        y: 1327
-        width: 140
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 72486ed97243e4430800000000000000
-      internalID: 3769007282913182759
+      spriteID: 01c6b3bcc2167b7c2e094901d1c0e44d
+      internalID: 1653771851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_2
+      name: ScoutPip_Wolf_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 562
-        y: 1328
-        width: 143
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b37474ba98e92cbb0800000000000000
-      internalID: -4917193529013876933
+      spriteID: 30740ea23ad4609dec1991143dcc9370
+      internalID: -241632159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_3
+      name: ScoutPip_Wolf_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 822
-        y: 1326
-        width: 131
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85ab39ccc4dd7fcb0800000000000000
-      internalID: -4830148753412081064
+      spriteID: 02d1857583e96cacb0adbff0ab855f4c
+      internalID: -2002108883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_4
+      name: ScoutPip_Wolf_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 1327
-        width: 140
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4667a64122aa8fa20800000000000000
-      internalID: 3096411807165347428
+      spriteID: 0ac3ca45a15af6ab3816e032b0dd4cd2
+      internalID: 2089137974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_5
+      name: ScoutPip_Wolf_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 1327
-        width: 142
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e60367677ce082f00800000000000000
-      internalID: 1092139159486083182
+      spriteID: c925dab37bbe56ad70cd03439cae3aed
+      internalID: -1489667855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_6
+      name: ScoutPip_Wolf_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1072
-        width: 147
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c7b5403b700ec9250800000000000000
-      internalID: 5952879131149753212
+      spriteID: f07fa6b927279cdaa28633abc098a74d
+      internalID: -1520308889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_7
+      name: ScoutPip_Wolf_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 306
-        y: 1071
-        width: 148
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4feb8ba2d8da76800800000000000000
-      internalID: 605643496723365620
+      spriteID: 2729bebd4bea3ffbf08152fd013fb384
+      internalID: 474146501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_8
+      name: ScoutPip_Wolf_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 558
-        y: 1069
-        width: 145
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0df5bebc0e77c5640800000000000000
-      internalID: 5070059087889915856
+      spriteID: dee3cc5700183d4596c80a37263728d9
+      internalID: 814816270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_9
+      name: ScoutPip_Wolf_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 815
-        y: 1071
-        width: 141
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2d7014f35c369a000800000000000000
-      internalID: 47678969885034450
+      spriteID: 9d39caf2a5dc7380ee8077ce8290e29d
+      internalID: 464854193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_10
+      name: ScoutPip_Wolf_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 1072
-        width: 145
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f62b483924c8ce30800000000000000
-      internalID: 4524081507010815737
+      spriteID: 4f4eba6b13b4e4ff2d64b12b02430d33
+      internalID: 2006510215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_11
+      name: ScoutPip_Wolf_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 1069
-        width: 145
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9430e6f146e0eb590800000000000000
-      internalID: -7656666493296442551
+      spriteID: 7dc1187a788c3c28f028343a95e1f44f
+      internalID: -1994154354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_12
+      name: ScoutPip_Wolf_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 55
-        y: 815
-        width: 147
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b39c239929be6c90800000000000000
-      internalID: -7174593568140651594
+      spriteID: 0aa7c7f617515af3d9724471a24bc27c
+      internalID: 1780227882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_13
+      name: ScoutPip_Wolf_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 304
-        y: 814
-        width: 160
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ce0f00b252380920800000000000000
-      internalID: 2956668486091214535
+      spriteID: f8f6e1498ea48cda541c5cfeda851b56
+      internalID: 671920975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_14
+      name: ScoutPip_Wolf_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 552
-        y: 814
-        width: 180
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50c4dcf76d2480de0800000000000000
-      internalID: -1366768997872350203
+      spriteID: c23eadefd906424e5e01f5ab3413c98f
+      internalID: -945817877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_15
+      name: ScoutPip_Wolf_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 834
-        y: 817
-        width: 145
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b66fa47fc6f814530800000000000000
-      internalID: 3837506055664498283
+      spriteID: d490cefa3b16c1ecc0e226322e361336
+      internalID: -15623068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_16
+      name: ScoutPip_Wolf_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 814
-        width: 177
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 689a8623fcf74c470800000000000000
-      internalID: 8413990531715606918
+      spriteID: 5492d4e832e486399ad91dd69d40813d
+      internalID: -471929682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_17
+      name: ScoutPip_Wolf_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 815
-        width: 139
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 805d12ee79637e480800000000000000
-      internalID: -8870060914919746296
+      spriteID: 4b5c5d4c5331a06c5fb978636e46b292
+      internalID: -1103697298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_18
+      name: ScoutPip_Wolf_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 66
-        y: 561
-        width: 151
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 180926c6ac5920870800000000000000
-      internalID: 8647638931139104897
+      spriteID: 9b0307720e0705a380766b817914bf39
+      internalID: -2122942430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_19
+      name: ScoutPip_Wolf_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 313
-        y: 561
-        width: 161
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0656e1f14d11e7920800000000000000
-      internalID: 2989846805373412704
+      spriteID: f29ddeb09c8fcf9bcd9b2193f1a876e2
+      internalID: 1317982969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_20
+      name: ScoutPip_Wolf_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 559
-        y: 560
-        width: 171
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8193ff6847a0dd640800000000000000
-      internalID: 5106249048105367832
+      spriteID: bf76cca01fc72c8c9aea084497a61f6c
+      internalID: 1890586794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_21
+      name: ScoutPip_Wolf_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 811
-        y: 558
-        width: 168
-        height: 114
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0058e818099cd3210800000000000000
-      internalID: 1314428288748127488
+      spriteID: 4bd854a22f4c7b8f277628a1a34d8881
+      internalID: 1216517766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_22
+      name: ScoutPip_Wolf_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 553
-        width: 183
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c027367dece075500800000000000000
-      internalID: 384792574703137292
+      spriteID: e7349349a0c93b6fbcf59cf1fee61be6
+      internalID: 167994148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_23
+      name: ScoutPip_Wolf_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 554
-        width: 163
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c993c549d3f9f7cc0800000000000000
-      internalID: -3711072481099105892
+      spriteID: 275ccf620ae11d75f94526b26d7b259a
+      internalID: 728500367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_24
+      name: ScoutPip_Wolf_Special01_North_00
       rect:
         serializedVersion: 2
-        x: 70
-        y: 306
-        width: 136
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a135889d9a88876a0800000000000000
-      internalID: -6451256203127794918
+      spriteID: 0589880b489022fdb9be0a0c0f2c0589
+      internalID: -812612637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_25
+      name: ScoutPip_Wolf_Special01_North_01
       rect:
         serializedVersion: 2
-        x: 290
-        y: 300
-        width: 195
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c29af79f785108a0800000000000000
-      internalID: -6340689495327075643
+      spriteID: a427cb4a38b7a845c36673d86a9ed4c6
+      internalID: 177459995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_26
+      name: ScoutPip_Wolf_Special01_North_02
       rect:
         serializedVersion: 2
-        x: 562
-        y: 313
-        width: 166
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 61de0dc39031238e0800000000000000
-      internalID: -1715287577678779114
+      spriteID: d89d480373d9003e24098dcdb3e76f7b
+      internalID: -89669041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_27
+      name: ScoutPip_Wolf_Special01_North_03
       rect:
         serializedVersion: 2
-        x: 805
-        y: 302
-        width: 179
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 37a762e91ccf4fa60800000000000000
-      internalID: 7707062770849970803
+      spriteID: 6d70624ba37f1f1f6002e9f7ba50859a
+      internalID: 311209409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_28
+      name: ScoutPip_Wolf_Special01_North_04
       rect:
         serializedVersion: 2
-        x: 1063
-        y: 300
-        width: 171
-        height: 151
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed7746315e24d1f10800000000000000
-      internalID: 2242021741140670430
+      spriteID: bdcdce9e205e255fc33970028aefd6c7
+      internalID: 1562392489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_29
+      name: ScoutPip_Wolf_Special01_North_05
       rect:
         serializedVersion: 2
-        x: 1331
-        y: 302
-        width: 136
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5a889c0db305456d0800000000000000
-      internalID: -3002686833713117019
+      spriteID: 55826812632deff52868d3b59470aa99
+      internalID: -762142548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_30
+      name: ScoutPip_Wolf_Special02_North_00
       rect:
         serializedVersion: 2
-        x: 62
-        y: 41
-        width: 150
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f430e7af1c73ca9c0800000000000000
-      internalID: -3914692669821025457
+      spriteID: b435aa6ab6d9160ef9b1ab000ece9e34
+      internalID: 1120462511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_31
+      name: ScoutPip_Wolf_Special02_North_01
       rect:
         serializedVersion: 2
-        x: 310
-        y: 48
-        width: 176
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e774aca76f7ffcda0800000000000000
-      internalID: -5922242346974820482
+      spriteID: a3cd8e71d3c6a4981aadf7c69da6b41a
+      internalID: -338444829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_32
+      name: ScoutPip_Wolf_Special02_North_02
       rect:
         serializedVersion: 2
-        x: 558
-        y: 47
-        width: 156
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21c451c8eb8407510800000000000000
-      internalID: 1544814655419272210
+      spriteID: 0c5695ffd10f74e41f49970bb9b40cd8
+      internalID: 1188483123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_33
+      name: ScoutPip_Wolf_Special02_North_03
       rect:
         serializedVersion: 2
-        x: 814
-        y: 47
-        width: 188
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6eb3f7fa805da400800000000000000
-      internalID: 337014104918310511
+      spriteID: 2e8dc770e011d6bd8894afb63f1435dc
+      internalID: 1002193807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_34
+      name: ScoutPip_Wolf_Special02_North_04
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 48
-        width: 161
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e397b92e8db99730800000000000000
-      internalID: 4006441761805669353
+      spriteID: 73ef392ffb77c59a76a30e2382258a8a
+      internalID: 1184879247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ScoutPip_Wolf_North_35
+      name: ScoutPip_Wolf_Special02_North_05
       rect:
         serializedVersion: 2
-        x: 1335
-        y: 50
-        width: 136
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a923ac24ce802cb40800000000000000
-      internalID: 5458935509152314010
+      spriteID: 7f6a41e4878e14c562b6d5e6a42df22c
+      internalID: 1269052791
       vertices: []
       indices: 
       edges: []
@@ -1039,7 +1039,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20364aa53ed87ef4facd909a0b484c39
     internalID: 0
     vertices: []
     indices: 
@@ -1049,42 +1049,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ScoutPip_Wolf_North_0: 790761650709306176
-      ScoutPip_Wolf_North_1: 3769007282913182759
-      ScoutPip_Wolf_North_10: 4524081507010815737
-      ScoutPip_Wolf_North_11: -7656666493296442551
-      ScoutPip_Wolf_North_12: -7174593568140651594
-      ScoutPip_Wolf_North_13: 2956668486091214535
-      ScoutPip_Wolf_North_14: -1366768997872350203
-      ScoutPip_Wolf_North_15: 3837506055664498283
-      ScoutPip_Wolf_North_16: 8413990531715606918
-      ScoutPip_Wolf_North_17: -8870060914919746296
-      ScoutPip_Wolf_North_18: 8647638931139104897
-      ScoutPip_Wolf_North_19: 2989846805373412704
-      ScoutPip_Wolf_North_2: -4917193529013876933
-      ScoutPip_Wolf_North_20: 5106249048105367832
-      ScoutPip_Wolf_North_21: 1314428288748127488
-      ScoutPip_Wolf_North_22: 384792574703137292
-      ScoutPip_Wolf_North_23: -3711072481099105892
-      ScoutPip_Wolf_North_24: -6451256203127794918
-      ScoutPip_Wolf_North_25: -6340689495327075643
-      ScoutPip_Wolf_North_26: -1715287577678779114
-      ScoutPip_Wolf_North_27: 7707062770849970803
-      ScoutPip_Wolf_North_28: 2242021741140670430
-      ScoutPip_Wolf_North_29: -3002686833713117019
-      ScoutPip_Wolf_North_3: -4830148753412081064
-      ScoutPip_Wolf_North_30: -3914692669821025457
-      ScoutPip_Wolf_North_31: -5922242346974820482
-      ScoutPip_Wolf_North_32: 1544814655419272210
-      ScoutPip_Wolf_North_33: 337014104918310511
-      ScoutPip_Wolf_North_34: 4006441761805669353
-      ScoutPip_Wolf_North_35: 5458935509152314010
-      ScoutPip_Wolf_North_4: 3096411807165347428
-      ScoutPip_Wolf_North_5: 1092139159486083182
-      ScoutPip_Wolf_North_6: 5952879131149753212
-      ScoutPip_Wolf_North_7: 605643496723365620
-      ScoutPip_Wolf_North_8: 5070059087889915856
-      ScoutPip_Wolf_North_9: 47678969885034450
+      ScoutPip_Wolf_Attack_North_00: 1780227882
+      ScoutPip_Wolf_Attack_North_01: 671920975
+      ScoutPip_Wolf_Attack_North_02: -945817877
+      ScoutPip_Wolf_Attack_North_03: -15623068
+      ScoutPip_Wolf_Attack_North_04: -471929682
+      ScoutPip_Wolf_Attack_North_05: -1103697298
+      ScoutPip_Wolf_Dead_North_00: -2122942430
+      ScoutPip_Wolf_Dead_North_01: 1317982969
+      ScoutPip_Wolf_Dead_North_02: 1890586794
+      ScoutPip_Wolf_Dead_North_03: 1216517766
+      ScoutPip_Wolf_Dead_North_04: 167994148
+      ScoutPip_Wolf_Dead_North_05: 728500367
+      ScoutPip_Wolf_Idle_North_00: 1666875369
+      ScoutPip_Wolf_Idle_North_01: 1653771851
+      ScoutPip_Wolf_Idle_North_02: -241632159
+      ScoutPip_Wolf_Idle_North_03: -2002108883
+      ScoutPip_Wolf_Idle_North_04: 2089137974
+      ScoutPip_Wolf_Idle_North_05: -1489667855
+      ScoutPip_Wolf_Special01_North_00: -812612637
+      ScoutPip_Wolf_Special01_North_01: 177459995
+      ScoutPip_Wolf_Special01_North_02: -89669041
+      ScoutPip_Wolf_Special01_North_03: 311209409
+      ScoutPip_Wolf_Special01_North_04: 1562392489
+      ScoutPip_Wolf_Special01_North_05: -762142548
+      ScoutPip_Wolf_Special02_North_00: 1120462511
+      ScoutPip_Wolf_Special02_North_01: -338444829
+      ScoutPip_Wolf_Special02_North_02: 1188483123
+      ScoutPip_Wolf_Special02_North_03: 1002193807
+      ScoutPip_Wolf_Special02_North_04: 1184879247
+      ScoutPip_Wolf_Special02_North_05: 1269052791
+      ScoutPip_Wolf_Walk_North_00: -1520308889
+      ScoutPip_Wolf_Walk_North_01: 474146501
+      ScoutPip_Wolf_Walk_North_02: 814816270
+      ScoutPip_Wolf_Walk_North_03: 464854193
+      ScoutPip_Wolf_Walk_North_04: 2006510215
+      ScoutPip_Wolf_Walk_North_05: -1994154354
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

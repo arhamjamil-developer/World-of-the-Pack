@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -180,7 +180,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -244,793 +244,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_0
+      name: TinkerTilly_Wolf_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 80
-        y: 1327
-        width: 119
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4bdb37f0b2fbd0570800000000000000
-      internalID: 8434607868798549428
+      spriteID: dce12996f4e8135593e0922d947d9a1b
+      internalID: 949570978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_1
+      name: TinkerTilly_Wolf_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 336
-        y: 1326
-        width: 128
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c9b801a0e6343de90800000000000000
-      internalID: -7002178855736669284
+      spriteID: 9215668fbbf7ad0ac562a1d3f5854a91
+      internalID: -1854255139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_2
+      name: TinkerTilly_Wolf_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 588
-        y: 1326
-        width: 125
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86ab4b59df2ce55a0800000000000000
-      internalID: -6530568015246476696
+      spriteID: a77066966d86c51949c2dd3f844c10f9
+      internalID: 905305416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_3
+      name: TinkerTilly_Wolf_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 831
-        y: 1326
-        width: 131
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7cd5d634137aa1d0800000000000000
-      internalID: -3338729643085276038
+      spriteID: eedb184d244fc70e9abff550a0e64b6c
+      internalID: -178812797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_4
+      name: TinkerTilly_Wolf_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 1328
-        width: 119
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d8af336e08601d00800000000000000
-      internalID: 941366733124380881
+      spriteID: 65bcb4dde966987dd33359bbd740f5da
+      internalID: 1391922212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_5
+      name: TinkerTilly_Wolf_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 1331
-        width: 127
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 307e8dd28320ec7f0800000000000000
-      internalID: -590532060828342525
+      spriteID: 6845742f6b90407cfb5d80bdd043fb24
+      internalID: 781693942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_6
+      name: TinkerTilly_Wolf_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1074
-        width: 114
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d3ebdfe34554e2bc0800000000000000
-      internalID: -3806028406945104323
+      spriteID: fd052bc1e45118d54fed3a69807148a6
+      internalID: -1214394207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_7
+      name: TinkerTilly_Wolf_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 334
-        y: 1069
-        width: 110
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e23c4a354a7644150800000000000000
-      internalID: 5855919370964091694
+      spriteID: 4a0b9a2a32e211ea942deebb6b1ca383
+      internalID: 1935478636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_8
+      name: TinkerTilly_Wolf_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 579
-        y: 1070
-        width: 119
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f10d82fd9bfb22d60800000000000000
-      internalID: 7864058704376156191
+      spriteID: 019ff04543d8003bb772bfb153251703
+      internalID: 678503062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_9
+      name: TinkerTilly_Wolf_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 835
-        y: 1072
-        width: 112
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 83f27cffb507696c0800000000000000
-      internalID: -4136995667257643208
+      spriteID: 2363f7f2835d03115f1b7a03deca628f
+      internalID: -948808034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_10
+      name: TinkerTilly_Wolf_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 1068
-        width: 113
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8a21f73fcca245550800000000000000
-      internalID: 6148586451014455976
+      spriteID: 7adc77631173f74b3ecbcc165de50594
+      internalID: -957776552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_11
+      name: TinkerTilly_Wolf_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 1073
-        width: 113
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c82f754fdf987e30800000000000000
-      internalID: 4501523608849295554
+      spriteID: 122460b004c4c7697c2e0c4143639dfd
+      internalID: 1456371010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_12
+      name: TinkerTilly_Wolf_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 68
-        y: 813
-        width: 131
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 267ba2cdd9eb28040800000000000000
-      internalID: 4648487350612703074
+      spriteID: aebda6ff9134ad6302e8632e8177c1a5
+      internalID: 882545163
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_13
+      name: TinkerTilly_Wolf_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 331
-        y: 814
-        width: 151
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 56da53f2e41c3cec0800000000000000
-      internalID: -3547779539894162075
+      spriteID: 2d69249953348a6335ea7355a9312f02
+      internalID: -696020390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_14
+      name: TinkerTilly_Wolf_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 589
-        y: 816
-        width: 138
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 91d2fd49fbd7202d0800000000000000
-      internalID: -3313948114001384167
+      spriteID: dfbb96544427f9b41627ab2087b1d3c7
+      internalID: 359339456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_15
+      name: TinkerTilly_Wolf_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 831
-        y: 816
-        width: 125
-        height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b1c0ce545f5e386b0800000000000000
-      internalID: -5295135895254725605
+      spriteID: b470ebcd77eeefd5212f00d7e051cf42
+      internalID: 246670156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_16
+      name: TinkerTilly_Wolf_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1091
-        y: 815
-        width: 129
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 444650757650613c0800000000000000
-      internalID: -4389314845426228156
+      spriteID: af0f76fe8f62bb99dc62d5c1fb72481f
+      internalID: 489349116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_17
+      name: TinkerTilly_Wolf_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 813
-        width: 145
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13f0c4f84927507e0800000000000000
-      internalID: -1799906493679792335
+      spriteID: b5341d2558cc20f9a49fd819bcd3dbbf
+      internalID: -97508493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_18
+      name: TinkerTilly_Wolf_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 58
-        y: 558
-        width: 144
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6fc9e0a54d4136320800000000000000
-      internalID: 2549904716298362102
+      spriteID: 7662f7489920481578ccc4c028f81385
+      internalID: -482127333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_19
+      name: TinkerTilly_Wolf_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 312
-        y: 552
-        width: 140
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7ab7ab30771e72e0800000000000000
-      internalID: -2126236203267671425
+      spriteID: 760e5fbe0b4b44e18268e9daed6207c7
+      internalID: -623981403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_20
+      name: TinkerTilly_Wolf_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 569
-        y: 561
-        width: 156
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d25ef9b005713b7e0800000000000000
-      internalID: -1751030197557140179
+      spriteID: d4bf0a6907fd2009179f6e9288d4a305
+      internalID: -1711702868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_21
+      name: TinkerTilly_Wolf_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 829
-        y: 558
-        width: 162
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6201177ab0cf24df0800000000000000
-      internalID: -197318306666835930
+      spriteID: 585c7e12d866ae208dcede7b642665bc
+      internalID: 1678444530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_22
+      name: TinkerTilly_Wolf_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1081
-        y: 565
-        width: 147
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e14b038da7798a2c0800000000000000
-      internalID: -4420116480395267042
+      spriteID: 607239c0a1dcc14c69f527641c45b265
+      internalID: 763124075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_23
+      name: TinkerTilly_Wolf_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1329
-        y: 567
-        width: 159
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ca617affdf30e6f0800000000000000
-      internalID: -657455314384098615
+      spriteID: 10ca7c4ae94caa465c941d29b88e19aa
+      internalID: 2032814977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_24
+      name: TinkerTilly_Wolf_Special01_North_00
       rect:
         serializedVersion: 2
-        x: 61
-        y: 303
-        width: 142
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d45e7f0421c8e450800000000000000
-      internalID: 6118352454405739729
+      spriteID: dd1516a1dd30ce766849690f4843c1e1
+      internalID: 436535790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_25
+      name: TinkerTilly_Wolf_Special01_North_01
       rect:
         serializedVersion: 2
-        x: 321
-        y: 302
-        width: 156
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42b6b36d8da63f590800000000000000
-      internalID: -7641646663177901276
+      spriteID: f3ff653537a96b4971043df1633dbea8
+      internalID: 1894871901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_26
+      name: TinkerTilly_Wolf_Special01_North_02
       rect:
         serializedVersion: 2
-        x: 575
-        y: 305
-        width: 152
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63ff3d73e6f6232c0800000000000000
-      internalID: -4453374562342273226
+      spriteID: fdce59aa0fa5fba37f47a213332e305f
+      internalID: -831071293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_27
+      name: TinkerTilly_Wolf_Special01_North_03
       rect:
         serializedVersion: 2
-        x: 832
-        y: 302
-        width: 133
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db95b45bc62c9f290800000000000000
-      internalID: -7856034302817248835
+      spriteID: b51c828c05a2287b624c36e5ad0130a0
+      internalID: 907445563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_28
+      name: TinkerTilly_Wolf_Special01_North_04
       rect:
         serializedVersion: 2
-        x: 1083
-        y: 301
-        width: 142
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e48f757841c8e95c0800000000000000
-      internalID: -4206770982119540658
+      spriteID: 6a74241d2751f7d73a4b9b7940e1c105
+      internalID: -137635065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_29
+      name: TinkerTilly_Wolf_Special01_North_05
       rect:
         serializedVersion: 2
-        x: 1330
-        y: 303
-        width: 143
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f49889fcb39559e80800000000000000
-      internalID: -8172527835373074097
+      spriteID: 76b6462fa5dd519849432e0a17879f54
+      internalID: -2011436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_30
+      name: TinkerTilly_Wolf_Special02_North_00
       rect:
         serializedVersion: 2
-        x: 73
-        y: 47
-        width: 150
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c87835b488e42ddf0800000000000000
-      internalID: -156976689718261876
+      spriteID: b71bf8c3f40f042d9d563de8c9232b74
+      internalID: -696031799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_31
+      name: TinkerTilly_Wolf_Special02_North_01
       rect:
         serializedVersion: 2
-        x: 317
-        y: 47
-        width: 165
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a230ef2b242efa440800000000000000
-      internalID: 4949423291602174762
+      spriteID: f92abf0a9e3b9089240ed41d19fbdf66
+      internalID: 1623416353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_32
+      name: TinkerTilly_Wolf_Special02_North_02
       rect:
         serializedVersion: 2
-        x: 571
-        y: 48
-        width: 155
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f141dbbce838b3140800000000000000
-      internalID: 4700495285418005535
+      spriteID: 32ac681299bf3c52aab8b8d3c0356bf1
+      internalID: -1602452752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_33
+      name: TinkerTilly_Wolf_Special02_North_03
       rect:
         serializedVersion: 2
-        x: 818
-        y: 46
-        width: 175
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2fc105b3f67f8840800000000000000
-      internalID: 5228528481486360365
+      spriteID: 62cedc0a2950b55fa09f62c29c4844ae
+      internalID: 477382215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_34
+      name: TinkerTilly_Wolf_Special02_North_04
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 47
-        width: 158
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 28b3abf6963753090800000000000000
-      internalID: -8055405461799027838
+      spriteID: 3dfef78b0e739293eb60266034553e0b
+      internalID: -33218798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Wolf_North_35
+      name: TinkerTilly_Wolf_Special02_North_05
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 48
-        width: 131
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bd22817a723914b0800000000000000
-      internalID: -5469284770993001032
+      spriteID: 83b2f86469149f58109a180c23354b7f
+      internalID: -955133127
       vertices: []
       indices: 
       edges: []
@@ -1039,7 +1039,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 62dc50e1ca47c014385ad4e2e91447d1
     internalID: 0
     vertices: []
     indices: 
@@ -1049,42 +1049,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TinkerTilly_Wolf_North_0: 8434607868798549428
-      TinkerTilly_Wolf_North_1: -7002178855736669284
-      TinkerTilly_Wolf_North_10: 6148586451014455976
-      TinkerTilly_Wolf_North_11: 4501523608849295554
-      TinkerTilly_Wolf_North_12: 4648487350612703074
-      TinkerTilly_Wolf_North_13: -3547779539894162075
-      TinkerTilly_Wolf_North_14: -3313948114001384167
-      TinkerTilly_Wolf_North_15: -5295135895254725605
-      TinkerTilly_Wolf_North_16: -4389314845426228156
-      TinkerTilly_Wolf_North_17: -1799906493679792335
-      TinkerTilly_Wolf_North_18: 2549904716298362102
-      TinkerTilly_Wolf_North_19: -2126236203267671425
-      TinkerTilly_Wolf_North_2: -6530568015246476696
-      TinkerTilly_Wolf_North_20: -1751030197557140179
-      TinkerTilly_Wolf_North_21: -197318306666835930
-      TinkerTilly_Wolf_North_22: -4420116480395267042
-      TinkerTilly_Wolf_North_23: -657455314384098615
-      TinkerTilly_Wolf_North_24: 6118352454405739729
-      TinkerTilly_Wolf_North_25: -7641646663177901276
-      TinkerTilly_Wolf_North_26: -4453374562342273226
-      TinkerTilly_Wolf_North_27: -7856034302817248835
-      TinkerTilly_Wolf_North_28: -4206770982119540658
-      TinkerTilly_Wolf_North_29: -8172527835373074097
-      TinkerTilly_Wolf_North_3: -3338729643085276038
-      TinkerTilly_Wolf_North_30: -156976689718261876
-      TinkerTilly_Wolf_North_31: 4949423291602174762
-      TinkerTilly_Wolf_North_32: 4700495285418005535
-      TinkerTilly_Wolf_North_33: 5228528481486360365
-      TinkerTilly_Wolf_North_34: -8055405461799027838
-      TinkerTilly_Wolf_North_35: -5469284770993001032
-      TinkerTilly_Wolf_North_4: 941366733124380881
-      TinkerTilly_Wolf_North_5: -590532060828342525
-      TinkerTilly_Wolf_North_6: -3806028406945104323
-      TinkerTilly_Wolf_North_7: 5855919370964091694
-      TinkerTilly_Wolf_North_8: 7864058704376156191
-      TinkerTilly_Wolf_North_9: -4136995667257643208
+      TinkerTilly_Wolf_Attack_North_00: 882545163
+      TinkerTilly_Wolf_Attack_North_01: -696020390
+      TinkerTilly_Wolf_Attack_North_02: 359339456
+      TinkerTilly_Wolf_Attack_North_03: 246670156
+      TinkerTilly_Wolf_Attack_North_04: 489349116
+      TinkerTilly_Wolf_Attack_North_05: -97508493
+      TinkerTilly_Wolf_Dead_North_00: -482127333
+      TinkerTilly_Wolf_Dead_North_01: -623981403
+      TinkerTilly_Wolf_Dead_North_02: -1711702868
+      TinkerTilly_Wolf_Dead_North_03: 1678444530
+      TinkerTilly_Wolf_Dead_North_04: 763124075
+      TinkerTilly_Wolf_Dead_North_05: 2032814977
+      TinkerTilly_Wolf_Idle_North_00: 949570978
+      TinkerTilly_Wolf_Idle_North_01: -1854255139
+      TinkerTilly_Wolf_Idle_North_02: 905305416
+      TinkerTilly_Wolf_Idle_North_03: -178812797
+      TinkerTilly_Wolf_Idle_North_04: 1391922212
+      TinkerTilly_Wolf_Idle_North_05: 781693942
+      TinkerTilly_Wolf_Special01_North_00: 436535790
+      TinkerTilly_Wolf_Special01_North_01: 1894871901
+      TinkerTilly_Wolf_Special01_North_02: -831071293
+      TinkerTilly_Wolf_Special01_North_03: 907445563
+      TinkerTilly_Wolf_Special01_North_04: -137635065
+      TinkerTilly_Wolf_Special01_North_05: -2011436
+      TinkerTilly_Wolf_Special02_North_00: -696031799
+      TinkerTilly_Wolf_Special02_North_01: 1623416353
+      TinkerTilly_Wolf_Special02_North_02: -1602452752
+      TinkerTilly_Wolf_Special02_North_03: 477382215
+      TinkerTilly_Wolf_Special02_North_04: -33218798
+      TinkerTilly_Wolf_Special02_North_05: -955133127
+      TinkerTilly_Wolf_Walk_North_00: -1214394207
+      TinkerTilly_Wolf_Walk_North_01: 1935478636
+      TinkerTilly_Wolf_Walk_North_02: 678503062
+      TinkerTilly_Wolf_Walk_North_03: -948808034
+      TinkerTilly_Wolf_Walk_North_04: -957776552
+      TinkerTilly_Wolf_Walk_North_05: 1456371010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

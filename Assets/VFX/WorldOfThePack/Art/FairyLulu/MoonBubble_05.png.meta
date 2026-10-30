@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 6f517a8870c137f489457556f0286853
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7465885895928839599
+    second: MoonBubble_05_0
+  - first:
+      213: 53497017767643270
+    second: MoonBubble_05_1
+  - first:
+      213: 4231609731839495354
+    second: MoonBubble_05_2
+  - first:
+      213: 9081076515533074927
+    second: MoonBubble_05_3
+  - first:
+      213: 803024971174252678
+    second: MoonBubble_05_4
+  - first:
+      213: 857206646428948367
+    second: MoonBubble_05_5
+  - first:
+      213: 1827902412730415236
+    second: MoonBubble_05_6
+  - first:
+      213: 8092086138333227065
+    second: MoonBubble_05_7
+  - first:
+      213: 3093208021504010601
+    second: MoonBubble_05_8
+  - first:
+      213: 8491146356432746095
+    second: MoonBubble_05_9
+  - first:
+      213: 2409032972221772908
+    second: MoonBubble_05_10
+  - first:
+      213: 7541687724193404263
+    second: MoonBubble_05_11
+  - first:
+      213: -3572904566783486264
+    second: MoonBubble_05_12
+  - first:
+      213: -3939090011247733963
+    second: MoonBubble_05_13
+  - first:
+      213: 7541629939457288960
+    second: MoonBubble_05_14
+  - first:
+      213: -773263193789254033
+    second: MoonBubble_05_15
+  - first:
+      213: 3019495356424415036
+    second: MoonBubble_05_16
+  - first:
+      213: 4498305331063181779
+    second: MoonBubble_05_17
+  - first:
+      213: -3469958795615037635
+    second: MoonBubble_05_18
+  - first:
+      213: 4471305499864412999
+    second: MoonBubble_05_19
+  - first:
+      213: -4216060849820569066
+    second: MoonBubble_05_20
+  - first:
+      213: -1845300474654872930
+    second: MoonBubble_05_21
+  - first:
+      213: 7442219025219043036
+    second: MoonBubble_05_22
+  - first:
+      213: 5618652977037248213
+    second: MoonBubble_05_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoonBubble_05_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 218
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15200976558d36890800000000000000
+      internalID: -7465885895928839599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 148
+        width: 48
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6884594114f0eb000800000000000000
+      internalID: 53497017767643270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 161
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc016e81a2b9ba30800000000000000
+      internalID: 4231609731839495354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 194
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1bd7e2af6760e70800000000000000
+      internalID: 9081076515533074927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 198
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6801c98e4fae42b00800000000000000
+      internalID: 803024971174252678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_5
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 166
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87508b37e865eb00800000000000000
+      internalID: 857206646428948367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 176
+        width: 73
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48830ea4f830e5910800000000000000
+      internalID: 1827902412730415236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 168
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 938e637187ddc4070800000000000000
+      internalID: 8092086138333227065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 164
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969a22a9e484dea20800000000000000
+      internalID: 3093208021504010601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 176
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66b6078f9c96d570800000000000000
+      internalID: 8491146356432746095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_10
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 98
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c647b7189ba9e6120800000000000000
+      internalID: 2409032972221772908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_11
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765d87f070579a860800000000000000
+      internalID: 7541687724193404263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_12
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 23
+        width: 107
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6df700a3e7a6ec0800000000000000
+      internalID: -3572904566783486264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_13
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 145
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5331a45418a8559c0800000000000000
+      internalID: -3939090011247733963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 156
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b6dc0097049a860800000000000000
+      internalID: 7541629939457288960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 148
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66be40e831d445f0800000000000000
+      internalID: -773263193789254033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c376e98570767e920800000000000000
+      internalID: 3019495356424415036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_17
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 91
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d154459dd03d6e30800000000000000
+      internalID: 4498305331063181779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_18
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 129
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d379f1a2cda38dfc0800000000000000
+      internalID: -3469958795615037635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_19
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 129
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7433ba189a44d0e30800000000000000
+      internalID: 4471305499864412999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 109
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6127307aefa8d75c0800000000000000
+      internalID: -4216060849820569066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a2650cefc2466e0800000000000000
+      internalID: -1845300474654872930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 23
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeb5dad5c2184760800000000000000
+      internalID: 7442219025219043036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonBubble_05_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 23
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d60f7c1d1779fd40800000000000000
+      internalID: 5618652977037248213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MoonBubble_05_0: -7465885895928839599
+      MoonBubble_05_1: 53497017767643270
+      MoonBubble_05_10: 2409032972221772908
+      MoonBubble_05_11: 7541687724193404263
+      MoonBubble_05_12: -3572904566783486264
+      MoonBubble_05_13: -3939090011247733963
+      MoonBubble_05_14: 7541629939457288960
+      MoonBubble_05_15: -773263193789254033
+      MoonBubble_05_16: 3019495356424415036
+      MoonBubble_05_17: 4498305331063181779
+      MoonBubble_05_18: -3469958795615037635
+      MoonBubble_05_19: 4471305499864412999
+      MoonBubble_05_2: 4231609731839495354
+      MoonBubble_05_20: -4216060849820569066
+      MoonBubble_05_21: -1845300474654872930
+      MoonBubble_05_22: 7442219025219043036
+      MoonBubble_05_23: 5618652977037248213
+      MoonBubble_05_3: 9081076515533074927
+      MoonBubble_05_4: 803024971174252678
+      MoonBubble_05_5: 857206646428948367
+      MoonBubble_05_6: 1827902412730415236
+      MoonBubble_05_7: 8092086138333227065
+      MoonBubble_05_8: 3093208021504010601
+      MoonBubble_05_9: 8491146356432746095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

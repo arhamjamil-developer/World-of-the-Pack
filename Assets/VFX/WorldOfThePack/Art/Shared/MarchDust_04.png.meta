@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: a5cfc8e38c62d3c45a6b5aff7e8689c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5225757300774246264
+    second: MarchDust_04_0
+  - first:
+      213: -30488481061699077
+    second: MarchDust_04_1
+  - first:
+      213: 8333451875153514705
+    second: MarchDust_04_2
+  - first:
+      213: 3403128725611005588
+    second: MarchDust_04_3
+  - first:
+      213: 8249365120461764837
+    second: MarchDust_04_4
+  - first:
+      213: -2697109948379610454
+    second: MarchDust_04_5
+  - first:
+      213: -7993009605078934571
+    second: MarchDust_04_6
+  - first:
+      213: 8096919900468249202
+    second: MarchDust_04_7
+  - first:
+      213: 2352320155892142918
+    second: MarchDust_04_8
+  - first:
+      213: 1492006338578954704
+    second: MarchDust_04_9
+  - first:
+      213: -2985953300029841061
+    second: MarchDust_04_10
+  - first:
+      213: -6512989013352057459
+    second: MarchDust_04_11
+  - first:
+      213: -9002368982691415660
+    second: MarchDust_04_12
+  - first:
+      213: -263297489664204609
+    second: MarchDust_04_13
+  - first:
+      213: 5165170700394538342
+    second: MarchDust_04_14
+  - first:
+      213: 2362332564571241549
+    second: MarchDust_04_15
+  - first:
+      213: 4754995548729640309
+    second: MarchDust_04_16
+  - first:
+      213: 2945259194493519537
+    second: MarchDust_04_17
+  - first:
+      213: -6506746401111694378
+    second: MarchDust_04_18
+  - first:
+      213: -3268551572362783271
+    second: MarchDust_04_19
+  - first:
+      213: -6060208920305667903
+    second: MarchDust_04_20
+  - first:
+      213: 7397895867466595053
+    second: MarchDust_04_21
+  - first:
+      213: 4928466882492012558
+    second: MarchDust_04_22
+  - first:
+      213: -2420307367384091290
+    second: MarchDust_04_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarchDust_04_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 91
+        width: 64
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88862f41c616a77b0800000000000000
+      internalID: -5225757300774246264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 205
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1839453eea39ff0800000000000000
+      internalID: -30488481061699077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 186
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d09653f35e56a370800000000000000
+      internalID: 8333451875153514705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 219
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496c8fe9b875a3f20800000000000000
+      internalID: 3403128725611005588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 175
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8fe9bbed1ab7270800000000000000
+      internalID: 8249365120461764837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 173
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa249a6bac0f19ad0800000000000000
+      internalID: -2697109948379610454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db1cfaec10231190800000000000000
+      internalID: -7993009605078934571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_7
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 189
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272833a00c90e5070800000000000000
+      internalID: 8096919900468249202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_8
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 199
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64351f9f7be15a020800000000000000
+      internalID: 2352320155892142918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_9
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 185
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d931a52cdba4b410800000000000000
+      internalID: 1492006338578954704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 149
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51e0db3b43cf86d0800000000000000
+      internalID: -2985953300029841061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 23
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85f029eff63d95a0800000000000000
+      internalID: -6512989013352057459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 163
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499fea95b19211380800000000000000
+      internalID: -9002368982691415660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_13
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 151
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb020520454985cf0800000000000000
+      internalID: -263297489664204609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 68
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a541c26f5ea740800000000000000
+      internalID: 5165170700394538342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 58
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c3b9883f0b8c020800000000000000
+      internalID: 2362332564571241549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 23
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575089e22432df140800000000000000
+      internalID: 4754995548729640309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 63
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b64d3bf1a9afd820800000000000000
+      internalID: 2945259194493519537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3af265f9463b5a0800000000000000
+      internalID: -6506746401111694378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 25
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5954799a5c3a2d0800000000000000
+      internalID: -3268551572362783271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_20
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 23
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f6886810d5eba0800000000000000
+      internalID: -6060208920305667903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 33
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea3da1881b9aa660800000000000000
+      internalID: 7397895867466595053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 23
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08963a748e656440800000000000000
+      internalID: 4928466882492012558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarchDust_04_23
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 25
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6657fcfc547596ed0800000000000000
+      internalID: -2420307367384091290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MarchDust_04_0: -5225757300774246264
+      MarchDust_04_1: -30488481061699077
+      MarchDust_04_10: -2985953300029841061
+      MarchDust_04_11: -6512989013352057459
+      MarchDust_04_12: -9002368982691415660
+      MarchDust_04_13: -263297489664204609
+      MarchDust_04_14: 5165170700394538342
+      MarchDust_04_15: 2362332564571241549
+      MarchDust_04_16: 4754995548729640309
+      MarchDust_04_17: 2945259194493519537
+      MarchDust_04_18: -6506746401111694378
+      MarchDust_04_19: -3268551572362783271
+      MarchDust_04_2: 8333451875153514705
+      MarchDust_04_20: -6060208920305667903
+      MarchDust_04_21: 7397895867466595053
+      MarchDust_04_22: 4928466882492012558
+      MarchDust_04_23: -2420307367384091290
+      MarchDust_04_3: 3403128725611005588
+      MarchDust_04_4: 8249365120461764837
+      MarchDust_04_5: -2697109948379610454
+      MarchDust_04_6: -7993009605078934571
+      MarchDust_04_7: 8096919900468249202
+      MarchDust_04_8: 2352320155892142918
+      MarchDust_04_9: 1492006338578954704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 1fef71ccdddab824ebe36c4a133bcc6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4169203620178148443
+    second: ZoomDash_00_0
+  - first:
+      213: -6470418159918545875
+    second: ZoomDash_00_1
+  - first:
+      213: -434329224021466845
+    second: ZoomDash_00_2
+  - first:
+      213: 5073456719848137538
+    second: ZoomDash_00_3
+  - first:
+      213: -6723848625838702335
+    second: ZoomDash_00_4
+  - first:
+      213: 5621358921587757736
+    second: ZoomDash_00_5
+  - first:
+      213: 5838114077131667541
+    second: ZoomDash_00_6
+  - first:
+      213: -3538778590536635068
+    second: ZoomDash_00_7
+  - first:
+      213: -3719608664977038619
+    second: ZoomDash_00_8
+  - first:
+      213: 8168634825219556054
+    second: ZoomDash_00_9
+  - first:
+      213: 6626197491369562172
+    second: ZoomDash_00_10
+  - first:
+      213: 6051087903704954016
+    second: ZoomDash_00_11
+  - first:
+      213: 8580939244821566699
+    second: ZoomDash_00_12
+  - first:
+      213: -7028042194164614747
+    second: ZoomDash_00_13
+  - first:
+      213: -3053134887382366383
+    second: ZoomDash_00_14
+  - first:
+      213: -748165512641033763
+    second: ZoomDash_00_15
+  - first:
+      213: 6978785303450547846
+    second: ZoomDash_00_16
+  - first:
+      213: 2592174481164230217
+    second: ZoomDash_00_17
+  - first:
+      213: 817922358423960689
+    second: ZoomDash_00_18
+  - first:
+      213: -7990892177840569040
+    second: ZoomDash_00_19
+  - first:
+      213: -3212888778441171298
+    second: ZoomDash_00_20
+  - first:
+      213: -4178110593228665482
+    second: ZoomDash_00_21
+  - first:
+      213: -2029008153714238878
+    second: ZoomDash_00_22
+  - first:
+      213: -4462933464530947924
+    second: ZoomDash_00_23
+  - first:
+      213: -4774030065858643024
+    second: ZoomDash_00_24
+  - first:
+      213: -8103705695595718133
+    second: ZoomDash_00_25
+  - first:
+      213: 944572477785301249
+    second: ZoomDash_00_26
+  - first:
+      213: 6010324043533103248
+    second: ZoomDash_00_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZoomDash_00_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 182
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cbdf86a9cfbd930800000000000000
+      internalID: 4169203620178148443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 209
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2481dd17f47436a0800000000000000
+      internalID: -6470418159918545875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32121a63fd3f8f9f0800000000000000
+      internalID: -434329224021466845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 205
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243edd1a10a886640800000000000000
+      internalID: 5073456719848137538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101c26d9c4710b2a0800000000000000
+      internalID: -6723848625838702335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 158
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2163ce724130e40800000000000000
+      internalID: 5621358921587757736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 205
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558f3ad42d5250150800000000000000
+      internalID: 5838114077131667541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 203
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d6e440f9bb3eec0800000000000000
+      internalID: -3538778590536635068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_8
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 208
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2249460ab416cc0800000000000000
+      internalID: -3719608664977038619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_9
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 177
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2c8112812dc5170800000000000000
+      internalID: 8168634825219556054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 23
+        width: 89
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30daa4e28bf4fb50800000000000000
+      internalID: 6626197491369562172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 192
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a43ffc6368c9f350800000000000000
+      internalID: 6051087903704954016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 205
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be45cc687ce951770800000000000000
+      internalID: 8580939244821566699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 31
+        width: 87
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a97c5e4cd0677e90800000000000000
+      internalID: -7028042194164614747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 163
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c8320ff511a5d0800000000000000
+      internalID: -3053134887382366383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 158
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd945d12e6bfd95f0800000000000000
+      internalID: -748165512641033763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_16
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 155
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686f2ef1240a9d060800000000000000
+      internalID: 6978785303450547846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 164
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e50a9e4f049f320800000000000000
+      internalID: 2592174481164230217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_18
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 158
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cb5bb2d08d95b00800000000000000
+      internalID: 817922358423960689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 145
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0358d5dd6e5aa1190800000000000000
+      internalID: -7990892177840569040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_20
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 139
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9edc2abda68963d0800000000000000
+      internalID: -3212888778441171298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 153
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d0f425d8e5406c0800000000000000
+      internalID: -4178110593228665482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_22
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 28
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26add7795d387d3e0800000000000000
+      internalID: -2029008153714238878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 31
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0fd6ed8a97012c0800000000000000
+      internalID: -4462933464530947924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 25
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbf571f2fc3fbdb0800000000000000
+      internalID: -4774030065858643024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 23
+        width: 120
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a15b9ea9ad98f80800000000000000
+      internalID: -8103705695595718133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_26
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 28
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101e00bf9abcb1d00800000000000000
+      internalID: 944572477785301249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZoomDash_00_27
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 23
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090b7cf9fd5f86350800000000000000
+      internalID: 6010324043533103248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ZoomDash_00_0: 4169203620178148443
+      ZoomDash_00_1: -6470418159918545875
+      ZoomDash_00_10: 6626197491369562172
+      ZoomDash_00_11: 6051087903704954016
+      ZoomDash_00_12: 8580939244821566699
+      ZoomDash_00_13: -7028042194164614747
+      ZoomDash_00_14: -3053134887382366383
+      ZoomDash_00_15: -748165512641033763
+      ZoomDash_00_16: 6978785303450547846
+      ZoomDash_00_17: 2592174481164230217
+      ZoomDash_00_18: 817922358423960689
+      ZoomDash_00_19: -7990892177840569040
+      ZoomDash_00_2: -434329224021466845
+      ZoomDash_00_20: -3212888778441171298
+      ZoomDash_00_21: -4178110593228665482
+      ZoomDash_00_22: -2029008153714238878
+      ZoomDash_00_23: -4462933464530947924
+      ZoomDash_00_24: -4774030065858643024
+      ZoomDash_00_25: -8103705695595718133
+      ZoomDash_00_26: 944572477785301249
+      ZoomDash_00_27: 6010324043533103248
+      ZoomDash_00_3: 5073456719848137538
+      ZoomDash_00_4: -6723848625838702335
+      ZoomDash_00_5: 5621358921587757736
+      ZoomDash_00_6: 5838114077131667541
+      ZoomDash_00_7: -3538778590536635068
+      ZoomDash_00_8: -3719608664977038619
+      ZoomDash_00_9: 8168634825219556054
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

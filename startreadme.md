@@ -2,6 +2,10 @@
 
 Initial game concept and design starting point.
 
+## Reusable card UI delivery
+
+The [card UI package](Assets/UI/WorldOfThePack/README.md) now contains separate frame/control art, fourteen human/wolf portraits, editable font labels, state-driven energy/deployment controls, UI effects, a base CardPortrait prefab, seven hero variants, and a responsive iPhone/iPad portrait hand. Its isolated showcase passed the recorded Unity Play Mode checks; see [the UI delivery evidence](Design/CardUI/README.md). Real unit spawning remains a gameplay integration task.
+
 ## Current direction — 30 October 2026
 
 The latest gameplay reference is [top-down cartoon gameplay v02](Assets/Visuals/pack-topdown-cartoon-gameplay-v02.png).

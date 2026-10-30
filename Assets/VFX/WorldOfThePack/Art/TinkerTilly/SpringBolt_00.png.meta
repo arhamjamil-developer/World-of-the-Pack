@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: bd3f0a230050f49408552bf4240aa2da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3866185048424664360
+    second: SpringBolt_00_0
+  - first:
+      213: -2618328836811960456
+    second: SpringBolt_00_1
+  - first:
+      213: -4245194022598833601
+    second: SpringBolt_00_2
+  - first:
+      213: -5559729729441312635
+    second: SpringBolt_00_3
+  - first:
+      213: 4607759590480125806
+    second: SpringBolt_00_4
+  - first:
+      213: -5351730435725420256
+    second: SpringBolt_00_5
+  - first:
+      213: 8533079124512866346
+    second: SpringBolt_00_6
+  - first:
+      213: 2325169896064340510
+    second: SpringBolt_00_7
+  - first:
+      213: -7305422172310447972
+    second: SpringBolt_00_8
+  - first:
+      213: 3147674126684883248
+    second: SpringBolt_00_9
+  - first:
+      213: 6594665884363100420
+    second: SpringBolt_00_10
+  - first:
+      213: -159889196997244428
+    second: SpringBolt_00_11
+  - first:
+      213: -8108737102717605409
+    second: SpringBolt_00_12
+  - first:
+      213: -176938414712561945
+    second: SpringBolt_00_13
+  - first:
+      213: 3793473260633744715
+    second: SpringBolt_00_14
+  - first:
+      213: -3720342998943577224
+    second: SpringBolt_00_15
+  - first:
+      213: -2285434566996355728
+    second: SpringBolt_00_16
+  - first:
+      213: 2312448988949017416
+    second: SpringBolt_00_17
+  - first:
+      213: 3391808795903544409
+    second: SpringBolt_00_18
+  - first:
+      213: -5856312734312056160
+    second: SpringBolt_00_19
+  - first:
+      213: 6705017534220072277
+    second: SpringBolt_00_20
+  - first:
+      213: 748937066187643593
+    second: SpringBolt_00_21
+  - first:
+      213: -7351450631470620090
+    second: SpringBolt_00_22
+  - first:
+      213: -7802019381021129948
+    second: SpringBolt_00_23
+  - first:
+      213: 1302260344822846012
+    second: SpringBolt_00_24
+  - first:
+      213: -222328979405391506
+    second: SpringBolt_00_25
+  - first:
+      213: -673651160647083767
+    second: SpringBolt_00_26
+  - first:
+      213: 6041012546404406556
+    second: SpringBolt_00_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpringBolt_00_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 171
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d474f41d277a530800000000000000
+      internalID: 3866185048424664360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 119
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f49a0abc3d9abd0800000000000000
+      internalID: -2618328836811960456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 163
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a8268478a0615c0800000000000000
+      internalID: -4245194022598833601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 116
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580d87d844fd7d2b0800000000000000
+      internalID: -5559729729441312635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 190
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f97f04fec02ff30800000000000000
+      internalID: 4607759590480125806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 205
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02990fcf585dab5b0800000000000000
+      internalID: -5351730435725420256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 150
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2004e8e0469b6670800000000000000
+      internalID: 8533079124512866346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_7
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 129
+        width: 79
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12d85183b9a44020800000000000000
+      internalID: 2325169896064340510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 159
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c985c257d3ded9a90800000000000000
+      internalID: -7305422172310447972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 155
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0398dbde0f8ceab20800000000000000
+      internalID: 3147674126684883248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 127
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40199d98ea5f48b50800000000000000
+      internalID: 6594665884363100420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 132
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f98e895f95f7cdf0800000000000000
+      internalID: -159889196997244428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_12
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 138
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9ac77219af77f80800000000000000
+      internalID: -8108737102717605409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_13
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 140
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eedfe303736b8df0800000000000000
+      internalID: -176938414712561945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 133
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b456405f4df15a430800000000000000
+      internalID: 3793473260633744715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 23
+        width: 53
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b4b51f0cfae5cc0800000000000000
+      internalID: -3720342998943577224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 132
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07598ccbe518840e0800000000000000
+      internalID: -2285434566996355728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 107
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84374838a18771020800000000000000
+      internalID: 2312448988949017416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_18
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c40e91120221f20800000000000000
+      internalID: 3391808795903544409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 123
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aabbb1a8923abea0800000000000000
+      internalID: -5856312734312056160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 112
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f3f33ce10d0d50800000000000000
+      internalID: 6705017534220072277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_21
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 54
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cadc3d2b42c46a00800000000000000
+      internalID: 748937066187643593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 23
+        width: 104
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6426f5fa9966af990800000000000000
+      internalID: -7351450631470620090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 103
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423c587b5b8a9b390800000000000000
+      internalID: -7802019381021129948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 81
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c325e3a42ee821210800000000000000
+      internalID: 1302260344822846012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 23
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69344f98f02aecf0800000000000000
+      internalID: -222328979405391506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909d91ba6d5b6a6f0800000000000000
+      internalID: -673651160647083767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpringBolt_00_27
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 23
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15dc1087ecf5d350800000000000000
+      internalID: 6041012546404406556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpringBolt_00_0: 3866185048424664360
+      SpringBolt_00_1: -2618328836811960456
+      SpringBolt_00_10: 6594665884363100420
+      SpringBolt_00_11: -159889196997244428
+      SpringBolt_00_12: -8108737102717605409
+      SpringBolt_00_13: -176938414712561945
+      SpringBolt_00_14: 3793473260633744715
+      SpringBolt_00_15: -3720342998943577224
+      SpringBolt_00_16: -2285434566996355728
+      SpringBolt_00_17: 2312448988949017416
+      SpringBolt_00_18: 3391808795903544409
+      SpringBolt_00_19: -5856312734312056160
+      SpringBolt_00_2: -4245194022598833601
+      SpringBolt_00_20: 6705017534220072277
+      SpringBolt_00_21: 748937066187643593
+      SpringBolt_00_22: -7351450631470620090
+      SpringBolt_00_23: -7802019381021129948
+      SpringBolt_00_24: 1302260344822846012
+      SpringBolt_00_25: -222328979405391506
+      SpringBolt_00_26: -673651160647083767
+      SpringBolt_00_27: 6041012546404406556
+      SpringBolt_00_3: -5559729729441312635
+      SpringBolt_00_4: 4607759590480125806
+      SpringBolt_00_5: -5351730435725420256
+      SpringBolt_00_6: 8533079124512866346
+      SpringBolt_00_7: 2325169896064340510
+      SpringBolt_00_8: -7305422172310447972
+      SpringBolt_00_9: 3147674126684883248
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 3fa99957c109d8144a24dd2abd781a9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4962891918537394049
+    second: BouncingAcorn_01_0
+  - first:
+      213: -6028353340961960830
+    second: BouncingAcorn_01_1
+  - first:
+      213: -7272318728065257143
+    second: BouncingAcorn_01_2
+  - first:
+      213: 486914402154973111
+    second: BouncingAcorn_01_3
+  - first:
+      213: 8634045032639695680
+    second: BouncingAcorn_01_4
+  - first:
+      213: -5995310044409515700
+    second: BouncingAcorn_01_5
+  - first:
+      213: 7024025888405077760
+    second: BouncingAcorn_01_6
+  - first:
+      213: 6288945435869804574
+    second: BouncingAcorn_01_7
+  - first:
+      213: 6084420275448229023
+    second: BouncingAcorn_01_8
+  - first:
+      213: -8513161096412705076
+    second: BouncingAcorn_01_9
+  - first:
+      213: -3909672257223124921
+    second: BouncingAcorn_01_10
+  - first:
+      213: -7537677709768905631
+    second: BouncingAcorn_01_11
+  - first:
+      213: 1793462052723872523
+    second: BouncingAcorn_01_12
+  - first:
+      213: 7693399628986801411
+    second: BouncingAcorn_01_13
+  - first:
+      213: 8973266114845829036
+    second: BouncingAcorn_01_14
+  - first:
+      213: -3223398286341496329
+    second: BouncingAcorn_01_15
+  - first:
+      213: -2607003327979485345
+    second: BouncingAcorn_01_16
+  - first:
+      213: -8740409471803497136
+    second: BouncingAcorn_01_17
+  - first:
+      213: 4996779718584085422
+    second: BouncingAcorn_01_18
+  - first:
+      213: -3051398442779793211
+    second: BouncingAcorn_01_19
+  - first:
+      213: -999590556995646388
+    second: BouncingAcorn_01_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BouncingAcorn_01_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 117
+        width: 88
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78fbe83814402bb0800000000000000
+      internalID: -4962891918537394049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 167
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c4c63739cf65ca0800000000000000
+      internalID: -6028353340961960830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 202
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941ff30b5a8831b90800000000000000
+      internalID: -7272318728065257143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 190
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b70878a11ed1c600800000000000000
+      internalID: 486914402154973111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_4
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 190
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b0739463a42d770800000000000000
+      internalID: 8634045032639695680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 192
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41b3a477416ccca0800000000000000
+      internalID: -5995310044409515700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 155
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f3883a45a5a7160800000000000000
+      internalID: 7024025888405077760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 182
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1875dcbd82d64750800000000000000
+      internalID: 6288945435869804574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_8
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ca64ef004307450800000000000000
+      internalID: 6084420275448229023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_9
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 151
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce45a4661d2bd980800000000000000
+      internalID: -8513161096412705076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 166
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7481400ebcd0eb9c0800000000000000
+      internalID: -3909672257223124921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 151
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c28dd2f0ac46790800000000000000
+      internalID: -7537677709768905631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 23
+        width: 180
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03dfba1c38a3e810800000000000000
+      internalID: 1793462052723872523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 137
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d51e0833274ca60800000000000000
+      internalID: 7693399628986801411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 144
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca76f623df1778c70800000000000000
+      internalID: 8973266114845829036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_15
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 146
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1230d36503443d0800000000000000
+      internalID: -3223398286341496329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 68
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f578583294012dbd0800000000000000
+      internalID: -2607003327979485345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05561b1e4e3d3b680800000000000000
+      internalID: -8740409471803497136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 75
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaba4131ea0285540800000000000000
+      internalID: 4996779718584085422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c82ee5884147a5d0800000000000000
+      internalID: -3051398442779793211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BouncingAcorn_01_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 23
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c80793fadb022f0800000000000000
+      internalID: -999590556995646388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BouncingAcorn_01_0: -4962891918537394049
+      BouncingAcorn_01_1: -6028353340961960830
+      BouncingAcorn_01_10: -3909672257223124921
+      BouncingAcorn_01_11: -7537677709768905631
+      BouncingAcorn_01_12: 1793462052723872523
+      BouncingAcorn_01_13: 7693399628986801411
+      BouncingAcorn_01_14: 8973266114845829036
+      BouncingAcorn_01_15: -3223398286341496329
+      BouncingAcorn_01_16: -2607003327979485345
+      BouncingAcorn_01_17: -8740409471803497136
+      BouncingAcorn_01_18: 4996779718584085422
+      BouncingAcorn_01_19: -3051398442779793211
+      BouncingAcorn_01_2: -7272318728065257143
+      BouncingAcorn_01_20: -999590556995646388
+      BouncingAcorn_01_3: 486914402154973111
+      BouncingAcorn_01_4: 8634045032639695680
+      BouncingAcorn_01_5: -5995310044409515700
+      BouncingAcorn_01_6: 7024025888405077760
+      BouncingAcorn_01_7: 6288945435869804574
+      BouncingAcorn_01_8: 6084420275448229023
+      BouncingAcorn_01_9: -8513161096412705076
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

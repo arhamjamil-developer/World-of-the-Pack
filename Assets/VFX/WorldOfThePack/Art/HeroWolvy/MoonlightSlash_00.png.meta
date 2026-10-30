@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: 19662558887dc8a4c9c8c3ad16e6d17e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7229917522019393767
+    second: MoonlightSlash_00_0
+  - first:
+      213: -1465232514586306623
+    second: MoonlightSlash_00_1
+  - first:
+      213: 8593530865107937715
+    second: MoonlightSlash_00_2
+  - first:
+      213: 3791474195722031153
+    second: MoonlightSlash_00_3
+  - first:
+      213: 3782618855215213299
+    second: MoonlightSlash_00_4
+  - first:
+      213: 5956228454411825911
+    second: MoonlightSlash_00_5
+  - first:
+      213: -7423899661325513716
+    second: MoonlightSlash_00_6
+  - first:
+      213: -7137127835924249673
+    second: MoonlightSlash_00_7
+  - first:
+      213: -2171435301352328521
+    second: MoonlightSlash_00_8
+  - first:
+      213: 3039411840163226458
+    second: MoonlightSlash_00_9
+  - first:
+      213: -8870344827442528119
+    second: MoonlightSlash_00_10
+  - first:
+      213: 4667680051448044044
+    second: MoonlightSlash_00_11
+  - first:
+      213: -6142808190173330776
+    second: MoonlightSlash_00_12
+  - first:
+      213: 7657434130881699727
+    second: MoonlightSlash_00_13
+  - first:
+      213: -583646967008713091
+    second: MoonlightSlash_00_14
+  - first:
+      213: 4658737254122679495
+    second: MoonlightSlash_00_15
+  - first:
+      213: -3692359464769908330
+    second: MoonlightSlash_00_16
+  - first:
+      213: -2708865361153841061
+    second: MoonlightSlash_00_17
+  - first:
+      213: -3950058669449464012
+    second: MoonlightSlash_00_18
+  - first:
+      213: -342084918498170174
+    second: MoonlightSlash_00_19
+  - first:
+      213: -4710126114166159731
+    second: MoonlightSlash_00_20
+  - first:
+      213: 6060341058763343831
+    second: MoonlightSlash_00_21
+  - first:
+      213: 1360892448895018418
+    second: MoonlightSlash_00_22
+  - first:
+      213: -3336618280701315549
+    second: MoonlightSlash_00_23
+  - first:
+      213: 7377903754364547835
+    second: MoonlightSlash_00_24
+  - first:
+      213: 1406471208228392646
+    second: MoonlightSlash_00_25
+  - first:
+      213: 5777175087440615663
+    second: MoonlightSlash_00_26
+  - first:
+      213: -6466753025219684677
+    second: MoonlightSlash_00_27
+  - first:
+      213: 3791396276269401878
+    second: MoonlightSlash_00_28
+  - first:
+      213: 686854309604990221
+    second: MoonlightSlash_00_29
+  - first:
+      213: 1320242607924369225
+    second: MoonlightSlash_00_30
+  - first:
+      213: -4564574876626195293
+    second: MoonlightSlash_00_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoonlightSlash_00_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 199
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0a6573ea3d55460800000000000000
+      internalID: 7229917522019393767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 218
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c71bb68ac27aabe0800000000000000
+      internalID: -1465232514586306623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 221
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b92d159aca524770800000000000000
+      internalID: 8593530865107937715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 202
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130521361b50e9430800000000000000
+      internalID: 3791474195722031153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 171
+        width: 59
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa2cc1cecf8e7430800000000000000
+      internalID: 3782618855215213299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 151
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f27a4ac836c8a250800000000000000
+      internalID: 5956228454411825911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 202
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ccc8e679209f890800000000000000
+      internalID: -7423899661325513716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 185
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3ce2f1c04d3fc90800000000000000
+      internalID: -7137127835924249673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 158
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2b62229138dd1e0800000000000000
+      internalID: -2171435301352328521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 197
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53ab0317f82e2a20800000000000000
+      internalID: 3039411840163226458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9808015606436e480800000000000000
+      internalID: -8870344827442528119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 130
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0adcbfb64ee6c040800000000000000
+      internalID: 4667680051448044044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 171
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2cb5d3f7c50caa0800000000000000
+      internalID: -6142808190173330776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_13
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 185
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fd72e65cba44a60800000000000000
+      internalID: 7657434130881699727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 155
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7626310d2876e7f0800000000000000
+      internalID: -583646967008713091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 156
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc6cdd79d827a040800000000000000
+      internalID: 4658737254122679495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691965731aa12ccc0800000000000000
+      internalID: -3692359464769908330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 153
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58a0146e4d286ad0800000000000000
+      internalID: -2708865361153841061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 164
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437338581929e29c0800000000000000
+      internalID: -3950058669449464012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 164
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cae5ed349ba04bf0800000000000000
+      internalID: -342084918498170174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 168
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86c5d5214542aeb0800000000000000
+      internalID: -4710126114166159731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 164
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7cd497518aa1450800000000000000
+      internalID: 6060341058763343831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 106
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b526e1d87cd2e210800000000000000
+      internalID: 1360892448895018418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_23
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 95
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32639b31a53f1b1d0800000000000000
+      internalID: -3336618280701315549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf27be1ff54936660800000000000000
+      internalID: 7377903754364547835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 142
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce8441bc1ac48310800000000000000
+      internalID: 1406471208228392646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 122
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8522c1226ac2050800000000000000
+      internalID: 5777175087440615663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_27
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 210
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61999c26a7146a0800000000000000
+      internalID: -6466753025219684677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617c6c953debd9430800000000000000
+      internalID: 3791396276269401878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 114
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d93700b52388900800000000000000
+      internalID: 686854309604990221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_30
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 49
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947daae28a1725210800000000000000
+      internalID: 1320242607924369225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonlightSlash_00_31
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 52
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ace508755f57a0c0800000000000000
+      internalID: -4564574876626195293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MoonlightSlash_00_0: 7229917522019393767
+      MoonlightSlash_00_1: -1465232514586306623
+      MoonlightSlash_00_10: -8870344827442528119
+      MoonlightSlash_00_11: 4667680051448044044
+      MoonlightSlash_00_12: -6142808190173330776
+      MoonlightSlash_00_13: 7657434130881699727
+      MoonlightSlash_00_14: -583646967008713091
+      MoonlightSlash_00_15: 4658737254122679495
+      MoonlightSlash_00_16: -3692359464769908330
+      MoonlightSlash_00_17: -2708865361153841061
+      MoonlightSlash_00_18: -3950058669449464012
+      MoonlightSlash_00_19: -342084918498170174
+      MoonlightSlash_00_2: 8593530865107937715
+      MoonlightSlash_00_20: -4710126114166159731
+      MoonlightSlash_00_21: 6060341058763343831
+      MoonlightSlash_00_22: 1360892448895018418
+      MoonlightSlash_00_23: -3336618280701315549
+      MoonlightSlash_00_24: 7377903754364547835
+      MoonlightSlash_00_25: 1406471208228392646
+      MoonlightSlash_00_26: 5777175087440615663
+      MoonlightSlash_00_27: -6466753025219684677
+      MoonlightSlash_00_28: 3791396276269401878
+      MoonlightSlash_00_29: 686854309604990221
+      MoonlightSlash_00_3: 3791474195722031153
+      MoonlightSlash_00_30: 1320242607924369225
+      MoonlightSlash_00_31: -4564574876626195293
+      MoonlightSlash_00_4: 3782618855215213299
+      MoonlightSlash_00_5: 5956228454411825911
+      MoonlightSlash_00_6: -7423899661325513716
+      MoonlightSlash_00_7: -7137127835924249673
+      MoonlightSlash_00_8: -2171435301352328521
+      MoonlightSlash_00_9: 3039411840163226458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

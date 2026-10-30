@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: StarShower
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: WizardMomo
+  description: a compact shower of five-point purple/gold stars landing inside a
+    thin subtle magic ring, top-down
+  frames:
+  - {fileID: 21300000, guid: b84a8ed36480b4547b43a67190ef213b, type: 3}
+  - {fileID: 21300000, guid: 024038e6176cd4e4899c37cbdb2f1b90, type: 3}
+  - {fileID: 21300000, guid: 4545f5ecdf64edd4fa7a96699e311d07, type: 3}
+  - {fileID: 21300000, guid: 313af7d9801cab8479624e0b776b60cf, type: 3}
+  - {fileID: 21300000, guid: 15f2be44f35bbf644988c878295450a1, type: 3}
+  - {fileID: 21300000, guid: 303861370de56a040b6bd1073e78e74d, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 881e68d8d0fb48a43975ee6e5bc17ee3, type: 2}

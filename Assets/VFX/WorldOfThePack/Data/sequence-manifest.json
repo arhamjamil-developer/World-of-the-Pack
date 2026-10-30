@@ -1,0 +1,322 @@
+[
+  {
+    "group": "HeroWolvy",
+    "name": "MoonlightSlash",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a crisp GOLDEN MOONLIGHT crescent sword slash sweeping north, warm gold white core, no blue ribbon"
+  },
+  {
+    "group": "HeroWolvy",
+    "name": "MoonImpact",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a compact golden crescent impact with three heroic paw-shaped sparks"
+  },
+  {
+    "group": "HeroWolvy",
+    "name": "PawDash",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a narrow gold paw dash streak pointing north with a tiny warm dust puff"
+  },
+  {
+    "group": "HeroWolvy",
+    "name": "RallyHowl",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 7,
+    "description": "an expanding gold protective paw-emblem ring, clear transparent middle"
+  },
+  {
+    "group": "PrincessElva",
+    "name": "NatureArrow",
+    "frames": 6,
+    "fps": 14,
+    "sortingOrder": 18,
+    "description": "one elegant slim EMERALD leaf-shaped arrow pointing north, thin leaf trail"
+  },
+  {
+    "group": "PrincessElva",
+    "name": "LeafImpact",
+    "frames": 6,
+    "fps": 14,
+    "sortingOrder": 18,
+    "description": "a compact emerald leaf burst with three curling little leaves, not a star explosion"
+  },
+  {
+    "group": "PrincessElva",
+    "name": "LeafVolley",
+    "frames": 6,
+    "fps": 14,
+    "sortingOrder": 18,
+    "description": "three gracefully fanned emerald leaf arrows pointing north, readable arrow shafts"
+  },
+  {
+    "group": "PrincessElva",
+    "name": "ForestFocus",
+    "frames": 6,
+    "fps": 14,
+    "sortingOrder": 7,
+    "description": "a delicate green/gold leaf-shaped precision reticle, then a light leaf spiral, transparent center"
+  },
+  {
+    "group": "FairyLulu",
+    "name": "MoonBubble",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 18,
+    "description": "one adorable pastel aqua moonlight bubble projectile with tiny crescent highlight pointing north"
+  },
+  {
+    "group": "FairyLulu",
+    "name": "BlessingPop",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 18,
+    "description": "a tiny pink/aqua heart-and-crescent sparkle pop, gentle not explosive"
+  },
+  {
+    "group": "FairyLulu",
+    "name": "HealingCircle",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 7,
+    "description": "a soft pastel aqua healing ring with few small hearts and healing sparkles, clear transparent center"
+  },
+  {
+    "group": "FairyLulu",
+    "name": "ProtectiveBubble",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 18,
+    "description": "a thin clear blue protective bubble sphere rim with very sparse white highlights, transparent interior"
+  },
+  {
+    "group": "CaptainBobo",
+    "name": "BouncingAcorn",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 18,
+    "description": "one chunky warm brown and golden acorn projectile with simple small bouncing motion and squash, no character"
+  },
+  {
+    "group": "CaptainBobo",
+    "name": "EarthImpact",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 18,
+    "description": "a compact warm earth-powered paw slam, small rounded pebbles and amber dust, no screen-filling cloud"
+  },
+  {
+    "group": "CaptainBobo",
+    "name": "AcornShockwave",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 7,
+    "description": "a broad low circular amber ground shockwave with bouncing little acorns"
+  },
+  {
+    "group": "CaptainBobo",
+    "name": "AcornBarrier",
+    "frames": 6,
+    "fps": 10,
+    "sortingOrder": 7,
+    "description": "a warm amber rounded protective shield barrier with small acorn emblem and clear middle"
+  },
+  {
+    "group": "ScoutPip",
+    "name": "WindStrike",
+    "frames": 6,
+    "fps": 18,
+    "sortingOrder": 18,
+    "description": "a very narrow fast CYAN WIND blade pointing north, tapered white/cyan streak, no leaf or star"
+  },
+  {
+    "group": "ScoutPip",
+    "name": "QuickImpact",
+    "frames": 6,
+    "fps": 18,
+    "sortingOrder": 18,
+    "description": "a small crisp cyan speed-line impact and tiny cream dust puff"
+  },
+  {
+    "group": "ScoutPip",
+    "name": "ZoomDash",
+    "frames": 6,
+    "fps": 18,
+    "sortingOrder": 18,
+    "description": "a thin elongated cyan wind dash trail pointing north with two simple paw speed marks, no character afterimages"
+  },
+  {
+    "group": "ScoutPip",
+    "name": "Whirlwind",
+    "frames": 6,
+    "fps": 18,
+    "sortingOrder": 18,
+    "description": "a compact cyan-and-white spinning whirlwind curl seen from above, transparent center"
+  },
+  {
+    "group": "WizardMomo",
+    "name": "StarProjectile",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "one distinct glowing five-point PURPLE COSMIC STAR projectile pointing north with three tiny star specks"
+  },
+  {
+    "group": "WizardMomo",
+    "name": "CosmicPop",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a playful purple/gold cosmic star-shaped explosion, not a generic circular fireball"
+  },
+  {
+    "group": "WizardMomo",
+    "name": "StarShower",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a compact shower of five-point purple/gold stars landing inside a thin subtle magic ring, top-down"
+  },
+  {
+    "group": "WizardMomo",
+    "name": "MoonNova",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a purple crescent core blooms into a spectacular but bounded star burst, then fades into few stars"
+  },
+  {
+    "group": "TinkerTilly",
+    "name": "SpringBolt",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a playful brass/yellow SPRING-POWERED toy projectile pointing north, visible coiled spring shape and turquoise core"
+  },
+  {
+    "group": "TinkerTilly",
+    "name": "BrassImpact",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a compact brass gear-and-spark impact with orange and turquoise highlights, no stars or hearts"
+  },
+  {
+    "group": "TinkerTilly",
+    "name": "BouncingTrap",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 7,
+    "description": "a little wooden/brass wind-up paw trap pops open on a spring, one small landing ring, no character"
+  },
+  {
+    "group": "TinkerTilly",
+    "name": "BubbleDevice",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a turquoise transparent bubble trap with little brass gear rim and a tiny spring trigger, no healing hearts"
+  },
+  {
+    "group": "Shared",
+    "name": "MarchDust",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 7,
+    "description": "small warm beige cartoon dust puffs from footsteps, no feet/characters"
+  },
+  {
+    "group": "Shared",
+    "name": "EnemySpawn",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 7,
+    "description": "a small orange/coral arrival ring with harmless leaf flecks, clear middle"
+  },
+  {
+    "group": "Shared",
+    "name": "EnemyDefeat",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a friendly cream/gold poof scattering a few rounded stars, no body/grave"
+  },
+  {
+    "group": "Shared",
+    "name": "CriticalBurst",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a crisp small golden critical-hit burst with four-point stars, no numbers/letters"
+  },
+  {
+    "group": "Shared",
+    "name": "MoonTransformation",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a controlled blue/gold crescent dissolve sparkle ring, clear middle for a character"
+  },
+  {
+    "group": "Shared",
+    "name": "ComboLink",
+    "frames": 6,
+    "fps": 12,
+    "sortingOrder": 18,
+    "description": "a thin teal-and-gold arcing ribbon with two small link sparks, no characters or UI"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "EnemySlamCircle",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "EnemySlamCircle"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "EnemyConeSouth",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "EnemyConeSouth"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "EnemyChargeLane",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "EnemyChargeLane"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "EnemyLandingTarget",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "EnemyLandingTarget"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "DeploymentValid",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "DeploymentValid"
+  },
+  {
+    "group": "Telegraphs",
+    "name": "DeploymentInvalid",
+    "frames": 1,
+    "fps": 12,
+    "sortingOrder": 3,
+    "description": "DeploymentInvalid"
+  }
+]

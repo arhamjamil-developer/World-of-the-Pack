@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MoonNova
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: WizardMomo
+  description: a purple crescent core blooms into a spectacular but bounded star
+    burst, then fades into few stars
+  frames:
+  - {fileID: 21300000, guid: 31ac4e2df41c9fa4bbf8f099a223022a, type: 3}
+  - {fileID: 21300000, guid: aebe2136b9043c44398a09e5a4011421, type: 3}
+  - {fileID: 21300000, guid: 987288242eab8aa4f8aa6bf539dbdb88, type: 3}
+  - {fileID: 21300000, guid: c05765e7e28e5c04a80471e6dd589e8d, type: 3}
+  - {fileID: 21300000, guid: 3a243beffb4025a4f83df3589e972eff, type: 3}
+  - {fileID: 21300000, guid: 365521a358e69d644aabb0d3d48cc5ed, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: aa2e3a7750838884ea54af0f3e6c3cd5, type: 2}

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "HeroWolvy",
+    "fps": 12,
+    "rows": [
+      [
+        "MoonlightSlash",
+        "a crisp GOLDEN MOONLIGHT crescent sword slash sweeping north, warm gold white core, no blue ribbon"
+      ],
+      [
+        "MoonImpact",
+        "a compact golden crescent impact with three heroic paw-shaped sparks"
+      ],
+      [
+        "PawDash",
+        "a narrow gold paw dash streak pointing north with a tiny warm dust puff"
+      ],
+      [
+        "RallyHowl",
+        "an expanding gold protective paw-emblem ring, clear transparent middle"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-f6bb6876-126a-4552-827a-20212bb7e9b1.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY HeroWolvy's4distincteffects:\nROW1: a crisp GOLDEN MOONLIGHT crescent sword slash sweeping north, warm gold white core, no blue ribbon.\nROW2: a compact golden crescent impact with three heroic paw-shaped sparks.\nROW3: a narrow gold paw dash streak pointing north with a tiny warm dust puff.\nROW4: an expanding gold protective paw-emblem ring, clear transparent middle.\nKeep allfourrows visuallydistinct, no recoloredcopies. Drawonlyeffectart, not heroportraitsorweaponsheldbyactors."
+  },
+  {
+    "id": "PrincessElva",
+    "fps": 14,
+    "rows": [
+      [
+        "NatureArrow",
+        "one elegant slim EMERALD leaf-shaped arrow pointing north, thin leaf trail"
+      ],
+      [
+        "LeafImpact",
+        "a compact emerald leaf burst with three curling little leaves, not a star explosion"
+      ],
+      [
+        "LeafVolley",
+        "three gracefully fanned emerald leaf arrows pointing north, readable arrow shafts"
+      ],
+      [
+        "ForestFocus",
+        "a delicate green/gold leaf-shaped precision reticle, then a light leaf spiral, transparent center"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-031bc5b5-5e62-471f-90dc-fb197c73433c.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY PrincessElva's4distincteffects:\nROW1: one elegant slim EMERALD leaf-shaped arrow pointing north, thin leaf trail.\nROW2: a compact emerald leaf burst with three curling little leaves, not a star explosion.\nROW3: three gracefully fanned emerald leaf arrows pointing north, readable arrow shafts.\nROW4: a delicate green/gold leaf-shaped precision reticle, then a light leaf spiral, transparent center.\nKeep allfourrows visuallydistinct, no recoloredcopies. Drawonlyeffectart, not heroportraitsorweaponsheldbyactors."
+  },
+  {
+    "id": "FairyLulu",
+    "fps": 10,
+    "rows": [
+      [
+        "MoonBubble",
+        "one adorable pastel aqua moonlight bubble projectile with tiny crescent highlight pointing north"
+      ],
+      [
+        "BlessingPop",
+        "a tiny pink/aqua heart-and-crescent sparkle pop, gentle not explosive"
+      ],
+      [
+        "HealingCircle",
+        "a soft pastel aqua healing ring with few small hearts and healing sparkles, clear transparent center"
+      ],
+      [
+        "ProtectiveBubble",
+        "a thin clear blue protective bubble sphere rim with very sparse white highlights, transparent interior"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-f9baa78b-3f7f-45ad-93cb-b1ee9ceab622.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY FairyLulu's4distincteffects:\nROW1: one adorable pastel aqua moonlight bubble projectile with tiny crescent highlight pointing north.\nROW2: a tiny pink/aqua heart-and-crescent sparkle pop, gentle not explosive.\nROW3: a soft pastel aqua healing ring with few small hearts and healing sparkles, clear transparent center.\nROW4: a thin clear blue protective bubble sphere rim with very sparse white highlights, transparent interior.\nKeep allfourrows visuallydistinct, no recoloredcopies. Drawonlyeffectart, not heroportraitsorweaponsheldbyactors."
+  },
+  {
+    "id": "CaptainBobo",
+    "fps": 10,
+    "rows": [
+      [
+        "BouncingAcorn",
+        "one chunky warm brown and golden acorn projectile with simple small bouncing motion and squash, no character"
+      ],
+      [
+        "EarthImpact",
+        "a compact warm earth-powered paw slam, small rounded pebbles and amber dust, no screen-filling cloud"
+      ],
+      [
+        "AcornShockwave",
+        "a broad low circular amber ground shockwave with bouncing little acorns"
+      ],
+      [
+        "AcornBarrier",
+        "a warm amber rounded protective shield barrier with small acorn emblem and clear middle"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-ee107fb4-fd9b-404b-bd02-c4b15cd9461c.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY CaptainBobo's4effects:\nROW1: one chunky warm brown and golden acorn projectile with simple small bouncing motion and squash, no character.\nROW2: a compact warm earth-powered paw slam, small rounded pebbles and amber dust, no screen-filling cloud.\nROW3: a broad low circular amber ground shockwave with bouncing little acorns.\nROW4: a warm amber rounded protective shield barrier with small acorn emblem and clear middle.\nPaint only sparse effect shapes, NO full-frame ambientglow clouds. The file is a game spriteatlas, not a glowy marketingillustration. Keep trueclearalphaandseparatecells."
+  },
+  {
+    "id": "ScoutPip",
+    "fps": 18,
+    "rows": [
+      [
+        "WindStrike",
+        "a very narrow fast CYAN WIND blade pointing north, tapered white/cyan streak, no leaf or star"
+      ],
+      [
+        "QuickImpact",
+        "a small crisp cyan speed-line impact and tiny cream dust puff"
+      ],
+      [
+        "ZoomDash",
+        "a thin elongated cyan wind dash trail pointing north with two simple paw speed marks, no character afterimages"
+      ],
+      [
+        "Whirlwind",
+        "a compact cyan-and-white spinning whirlwind curl seen from above, transparent center"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-03ea42e6-082e-477b-a181-7b53f082633c.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY ScoutPip's4effects:\nROW1: a very narrow fast CYAN WIND blade pointing north, tapered white/cyan streak, no leaf or star.\nROW2: a small crisp cyan speed-line impact and tiny cream dust puff.\nROW3: a thin elongated cyan wind dash trail pointing north with two simple paw speed marks, no character afterimages.\nROW4: a compact cyan-and-white spinning whirlwind curl seen from above, transparent center.\nPaint only sparse effect shapes, NO full-frame ambientglow clouds. The file is a game spriteatlas, not a glowy marketingillustration. Keep trueclearalphaandseparatecells."
+  },
+  {
+    "id": "WizardMomo",
+    "fps": 12,
+    "rows": [
+      [
+        "StarProjectile",
+        "one distinct glowing five-point PURPLE COSMIC STAR projectile pointing north with three tiny star specks"
+      ],
+      [
+        "CosmicPop",
+        "a playful purple/gold cosmic star-shaped explosion, not a generic circular fireball"
+      ],
+      [
+        "StarShower",
+        "a compact shower of five-point purple/gold stars landing inside a thin subtle magic ring, top-down"
+      ],
+      [
+        "MoonNova",
+        "a purple crescent core blooms into a spectacular but bounded star burst, then fades into few stars"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-eaea866d-afba-4af5-9790-7307bf5324b5.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY WizardMomo's4effects:\nROW1: one distinct glowing five-point PURPLE COSMIC STAR projectile pointing north with three tiny star specks.\nROW2: a playful purple/gold cosmic star-shaped explosion, not a generic circular fireball.\nROW3: a compact shower of five-point purple/gold stars landing inside a thin subtle magic ring, top-down.\nROW4: a purple crescent core blooms into a spectacular but bounded star burst, then fades into few stars.\nPaint only sparse effect shapes, NO full-frame ambientglow clouds. The file is a game spriteatlas, not a glowy marketingillustration. Keep trueclearalphaandseparatecells."
+  },
+  {
+    "id": "TinkerTilly",
+    "fps": 12,
+    "rows": [
+      [
+        "SpringBolt",
+        "a playful brass/yellow SPRING-POWERED toy projectile pointing north, visible coiled spring shape and turquoise core"
+      ],
+      [
+        "BrassImpact",
+        "a compact brass gear-and-spark impact with orange and turquoise highlights, no stars or hearts"
+      ],
+      [
+        "BouncingTrap",
+        "a little wooden/brass wind-up paw trap pops open on a spring, one small landing ring, no character"
+      ],
+      [
+        "BubbleDevice",
+        "a turquoise transparent bubble trap with little brass gear rim and a tiny spring trigger, no healing hearts"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-86f8553f-c2e3-4cbe-9d63-5fcf1a44cb21.png",
+    "prompt": "Use case: stylized-concept. Create ONE practical transparent game VFX ANIMATION ATLAS, NOT a concept board. Match WORLD OF THE PACK's approved premium friendly hand-painted cartoon art. No text/labels/UI/characters/backgrounds/borders/gridlines. Real RGBA alpha outside isolated effects, no black/white matte or bakedcheckerboard. No gritty realistic explosions, blood, heavyfog or aggressive fullcellbloom. Clean simple sculpted effectshapes, limited softglow atedge, readableatmobile scale.\nEXACT SIX COLUMNS x FOUR ROWS,1536x1024 target,24 equal256x256 squarecells. Each row ONE six-frame animation reading LEFT TO RIGHT. Each effect entirely within central60% of itscell INCLUDING particles/glow, at least40px transparentgutters, never touching adjacentcells. Fixed center andzoom, maximumpeakheightabout150px. Six phases: tinyanticipation, growth, clearpeak, follow-through, dissolve, veryfaintfewremainingparticles. Do NOT independently make everyframe equallylarge. Directional effects point NORTH/UP SCREEN, rings viewed overhead. Transparentinteriorsforrings/shields. No captionsorlabels. \nONLY TinkerTilly effects, mechanical identity, not magicalstaff:\nROW1: a playful brass/yellow SPRING-POWERED toy projectile pointing north, visible coiled spring shape and turquoise core.\nROW2: a compact brass gear-and-spark impact with orange and turquoise highlights, no stars or hearts.\nROW3: a little wooden/brass wind-up paw trap pops open on a spring, one small landing ring, no character.\nROW4: a turquoise transparent bubble trap with little brass gear rim and a tiny spring trigger, no healing hearts."
+  },
+  {
+    "id": "Shared",
+    "fps": 12,
+    "rows": [
+      [
+        "MarchDust",
+        "small warm beige cartoon dust puffs from footsteps, no feet/characters"
+      ],
+      [
+        "EnemySpawn",
+        "a small orange/coral arrival ring with harmless leaf flecks, clear middle"
+      ],
+      [
+        "EnemyDefeat",
+        "a friendly cream/gold poof scattering a few rounded stars, no body/grave"
+      ],
+      [
+        "CriticalBurst",
+        "a crisp small golden critical-hit burst with four-point stars, no numbers/letters"
+      ],
+      [
+        "MoonTransformation",
+        "a controlled blue/gold crescent dissolve sparkle ring, clear middle for a character"
+      ],
+      [
+        "ComboLink",
+        "a thin teal-and-gold arcing ribbon with two small link sparks, no characters or UI"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-62d2efb3-bf80-46db-839b-445d7c71a8ba.png",
+    "prompt": "Use case: stylized-concept. ONE genuine transparent cartoon combat utility VFX animation atlas for WORLD OF THE PACK. EXACT6columns x6rows1536x1536 target,equal256x256cells,36frames, sixframesperrow. TrueRGBAoutsideeffects, NO text/labels/borders/background/characters/UI. Eachrow small→grow→peak→followthrough→dissolve→fewfaintparticles. Keep shapes withincentral60%ofcells, BIGcleartransparentgutters. No touchingnextcells. Friendly premium paintedcartoon, clean simple silhouettes, NO fullframefog/heavybloom. North/up directional effects, rings overhead. SAME style asreference.\nROW1: small warm beige cartoon dust puffs from footsteps, no feet/characters.\nROW2: a small orange/coral arrival ring with harmless leaf flecks, clear middle.\nROW3: a friendly cream/gold poof scattering a few rounded stars, no body/grave.\nROW4: a crisp small golden critical-hit burst with four-point stars, no numbers/letters.\nROW5: a controlled blue/gold crescent dissolve sparkle ring, clear middle for a character.\nROW6: a thin teal-and-gold arcing ribbon with two small link sparks, no characters or UI."
+  },
+  {
+    "id": "Telegraphs",
+    "rows": [
+      [
+        "EnemySlamCircle",
+        "EnemySlamCircle"
+      ],
+      [
+        "EnemyConeSouth",
+        "EnemyConeSouth"
+      ],
+      [
+        "EnemyChargeLane",
+        "EnemyChargeLane"
+      ],
+      [
+        "EnemyLandingTarget",
+        "EnemyLandingTarget"
+      ],
+      [
+        "DeploymentValid",
+        "DeploymentValid"
+      ],
+      [
+        "DeploymentInvalid",
+        "DeploymentInvalid"
+      ]
+    ],
+    "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-94b89223-8bf2-4dcc-9789-8902edcd29f9.png",
+    "prompt": "Use case: ui-mockup. ONE TRANSPARENT world-space ENEMY WARNING AND DEPLOYMENT MARKER art atlas for WORLD OF THE PACK. EXACT2columns x3rows,1024x1536,6equal512x512squarecells. One isolated groundmarkerpercell, centered, fitscentral75%, nooverlap. Hand-paintedclean cartoonrimandhatching, readablephysicalfootprints, elevatedtop-down OVERHEAD shapes, not uprightshields. GenuineRGBAtransparentbackground and mostlytransparentinteriors; no shadows/scene/characters/labels/letters/numbers/countdowntext/UIborders.\nReadinglefttorighttopdown:\n1 ORANGE ENEMY SLAM CIRCLE: circularboldorange/coralrim, subtle diagonalwarninghatchinginside, centersee-through.\n2 ORANGE ENEMY CONE: clearlybounded90degreecone opens NORTH/up, clearstraightedgelines, low-opacityhatchedinterior.\n3 ORANGE CHARGE LANE: longverticalroundedrectangle, dashedarrowchevrons pointDOWNtowardallies, clearborder/hatchedinterior.\n4 ORANGE LANDING TARGET: circlewithfoursmallradialcrosshairticks, mostlyclearcenter, lighterthininteriorfill.\n5 BLUE VALID DEPLOYMENT: coolbluefootprintcirclewithfoursmallpawtoeaccentmarks, clearcenter, friendlygoldtinyaccent.\n6 GRAY INVALID DEPLOYMENT: matchinggrayoutlinedcirclewithboldcoralXanddashedrim, legibleevenwithoutcolor.\nKeepgeometrysimpleenoughtomatchgameplayhitareas. Allgraphicstext-free; timerswillbeeditableTMP. No glitterscloud or emittedbloomthatwouldhideunits. No drawnblack/checkerboardbackground."
+  }
+]

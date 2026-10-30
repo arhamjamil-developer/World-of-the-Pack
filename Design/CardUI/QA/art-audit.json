@@ -1,0 +1,296 @@
+[
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\ChargingButton.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 247,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\DeployButton.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 259,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\EnergyFill.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 262,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\EnergyTrack.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 250,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\FormationTag.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 283,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\MoonshiftButton.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 283,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\Nameplate.png",
+    "width": 512,
+    "height": 160,
+    "transparentSamples": 276,
+    "samples": 1280
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Controls\\RepeatIcon.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 97,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Frames\\CardFrame.png",
+    "width": 768,
+    "height": 1024,
+    "transparentSamples": 9128,
+    "samples": 12288
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Frames\\PortraitBackdrop.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 252,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\CaptainBobo_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1634,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\CaptainBobo_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1706,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\FairyLulu_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1522,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\FairyLulu_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1747,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\HeroWolvy_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1788,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\HeroWolvy_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1613,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\PrincessElva_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1540,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\PrincessElva_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1588,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\ScoutPip_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1906,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\ScoutPip_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1671,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\TinkerTilly_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1408,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\TinkerTilly_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1688,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\WizardMomo_Human.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1602,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\Portraits\\WizardMomo_Wolf.png",
+    "width": 512,
+    "height": 512,
+    "transparentSamples": 1447,
+    "samples": 4096
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_00.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 200,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_01.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 202,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_02.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 188,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_03.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 188,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_04.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 193,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Charging_05.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 208,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_00.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 165,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_01.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 129,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_02.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 102,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_03.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 93,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_04.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 111,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Deployed_05.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 129,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_00.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 194,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_01.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 167,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_02.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 157,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_03.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 169,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_04.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 184,
+    "samples": 256
+  },
+  {
+    "file": "Assets\\UI\\WorldOfThePack\\Art\\VFX\\Ready_05.png",
+    "width": 128,
+    "height": 128,
+    "transparentSamples": 171,
+    "samples": 256
+  }
+]

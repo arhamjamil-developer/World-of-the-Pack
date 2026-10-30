@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: TinkerTilly
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: TinkerTilly
+  displayName: Tinker Tilly
+  shortName: TILLY
+  humanPortrait: {fileID: 21300000, guid: 8aa28c54e9a464f40869b476de4269bc, type: 3}
+  wolfPortrait: {fileID: 21300000, guid: f594200b7c5001f448c8ffbd2a6325ad, type: 3}
+  accent: {r: 0.9764706, g: 0.7411765, b: 0.25882354, a: 1}
+  maximumEnergy: 100

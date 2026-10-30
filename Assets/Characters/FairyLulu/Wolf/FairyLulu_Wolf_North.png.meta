@@ -156,7 +156,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -180,7 +180,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -244,793 +244,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_0
+      name: FairyLulu_Wolf_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 68
-        y: 1325
-        width: 176
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ede6aeeda362d8f0800000000000000
-      internalID: -517241408509776412
+      spriteID: 106090d949031091ba2b81d9917677cb
+      internalID: 1893645967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_1
+      name: FairyLulu_Wolf_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 319
-        y: 1328
-        width: 168
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cceca41cf0cdbaee0800000000000000
-      internalID: -1248662511439655220
+      spriteID: 170f152864ec271642e5a5f6d59f0fd5
+      internalID: -1695348734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_2
+      name: FairyLulu_Wolf_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 566
-        y: 1326
-        width: 168
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 962f18ad64a2ebea0800000000000000
-      internalID: -5855195981733039511
+      spriteID: 6f3aa03606b5ba2685800a154beee7e3
+      internalID: -2128911374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_3
+      name: FairyLulu_Wolf_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 829
-        y: 1327
-        width: 159
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b229f6e61d634dac0800000000000000
-      internalID: -3831377109856579029
+      spriteID: bbea568e244fc1efe54b9c26cb30618a
+      internalID: 178095527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_4
+      name: FairyLulu_Wolf_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 1324
-        width: 170
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f6b5425d8657b38a0800000000000000
-      internalID: -6324332158598751377
+      spriteID: dbae34faff768b6ed05da969c8ba2c02
+      internalID: -1665764789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_5
+      name: FairyLulu_Wolf_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 1327
-        width: 166
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4cc2b6032c4b9700800000000000000
-      internalID: 548115492975594572
+      spriteID: 0fbe2a5e70c988fe328a65c7f085500f
+      internalID: -565749433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_6
+      name: FairyLulu_Wolf_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 66
-        y: 1071
-        width: 177
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 448b9871608fbd950800000000000000
-      internalID: 6475041594323613764
+      spriteID: 95369df9339eea05f0e0d26111862a23
+      internalID: 1112955756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_7
+      name: FairyLulu_Wolf_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 316
-        y: 1072
-        width: 175
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9928f3d390500b5c0800000000000000
-      internalID: -4201852915096255847
+      spriteID: ccc09b3c96feb9419300cae98f8b3595
+      internalID: 804273552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_8
+      name: FairyLulu_Wolf_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 570
-        y: 1072
-        width: 167
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0abadbf615269ad0800000000000000
-      internalID: -2695926546289739249
+      spriteID: 14f3d067c0b313b2696742519dea8cc7
+      internalID: 1222254150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_9
+      name: FairyLulu_Wolf_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1071
-        width: 174
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21546c93547bdf8b0800000000000000
-      internalID: -5116732093673093870
+      spriteID: abfcb5b2a1ab6d2590ffc8ed1897911c
+      internalID: -53325748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_10
+      name: FairyLulu_Wolf_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 1071
-        width: 175
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d756a3d09ce1ad350800000000000000
-      internalID: 6042175698930132349
+      spriteID: 8a9ff852dbf8b61263aaf2baa368f849
+      internalID: 256568033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_11
+      name: FairyLulu_Wolf_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 1070
-        width: 170
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9bfbcc83168583e0800000000000000
-      internalID: -2052086636672713826
+      spriteID: 31cb7a5ca32ec3695a4493c0b5d95015
+      internalID: 359680775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_12
+      name: FairyLulu_Wolf_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 68
-        y: 823
-        width: 176
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9c77b97df2073860800000000000000
-      internalID: 7509474191355640990
+      spriteID: ca26f039e26d92be5f69835f90c8621e
+      internalID: -414530406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_13
+      name: FairyLulu_Wolf_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 324
-        y: 816
-        width: 168
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b852d0a5d81c53210800000000000000
-      internalID: 1312167679293728139
+      spriteID: eda40945caf8d7ee23df8a299a58fd63
+      internalID: 1504548153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_14
+      name: FairyLulu_Wolf_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 575
-        y: 821
-        width: 180
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ad00e3845f3b02b0800000000000000
-      internalID: -5617326477992260191
+      spriteID: d986aa5c74fe383f81bf9a69e5f23844
+      internalID: 1900027000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_15
+      name: FairyLulu_Wolf_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 816
-        y: 813
-        width: 176
-        height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 174b564d1df76fb10800000000000000
-      internalID: 2014938422483203185
+      spriteID: 8d0fb65f2c82465105c45ace305d682e
+      internalID: -694096071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_16
+      name: FairyLulu_Wolf_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 810
-        width: 172
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 20019e14f5b060b70800000000000000
-      internalID: 8864785420280991746
+      spriteID: ea40a9a551618111e30a8787f4aba2d5
+      internalID: -532490934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_17
+      name: FairyLulu_Wolf_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 814
-        width: 175
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d2674b9f7e30cf9d0800000000000000
-      internalID: -2739310178486421971
+      spriteID: 60ae910ca770bb378842d88edf5a8a4f
+      internalID: -96720447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_18
+      name: FairyLulu_Wolf_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 82
-        y: 562
-        width: 170
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f4e2a4c2a1a7c0ea0800000000000000
-      internalID: -5905210758558765489
+      spriteID: 90fc580fe97bdce583c12098462ae87d
+      internalID: -1386841329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_19
+      name: FairyLulu_Wolf_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 315
-        y: 562
-        width: 171
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6646fe95bf95d93b0800000000000000
-      internalID: -5504144233496353690
+      spriteID: cb9257b937a8bab0c08a1e08db5993c7
+      internalID: 526141518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_20
+      name: FairyLulu_Wolf_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 539
-        y: 564
-        width: 203
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 780840dc71ac70520800000000000000
-      internalID: 2668323507812991111
+      spriteID: 279d18268099cad54c7959d836abd288
+      internalID: -1985438747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_21
+      name: FairyLulu_Wolf_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 800
-        y: 558
-        width: 203
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc4ff9ab9f62463e0800000000000000
-      internalID: -2061479875409087283
+      spriteID: acb11b7d4fbb195da5e39af4afaa1130
+      internalID: 288933102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_22
+      name: FairyLulu_Wolf_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 558
-        width: 204
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3ec794e7d7c12140800000000000000
-      internalID: 4693252016763817535
+      spriteID: 5c22144e25f40d49f5138d37e86239f0
+      internalID: -1277794874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_23
+      name: FairyLulu_Wolf_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1312
-        y: 555
-        width: 194
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 21e0a15a8675e4b80800000000000000
-      internalID: -8408687347295973870
+      spriteID: 0177722eec7e280d2af9a3ebd57fb3e5
+      internalID: -223271031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_24
+      name: FairyLulu_Wolf_Special01_North_00
       rect:
         serializedVersion: 2
-        x: 73
-        y: 302
-        width: 154
-        height: 151
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7878f93c7af6eee60800000000000000
-      internalID: 7993449154961442695
+      spriteID: 54341968f0c7423d6245d92885afc044
+      internalID: 1543202824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_25
+      name: FairyLulu_Wolf_Special01_North_01
       rect:
         serializedVersion: 2
-        x: 314
-        y: 304
-        width: 169
-        height: 202
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f69304e3ea0e96b30800000000000000
-      internalID: 4281199959765694831
+      spriteID: 378567ff3de2ec01abef4518eafeb3ac
+      internalID: -689302504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_26
+      name: FairyLulu_Wolf_Special01_North_02
       rect:
         serializedVersion: 2
-        x: 566
-        y: 304
-        width: 165
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25dbf997542c97bf0800000000000000
-      internalID: -326015894358606510
+      spriteID: 5ce57d676b30006439f9e76fb696a4ee
+      internalID: 1859081619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_27
+      name: FairyLulu_Wolf_Special01_North_03
       rect:
         serializedVersion: 2
-        x: 805
-        y: 302
-        width: 159
-        height: 206
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fa9e51b2d88888310800000000000000
-      internalID: 1407525023447902639
+      spriteID: dbeb54a6141ba771e1a9103c8062cb94
+      internalID: -1235478490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_28
+      name: FairyLulu_Wolf_Special01_North_04
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 301
-        width: 149
-        height: 191
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5c49b8d7a5ea0420800000000000000
-      internalID: 2597140644190833758
+      spriteID: 009885cee2925af113cdf2e472b868b3
+      internalID: -1776088676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_29
+      name: FairyLulu_Wolf_Special01_North_05
       rect:
         serializedVersion: 2
-        x: 1322
-        y: 303
-        width: 165
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5785fae22db19ceb0800000000000000
-      internalID: -4699194146644076427
+      spriteID: 0451b8ae1484c7ed49330a865e54fe1f
+      internalID: -2110289632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_30
+      name: FairyLulu_Wolf_Special02_North_00
       rect:
         serializedVersion: 2
-        x: 67
-        y: 53
-        width: 177
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 27d30b578189d89b0800000000000000
-      internalID: -5076233974155559566
+      spriteID: 5d0956b8d87e32d423126b1681965f10
+      internalID: 1754470558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_31
+      name: FairyLulu_Wolf_Special02_North_01
       rect:
         serializedVersion: 2
-        x: 304
-        y: 56
-        width: 189
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb94e8d6c8cff2270800000000000000
-      internalID: 8228072724292848062
+      spriteID: 18172432187c44ed8ea6ee1626c3078a
+      internalID: 642433798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_32
+      name: FairyLulu_Wolf_Special02_North_02
       rect:
         serializedVersion: 2
-        x: 560
-        y: 49
-        width: 179
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca53085af936e1180800000000000000
-      internalID: -9142760656187935316
+      spriteID: 8de477cf7e88abcfd740c020d83c8e5d
+      internalID: 598888731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_33
+      name: FairyLulu_Wolf_Special02_North_03
       rect:
         serializedVersion: 2
-        x: 821
-        y: 46
-        width: 169
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d425b025c6757e440800000000000000
-      internalID: 4965033236943819341
+      spriteID: 7c92ff3251ba2360d98903a91e86fc80
+      internalID: 222664654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_34
+      name: FairyLulu_Wolf_Special02_North_04
       rect:
         serializedVersion: 2
-        x: 1067
-        y: 47
-        width: 180
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04a392b0f4bd4fe10800000000000000
-      internalID: 2230648847991388736
+      spriteID: 079610717ec45b86ee07cf47e38d7f42
+      internalID: -1311572993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Wolf_North_35
+      name: FairyLulu_Wolf_Special02_North_05
       rect:
         serializedVersion: 2
-        x: 1321
-        y: 46
-        width: 167
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 75383871ad27b2a70800000000000000
-      internalID: 8803256177648698199
+      spriteID: 644979f72e5bc9816b739b7e251cb02a
+      internalID: -1021965040
       vertices: []
       indices: 
       edges: []
@@ -1039,7 +1039,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: edf3e7a91b3423842bc837ed47c73b28
     internalID: 0
     vertices: []
     indices: 
@@ -1049,42 +1049,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FairyLulu_Wolf_North_0: -517241408509776412
-      FairyLulu_Wolf_North_1: -1248662511439655220
-      FairyLulu_Wolf_North_10: 6042175698930132349
-      FairyLulu_Wolf_North_11: -2052086636672713826
-      FairyLulu_Wolf_North_12: 7509474191355640990
-      FairyLulu_Wolf_North_13: 1312167679293728139
-      FairyLulu_Wolf_North_14: -5617326477992260191
-      FairyLulu_Wolf_North_15: 2014938422483203185
-      FairyLulu_Wolf_North_16: 8864785420280991746
-      FairyLulu_Wolf_North_17: -2739310178486421971
-      FairyLulu_Wolf_North_18: -5905210758558765489
-      FairyLulu_Wolf_North_19: -5504144233496353690
-      FairyLulu_Wolf_North_2: -5855195981733039511
-      FairyLulu_Wolf_North_20: 2668323507812991111
-      FairyLulu_Wolf_North_21: -2061479875409087283
-      FairyLulu_Wolf_North_22: 4693252016763817535
-      FairyLulu_Wolf_North_23: -8408687347295973870
-      FairyLulu_Wolf_North_24: 7993449154961442695
-      FairyLulu_Wolf_North_25: 4281199959765694831
-      FairyLulu_Wolf_North_26: -326015894358606510
-      FairyLulu_Wolf_North_27: 1407525023447902639
-      FairyLulu_Wolf_North_28: 2597140644190833758
-      FairyLulu_Wolf_North_29: -4699194146644076427
-      FairyLulu_Wolf_North_3: -3831377109856579029
-      FairyLulu_Wolf_North_30: -5076233974155559566
-      FairyLulu_Wolf_North_31: 8228072724292848062
-      FairyLulu_Wolf_North_32: -9142760656187935316
-      FairyLulu_Wolf_North_33: 4965033236943819341
-      FairyLulu_Wolf_North_34: 2230648847991388736
-      FairyLulu_Wolf_North_35: 8803256177648698199
-      FairyLulu_Wolf_North_4: -6324332158598751377
-      FairyLulu_Wolf_North_5: 548115492975594572
-      FairyLulu_Wolf_North_6: 6475041594323613764
-      FairyLulu_Wolf_North_7: -4201852915096255847
-      FairyLulu_Wolf_North_8: -2695926546289739249
-      FairyLulu_Wolf_North_9: -5116732093673093870
+      FairyLulu_Wolf_Attack_North_00: -414530406
+      FairyLulu_Wolf_Attack_North_01: 1504548153
+      FairyLulu_Wolf_Attack_North_02: 1900027000
+      FairyLulu_Wolf_Attack_North_03: -694096071
+      FairyLulu_Wolf_Attack_North_04: -532490934
+      FairyLulu_Wolf_Attack_North_05: -96720447
+      FairyLulu_Wolf_Dead_North_00: -1386841329
+      FairyLulu_Wolf_Dead_North_01: 526141518
+      FairyLulu_Wolf_Dead_North_02: -1985438747
+      FairyLulu_Wolf_Dead_North_03: 288933102
+      FairyLulu_Wolf_Dead_North_04: -1277794874
+      FairyLulu_Wolf_Dead_North_05: -223271031
+      FairyLulu_Wolf_Idle_North_00: 1893645967
+      FairyLulu_Wolf_Idle_North_01: -1695348734
+      FairyLulu_Wolf_Idle_North_02: -2128911374
+      FairyLulu_Wolf_Idle_North_03: 178095527
+      FairyLulu_Wolf_Idle_North_04: -1665764789
+      FairyLulu_Wolf_Idle_North_05: -565749433
+      FairyLulu_Wolf_Special01_North_00: 1543202824
+      FairyLulu_Wolf_Special01_North_01: -689302504
+      FairyLulu_Wolf_Special01_North_02: 1859081619
+      FairyLulu_Wolf_Special01_North_03: -1235478490
+      FairyLulu_Wolf_Special01_North_04: -1776088676
+      FairyLulu_Wolf_Special01_North_05: -2110289632
+      FairyLulu_Wolf_Special02_North_00: 1754470558
+      FairyLulu_Wolf_Special02_North_01: 642433798
+      FairyLulu_Wolf_Special02_North_02: 598888731
+      FairyLulu_Wolf_Special02_North_03: 222664654
+      FairyLulu_Wolf_Special02_North_04: -1311572993
+      FairyLulu_Wolf_Special02_North_05: -1021965040
+      FairyLulu_Wolf_Walk_North_00: 1112955756
+      FairyLulu_Wolf_Walk_North_01: 804273552
+      FairyLulu_Wolf_Walk_North_02: 1222254150
+      FairyLulu_Wolf_Walk_North_03: -53325748
+      FairyLulu_Wolf_Walk_North_04: 256568033
+      FairyLulu_Wolf_Walk_North_05: 359680775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

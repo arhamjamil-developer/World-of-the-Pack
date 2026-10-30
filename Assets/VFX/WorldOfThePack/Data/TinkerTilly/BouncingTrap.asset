@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: BouncingTrap
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: TinkerTilly
+  description: a little wooden/brass wind-up paw trap pops open on a spring, one
+    small landing ring, no character
+  frames:
+  - {fileID: 21300000, guid: d6f9b705f69ff3647bdc4eb8f50b240b, type: 3}
+  - {fileID: 21300000, guid: 9d98d14624c16af4eb04efd1a2884f6a, type: 3}
+  - {fileID: 21300000, guid: 47df8399bf60f6d41808bea917cab3b4, type: 3}
+  - {fileID: 21300000, guid: 75264f02f9a688b4fb3d7b4e5aa9486f, type: 3}
+  - {fileID: 21300000, guid: 79c1e218bb82c4f41badbeabf0cf0b25, type: 3}
+  - {fileID: 21300000, guid: 113fffda14a1c4241928a7b2c1437e03, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 7
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: eeaf7193e1ac36849a59488250ff0455, type: 2}

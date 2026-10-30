@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -208,529 +208,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_0
+      name: TinkerTilly_Human_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 92
-        y: 817
-        width: 143
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 01a17a7fe42488210800000000000000
-      internalID: 1335390196445157904
+      spriteID: d3a697e25e2cc628545da0e7e4d5fff5
+      internalID: -363721285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_1
+      name: TinkerTilly_Human_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 323
-        y: 815
-        width: 146
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c46dafaf898cd3990800000000000000
-      internalID: -7404541652955900340
+      spriteID: ba77cd641e9d9a238f897366f913e351
+      internalID: -1611891287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_2
+      name: TinkerTilly_Human_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 579
-        y: 814
-        width: 147
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6f3d763927820ba0800000000000000
-      internalID: -6124183932192866450
+      spriteID: 0b1b9d3473389740a8b398ed040ac274
+      internalID: -445999331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_3
+      name: TinkerTilly_Human_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 819
-        y: 814
-        width: 149
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a44bdb8d1e8f50bf0800000000000000
-      internalID: -358606946418445238
+      spriteID: e3fc990a68557733973b0f69191ab197
+      internalID: -655431020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_4
+      name: TinkerTilly_Human_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1068
-        y: 814
-        width: 149
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a1a58ee4c92d5df00800000000000000
-      internalID: 1141049649388870170
+      spriteID: 74cfee99f011b0b434791be220a10f5e
+      internalID: -1244174055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_5
+      name: TinkerTilly_Human_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 815
-        width: 149
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 00949d9bf27027940800000000000000
-      internalID: 5292300413676636416
+      spriteID: afc95a260c5386a4892039546378ec4d
+      internalID: -1606666212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_6
+      name: TinkerTilly_Human_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 90
-        y: 559
-        width: 148
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87ce64ab2e02fb470800000000000000
-      internalID: 8412478787111283832
+      spriteID: 239e2ec709ab2cd312ec517414ba4031
+      internalID: 506274582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_7
+      name: TinkerTilly_Human_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 326
-        y: 559
-        width: 146
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4c5fc289a1d27b8a0800000000000000
-      internalID: -6289508762354125372
+      spriteID: 2be1b8650ec19771a5d82c5aaf9d95c8
+      internalID: 1555437474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_8
+      name: TinkerTilly_Human_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 576
-        y: 559
-        width: 145
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3405e6c7f4f568800800000000000000
-      internalID: 614283194177310787
+      spriteID: ca9b2c7d51045c578abbdcf1f748673f
+      internalID: 773147494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_9
+      name: TinkerTilly_Human_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 821
-        y: 559
-        width: 147
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0515072f642090760800000000000000
-      internalID: 7424467964435386704
+      spriteID: 1b7f59941137249be46066574e225ec5
+      internalID: -1075122578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_10
+      name: TinkerTilly_Human_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 557
-        width: 149
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5978c88570812040800000000000000
-      internalID: 4621115934953208159
+      spriteID: 1eb17d5c32bb673e977f9b4f460c5b48
+      internalID: -1765769433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_11
+      name: TinkerTilly_Human_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1307
-        y: 558
-        width: 148
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2ae21f0da317902b0800000000000000
-      internalID: -5617834562740474206
+      spriteID: 7ececfbe1504d5632006ba480ea9957a
+      internalID: -19849216
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_12
+      name: TinkerTilly_Human_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 79
-        y: 303
-        width: 169
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5e70628e09b12f9c0800000000000000
-      internalID: -3895020418538010651
+      spriteID: bf6e095228105d6fb869a996e9394666
+      internalID: -977742604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_13
+      name: TinkerTilly_Human_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 314
-        y: 303
-        width: 161
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 43b99a757cf4b0710800000000000000
-      internalID: 1660508605203979060
+      spriteID: c8618475fa1bfe6005740b70c793b4c3
+      internalID: 42201575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_14
+      name: TinkerTilly_Human_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 578
-        y: 303
-        width: 150
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: da4f9528b71c9e810800000000000000
-      internalID: 1795178662695924909
+      spriteID: 82414897641516db0b63368ab777d4dd
+      internalID: -1081506059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_15
+      name: TinkerTilly_Human_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 804
-        y: 295
-        width: 162
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9d6331f68ad84d930800000000000000
-      internalID: 4167111309782103769
+      spriteID: b98bdc59166667dccdb35dc9265eb05b
+      internalID: 393398736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_16
+      name: TinkerTilly_Human_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 296
-        width: 149
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc4b7ea0384eeb160800000000000000
-      internalID: 7043318118728840396
+      spriteID: 19bf751ba58978e32ce8cf4f90d85c72
+      internalID: 662547020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_17
+      name: TinkerTilly_Human_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1313
-        y: 303
-        width: 160
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b45b6c848c06b95a0800000000000000
-      internalID: -6513506022730582709
+      spriteID: c7c1504ffa9f384217ae5961fe6067d0
+      internalID: -2130193647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_18
+      name: TinkerTilly_Human_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 89
-        y: 43
-        width: 150
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 060a6e7052c414f60800000000000000
-      internalID: 8016772533626249312
+      spriteID: 44bd4f3659057c2d77a3101c4a9f3743
+      internalID: 1933114742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_19
+      name: TinkerTilly_Human_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 327
-        y: 51
-        width: 154
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e2706c1529864ef0800000000000000
-      internalID: -124261147223231768
+      spriteID: f2889463f69b8b7782d3b857b03aede6
+      internalID: 276169903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_20
+      name: TinkerTilly_Human_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 564
-        y: 49
-        width: 167
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46395f7729ff7ad60800000000000000
-      internalID: 7901565075787715428
+      spriteID: a29a74aad3988dc65950ceb5c987b002
+      internalID: -1626708654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_21
+      name: TinkerTilly_Human_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 809
-        y: 42
-        width: 163
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 04a751a5b8c64c730800000000000000
-      internalID: 4018456113288936000
+      spriteID: cfbdd6749710e33806238119440e100a
+      internalID: -1420268967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_22
+      name: TinkerTilly_Human_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 46
-        width: 163
-        height: 118
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc4d76d844ef27650800000000000000
-      internalID: 6229320804990440653
+      spriteID: 562a6c9061579697025d529bedb55a1c
+      internalID: 759950513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TinkerTilly_Human_North_23
+      name: TinkerTilly_Human_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 51
-        width: 165
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a4155c47abd4bf50800000000000000
-      internalID: 6896378440997737638
+      spriteID: 63d9475855434cb48f736106e0e1b0d4
+      internalID: -1946673371
       vertices: []
       indices: 
       edges: []
@@ -739,7 +739,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d02e7e9bd8a7ed94fb16808bf4d7c9b3
     internalID: 0
     vertices: []
     indices: 
@@ -749,30 +749,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TinkerTilly_Human_North_0: 1335390196445157904
-      TinkerTilly_Human_North_1: -7404541652955900340
-      TinkerTilly_Human_North_10: 4621115934953208159
-      TinkerTilly_Human_North_11: -5617834562740474206
-      TinkerTilly_Human_North_12: -3895020418538010651
-      TinkerTilly_Human_North_13: 1660508605203979060
-      TinkerTilly_Human_North_14: 1795178662695924909
-      TinkerTilly_Human_North_15: 4167111309782103769
-      TinkerTilly_Human_North_16: 7043318118728840396
-      TinkerTilly_Human_North_17: -6513506022730582709
-      TinkerTilly_Human_North_18: 8016772533626249312
-      TinkerTilly_Human_North_19: -124261147223231768
-      TinkerTilly_Human_North_2: -6124183932192866450
-      TinkerTilly_Human_North_20: 7901565075787715428
-      TinkerTilly_Human_North_21: 4018456113288936000
-      TinkerTilly_Human_North_22: 6229320804990440653
-      TinkerTilly_Human_North_23: 6896378440997737638
-      TinkerTilly_Human_North_3: -358606946418445238
-      TinkerTilly_Human_North_4: 1141049649388870170
-      TinkerTilly_Human_North_5: 5292300413676636416
-      TinkerTilly_Human_North_6: 8412478787111283832
-      TinkerTilly_Human_North_7: -6289508762354125372
-      TinkerTilly_Human_North_8: 614283194177310787
-      TinkerTilly_Human_North_9: 7424467964435386704
+      TinkerTilly_Human_Attack_North_00: -977742604
+      TinkerTilly_Human_Attack_North_01: 42201575
+      TinkerTilly_Human_Attack_North_02: -1081506059
+      TinkerTilly_Human_Attack_North_03: 393398736
+      TinkerTilly_Human_Attack_North_04: 662547020
+      TinkerTilly_Human_Attack_North_05: -2130193647
+      TinkerTilly_Human_Dead_North_00: 1933114742
+      TinkerTilly_Human_Dead_North_01: 276169903
+      TinkerTilly_Human_Dead_North_02: -1626708654
+      TinkerTilly_Human_Dead_North_03: -1420268967
+      TinkerTilly_Human_Dead_North_04: 759950513
+      TinkerTilly_Human_Dead_North_05: -1946673371
+      TinkerTilly_Human_Idle_North_00: -363721285
+      TinkerTilly_Human_Idle_North_01: -1611891287
+      TinkerTilly_Human_Idle_North_02: -445999331
+      TinkerTilly_Human_Idle_North_03: -655431020
+      TinkerTilly_Human_Idle_North_04: -1244174055
+      TinkerTilly_Human_Idle_North_05: -1606666212
+      TinkerTilly_Human_Walk_North_00: 506274582
+      TinkerTilly_Human_Walk_North_01: 1555437474
+      TinkerTilly_Human_Walk_North_02: 773147494
+      TinkerTilly_Human_Walk_North_03: -1075122578
+      TinkerTilly_Human_Walk_North_04: -1765769433
+      TinkerTilly_Human_Walk_North_05: -19849216
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

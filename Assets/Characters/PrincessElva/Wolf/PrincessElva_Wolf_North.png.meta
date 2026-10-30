@@ -288,7 +288,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -312,7 +312,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -376,1761 +376,793 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_0
+      name: PrincessElva_Wolf_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 59
-        y: 1305
-        width: 176
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6395ddb81f7b52520800000000000000
-      internalID: 2676747801603168566
+      spriteID: 781a39957c28b3b60be63ae702ac3a48
+      internalID: -1022750836
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_1
+      name: PrincessElva_Wolf_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 277
-        y: 1305
-        width: 214
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 47030c9dde9fcb6c0800000000000000
-      internalID: -4126148358622400396
+      spriteID: 4285e11156913243aaed31a77828ee14
+      internalID: 1376125420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_2
+      name: PrincessElva_Wolf_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 533
-        y: 1305
-        width: 214
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 57668f96df1cac2d0800000000000000
-      internalID: -3257578086300359051
+      spriteID: d46978bfd0d8787d0e0bf5f1324a8802
+      internalID: -311089849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_3
+      name: PrincessElva_Wolf_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 804
-        y: 1305
-        width: 189
-        height: 196
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c4a8e4072bdb02960800000000000000
-      internalID: 7575263147323198028
+      spriteID: 4f9cf88cbf58167df025c19cfbb38a85
+      internalID: -1273296813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_4
+      name: PrincessElva_Wolf_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 1493
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a31765609d320650800000000000000
-      internalID: 6197583727601062820
+      spriteID: 12071f0cf21cc5d7b8123697d459862d
+      internalID: 1386699152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_5
+      name: PrincessElva_Wolf_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 1305
-        width: 199
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1280
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 398e26db55111cc30800000000000000
-      internalID: 4377799372728101011
+      spriteID: 9a0ec00f2a23e8e29e2d24b8dc703480
+      internalID: 1979898487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_6
+      name: PrincessElva_Wolf_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 1305
-        width: 182
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bcd17c6fffd9b2620800000000000000
-      internalID: 2750465720122285515
+      spriteID: e67aad60c126de8514a321b8172d3f61
+      internalID: 901014678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_7
+      name: PrincessElva_Wolf_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1442
-        width: 10
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a4bd80f86861da9d0800000000000000
-      internalID: -2761526229327094966
+      spriteID: f0365c3387254709229b0c835477fef4
+      internalID: -873516676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_8
+      name: PrincessElva_Wolf_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 789
-        y: 1423
-        width: 6
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0f13f657bf9af950800000000000000
-      internalID: 6483670223339855630
+      spriteID: 104fa98bff5bc32de5fef0b776bc4ec2
+      internalID: -365394973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_9
+      name: PrincessElva_Wolf_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1049
-        width: 214
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 644debfbd3989b9a0800000000000000
-      internalID: -6216786912305294266
+      spriteID: 7c3120dfca075b54f2c6e3a6193a02b2
+      internalID: 1155985541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_10
+      name: PrincessElva_Wolf_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 277
-        y: 1049
-        width: 214
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bdfb839a8be654a0800000000000000
-      internalID: -6604832823078814280
+      spriteID: 19ab1f9673491a39aeccb57cc036b964
+      internalID: 553145188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_11
+      name: PrincessElva_Wolf_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 533
-        y: 1165
-        width: 19
-        height: 95
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ed3bf248f3bde4270800000000000000
-      internalID: 8236761834354357214
+      spriteID: e19a2a188c9b8fa358eb127d56a8ea2f
+      internalID: -242107342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_12
+      name: PrincessElva_Wolf_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 569
-        y: 1049
-        width: 178
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 942371c715eed0780800000000000000
-      internalID: -8715047670150385079
+      spriteID: 387c89bcfa52d397c384562fbfd03b62
+      internalID: 742590527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_13
+      name: PrincessElva_Wolf_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 789
-        y: 1180
-        width: 6
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 95a23496ba64579e0800000000000000
-      internalID: -1624314388577834407
+      spriteID: 2db92c84f4151dbc66ca79ff9fdf8c35
+      internalID: -902693918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_14
+      name: PrincessElva_Wolf_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 794
-        y: 1049
-        width: 208
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5be7bd54e9e16f3e0800000000000000
-      internalID: -2020393717703409995
+      spriteID: 68ad3b8cb01801155e2b50de046f59f8
+      internalID: 1077318740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_15
+      name: PrincessElva_Wolf_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 1054
-        y: 1049
-        width: 191
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe35dadbcd015db20800000000000000
-      internalID: 3158449253931373551
+      spriteID: a12ff70fe5ad5e99b46dac200d694bbf
+      internalID: 1075101627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_16
+      name: PrincessElva_Wolf_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1312
-        y: 1062
-        width: 186
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d197ece6b24780ed0800000000000000
-      internalID: -2447578667584423651
+      spriteID: 4735595918a718d57121af4fd3c74530
+      internalID: 611515395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_17
+      name: PrincessElva_Wolf_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 63
-        y: 794
-        width: 172
-        height: 213
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e271d7a4837a016e0800000000000000
-      internalID: -1868809985149036754
+      spriteID: dffd199af730c3c2d6e36c6744a27b04
+      internalID: -1245917853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_18
+      name: PrincessElva_Wolf_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 286
-        y: 793
-        width: 205
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ab6edbfd28872b070800000000000000
-      internalID: 8120685581597271738
+      spriteID: 2647ba4770e0678ae877b5c9ec068c0b
+      internalID: 1711399845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_19
+      name: PrincessElva_Wolf_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 559
-        y: 729
-        width: 188
-        height: 278
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e3296fa9750d3d40800000000000000
-      internalID: 5565610734691886056
+      spriteID: ef326471245b0e23a29c3b3ff1ac2223
+      internalID: 2127424377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_20
+      name: PrincessElva_Wolf_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 789
-        y: 725
-        width: 214
-        height: 282
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a0e57c8ef1048b110800000000000000
-      internalID: 1276841000153079306
+      spriteID: 3c1e5d26fb985e3cf6f442a03e7626cc
+      internalID: -722562360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_21
+      name: PrincessElva_Wolf_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 1045
-        y: 727
-        width: 214
-        height: 279
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97f61f367bc84a4e0800000000000000
-      internalID: -1971296017597763719
+      spriteID: a7d3971f639dbc0bf42d5a87b8f6742e
+      internalID: 1131213364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_22
+      name: PrincessElva_Wolf_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 995
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 84445b25e765f43b0800000000000000
-      internalID: -5526103117206830008
+      spriteID: cc0fb3dc5f6ba052788c1e3bb8739ef5
+      internalID: 399656417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_23
+      name: PrincessElva_Wolf_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 286
-        y: 967
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1d7ba3426cf86baa0800000000000000
-      internalID: -6145566560326338607
+      spriteID: cdc448b8f098cd445b70f88ac28634e9
+      internalID: 1301513318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_24
+      name: PrincessElva_Wolf_Special01_North_00
       rect:
         serializedVersion: 2
-        x: 533
-        y: 954
-        width: 15
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: edf113ed10ab97d90800000000000000
-      internalID: -7099438820387381282
+      spriteID: fb9a515c3256b36d07a5ecaa331ec18c
+      internalID: -799286509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_25
+      name: PrincessElva_Wolf_Special01_North_01
       rect:
         serializedVersion: 2
-        x: 1325
-        y: 727
-        width: 177
-        height: 263
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d7471943e8457e90800000000000000
-      internalID: -7028631502420752429
+      spriteID: 5a1b9c16cc87874477f3e1aefc025c07
+      internalID: 1676711017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_26
+      name: PrincessElva_Wolf_Special01_North_02
       rect:
         serializedVersion: 2
-        x: 277
-        y: 903
-        width: 6
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d5e26837ea8732470800000000000000
-      internalID: 8368665223242329693
+      spriteID: 3a5de0f78d9bdb8b4b7440717d40a666
+      internalID: -1173865172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_27
+      name: PrincessElva_Wolf_Special01_North_03
       rect:
         serializedVersion: 2
-        x: 533
-        y: 892
-        width: 10
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f59c26d6bbcd4e10800000000000000
-      internalID: 2183625380482291188
+      spriteID: 47aacb25fea642c437982ef295300d15
+      internalID: 467610133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_28
+      name: PrincessElva_Wolf_Special01_North_04
       rect:
         serializedVersion: 2
-        x: 1301
-        y: 922
-        width: 23
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd161b5078be15e70800000000000000
-      internalID: 9102315287041106397
+      spriteID: 044f9ca4b573e282cd6d97f035104817
+      internalID: -1703819532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_29
+      name: PrincessElva_Wolf_Special01_North_05
       rect:
         serializedVersion: 2
-        x: 789
-        y: 883
-        width: 6
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 569f407632f6150e0800000000000000
-      internalID: -2282921338257213083
+      spriteID: 404581d12a2192f5613c88f45fa6de49
+      internalID: 1737028381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_30
+      name: PrincessElva_Wolf_Special02_North_00
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 880
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 297db64f965870970800000000000000
-      internalID: 8721085893545023378
+      spriteID: aa5d651bb3b62f0af7153519e2b7b220
+      internalID: -591703588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_31
+      name: PrincessElva_Wolf_Special02_North_01
       rect:
         serializedVersion: 2
-        x: 984
-        y: 846
-        width: 19
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 591dbc1c9fdd570b0800000000000000
-      internalID: -5731430885991132779
+      spriteID: 38402b69ca0216013742df511fddfc2c
+      internalID: -621780675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_32
+      name: PrincessElva_Wolf_Special02_North_02
       rect:
         serializedVersion: 2
-        x: 290
-        y: 537
-        width: 201
-        height: 209
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1795dd87313a7e90800000000000000
-      internalID: -7027250153885690082
+      spriteID: 6ff6ee19115868a66d15a6992b98d7e1
+      internalID: -229593533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_33
+      name: PrincessElva_Wolf_Special02_North_03
       rect:
         serializedVersion: 2
-        x: 368
-        y: 741
-        width: 41
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c682144f766ac24c0800000000000000
-      internalID: -4310887777890654100
+      spriteID: d9da785fc693b09848ca1002ee1e6674
+      internalID: -631478145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_34
+      name: PrincessElva_Wolf_Special02_North_04
       rect:
         serializedVersion: 2
-        x: 53
-        y: 537
-        width: 182
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 92454e9d9ee523740800000000000000
-      internalID: 5130267284004426793
+      spriteID: 8a5b816d090a34f1d600e5872b395b4f
+      internalID: 1592480355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PrincessElva_Wolf_North_35
+      name: PrincessElva_Wolf_Special02_North_05
       rect:
         serializedVersion: 2
-        x: 277
-        y: 653
-        width: 6
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24c0a610814cf2cb0800000000000000
-      internalID: -4886471463291712446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_36
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 604
-        width: 23
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87129a2f36becf6b0800000000000000
-      internalID: -5261071450170121864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_37
-      rect:
-        serializedVersion: 2
-        x: 562
-        y: 537
-        width: 185
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c1d7a3ae2a2614e0800000000000000
-      internalID: -2011373803771801148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_38
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 537
-        width: 214
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe24758813fc0b070800000000000000
-      internalID: 8120217939796771567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_39
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 551
-        width: 214
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e2560dce6e9a90550800000000000000
-      internalID: 6127615577294923054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_40
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 549
-        width: 202
-        height: 139
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31941452e31ba3110800000000000000
-      internalID: 1241499527765117203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_41
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 571
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00fa91893d89a15c0800000000000000
-      internalID: -4243911664285929728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_42
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 537
-        width: 15
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22221ce3f49a1bff0800000000000000
-      internalID: -22050365339786718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_43
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 537
-        width: 16
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d48ce37fdbd438b20800000000000000
-      internalID: 3135435243872241741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_44
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 537
-        width: 70
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d5b5ad2e3c8b56690800000000000000
-      internalID: -7609472843908490403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_45
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 537
-        width: 55
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b11431c23cc249c20800000000000000
-      internalID: 3212241650991710491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_46
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 309
-        width: 184
-        height: 186
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e8a22574d0a80110800000000000000
-      internalID: 1227407732817176806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_47
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 432
-        width: 25
-        height: 63
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f5cc091138768ed0800000000000000
-      internalID: -2412108398141323790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_48
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 281
-        width: 213
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 361bac2afd27cddd0800000000000000
-      internalID: -2459964991616667293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_49
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 372
-        width: 10
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60669bdf44bc06d10800000000000000
-      internalID: 2116915322039133702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_50
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 281
-        width: 201
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 74d28875e7ee8e3f0800000000000000
-      internalID: -871184301494358713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_51
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 281
-        width: 212
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d1527958733af91d0800000000000000
-      internalID: -3341772939625814755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_52
-      rect:
-        serializedVersion: 2
-        x: 1050
-        y: 287
-        width: 209
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f540cac013b66ee50800000000000000
-      internalID: 6838270942618846303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_53
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 410
-        width: 8
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d66b536d121fc1a50800000000000000
-      internalID: 6493329890391471725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_54
-      rect:
-        serializedVersion: 2
-        x: 1314
-        y: 281
-        width: 184
-        height: 208
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af16a74c6395a2e20800000000000000
-      internalID: 3326569366525993466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_55
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 360
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 43b47e2624afc8650800000000000000
-      internalID: 6236634747035405108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_56
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 377
-        width: 6
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66281c0a0d6826610800000000000000
-      internalID: 1612999847160414822
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_57
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 338
-        width: 7
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0da8e739753e9d030800000000000000
-      internalID: 3520094549042957008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_58
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 341
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44fc7248f46dce8b0800000000000000
-      internalID: -5121483039219134652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_59
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 281
-        width: 23
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9136221f739d309c0800000000000000
-      internalID: -3962084412863913191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_60
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 281
-        width: 41
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aed4789915a766980800000000000000
-      internalID: -8546008752002216470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_61
-      rect:
-        serializedVersion: 2
-        x: 548
-        y: 299
-        width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83bb504219fe24e90800000000000000
-      internalID: -7042803460600382664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_62
-      rect:
-        serializedVersion: 2
-        x: 691
-        y: 281
-        width: 43
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a033252565e864e40800000000000000
-      internalID: 5640352084727575306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_63
-      rect:
-        serializedVersion: 2
-        x: 1079
-        y: 285
-        width: 7
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dad5d99110d1beb90800000000000000
-      internalID: -7211638487741801043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_64
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 281
-        width: 69
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85d35d44a3b1165a0800000000000000
-      internalID: -6529908047633629864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_65
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 281
-        width: 27
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85d61199500f794b0800000000000000
-      internalID: -5433610518565655208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_66
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 281
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da5caff6182845f40800000000000000
-      internalID: 5716337319481099693
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_67
-      rect:
-        serializedVersion: 2
-        x: 1171
-        y: 281
-        width: 24
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 722122dc053329fa0800000000000000
-      internalID: -5795513348340444633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_68
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 283
-        width: 16
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6529ddf8381ee32d0800000000000000
-      internalID: -3296949922017996202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_69
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 25
-        width: 214
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83af4ed0523e64100800000000000000
-      internalID: 92010590694079032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_70
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 25
-        width: 214
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6ac2dfb606696910800000000000000
-      internalID: 1831106902676916847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_71
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 218
-        width: 8
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6afcfdf868978fbd0800000000000000
-      internalID: -2596191566332702810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_72
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 41
-        width: 213
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7da6f82d49bab6a0800000000000000
-      internalID: -6432625376694456965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_73
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 25
-        width: 202
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 093ecab42ea707510800000000000000
-      internalID: 1544869784538899344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_74
-      rect:
-        serializedVersion: 2
-        x: 1046
-        y: 25
-        width: 212
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df264052cb9b039f0800000000000000
-      internalID: -490688141657349379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_75
-      rect:
-        serializedVersion: 2
-        x: 1306
-        y: 38
-        width: 196
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97e962400e53bd370800000000000000
-      internalID: 8348325570519932537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_76
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 148
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8c17fb09278f481f0800000000000000
-      internalID: -1043436042704686648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_77
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 120
-        width: 6
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8dcd4a11cb01251a0800000000000000
-      internalID: -6822372085576966952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_78
-      rect:
-        serializedVersion: 2
-        x: 1310
-        y: 131
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4df8af98efed2a80800000000000000
-      internalID: -8489865940133413555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PrincessElva_Wolf_North_79
-      rect:
-        serializedVersion: 2
-        x: 126
-        y: 42
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6522b9de3f4ccaf30800000000000000
-      internalID: 4588258672326156886
+      spriteID: 86528294d5db9c1543e15444f565154d
+      internalID: -2121056578
       vertices: []
       indices: 
       edges: []
@@ -2139,7 +1171,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b3c1b586cc4714f4fa4b320a89f86c83
     internalID: 0
     vertices: []
     indices: 
@@ -2149,86 +1181,42 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PrincessElva_Wolf_North_0: 2676747801603168566
-      PrincessElva_Wolf_North_1: -4126148358622400396
-      PrincessElva_Wolf_North_10: -6604832823078814280
-      PrincessElva_Wolf_North_11: 8236761834354357214
-      PrincessElva_Wolf_North_12: -8715047670150385079
-      PrincessElva_Wolf_North_13: -1624314388577834407
-      PrincessElva_Wolf_North_14: -2020393717703409995
-      PrincessElva_Wolf_North_15: 3158449253931373551
-      PrincessElva_Wolf_North_16: -2447578667584423651
-      PrincessElva_Wolf_North_17: -1868809985149036754
-      PrincessElva_Wolf_North_18: 8120685581597271738
-      PrincessElva_Wolf_North_19: 5565610734691886056
-      PrincessElva_Wolf_North_2: -3257578086300359051
-      PrincessElva_Wolf_North_20: 1276841000153079306
-      PrincessElva_Wolf_North_21: -1971296017597763719
-      PrincessElva_Wolf_North_22: -5526103117206830008
-      PrincessElva_Wolf_North_23: -6145566560326338607
-      PrincessElva_Wolf_North_24: -7099438820387381282
-      PrincessElva_Wolf_North_25: -7028631502420752429
-      PrincessElva_Wolf_North_26: 8368665223242329693
-      PrincessElva_Wolf_North_27: 2183625380482291188
-      PrincessElva_Wolf_North_28: 9102315287041106397
-      PrincessElva_Wolf_North_29: -2282921338257213083
-      PrincessElva_Wolf_North_3: 7575263147323198028
-      PrincessElva_Wolf_North_30: 8721085893545023378
-      PrincessElva_Wolf_North_31: -5731430885991132779
-      PrincessElva_Wolf_North_32: -7027250153885690082
-      PrincessElva_Wolf_North_33: -4310887777890654100
-      PrincessElva_Wolf_North_34: 5130267284004426793
-      PrincessElva_Wolf_North_35: -4886471463291712446
-      PrincessElva_Wolf_North_36: -5261071450170121864
-      PrincessElva_Wolf_North_37: -2011373803771801148
-      PrincessElva_Wolf_North_38: 8120217939796771567
-      PrincessElva_Wolf_North_39: 6127615577294923054
-      PrincessElva_Wolf_North_4: 6197583727601062820
-      PrincessElva_Wolf_North_40: 1241499527765117203
-      PrincessElva_Wolf_North_41: -4243911664285929728
-      PrincessElva_Wolf_North_42: -22050365339786718
-      PrincessElva_Wolf_North_43: 3135435243872241741
-      PrincessElva_Wolf_North_44: -7609472843908490403
-      PrincessElva_Wolf_North_45: 3212241650991710491
-      PrincessElva_Wolf_North_46: 1227407732817176806
-      PrincessElva_Wolf_North_47: -2412108398141323790
-      PrincessElva_Wolf_North_48: -2459964991616667293
-      PrincessElva_Wolf_North_49: 2116915322039133702
-      PrincessElva_Wolf_North_5: 4377799372728101011
-      PrincessElva_Wolf_North_50: -871184301494358713
-      PrincessElva_Wolf_North_51: -3341772939625814755
-      PrincessElva_Wolf_North_52: 6838270942618846303
-      PrincessElva_Wolf_North_53: 6493329890391471725
-      PrincessElva_Wolf_North_54: 3326569366525993466
-      PrincessElva_Wolf_North_55: 6236634747035405108
-      PrincessElva_Wolf_North_56: 1612999847160414822
-      PrincessElva_Wolf_North_57: 3520094549042957008
-      PrincessElva_Wolf_North_58: -5121483039219134652
-      PrincessElva_Wolf_North_59: -3962084412863913191
-      PrincessElva_Wolf_North_6: 2750465720122285515
-      PrincessElva_Wolf_North_60: -8546008752002216470
-      PrincessElva_Wolf_North_61: -7042803460600382664
-      PrincessElva_Wolf_North_62: 5640352084727575306
-      PrincessElva_Wolf_North_63: -7211638487741801043
-      PrincessElva_Wolf_North_64: -6529908047633629864
-      PrincessElva_Wolf_North_65: -5433610518565655208
-      PrincessElva_Wolf_North_66: 5716337319481099693
-      PrincessElva_Wolf_North_67: -5795513348340444633
-      PrincessElva_Wolf_North_68: -3296949922017996202
-      PrincessElva_Wolf_North_69: 92010590694079032
-      PrincessElva_Wolf_North_7: -2761526229327094966
-      PrincessElva_Wolf_North_70: 1831106902676916847
-      PrincessElva_Wolf_North_71: -2596191566332702810
-      PrincessElva_Wolf_North_72: -6432625376694456965
-      PrincessElva_Wolf_North_73: 1544869784538899344
-      PrincessElva_Wolf_North_74: -490688141657349379
-      PrincessElva_Wolf_North_75: 8348325570519932537
-      PrincessElva_Wolf_North_76: -1043436042704686648
-      PrincessElva_Wolf_North_77: -6822372085576966952
-      PrincessElva_Wolf_North_78: -8489865940133413555
-      PrincessElva_Wolf_North_79: 4588258672326156886
-      PrincessElva_Wolf_North_8: 6483670223339855630
-      PrincessElva_Wolf_North_9: -6216786912305294266
+      PrincessElva_Wolf_Attack_North_00: 742590527
+      PrincessElva_Wolf_Attack_North_01: -902693918
+      PrincessElva_Wolf_Attack_North_02: 1077318740
+      PrincessElva_Wolf_Attack_North_03: 1075101627
+      PrincessElva_Wolf_Attack_North_04: 611515395
+      PrincessElva_Wolf_Attack_North_05: -1245917853
+      PrincessElva_Wolf_Dead_North_00: 1711399845
+      PrincessElva_Wolf_Dead_North_01: 2127424377
+      PrincessElva_Wolf_Dead_North_02: -722562360
+      PrincessElva_Wolf_Dead_North_03: 1131213364
+      PrincessElva_Wolf_Dead_North_04: 399656417
+      PrincessElva_Wolf_Dead_North_05: 1301513318
+      PrincessElva_Wolf_Idle_North_00: -1022750836
+      PrincessElva_Wolf_Idle_North_01: 1376125420
+      PrincessElva_Wolf_Idle_North_02: -311089849
+      PrincessElva_Wolf_Idle_North_03: -1273296813
+      PrincessElva_Wolf_Idle_North_04: 1386699152
+      PrincessElva_Wolf_Idle_North_05: 1979898487
+      PrincessElva_Wolf_Special01_North_00: -799286509
+      PrincessElva_Wolf_Special01_North_01: 1676711017
+      PrincessElva_Wolf_Special01_North_02: -1173865172
+      PrincessElva_Wolf_Special01_North_03: 467610133
+      PrincessElva_Wolf_Special01_North_04: -1703819532
+      PrincessElva_Wolf_Special01_North_05: 1737028381
+      PrincessElva_Wolf_Special02_North_00: -591703588
+      PrincessElva_Wolf_Special02_North_01: -621780675
+      PrincessElva_Wolf_Special02_North_02: -229593533
+      PrincessElva_Wolf_Special02_North_03: -631478145
+      PrincessElva_Wolf_Special02_North_04: 1592480355
+      PrincessElva_Wolf_Special02_North_05: -2121056578
+      PrincessElva_Wolf_Walk_North_00: 901014678
+      PrincessElva_Wolf_Walk_North_01: -873516676
+      PrincessElva_Wolf_Walk_North_02: -365394973
+      PrincessElva_Wolf_Walk_North_03: 1155985541
+      PrincessElva_Wolf_Walk_North_04: 553145188
+      PrincessElva_Wolf_Walk_North_05: -242107342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

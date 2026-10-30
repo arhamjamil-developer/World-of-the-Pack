@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MoonlightSlash
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: HeroWolvy
+  description: a crisp GOLDEN MOONLIGHT crescent sword slash sweeping north, warm
+    gold white core, no blue ribbon
+  frames:
+  - {fileID: 21300000, guid: 19662558887dc8a4c9c8c3ad16e6d17e, type: 3}
+  - {fileID: 21300000, guid: 8a97412667319eb4099850f55f6caf15, type: 3}
+  - {fileID: 21300000, guid: 3b0e0ff91e82d4a4a9a5ccf6415ed01c, type: 3}
+  - {fileID: 21300000, guid: 02a2136cd7bef384ba31c36a6e701280, type: 3}
+  - {fileID: 21300000, guid: 4d0fce9bcacc5964681002522837dab3, type: 3}
+  - {fileID: 21300000, guid: 34794ee7f3e8b4f46b8e6bd8f19e88f6, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 5ed6faa0ec50ab7449b891f4a499b975, type: 2}

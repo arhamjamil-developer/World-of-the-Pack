@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MoonBubble
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: FairyLulu
+  description: one adorable pastel aqua moonlight bubble projectile with tiny crescent
+    highlight pointing north
+  frames:
+  - {fileID: 21300000, guid: 20850955c752b3740a12bdc45e2ed47a, type: 3}
+  - {fileID: 21300000, guid: f924eb6ad19b6ff41b97f4fc98d6294f, type: 3}
+  - {fileID: 21300000, guid: f04e05f3124ecc04bb86aa5f2d4c7ec1, type: 3}
+  - {fileID: 21300000, guid: 803555c9f17d7a24d99f71f5b00c71f6, type: 3}
+  - {fileID: 21300000, guid: 1c83d29d2a55f754c8bd8842c34c5e0a, type: 3}
+  - {fileID: 21300000, guid: 6f517a8870c137f489457556f0286853, type: 3}
+  framesPerSecond: 10
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 50a5825372b42b246af90c8b91c599df, type: 2}

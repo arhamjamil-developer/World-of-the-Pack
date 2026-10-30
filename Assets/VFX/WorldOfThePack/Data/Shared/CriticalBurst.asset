@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: CriticalBurst
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: Shared
+  description: a crisp small golden critical-hit burst with four-point stars, no
+    numbers/letters
+  frames:
+  - {fileID: 21300000, guid: ddbb8c003f5c06b46ab0eb4004daff4f, type: 3}
+  - {fileID: 21300000, guid: 59da468b168fc2646b1fdda0bdbf0f75, type: 3}
+  - {fileID: 21300000, guid: 60f3b5d5bf3e2254e8d2ed2b97e86771, type: 3}
+  - {fileID: 21300000, guid: dcf77f4712b195e4c9cddae03c35c4b6, type: 3}
+  - {fileID: 21300000, guid: e45e1bd0b7639f043971a740c5544c25, type: 3}
+  - {fileID: 21300000, guid: c82c230535d2b9e4b826ae0c41bc5c8b, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: c4d1446774ddc824fae013c3869388fb, type: 2}

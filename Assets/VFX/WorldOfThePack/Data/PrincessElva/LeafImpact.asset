@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: LeafImpact
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: PrincessElva
+  description: a compact emerald leaf burst with three curling little leaves, not
+    a star explosion
+  frames:
+  - {fileID: 21300000, guid: 99381760cfd333b43aa427a299d31e4f, type: 3}
+  - {fileID: 21300000, guid: 888f382c67355de458d4bb8938fff68c, type: 3}
+  - {fileID: 21300000, guid: 0fd555656aff5494f8b3d27cdb141982, type: 3}
+  - {fileID: 21300000, guid: a0fbfbe7eac03fa4e9653708a765e194, type: 3}
+  - {fileID: 21300000, guid: cc219d00e73b40841b0df766b8084099, type: 3}
+  - {fileID: 21300000, guid: 6984b8376dade2f4c8a8940634f6415a, type: 3}
+  framesPerSecond: 14
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: b06decf13be47b042b313146660d8dd8, type: 2}

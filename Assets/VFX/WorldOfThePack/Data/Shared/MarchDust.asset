@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MarchDust
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: Shared
+  description: small warm beige cartoon dust puffs from footsteps, no feet/characters
+  frames:
+  - {fileID: 21300000, guid: 48012f42320a4c24e8d837c01534d61d, type: 3}
+  - {fileID: 21300000, guid: 76f74bf2be5928247a339265d09e3cb8, type: 3}
+  - {fileID: 21300000, guid: e99cd10ea8638764e919e92085130736, type: 3}
+  - {fileID: 21300000, guid: 85661b0f0c5505b4894121037f90c5ab, type: 3}
+  - {fileID: 21300000, guid: a5cfc8e38c62d3c45a6b5aff7e8689c7, type: 3}
+  - {fileID: 21300000, guid: 0fff8d4ecb9de3541b07c0f4405669dd, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 7
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 276a89ca81372fd4391eb7ef8dd4ec1c, type: 2}

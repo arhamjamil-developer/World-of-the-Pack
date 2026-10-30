@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: BubbleDevice
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: TinkerTilly
+  description: a turquoise transparent bubble trap with little brass gear rim and
+    a tiny spring trigger, no healing hearts
+  frames:
+  - {fileID: 21300000, guid: f14d4dcc1d7a19543a35cbf315c2bae7, type: 3}
+  - {fileID: 21300000, guid: 4ffc6b6fdf1ed0345b81f0b185be9ea5, type: 3}
+  - {fileID: 21300000, guid: dca3f45dd89588b4da72c32be6705005, type: 3}
+  - {fileID: 21300000, guid: 93b88634cfc79a841bd8b7eba46e5144, type: 3}
+  - {fileID: 21300000, guid: ae3735dec1ef8514db844ebc30ba9598, type: 3}
+  - {fileID: 21300000, guid: 955f5cf7281c8e44ab58f5fa668321c2, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: ea1ce88b3117e274baefefd570bbfe33, type: 2}

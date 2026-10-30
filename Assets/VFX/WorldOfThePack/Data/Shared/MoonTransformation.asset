@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MoonTransformation
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: Shared
+  description: a controlled blue/gold crescent dissolve sparkle ring, clear middle
+    for a character
+  frames:
+  - {fileID: 21300000, guid: e0d64263614bdc5408a06521273e1efb, type: 3}
+  - {fileID: 21300000, guid: 9a2d9c82fd3f63a469380fff1215428b, type: 3}
+  - {fileID: 21300000, guid: b4ceb5799b39d5344bc7670aa4305387, type: 3}
+  - {fileID: 21300000, guid: 9071f1346a957f74c84ce185595933e3, type: 3}
+  - {fileID: 21300000, guid: 575c2d0013beb16468df7052074873e4, type: 3}
+  - {fileID: 21300000, guid: f18fb701d002951448212ae110d54f63, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: b4cdfbcaca999bf41ae87f18d320cd08, type: 2}

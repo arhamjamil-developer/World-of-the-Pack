@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: AcornBarrier
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: CaptainBobo
+  description: a warm amber rounded protective shield barrier with small acorn emblem
+    and clear middle
+  frames:
+  - {fileID: 21300000, guid: 435f609b692a1684184d56095c4b47be, type: 3}
+  - {fileID: 21300000, guid: 3bbb6cfd12ce68d40a393ce7c60222c1, type: 3}
+  - {fileID: 21300000, guid: 6457ca07ab6b1114094d7a2493d5db87, type: 3}
+  - {fileID: 21300000, guid: d6018d08579d30449991ae5ab17e4032, type: 3}
+  - {fileID: 21300000, guid: 4954901b5d81f7742875a72ad40678ed, type: 3}
+  - {fileID: 21300000, guid: 3e7152c721110664d97c37b70153bb97, type: 3}
+  framesPerSecond: 10
+  sortingOrder: 7
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: f525a73c8b3168d498e67d89377c1924, type: 2}

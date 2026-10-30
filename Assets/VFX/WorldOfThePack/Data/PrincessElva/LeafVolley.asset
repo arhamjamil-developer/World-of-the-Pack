@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: LeafVolley
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: PrincessElva
+  description: three gracefully fanned emerald leaf arrows pointing north, readable
+    arrow shafts
+  frames:
+  - {fileID: 21300000, guid: 5b5677949618a3f4388bc6436e797de6, type: 3}
+  - {fileID: 21300000, guid: 731e3d01904c32a44b05b1621a5fd04f, type: 3}
+  - {fileID: 21300000, guid: 005c186fd6cc90d45bdf267428c95e18, type: 3}
+  - {fileID: 21300000, guid: cf0ae44d38111964ebc2d7ccb16a2720, type: 3}
+  - {fileID: 21300000, guid: 5b3bed6b9e2b36c47ba0a16aa885eebf, type: 3}
+  - {fileID: 21300000, guid: 2add47a4e9e93cb48bcc178870e88bcd, type: 3}
+  framesPerSecond: 14
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 0dc58f8feb1748d4f818ce07c3609e81, type: 2}

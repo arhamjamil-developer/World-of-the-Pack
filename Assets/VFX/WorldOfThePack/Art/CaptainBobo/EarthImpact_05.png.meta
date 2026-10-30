@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 5ec78c6248e0c0e42b1f20415e44adf6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1990362034632195096
+    second: EarthImpact_05_0
+  - first:
+      213: -4655693175764589404
+    second: EarthImpact_05_1
+  - first:
+      213: 5284459292277272905
+    second: EarthImpact_05_2
+  - first:
+      213: -8652344822893585198
+    second: EarthImpact_05_3
+  - first:
+      213: -8376557718856099553
+    second: EarthImpact_05_4
+  - first:
+      213: -6164119399913800028
+    second: EarthImpact_05_5
+  - first:
+      213: 952835896347346064
+    second: EarthImpact_05_6
+  - first:
+      213: 7046488020880870881
+    second: EarthImpact_05_7
+  - first:
+      213: 8454718314945311931
+    second: EarthImpact_05_8
+  - first:
+      213: 6865806000764255750
+    second: EarthImpact_05_9
+  - first:
+      213: -2468898379135581146
+    second: EarthImpact_05_10
+  - first:
+      213: 7835514300522907092
+    second: EarthImpact_05_11
+  - first:
+      213: -1330227052384491725
+    second: EarthImpact_05_12
+  - first:
+      213: -2022232754793280266
+    second: EarthImpact_05_13
+  - first:
+      213: 5789358952043068947
+    second: EarthImpact_05_14
+  - first:
+      213: 3790707737795216793
+    second: EarthImpact_05_15
+  - first:
+      213: -3949277207715102848
+    second: EarthImpact_05_16
+  - first:
+      213: 5500534782384011077
+    second: EarthImpact_05_17
+  - first:
+      213: 6317055870178975598
+    second: EarthImpact_05_18
+  - first:
+      213: -6878088225726060472
+    second: EarthImpact_05_19
+  - first:
+      213: 6819625371872003625
+    second: EarthImpact_05_20
+  - first:
+      213: 5776582472588912993
+    second: EarthImpact_05_21
+  - first:
+      213: -2182785763269115756
+    second: EarthImpact_05_22
+  - first:
+      213: -7056073668675841140
+    second: EarthImpact_05_23
+  - first:
+      213: 6726414737800760097
+    second: EarthImpact_05_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EarthImpact_05_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 189
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3035f5640d064e0800000000000000
+      internalID: -1990362034632195096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 223
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4675b39b7a36fb0800000000000000
+      internalID: -4655693175764589404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 223
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941f2326abb265940800000000000000
+      internalID: 5284459292277272905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 192
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcdc35c932bce780800000000000000
+      internalID: -8652344822893585198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 184
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f199607b22d70cb80800000000000000
+      internalID: -8376557718856099553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 210
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae3b0f8016a47aa0800000000000000
+      internalID: -6164119399913800028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 208
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094460b0337293d00800000000000000
+      internalID: 952835896347346064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 220
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed46a665872ac160800000000000000
+      internalID: 7046488020880870881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_8
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 166
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4fd4e2381355570800000000000000
+      internalID: 8454718314945311931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 216
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e7c4c5e2e384f50800000000000000
+      internalID: 6865806000764255750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 207
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62406154106bcbdd0800000000000000
+      internalID: -2468898379135581146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 164
+        width: 56
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d54923fdb65dbc60800000000000000
+      internalID: 7835514300522907092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 187
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e1003b851a8de0800000000000000
+      internalID: -1330227052384491725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 190
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc036516069fe3e0800000000000000
+      internalID: -2022232754793280266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 195
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e31c52b4fe75050800000000000000
+      internalID: 5789358952043068947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_15
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 181
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995cb9e7a9c4b9430800000000000000
+      internalID: 3790707737795216793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 163
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f3892cd495139c0800000000000000
+      internalID: -3949277207715102848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 180
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547fda2dd33d55c40800000000000000
+      internalID: 5500534782384011077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 121
+        width: 93
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f505048d0baa750800000000000000
+      internalID: 6317055870178975598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 199
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8482dcb433f1c80a0800000000000000
+      internalID: -6878088225726060472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_20
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 151
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9260cafc42d24ae50800000000000000
+      internalID: 6819625371872003625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 163
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169e866372b8a2050800000000000000
+      internalID: 5776582472588912993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_22
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 53
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4908097c9ef25b1e0800000000000000
+      internalID: -2182785763269115756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 41
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83d69d026ac31e90800000000000000
+      internalID: -7056073668675841140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthImpact_05_24
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 27
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b0192e096095d50800000000000000
+      internalID: 6726414737800760097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      EarthImpact_05_0: -1990362034632195096
+      EarthImpact_05_1: -4655693175764589404
+      EarthImpact_05_10: -2468898379135581146
+      EarthImpact_05_11: 7835514300522907092
+      EarthImpact_05_12: -1330227052384491725
+      EarthImpact_05_13: -2022232754793280266
+      EarthImpact_05_14: 5789358952043068947
+      EarthImpact_05_15: 3790707737795216793
+      EarthImpact_05_16: -3949277207715102848
+      EarthImpact_05_17: 5500534782384011077
+      EarthImpact_05_18: 6317055870178975598
+      EarthImpact_05_19: -6878088225726060472
+      EarthImpact_05_2: 5284459292277272905
+      EarthImpact_05_20: 6819625371872003625
+      EarthImpact_05_21: 5776582472588912993
+      EarthImpact_05_22: -2182785763269115756
+      EarthImpact_05_23: -7056073668675841140
+      EarthImpact_05_24: 6726414737800760097
+      EarthImpact_05_3: -8652344822893585198
+      EarthImpact_05_4: -8376557718856099553
+      EarthImpact_05_5: -6164119399913800028
+      EarthImpact_05_6: 952835896347346064
+      EarthImpact_05_7: 7046488020880870881
+      EarthImpact_05_8: 8454718314945311931
+      EarthImpact_05_9: 6865806000764255750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

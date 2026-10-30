@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -208,529 +208,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_0
+      name: CaptainBobo_Human_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 54
-        y: 816
-        width: 159
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e7784e4bba424d70800000000000000
-      internalID: 9025858771536607209
+      spriteID: 7f3a6aee80c686002d7decc6a3bbb7eb
+      internalID: -217134773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_1
+      name: CaptainBobo_Human_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 310
-        y: 816
-        width: 159
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f238701440df12840800000000000000
-      internalID: 5197713639674970927
+      spriteID: 902134ad16d1033cf630922237cc6ad0
+      internalID: -1090802660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_2
+      name: CaptainBobo_Human_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 559
-        y: 815
-        width: 156
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c2abddd47b605ed0800000000000000
-      internalID: -2427322049470160190
+      spriteID: 52604b1287b2dba3e08d41043ca74bc2
+      internalID: -337291764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_3
+      name: CaptainBobo_Human_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 814
-        y: 815
-        width: 161
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d62498725f36f6c60800000000000000
-      internalID: 7813573783092544109
+      spriteID: 66640f06ef8debb67c7a7a17b629f1f8
+      internalID: 1958510976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_4
+      name: CaptainBobo_Human_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 815
-        width: 157
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e64ebac37ba6de960800000000000000
-      internalID: 7632874278692316270
+      spriteID: f17ccfcb572b01e364e87af46c295872
+      internalID: 6822030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_5
+      name: CaptainBobo_Human_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 815
-        width: 164
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 602b9772ef506b9e0800000000000000
-      internalID: -1606089627968884218
+      spriteID: a174840b82317311b14665c568ea90ff
+      internalID: 930150931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_6
+      name: CaptainBobo_Human_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 57
-        y: 558
-        width: 141
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6b5d00c0ddc8cf770800000000000000
-      internalID: 8645940265661552054
+      spriteID: 337ec17c3da3701d8a3f0b55d9e0fc21
+      internalID: 1181385777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_7
+      name: CaptainBobo_Human_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 315
-        y: 558
-        width: 144
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dfd8c13f7c8a120b0800000000000000
-      internalID: -5755133272072090115
+      spriteID: ac47ea3201372a6faa495ae55eaff740
+      internalID: 1821780325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_8
+      name: CaptainBobo_Human_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 567
-        y: 558
-        width: 146
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6eae35fba9c0db400800000000000000
-      internalID: 341443005524470502
+      spriteID: ea1776d193de34242913c25053cb4190
+      internalID: -667268152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_9
+      name: CaptainBobo_Human_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 820
-        y: 560
-        width: 144
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fe0964d07087b5060800000000000000
-      internalID: 6943275222204584175
+      spriteID: bf89aa532a76e435c48c743fd36565ec
+      internalID: -1792283380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_10
+      name: CaptainBobo_Human_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1074
-        y: 560
-        width: 150
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5704746d5686d8c0800000000000000
-      internalID: -3974841885432477857
+      spriteID: 0184cb17759342964227f93f16739884
+      internalID: 1233538962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_11
+      name: CaptainBobo_Human_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1331
-        y: 558
-        width: 146
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8e0982dceabde080800000000000000
-      internalID: -9156456941067104628
+      spriteID: cf8ca1f25ed2de233292277f5e32ba8d
+      internalID: 309313243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_12
+      name: CaptainBobo_Human_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 57
-        y: 302
-        width: 150
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 149ef894642d05b00800000000000000
-      internalID: 815382731877771585
+      spriteID: d5274c8f54645f29102b3fa9f85ed0ea
+      internalID: 1811257574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_13
+      name: CaptainBobo_Human_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 316
-        y: 303
-        width: 149
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6bcc7a3fc86163810800000000000000
-      internalID: 1744606700291738806
+      spriteID: e2f2234f021b3d1ece1ce394786b2524
+      internalID: 85551469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_14
+      name: CaptainBobo_Human_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 585
-        y: 303
-        width: 133
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5745e3dfbd298240800000000000000
-      internalID: 4794413580229625695
+      spriteID: 4f89f52b4c82784fea9161b09c5115c9
+      internalID: 595232511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_15
+      name: CaptainBobo_Human_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 814
-        y: 302
-        width: 144
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ea4c44f6c76b6b00800000000000000
-      internalID: 822865461125073636
+      spriteID: 6c4ae3f49d6ddc8d7ba84570e4198e06
+      internalID: 325624930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_16
+      name: CaptainBobo_Human_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1064
-        y: 301
-        width: 162
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 490e4f61a700bd0c0800000000000000
-      internalID: -4550042474156597100
+      spriteID: 136aa7c81976d471699d06f49c04a4f1
+      internalID: -841855445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_17
+      name: CaptainBobo_Human_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1325
-        y: 305
-        width: 150
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b122d0e6e40cf1f40800000000000000
-      internalID: 5701487096360673819
+      spriteID: 94dffe6f5f57dc90d6081aeaf66160d3
+      internalID: 122826278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_18
+      name: CaptainBobo_Human_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 55
-        y: 45
-        width: 155
-        height: 153
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fcc62ff7be49a1770800000000000000
-      internalID: 8582335779092720847
+      spriteID: e7cfe8e9897e10cf4f7582413eeac1ce
+      internalID: -1123989751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_19
+      name: CaptainBobo_Human_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 316
-        y: 46
-        width: 149
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a8a789fe0a7745f90800000000000000
-      internalID: -6965811190537094518
+      spriteID: c616cc12a7030c9f3df5f7d7d89c35a5
+      internalID: -1668004620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_20
+      name: CaptainBobo_Human_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 564
-        y: 46
-        width: 155
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c6e9be981593d8f0800000000000000
-      internalID: -516905599242737981
+      spriteID: 9599400078d26ae3a3eca9c9f7117c60
+      internalID: 1740419167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_21
+      name: CaptainBobo_Human_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 811
-        y: 49
-        width: 171
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 82eebe6be589ef170800000000000000
-      internalID: 8214170302933626408
+      spriteID: 0a83210b806b4530078a37428dbac9f7
+      internalID: -1337981504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_22
+      name: CaptainBobo_Human_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 48
-        width: 174
-        height: 125
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8263d7f3dfcd4d010800000000000000
-      internalID: 1212837179919513128
+      spriteID: 11bd8591c2596b445132a94a6482254f
+      internalID: -960278962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainBobo_Human_North_23
+      name: CaptainBobo_Human_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1310
-        y: 49
-        width: 176
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f449e04669387870800000000000000
-      internalID: 8680751393095107830
+      spriteID: c9c3e4d0f9989dd20cd42109743e6b4f
+      internalID: 1993324
       vertices: []
       indices: 
       edges: []
@@ -739,7 +739,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3956705abbafb77428053caa8f93c259
     internalID: 0
     vertices: []
     indices: 
@@ -749,30 +749,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CaptainBobo_Human_North_0: 9025858771536607209
-      CaptainBobo_Human_North_1: 5197713639674970927
-      CaptainBobo_Human_North_10: -3974841885432477857
-      CaptainBobo_Human_North_11: -9156456941067104628
-      CaptainBobo_Human_North_12: 815382731877771585
-      CaptainBobo_Human_North_13: 1744606700291738806
-      CaptainBobo_Human_North_14: 4794413580229625695
-      CaptainBobo_Human_North_15: 822865461125073636
-      CaptainBobo_Human_North_16: -4550042474156597100
-      CaptainBobo_Human_North_17: 5701487096360673819
-      CaptainBobo_Human_North_18: 8582335779092720847
-      CaptainBobo_Human_North_19: -6965811190537094518
-      CaptainBobo_Human_North_2: -2427322049470160190
-      CaptainBobo_Human_North_20: -516905599242737981
-      CaptainBobo_Human_North_21: 8214170302933626408
-      CaptainBobo_Human_North_22: 1212837179919513128
-      CaptainBobo_Human_North_23: 8680751393095107830
-      CaptainBobo_Human_North_3: 7813573783092544109
-      CaptainBobo_Human_North_4: 7632874278692316270
-      CaptainBobo_Human_North_5: -1606089627968884218
-      CaptainBobo_Human_North_6: 8645940265661552054
-      CaptainBobo_Human_North_7: -5755133272072090115
-      CaptainBobo_Human_North_8: 341443005524470502
-      CaptainBobo_Human_North_9: 6943275222204584175
+      CaptainBobo_Human_Attack_North_00: 1811257574
+      CaptainBobo_Human_Attack_North_01: 85551469
+      CaptainBobo_Human_Attack_North_02: 595232511
+      CaptainBobo_Human_Attack_North_03: 325624930
+      CaptainBobo_Human_Attack_North_04: -841855445
+      CaptainBobo_Human_Attack_North_05: 122826278
+      CaptainBobo_Human_Dead_North_00: -1123989751
+      CaptainBobo_Human_Dead_North_01: -1668004620
+      CaptainBobo_Human_Dead_North_02: 1740419167
+      CaptainBobo_Human_Dead_North_03: -1337981504
+      CaptainBobo_Human_Dead_North_04: -960278962
+      CaptainBobo_Human_Dead_North_05: 1993324
+      CaptainBobo_Human_Idle_North_00: -217134773
+      CaptainBobo_Human_Idle_North_01: -1090802660
+      CaptainBobo_Human_Idle_North_02: -337291764
+      CaptainBobo_Human_Idle_North_03: 1958510976
+      CaptainBobo_Human_Idle_North_04: 6822030
+      CaptainBobo_Human_Idle_North_05: 930150931
+      CaptainBobo_Human_Walk_North_00: 1181385777
+      CaptainBobo_Human_Walk_North_01: 1821780325
+      CaptainBobo_Human_Walk_North_02: -667268152
+      CaptainBobo_Human_Walk_North_03: -1792283380
+      CaptainBobo_Human_Walk_North_04: 1233538962
+      CaptainBobo_Human_Walk_North_05: 309313243
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

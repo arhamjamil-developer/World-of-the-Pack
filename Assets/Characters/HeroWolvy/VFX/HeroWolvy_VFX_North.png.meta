@@ -138,7 +138,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -162,7 +162,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -226,661 +226,397 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_0
+      name: HeroWolvy_VFX_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 22
-        y: 534
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4ef4013ca2f2a530800000000000000
-      internalID: 3864918251608014414
+      spriteID: 51ea3995c5a868ce6fe4fd4a0280c29a
+      internalID: -255540429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_1
+      name: HeroWolvy_VFX_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 22
-        y: 668
-        width: 83
-        height: 78
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 45bdfe78127154f40800000000000000
-      internalID: 5711997135171345236
+      spriteID: 6934d0edf77ddb27c14cd1b2c9d64223
+      internalID: -1303058399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_2
+      name: HeroWolvy_VFX_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 51
-        y: 735
-        width: 11
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99bd557436da50310800000000000000
-      internalID: 1370692303514360729
+      spriteID: df680d34631b73739fabcc8e0cefe953
+      internalID: 40334802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_3
+      name: HeroWolvy_VFX_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 114
-        y: 720
-        width: 21
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98d92e157aae7d6f0800000000000000
-      internalID: -659800816032244343
+      spriteID: d752032944ce381cdc1de50cd59bc635
+      internalID: 1187108473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_4
+      name: HeroWolvy_VFX_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 278
-        y: 534
-        width: 211
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a7377224e9d2cbf0800000000000000
-      internalID: -305442250853763161
+      spriteID: 2f6bf47f919758d9e7c6bb89f4e1b526
+      internalID: 23673338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_5
+      name: HeroWolvy_VFX_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 534
-        y: 534
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5244ae3e7b12cee20800000000000000
-      internalID: 3381114493934912549
+      spriteID: 8a24257fc81ace6457e4311292d0acda
+      internalID: 1932174052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_6
+      name: HeroWolvy_VFX_Special01_North_00
       rect:
         serializedVersion: 2
-        x: 790
-        y: 534
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 235a742a8382a6860800000000000000
-      internalID: 7523870351181718834
+      spriteID: f712d6cc37cdcb1edf8b01e89bb52c6f
+      internalID: -420063392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_7
+      name: HeroWolvy_VFX_Special01_North_01
       rect:
         serializedVersion: 2
-        x: 1046
-        y: 534
-        width: 211
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4dbaa4ad9fa2d5b10800000000000000
-      internalID: 1971779464455695316
+      spriteID: c9dce24a82dd2fcf5609c877886f895f
+      internalID: -441105323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_8
+      name: HeroWolvy_VFX_Special01_North_02
       rect:
         serializedVersion: 2
-        x: 1302
-        y: 534
-        width: 212
-        height: 207
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 683008f44cc3a2b30800000000000000
-      internalID: 4263286811104641926
+      spriteID: 56857b2810355dada56f6c732ac799ad
+      internalID: -1572035952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_9
+      name: HeroWolvy_VFX_Special01_North_03
       rect:
         serializedVersion: 2
-        x: 1303
-        y: 738
-        width: 14
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ede6f73aad0e2ff30800000000000000
-      internalID: 4607992598403968734
+      spriteID: 02e34d935b7d8e43f46ce6220d91a39f
+      internalID: -968777834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_10
+      name: HeroWolvy_VFX_Special01_North_04
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 735
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 450ca59401a044db0800000000000000
-      internalID: -4808707437058408364
+      spriteID: 865ac0d119c7c3af303e710b0d2b72ec
+      internalID: 1911591454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_11
+      name: HeroWolvy_VFX_Special01_North_05
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 737
-        width: 17
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 63fed0cd7670bee10800000000000000
-      internalID: 2227882583319768886
+      spriteID: 10efeb25e3c1043059d184cf12bfa1b6
+      internalID: -263929029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_12
+      name: HeroWolvy_VFX_Special02_North_00
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 731
-        width: 9
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b4777faea4a000c0800000000000000
-      internalID: -4611504948252281677
+      spriteID: 1c2096b1b7c4457aa4589cbea634c78e
+      internalID: -472309746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_13
+      name: HeroWolvy_VFX_Special02_North_01
       rect:
         serializedVersion: 2
-        x: 22
-        y: 652
-        width: 6
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 71a6df390e35c56c0800000000000000
-      internalID: -4153352532321801705
+      spriteID: dce9d8d9980e776805e4f08c153ccd02
+      internalID: 1807704737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_14
+      name: HeroWolvy_VFX_Special02_North_02
       rect:
         serializedVersion: 2
-        x: 38
-        y: 652
-        width: 7
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ba4b97afa08d8e70800000000000000
-      internalID: 9119086312414726840
+      spriteID: 418512c84c73d3d3c4cf5cac6574e5e5
+      internalID: 2108935498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_15
+      name: HeroWolvy_VFX_Special02_North_03
       rect:
         serializedVersion: 2
-        x: 38
-        y: 576
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e78344a2e6b758ec0800000000000000
-      internalID: -3565307816908146562
+      spriteID: 2382dcbf6f696734ba95447c8be04c3e
+      internalID: -1184316797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_16
+      name: HeroWolvy_VFX_Special02_North_04
       rect:
         serializedVersion: 2
-        x: 28
-        y: 551
-        width: 12
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 664ec35bbb80aa9e0800000000000000
-      internalID: -1609464314538957722
+      spriteID: 62d87c5bb0b9ffa53d1b3f34b5ff776a
+      internalID: 21448209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroWolvy_VFX_North_17
+      name: HeroWolvy_VFX_Special02_North_05
       rect:
         serializedVersion: 2
-        x: 22
-        y: 279
-        width: 212
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 286ff341304752750800000000000000
-      internalID: 6279552812011484802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_18
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 279
-        width: 211
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8d35cfdb50e761af0800000000000000
-      internalID: -426014551612566568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_19
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 279
-        width: 212
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e44ba63d77228e0a0800000000000000
-      internalID: -6852188935000771506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_20
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 279
-        width: 212
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82167bac84df5a710800000000000000
-      internalID: 1704046523110089000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_21
-      rect:
-        serializedVersion: 2
-        x: 1046
-        y: 279
-        width: 211
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 82b12e621a572b650800000000000000
-      internalID: 6247184968118836008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_22
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 279
-        width: 212
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cee4c83449463e160800000000000000
-      internalID: 7053592029343534828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_23
-      rect:
-        serializedVersion: 2
-        x: 1340
-        y: 279
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8c347a5694669ba0800000000000000
-      internalID: -6082563649791837042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_24
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 22
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19846adb878d8d040800000000000000
-      internalID: 4672722626486356113
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_25
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 22
-        width: 211
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24c86e29c94446c20800000000000000
-      internalID: 3198757074610064450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_26
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 22
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27cac85393a07ca10800000000000000
-      internalID: 1929522206179372146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_27
-      rect:
-        serializedVersion: 2
-        x: 790
-        y: 22
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5859e2adda9e44d10800000000000000
-      internalID: 2109067458415334789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_28
-      rect:
-        serializedVersion: 2
-        x: 1046
-        y: 22
-        width: 211
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 649aeff854159fc20800000000000000
-      internalID: 3240710766080207174
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroWolvy_VFX_North_29
-      rect:
-        serializedVersion: 2
-        x: 1302
-        y: 22
-        width: 212
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 08b913330a8e65870800000000000000
-      internalID: 8671373907299769216
+      spriteID: 20ad617015c318ee98dec1f954829d4a
+      internalID: -728305845
       vertices: []
       indices: 
       edges: []
@@ -889,7 +625,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8b65dcd11dfff1141a15ef2b0883712b
     internalID: 0
     vertices: []
     indices: 
@@ -899,36 +635,24 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HeroWolvy_VFX_North_0: 3864918251608014414
-      HeroWolvy_VFX_North_1: 5711997135171345236
-      HeroWolvy_VFX_North_10: -4808707437058408364
-      HeroWolvy_VFX_North_11: 2227882583319768886
-      HeroWolvy_VFX_North_12: -4611504948252281677
-      HeroWolvy_VFX_North_13: -4153352532321801705
-      HeroWolvy_VFX_North_14: 9119086312414726840
-      HeroWolvy_VFX_North_15: -3565307816908146562
-      HeroWolvy_VFX_North_16: -1609464314538957722
-      HeroWolvy_VFX_North_17: 6279552812011484802
-      HeroWolvy_VFX_North_18: -426014551612566568
-      HeroWolvy_VFX_North_19: -6852188935000771506
-      HeroWolvy_VFX_North_2: 1370692303514360729
-      HeroWolvy_VFX_North_20: 1704046523110089000
-      HeroWolvy_VFX_North_21: 6247184968118836008
-      HeroWolvy_VFX_North_22: 7053592029343534828
-      HeroWolvy_VFX_North_23: -6082563649791837042
-      HeroWolvy_VFX_North_24: 4672722626486356113
-      HeroWolvy_VFX_North_25: 3198757074610064450
-      HeroWolvy_VFX_North_26: 1929522206179372146
-      HeroWolvy_VFX_North_27: 2109067458415334789
-      HeroWolvy_VFX_North_28: 3240710766080207174
-      HeroWolvy_VFX_North_29: 8671373907299769216
-      HeroWolvy_VFX_North_3: -659800816032244343
-      HeroWolvy_VFX_North_4: -305442250853763161
-      HeroWolvy_VFX_North_5: 3381114493934912549
-      HeroWolvy_VFX_North_6: 7523870351181718834
-      HeroWolvy_VFX_North_7: 1971779464455695316
-      HeroWolvy_VFX_North_8: 4263286811104641926
-      HeroWolvy_VFX_North_9: 4607992598403968734
+      HeroWolvy_VFX_Attack_North_00: -255540429
+      HeroWolvy_VFX_Attack_North_01: -1303058399
+      HeroWolvy_VFX_Attack_North_02: 40334802
+      HeroWolvy_VFX_Attack_North_03: 1187108473
+      HeroWolvy_VFX_Attack_North_04: 23673338
+      HeroWolvy_VFX_Attack_North_05: 1932174052
+      HeroWolvy_VFX_Special01_North_00: -420063392
+      HeroWolvy_VFX_Special01_North_01: -441105323
+      HeroWolvy_VFX_Special01_North_02: -1572035952
+      HeroWolvy_VFX_Special01_North_03: -968777834
+      HeroWolvy_VFX_Special01_North_04: 1911591454
+      HeroWolvy_VFX_Special01_North_05: -263929029
+      HeroWolvy_VFX_Special02_North_00: -472309746
+      HeroWolvy_VFX_Special02_North_01: 1807704737
+      HeroWolvy_VFX_Special02_North_02: 2108935498
+      HeroWolvy_VFX_Special02_North_03: -1184316797
+      HeroWolvy_VFX_Special02_North_04: 21448209
+      HeroWolvy_VFX_Special02_North_05: -728305845
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

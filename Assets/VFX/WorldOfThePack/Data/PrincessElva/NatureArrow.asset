@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: NatureArrow
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: PrincessElva
+  description: one elegant slim EMERALD leaf-shaped arrow pointing north, thin leaf
+    trail
+  frames:
+  - {fileID: 21300000, guid: d3b7893605794d7469bcf33397c36d53, type: 3}
+  - {fileID: 21300000, guid: c6f6b3869aea1254fa4f61bd14409d55, type: 3}
+  - {fileID: 21300000, guid: 6fc3a14b264c7064aaabc1f18d3981fe, type: 3}
+  - {fileID: 21300000, guid: ccd435be4ffba864497163791c95129e, type: 3}
+  - {fileID: 21300000, guid: a72ab01172bd57a46af08da5350884fe, type: 3}
+  - {fileID: 21300000, guid: c4f1dfbb70fd3834fbe2e972310b276e, type: 3}
+  framesPerSecond: 14
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: ad73b07057a066547a54e84644e02b3f, type: 2}

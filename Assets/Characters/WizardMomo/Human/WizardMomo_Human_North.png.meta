@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -208,529 +208,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WizardMomo_Human_North_0
+      name: WizardMomo_Human_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 60
-        y: 815
-        width: 147
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6359ddc487f1841d0800000000000000
-      internalID: -3366406119913319114
+      spriteID: e0700f5e10861dbe03b106430f8a289b
+      internalID: 775161295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_1
+      name: WizardMomo_Human_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 312
-        y: 814
-        width: 156
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 986a1c45ee14c7640800000000000000
-      internalID: 5079006971647075977
+      spriteID: ed900fd8f1b06e69b6adf571415dd3c7
+      internalID: 1229672834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_2
+      name: WizardMomo_Human_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 579
-        y: 817
-        width: 129
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7bfb62e1475a9f520800000000000000
-      internalID: 2736400166744932279
+      spriteID: 2878a5cc64b2b156acda8eb8c08203eb
+      internalID: 1063959970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_3
+      name: WizardMomo_Human_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 829
-        y: 814
-        width: 141
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 369548248ca9e73a0800000000000000
-      internalID: -6665720213561648797
+      spriteID: a560f869cfd5ce2f0f85c50dadf84b14
+      internalID: -1766693900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_4
+      name: WizardMomo_Human_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1087
-        y: 814
-        width: 138
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6db6e45edcb3f7b00800000000000000
-      internalID: 828446611960916950
+      spriteID: d8755091a04455dd5671c4b0bae1fe1c
+      internalID: -1685413999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_5
+      name: WizardMomo_Human_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 814
-        width: 135
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 73ebb1a1e2c9a3f60800000000000000
-      internalID: 8014890208679673399
+      spriteID: f0d8253797d9e88742304d88a33c61cc
+      internalID: 644279268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_6
+      name: WizardMomo_Human_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 58
-        y: 558
-        width: 147
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a304502c153d95d80800000000000000
-      internalID: -8261339693333528518
+      spriteID: 331270f79fc7256a27eda6849e5ce278
+      internalID: -1400620035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_7
+      name: WizardMomo_Human_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 325
-        y: 558
-        width: 129
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32f4b95ab186bf500800000000000000
-      internalID: 431052657295839011
+      spriteID: debdadeada1b7e0fda3a20b961e1ede2
+      internalID: 1560571571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_8
+      name: WizardMomo_Human_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 580
-        y: 558
-        width: 133
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c710718ce52988990800000000000000
-      internalID: -7383490653292396164
+      spriteID: 0081a10073e3cd8bb51276e263a3bea8
+      internalID: -1778939674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_9
+      name: WizardMomo_Human_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 834
-        y: 559
-        width: 135
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec8310d0d949a6c60800000000000000
-      internalID: 7812219905876506830
+      spriteID: 000eeb151916910b10217fb0c7d3eb25
+      internalID: -451840688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_10
+      name: WizardMomo_Human_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1089
-        y: 558
-        width: 134
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 721c8861b6ca5b250800000000000000
-      internalID: 5959859257834258727
+      spriteID: f81a35c579b2844ce24ef907d493af0c
+      internalID: -1891546577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_11
+      name: WizardMomo_Human_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1347
-        y: 559
-        width: 129
-        height: 168
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 026e6fe316628de00800000000000000
-      internalID: 1069647110610544160
+      spriteID: 6a5dbd5607679d2946082f5a3d48fe06
+      internalID: -401834839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_12
+      name: WizardMomo_Human_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 68
-        y: 306
-        width: 147
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b92b3f518a0cd7c70800000000000000
-      internalID: 8970537860947227291
+      spriteID: f8553480a33ee153872071c788f66a5e
+      internalID: -924218703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_13
+      name: WizardMomo_Human_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 312
-        y: 303
-        width: 164
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f0d10f15b165900a0800000000000000
-      internalID: -6914901077511889649
+      spriteID: 582739a0c0a8a673350b7c3441bcde25
+      internalID: 497860070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_14
+      name: WizardMomo_Human_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 581
-        y: 306
-        width: 139
-        height: 165
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: db69e64387f1fc180800000000000000
-      internalID: -9093014521501542723
+      spriteID: e2faacc8818560d6b67c94f288732679
+      internalID: -573209615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_15
+      name: WizardMomo_Human_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 822
-        y: 297
-        width: 148
-        height: 188
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b0c93227020e1fef0800000000000000
-      internalID: -76033288730076149
+      spriteID: b72f85529847d1d4d14540dcf77121ac
+      internalID: 750181560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_16
+      name: WizardMomo_Human_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 300
-        width: 182
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4ba4f87fc26f67a90800000000000000
-      internalID: -7316389871624435020
+      spriteID: bee68bd9eb8afadef1ca3fe3b7347b0b
+      internalID: -86931871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_17
+      name: WizardMomo_Human_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1339
-        y: 302
-        width: 154
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 490851d4f5d606690800000000000000
-      internalID: -7610963114173562732
+      spriteID: 9f5a98cb06aeeb283beca2bbfd49e60a
+      internalID: -1169621291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_18
+      name: WizardMomo_Human_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 56
-        y: 46
-        width: 178
-        height: 157
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e3549eaf22e7e9bb0800000000000000
-      internalID: -4927362253593164482
+      spriteID: 9bb2293cc0f624f246bbd85827019b9a
+      internalID: 1505137551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_19
+      name: WizardMomo_Human_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 320
-        y: 41
-        width: 159
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de267de2848998c00800000000000000
-      internalID: 903420636055429869
+      spriteID: aea6587382fef7afd7eae8356ac0f3c0
+      internalID: 2125380373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_20
+      name: WizardMomo_Human_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 566
-        y: 47
-        width: 162
-        height: 137
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c06e0d81a2c720b70800000000000000
-      internalID: 8863783536865371660
+      spriteID: 2fad163f45dde278f041fc761b4af744
+      internalID: 1895147204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_21
+      name: WizardMomo_Human_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 817
-        y: 48
-        width: 170
-        height: 127
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d69fa7718f40c7da0800000000000000
-      internalID: -5945871944443561619
+      spriteID: 4ec746be418fda7026ec87f61aa0613c
+      internalID: -1123456549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_22
+      name: WizardMomo_Human_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 49
-        width: 174
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8ef29581528d09ad0800000000000000
-      internalID: -2697418522961039384
+      spriteID: 44493e63331574875a38709616bfd100
+      internalID: 563097799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: WizardMomo_Human_North_23
+      name: WizardMomo_Human_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1327
-        y: 47
-        width: 169
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 99ebee025c78193e0800000000000000
-      internalID: -2048707074746040679
+      spriteID: c1be41713d6c27775f8e44214ad03e1b
+      internalID: 1493447338
       vertices: []
       indices: 
       edges: []
@@ -739,7 +739,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9e51055e673570448a303cadad70b808
     internalID: 0
     vertices: []
     indices: 
@@ -749,30 +749,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      WizardMomo_Human_North_0: -3366406119913319114
-      WizardMomo_Human_North_1: 5079006971647075977
-      WizardMomo_Human_North_10: 5959859257834258727
-      WizardMomo_Human_North_11: 1069647110610544160
-      WizardMomo_Human_North_12: 8970537860947227291
-      WizardMomo_Human_North_13: -6914901077511889649
-      WizardMomo_Human_North_14: -9093014521501542723
-      WizardMomo_Human_North_15: -76033288730076149
-      WizardMomo_Human_North_16: -7316389871624435020
-      WizardMomo_Human_North_17: -7610963114173562732
-      WizardMomo_Human_North_18: -4927362253593164482
-      WizardMomo_Human_North_19: 903420636055429869
-      WizardMomo_Human_North_2: 2736400166744932279
-      WizardMomo_Human_North_20: 8863783536865371660
-      WizardMomo_Human_North_21: -5945871944443561619
-      WizardMomo_Human_North_22: -2697418522961039384
-      WizardMomo_Human_North_23: -2048707074746040679
-      WizardMomo_Human_North_3: -6665720213561648797
-      WizardMomo_Human_North_4: 828446611960916950
-      WizardMomo_Human_North_5: 8014890208679673399
-      WizardMomo_Human_North_6: -8261339693333528518
-      WizardMomo_Human_North_7: 431052657295839011
-      WizardMomo_Human_North_8: -7383490653292396164
-      WizardMomo_Human_North_9: 7812219905876506830
+      WizardMomo_Human_Attack_North_00: -924218703
+      WizardMomo_Human_Attack_North_01: 497860070
+      WizardMomo_Human_Attack_North_02: -573209615
+      WizardMomo_Human_Attack_North_03: 750181560
+      WizardMomo_Human_Attack_North_04: -86931871
+      WizardMomo_Human_Attack_North_05: -1169621291
+      WizardMomo_Human_Dead_North_00: 1505137551
+      WizardMomo_Human_Dead_North_01: 2125380373
+      WizardMomo_Human_Dead_North_02: 1895147204
+      WizardMomo_Human_Dead_North_03: -1123456549
+      WizardMomo_Human_Dead_North_04: 563097799
+      WizardMomo_Human_Dead_North_05: 1493447338
+      WizardMomo_Human_Idle_North_00: 775161295
+      WizardMomo_Human_Idle_North_01: 1229672834
+      WizardMomo_Human_Idle_North_02: 1063959970
+      WizardMomo_Human_Idle_North_03: -1766693900
+      WizardMomo_Human_Idle_North_04: -1685413999
+      WizardMomo_Human_Idle_North_05: 644279268
+      WizardMomo_Human_Walk_North_00: -1400620035
+      WizardMomo_Human_Walk_North_01: 1560571571
+      WizardMomo_Human_Walk_North_02: -1778939674
+      WizardMomo_Human_Walk_North_03: -451840688
+      WizardMomo_Human_Walk_North_04: -1891546577
+      WizardMomo_Human_Walk_North_05: -401834839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

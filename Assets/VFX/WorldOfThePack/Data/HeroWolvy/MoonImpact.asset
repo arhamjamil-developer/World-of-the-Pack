@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: MoonImpact
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: HeroWolvy
+  description: a compact golden crescent impact with three heroic paw-shaped sparks
+  frames:
+  - {fileID: 21300000, guid: 6ca66d7da9697f840aac662b958c229c, type: 3}
+  - {fileID: 21300000, guid: da40fcc6fc0956c419be0e3b86ace7c1, type: 3}
+  - {fileID: 21300000, guid: 15a7b41d402f9024ab05e9de013154fd, type: 3}
+  - {fileID: 21300000, guid: c20f73c7cbc25544997bee489e2fd779, type: 3}
+  - {fileID: 21300000, guid: ed0bb4000e6422e49a65544a9433aef0, type: 3}
+  - {fileID: 21300000, guid: 5f464538fd99dae4eae7201dad9d0dfb, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 9f743cd3f50412048a74aaee81e89ecb, type: 2}

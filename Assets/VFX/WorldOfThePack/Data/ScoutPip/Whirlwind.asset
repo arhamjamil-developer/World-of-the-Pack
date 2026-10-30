@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: Whirlwind
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: ScoutPip
+  description: a compact cyan-and-white spinning whirlwind curl seen from above,
+    transparent center
+  frames:
+  - {fileID: 21300000, guid: 8bfd366354be4d1428131117d3b9363a, type: 3}
+  - {fileID: 21300000, guid: 81f40ce94a3d27e4aa6022aead3d9cd5, type: 3}
+  - {fileID: 21300000, guid: 8f56207f12644eb4fa6160e1d5977ec2, type: 3}
+  - {fileID: 21300000, guid: a831414c958cb0b408ce6ee32cd0f37e, type: 3}
+  - {fileID: 21300000, guid: 4a189015f058d784da661c98c8468b11, type: 3}
+  - {fileID: 21300000, guid: 0d85462a4fe0f1e46b7d5ce80d11167a, type: 3}
+  framesPerSecond: 18
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 3d01fee08bd389e4e84317b63f22e484, type: 2}

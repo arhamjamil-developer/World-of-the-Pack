@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 6580fdf108db77e408b7f7de4ca03862
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3958569449380352824
+    second: QuickImpact_05_0
+  - first:
+      213: -1498886585584559173
+    second: QuickImpact_05_1
+  - first:
+      213: -624721834031298170
+    second: QuickImpact_05_2
+  - first:
+      213: -4759793657560188216
+    second: QuickImpact_05_3
+  - first:
+      213: -3447322170564402921
+    second: QuickImpact_05_4
+  - first:
+      213: -8590994623675003944
+    second: QuickImpact_05_5
+  - first:
+      213: -1770790525224201010
+    second: QuickImpact_05_6
+  - first:
+      213: -3812902004668103618
+    second: QuickImpact_05_7
+  - first:
+      213: 4853295507246962170
+    second: QuickImpact_05_8
+  - first:
+      213: 8754291591817815495
+    second: QuickImpact_05_9
+  - first:
+      213: -7919659582309456611
+    second: QuickImpact_05_10
+  - first:
+      213: -6234239132540943256
+    second: QuickImpact_05_11
+  - first:
+      213: -6749235540032061536
+    second: QuickImpact_05_12
+  - first:
+      213: 3176646324430422583
+    second: QuickImpact_05_13
+  - first:
+      213: 923440361651027861
+    second: QuickImpact_05_14
+  - first:
+      213: 1728704485515486116
+    second: QuickImpact_05_15
+  - first:
+      213: -4729564937628968288
+    second: QuickImpact_05_16
+  - first:
+      213: -674638180327806493
+    second: QuickImpact_05_17
+  - first:
+      213: -7197902196779312942
+    second: QuickImpact_05_18
+  - first:
+      213: 1985795413278018959
+    second: QuickImpact_05_19
+  - first:
+      213: -1808061910153700278
+    second: QuickImpact_05_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QuickImpact_05_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 203
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc68f62f065019c0800000000000000
+      internalID: -3958569449380352824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 194
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb52a38792e23be0800000000000000
+      internalID: -1498886585584559173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 166
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68942274dca8457f0800000000000000
+      internalID: -624721834031298170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 105
+        width: 121
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cab7fc03e0d1fdb0800000000000000
+      internalID: -4759793657560188216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 107
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7112e2520c6a820d0800000000000000
+      internalID: -3447322170564402921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 150
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db8f8428e7a6c880800000000000000
+      internalID: -8590994623675003944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_6
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 106
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4526c3663ec67e0800000000000000
+      internalID: -1770790525224201010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 129
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34026014d9d51bc0800000000000000
+      internalID: -3812902004668103618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 130
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5547bcc8e5a5340800000000000000
+      internalID: 4853295507246962170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 122
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c56d7e02dd7d7970800000000000000
+      internalID: 8754291591817815495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d152d6ee197b71290800000000000000
+      internalID: -7919659582309456611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_11
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 133
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864ce041a888b79a0800000000000000
+      internalID: -6234239132540943256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 23
+        width: 123
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af72fa0906e552a0800000000000000
+      internalID: -6749235540032061536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 23
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732c9b06007b51c20800000000000000
+      internalID: 3176646324430422583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 113
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fb777cd18b0dc00800000000000000
+      internalID: 923440361651027861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 75
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a366cc02979df710800000000000000
+      internalID: 1728704485515486116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 75
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9b7e5fb53d5eb0800000000000000
+      internalID: -4729564937628968288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 77
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e925ad362433a6f0800000000000000
+      internalID: -674638180327806493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 26
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d817f0961aeb1c90800000000000000
+      internalID: -7197902196779312942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_19
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 23
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d490d3866fe8b10800000000000000
+      internalID: 1985795413278018959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QuickImpact_05_20
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 23
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cdf51b54978e6e0800000000000000
+      internalID: -1808061910153700278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QuickImpact_05_0: -3958569449380352824
+      QuickImpact_05_1: -1498886585584559173
+      QuickImpact_05_10: -7919659582309456611
+      QuickImpact_05_11: -6234239132540943256
+      QuickImpact_05_12: -6749235540032061536
+      QuickImpact_05_13: 3176646324430422583
+      QuickImpact_05_14: 923440361651027861
+      QuickImpact_05_15: 1728704485515486116
+      QuickImpact_05_16: -4729564937628968288
+      QuickImpact_05_17: -674638180327806493
+      QuickImpact_05_18: -7197902196779312942
+      QuickImpact_05_19: 1985795413278018959
+      QuickImpact_05_2: -624721834031298170
+      QuickImpact_05_20: -1808061910153700278
+      QuickImpact_05_3: -4759793657560188216
+      QuickImpact_05_4: -3447322170564402921
+      QuickImpact_05_5: -8590994623675003944
+      QuickImpact_05_6: -1770790525224201010
+      QuickImpact_05_7: -3812902004668103618
+      QuickImpact_05_8: 4853295507246962170
+      QuickImpact_05_9: 8754291591817815495
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

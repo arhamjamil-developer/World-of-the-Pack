@@ -1,0 +1,117 @@
+{
+  "sources": [
+    {
+      "key": "CardFrame",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-00b0c07a-1f09-45d1-a5ac-5f6a3d47e497.png",
+      "prompt": "Use case: ui-mockup. Extract and redesign as a standalone reusable UI ART asset the ornate cream/brass/gold outer card border from the supplied WORLD OF THE PACK gameplay. ONLY ONE EMPTY PORTRAIT CARD OUTER FRAME, target768x1024,3:4. True TRANSPARENT RGBA background AND transparent center opening. Elegant thick rounded rectangle with clipped beveled corners, warm dark wood outer rim, polished hand-painted gold/brass inner trim, cream highlight, subtle sculpted cartoon depth, premium friendly fantasy mobile game exactly matching reference. Simple symmetric frame with clear straight stretchable center edges suitable Unity9-slicing; small understated corner rivets. Center opening covers roughly84%width and88%height, genuinely empty alpha. ALL interior, including lowerpart, transparent. No portrait, backgroundscene, nameplate, buttons, energy bars, icons, text, labels, numbers, pawemblems, glow halo, sheet, mockup or drop shadow rectangle. Frame fills canvas with transparent margin4%, complete corners not cropped. This is an artist-made border only shared by everyhero, not a complete card."
+    },
+    {
+      "key": "ControlAtlas",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-09cb192d-f4f1-4904-bfe4-d0b4e72b2dd6.png",
+      "prompt": "Use case: ui-mockup. Create a TRUE TRANSPARENT UI component atlas for WORLD OF THE PACK, matching supplied gameplay's sculpted hand-painted cream/gold/wood fantasy controls. NO TEXT, LETTERS, NUMBERS OR LABELS ANYWHERE. No characters. EXACT2columns x4rows on1024x1024 square; each slot512x256, large transparent gutters, components isolated and fully separated. Same premium cartoon bevel/lighting and clean alpha. Each component centered in its slot, fits85%width60%height, wide horizontal rounded rectangle, simple stretchable center and sculpted endcaps forUnity9slice. Reading LEFT TO RIGHT TOP TO BOTTOM:\n1 cream parchment NAMEPLATE with thin gold rim, blankmiddle;\n2 dark walnut ENERGY TRACK with bronze rim, long inset emptydark center, nofill;\n3 bright golden yellow ENERGY FILL CAPSULE, solid luminousyellowmiddle withsoft creamhighlight, noframeornumbers;\n4 lime emerald DEPLOY BUTTON blank, rich bevelled roundedgoldborder, noarrowicon orwords;\n5 slate-blue CHARGING BUTTON blank, matching gold/steel bevel, dimblue-grayflatcenter, NOwords;\n6 cream/brass FORMATION BUTTON blank, darkerwoodouterrim, noicon orwords;\n7 golden circular REPEAT ARROW ICON ONLY, two curvedarrows loop isolated againstalpha, a small compact roundicon centered in slot, NOrectanglebuttonbehind;\n8 deepnavy MOONSHIFT BUTTON blank withwarmgold rim, no moonicon orwords.\nKeep strict eight-itemcount, strict2x4 even grid, no extra icons/particles, no text. These will be sliced into separate PNGsandfontlabelsaddedinUnity. Truealphaoutsideeachpiece, not a black matte or bakedcheckerboard."
+    },
+    {
+      "key": "PortraitBackdrop",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-1b348567-b2ab-4d2d-ad61-a251b90e06a6.png",
+      "prompt": "Use case: stylized-concept. ONE square512x512 painted UI PORTRAIT BACKDROP for WORLD OF THE PACK card interior. Match supplied reference card portraits' rich blue/teal forest mood but NO characters, NO text, NO frame/border/buttons/icons. Soft gently shaded turquoise-blue center, darker deepteal outercorners, a few simplified blurred painted leafsilhouettes nearleft/rightedges, extremely subtle tiny golden motes atouteredgeonly. Crisp enough for premiumhandpaintedcartoonUI, low contrast where a character face will sit. OPAQUE full-bleedsquare. No front-facingenvironmentorhorizon, no strongsubject, no dramaticglow. It is a reusable background texture behind all14 separatetransparentportraits."
+    },
+    {
+      "key": "UIVFX",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-a78b28f5-0ee5-4207-a23f-5175ad7bfd1d.png",
+      "prompt": "Use case: stylized-concept. ONE transparent UI VFX FLIPBOOK atlas for WORLD OF THE PACK cards. EXACT6columns x3rows equal squarecells1536x768,18frames. Nocharacters, labels, letters, words, numbers, buttons, iconswithtext, cards or background. Realtransparentalphaoutsideisolatedsmallfriendlyeffects, no black/white matte. Clean smoothpremiumcartoonparticles, gold/aqua/cream, same referenceart. Maximumeffectsize60%cell, generousgaps, nospillover.\nEach row is one6-frame animation lefttoright:\nRow1 CHARGING: tinygoldenergy motes andoneaqua sparkle glide gently LEFT TO RIGHT along an invisible horizontalbar, softshimmer; fewmotesonly, loopstartandendcompatible. NOdrawnbar.\nRow2 DEPLOYED: small gold pawprintandblue footprint spark forms, expands into a cheerfulgold/aquaring, scatters fewstars, thenfades. Sixsuccessivegrowththenfadeframes.\nRow3 READY: fourtinystars atcornersofanINVISIBLEroundedrectangle twinkle insequence; barelyanycentralglow. Subtleloop that canoverlayemptycardframe; keepcentertransparent.\nEverythinglookerfriendlyandreadable, notfireworks. No huge bloom, no screenwideclouds. Finalframesretainfaintparticles soeachframecanbesliced."
+    },
+    {
+      "key": "HeroWolvy",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-07028239-2b21-404a-a184-533010effe10.png",
+      "prompt": "Use case: stylized-concept. ONE paired HUMAN AND WOLF portrait atlas for ONLY Hero Wolvy of WORLD OF THE PACK. Reference lineup fixes exact identity, proportions, accessories and cartoon style. Premium hand-painted friendly chibi fantasy, polished soft shading and crisp contours like supplied gameplay portraits. EXACT2 equal square portrait cells side by side, target1536x768. LEFT HUMAN: warm tan boy, tousled dark brown hair, amber eyes, cobalt-blue cape, cream tunic/navy vest, gold paw brooch. RIGHT WOLF: gray wolf with cream muzzle, amber eyes, cobalt-blue cape and gold paw brooch. Both portraits head-and-shoulders bust only, faces toward viewer in same slight3/4 angle, same friendly confident smile and large expressive eyes, matching head size and vertical alignment. Human has normal human ears, no fur/muzzle/tail. Wolf unmistakably friendly cute wolf with triangular ears, round muzzle and fur, same signature costume. Include all hair/hat/hood/ears and shoulders fully inside individualcell with8% padding. Occupy around80% cell height, do NOT crop top ofhat/ears. Transparent RGBA background everywhere outside isolatedbust, no card/frame/backgroundcircle, no text/names/labels/icons, no weapons in front of face, no fullbody, no extra characters. Large transparent gutter between2portraits so they can be cropped into separatePNGfiles. Preserve reference designs, no redesign and no generic dog/fox."
+    },
+    {
+      "key": "PrincessElva",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-bfa8ac76-467e-46ef-b33c-3210d89c5cef.png",
+      "prompt": "Use case: stylized-concept. ONE paired HUMAN AND WOLF portrait atlas for ONLY Princess Elva of WORLD OF THE PACK. Reference lineup fixes exact identity, proportions, accessories and cartoon style. Premium hand-painted friendly chibi fantasy, polished soft shading and crisp contours like supplied gameplay portraits. EXACT2 equal square portrait cells side by side, target1536x768. LEFT HUMAN: warm brown-skinned girl, chestnut bob, hazel eyes, forest-green hood, tiny gold leaf tiara, cream and green outfit. RIGHT WOLF: warm gray wolf with cream face, hazel eyes, same forest-green hood and little gold leaf tiara. Both portraits head-and-shoulders bust only, faces toward viewer in same slight3/4 angle, same friendly confident smile and large expressive eyes, matching head size and vertical alignment. Human has normal human ears, no fur/muzzle/tail. Wolf unmistakably friendly cute wolf with triangular ears, round muzzle and fur, same signature costume. Include all hair/hat/hood/ears and shoulders fully inside individualcell with8% padding. Occupy around80% cell height, do NOT crop top ofhat/ears. Transparent RGBA background everywhere outside isolatedbust, no card/frame/backgroundcircle, no text/names/labels/icons, no weapons in front of face, no fullbody, no extra characters. Large transparent gutter between2portraits so they can be cropped into separatePNGfiles. Preserve reference designs, no redesign and no generic dog/fox."
+    },
+    {
+      "key": "FairyLulu",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-61cb38c1-cc85-4f5d-8e48-863261849488.png",
+      "prompt": "Use case: stylized-concept. ONE paired HUMAN/WOLF PORTRAIT ATLAS for ONLY Fairy Lulu, using canonical lineup reference. Premium friendly chibi fantasy same clean painted style and3-head-tall proportions as approvedgame, bigexpressiveeyes, softsculptedshading, crispcontours. EXACT2equalsquarecells sidebyside,1536x768. LEFT human head-and-shoulders: light peach-skinned girl, white-blond bob, sky-blue eyes, aqua/cream outfit, short blue cape, gold crescent hair clip. RIGHT wolf head-and-shoulders: cream-white wolf, sky-blue eyes, aqua/cream outfit, short blue cape, gold crescent clip. Both samefriendlyconfident expression andmatchingheadscale, slightfrontal3/4 view lookingatviewer, nofullbody. Human normalears nofur/muzzle/tail; wolfcute clearwolfmuzzleandears, samecostume andeyecolor. Keep allhair/hat/ears/hood andshoulders insideeachcellwith8%padding. True transparentRGBAbackgroundoutsidebusts, noframe/backdrop/circle/text/labels/names/weapons/UI. Largecleargutterbetween2portraitstocropseparately. ONLYthishero'stwoforms, don'taddothersordesignchanges. RetainBobo'sdarkhumanskinifBobo; retainLulucreamfurifLulu; retainPipmintscarfifPip."
+    },
+    {
+      "key": "CaptainBobo",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-f87d2f59-8f9a-4f5f-81bb-8343ccfc5f09.png",
+      "prompt": "Use case: stylized-concept. ONE paired HUMAN/WOLF PORTRAIT ATLAS for ONLY Captain Bobo, using canonical lineup reference. Premium friendly chibi fantasy same clean painted style and3-head-tall proportions as approvedgame, bigexpressiveeyes, softsculptedshading, crispcontours. EXACT2equalsquarecells sidebyside,1536x768. LEFT human head-and-shoulders: stocky deep brown-skinned boy, dark curly hair, warm brown eyes, coral-red tunic, honey-gold shoulder cape, acorn badge. RIGHT wolf head-and-shoulders: stocky honey-brown wolf with cream muzzle, warm brown eyes, same coral tunic/honey cape/acorn badge. Both samefriendlyconfident expression andmatchingheadscale, slightfrontal3/4 view lookingatviewer, nofullbody. Human normalears nofur/muzzle/tail; wolfcute clearwolfmuzzleandears, samecostume andeyecolor. Keep allhair/hat/ears/hood andshoulders insideeachcellwith8%padding. True transparentRGBAbackgroundoutsidebusts, noframe/backdrop/circle/text/labels/names/weapons/UI. Largecleargutterbetween2portraitstocropseparately. ONLYthishero'stwoforms, don'taddothersordesignchanges. RetainBobo'sdarkhumanskinifBobo; retainLulucreamfurifLulu; retainPipmintscarfifPip."
+    },
+    {
+      "key": "ScoutPip",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-99e88b1d-14f1-49be-b596-1e7b75f71832.png",
+      "prompt": "Use case: stylized-concept. ONE paired HUMAN/WOLF PORTRAIT ATLAS for ONLY Scout Pip, using canonical lineup reference. Premium friendly chibi fantasy same clean painted style and3-head-tall proportions as approvedgame, bigexpressiveeyes, softsculptedshading, crispcontours. EXACT2equalsquarecells sidebyside,1536x768. LEFT human head-and-shoulders: small olive-skinned boy, short spiky dark hair, bright teal eyes, long mint-teal scarf, light green vest, map-satchel strap. RIGHT wolf head-and-shoulders: small charcoal-gray wolf with cream chest, bright teal eyes, mint-teal scarf and light vest. Both samefriendlyconfident expression andmatchingheadscale, slightfrontal3/4 view lookingatviewer, nofullbody. Human normalears nofur/muzzle/tail; wolfcute clearwolfmuzzleandears, samecostume andeyecolor. Keep allhair/hat/ears/hood andshoulders insideeachcellwith8%padding. True transparentRGBAbackgroundoutsidebusts, noframe/backdrop/circle/text/labels/names/weapons/UI. Largecleargutterbetween2portraitstocropseparately. ONLYthishero'stwoforms, don'taddothersordesignchanges. RetainBobo'sdarkhumanskinifBobo; retainLulucreamfurifLulu; retainPipmintscarfifPip."
+    },
+    {
+      "key": "WizardMomo",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-cbdc9a25-84d2-4485-a061-aacbf75bf1fb.png",
+      "prompt": "Use case: stylized-concept. ONLY Wizard Momo paired HUMAN+WOLF portrait atlas, matching canonical roster reference and approved premium cartoon mobilegame. EXACT2equalsquarecells sidebyside1536x768. LEFT humanheadandshoulders: medium brown-skinned boy, silver wavy hair, violet eyes, lavender star robe, soft drooping purple crescent hat with cream stars. RIGHT wolfheadandshoulders: silver-gray wolf, violet eyes, lavender star robe, same tall drooping purple crescent hat with cream stars. Same smiling friendly confident expression, expressiveeyecolor, similarheadsizeandpose slightfront3/4 towardviewer. Fully include allhat/goggles/pigtails/ears/shoulderswith8%padding, especiallyMomo'sdroopinghatifMomo. Human normalhumananatomy nofur, wolfclearfurrywolfmuzzleandears, nohalf-humanmixedform. True transparentRGBAoutsidebusts, widegutterbetweenpair, nobackground/frame/UI/text/labels/fullbodyorweapons. Richcleanpaintedwarmshading/crispcontours, designsconsistentwithreference, donotredesign. ForTillygogglesandpigtailsidentifiable; wolfformhasfur NOT humanhair."
+    },
+    {
+      "key": "TinkerTilly",
+      "path": "C:\\Users\\ASUS\\.codex\\generated_images\\01a18905-7916-7260-af74-06666abeab0a\\exec-d56b3111-2725-441c-83d1-d279196f0f40.png",
+      "prompt": "Use case: stylized-concept. ONLY Tinker Tilly paired HUMAN+WOLF portrait atlas, matching canonical roster reference and approved premium cartoon mobilegame. EXACT2equalsquarecells sidebyside1536x768. LEFT humanheadandshoulders: warm tan-skinned girl, auburn stubby pigtails, green eyes, yellow overalls, orange sleeves, oversized round turquoise goggles on forehead, backpack straps. RIGHT wolfheadandshoulders: rust-brown WOLF with cream muzzle, green eyes, yellow overalls, orange sleeves, turquoise round goggles on forehead, backpack straps, NOT fox. Same smiling friendly confident expression, expressiveeyecolor, similarheadsizeandpose slightfront3/4 towardviewer. Fully include allhat/goggles/pigtails/ears/shoulderswith8%padding, especiallyMomo'sdroopinghatifMomo. Human normalhumananatomy nofur, wolfclearfurrywolfmuzzleandears, nohalf-humanmixedform. True transparentRGBAoutsidebusts, widegutterbetweenpair, nobackground/frame/UI/text/labels/fullbodyorweapons. Richcleanpaintedwarmshading/crispcontours, designsconsistentwithreference, donotredesign. ForTillygogglesandpigtailsidentifiable; wolfformhasfur NOT humanhair."
+    }
+  ],
+  "heroes": [
+    {
+      "id": "HeroWolvy",
+      "name": "Hero Wolvy",
+      "short": "WOLVY",
+      "human": "warm tan boy, tousled dark brown hair, amber eyes, cobalt-blue cape, cream tunic/navy vest, gold paw brooch",
+      "wolf": "gray wolf with cream muzzle, amber eyes, cobalt-blue cape and gold paw brooch",
+      "accent": "#49A4F6"
+    },
+    {
+      "id": "PrincessElva",
+      "name": "Princess Elva",
+      "short": "ELVA",
+      "human": "warm brown-skinned girl, chestnut bob, hazel eyes, forest-green hood, tiny gold leaf tiara, cream and green outfit",
+      "wolf": "warm gray wolf with cream face, hazel eyes, same forest-green hood and little gold leaf tiara",
+      "accent": "#63BE53"
+    },
+    {
+      "id": "FairyLulu",
+      "name": "Fairy Lulu",
+      "short": "LULU",
+      "human": "light peach-skinned girl, white-blond bob, sky-blue eyes, aqua/cream outfit, short blue cape, gold crescent hair clip",
+      "wolf": "cream-white wolf, sky-blue eyes, aqua/cream outfit, short blue cape, gold crescent clip",
+      "accent": "#6FD9ED"
+    },
+    {
+      "id": "CaptainBobo",
+      "name": "Captain Bobo",
+      "short": "BOBO",
+      "human": "stocky deep brown-skinned boy, dark curly hair, warm brown eyes, coral-red tunic, honey-gold shoulder cape, acorn badge",
+      "wolf": "stocky honey-brown wolf with cream muzzle, warm brown eyes, same coral tunic/honey cape/acorn badge",
+      "accent": "#EAA549"
+    },
+    {
+      "id": "ScoutPip",
+      "name": "Scout Pip",
+      "short": "PIP",
+      "human": "small olive-skinned boy, short spiky dark hair, bright teal eyes, long mint-teal scarf, light green vest, map-satchel strap",
+      "wolf": "small charcoal-gray wolf with cream chest, bright teal eyes, mint-teal scarf and light vest",
+      "accent": "#4DDBC8"
+    },
+    {
+      "id": "WizardMomo",
+      "name": "Wizard Momo",
+      "short": "MOMO",
+      "human": "medium brown-skinned boy, silver wavy hair, violet eyes, lavender star robe, soft drooping purple crescent hat with cream stars",
+      "wolf": "silver-gray wolf, violet eyes, lavender star robe, same tall drooping purple crescent hat with cream stars",
+      "accent": "#AA7CEB"
+    },
+    {
+      "id": "TinkerTilly",
+      "name": "Tinker Tilly",
+      "short": "TILLY",
+      "human": "warm tan-skinned girl, auburn stubby pigtails, green eyes, yellow overalls, orange sleeves, oversized round turquoise goggles on forehead, backpack straps",
+      "wolf": "rust-brown WOLF with cream muzzle, green eyes, yellow overalls, orange sleeves, turquoise round goggles on forehead, backpack straps, NOT fox",
+      "accent": "#F9BD42"
+    }
+  ]
+}

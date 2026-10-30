@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: EnemySpawn
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: Shared
+  description: a small orange/coral arrival ring with harmless leaf flecks, clear
+    middle
+  frames:
+  - {fileID: 21300000, guid: 7355902c98fdd3c4a91416ee1bea5de6, type: 3}
+  - {fileID: 21300000, guid: a0f0b55168214924eb87696409b76bea, type: 3}
+  - {fileID: 21300000, guid: 80fc26e888e2a724ea388436ea85b929, type: 3}
+  - {fileID: 21300000, guid: f0ce8060d6852c4458a7910119b0e537, type: 3}
+  - {fileID: 21300000, guid: a693311152d98fa49a9ef739abb67bd7, type: 3}
+  - {fileID: 21300000, guid: 1c6beda7eb4279c4aa19b6588dcd1c66, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 7
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 41e57cc510f5c964b83c59f761c96c1a, type: 2}

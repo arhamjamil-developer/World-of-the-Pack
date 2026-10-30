@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: d3b7893605794d7469bcf33397c36d53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7106061454552992662
+    second: NatureArrow_00_0
+  - first:
+      213: 5901275804511766495
+    second: NatureArrow_00_1
+  - first:
+      213: 2419302520965309269
+    second: NatureArrow_00_2
+  - first:
+      213: 5980995414778378214
+    second: NatureArrow_00_3
+  - first:
+      213: 4501030079559126996
+    second: NatureArrow_00_4
+  - first:
+      213: -6694013340485117050
+    second: NatureArrow_00_5
+  - first:
+      213: 3837701574347170613
+    second: NatureArrow_00_6
+  - first:
+      213: -5223913546091211918
+    second: NatureArrow_00_7
+  - first:
+      213: -1098094274320710419
+    second: NatureArrow_00_8
+  - first:
+      213: 8590203032977605437
+    second: NatureArrow_00_9
+  - first:
+      213: -6362393134493466428
+    second: NatureArrow_00_10
+  - first:
+      213: 7474954721821163772
+    second: NatureArrow_00_11
+  - first:
+      213: -4183939925990554829
+    second: NatureArrow_00_12
+  - first:
+      213: 4309927419468478930
+    second: NatureArrow_00_13
+  - first:
+      213: -4036453800558921848
+    second: NatureArrow_00_14
+  - first:
+      213: -2156459804542352298
+    second: NatureArrow_00_15
+  - first:
+      213: 1846890161978092178
+    second: NatureArrow_00_16
+  - first:
+      213: -110126405070903036
+    second: NatureArrow_00_17
+  - first:
+      213: 6421835674533189745
+    second: NatureArrow_00_18
+  - first:
+      213: -2016824994694387218
+    second: NatureArrow_00_19
+  - first:
+      213: 1035347442962268257
+    second: NatureArrow_00_20
+  - first:
+      213: 6480031392551538986
+    second: NatureArrow_00_21
+  - first:
+      213: 5437487809696578080
+    second: NatureArrow_00_22
+  - first:
+      213: -7099672356245709124
+    second: NatureArrow_00_23
+  - first:
+      213: 1562002214133631279
+    second: NatureArrow_00_24
+  - first:
+      213: -6231649222336015944
+    second: NatureArrow_00_25
+  - first:
+      213: -348316064515927095
+    second: NatureArrow_00_26
+  - first:
+      213: 2378869172480665636
+    second: NatureArrow_00_27
+  - first:
+      213: -8071640105540511614
+    second: NatureArrow_00_28
+  - first:
+      213: -1071086870337495123
+    second: NatureArrow_00_29
+  - first:
+      213: 2090163710935874823
+    second: NatureArrow_00_30
+  - first:
+      213: 5937686594426311259
+    second: NatureArrow_00_31
+  - first:
+      213: 7580422304678102342
+    second: NatureArrow_00_32
+  - first:
+      213: 2814420119347931790
+    second: NatureArrow_00_33
+  - first:
+      213: 2899326722976159658
+    second: NatureArrow_00_34
+  - first:
+      213: 2417871625739781647
+    second: NatureArrow_00_35
+  - first:
+      213: 5714547983645733014
+    second: NatureArrow_00_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NatureArrow_00_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 219
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b0abe4e3dcd9260800000000000000
+      internalID: 7106061454552992662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 125
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd70881f31b85e150800000000000000
+      internalID: 5901275804511766495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 179
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553285623d6139120800000000000000
+      internalID: 2419302520965309269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_3
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 150
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7fa1d14a3c00350800000000000000
+      internalID: 5980995414778378214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 204
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df4877820fd67e30800000000000000
+      internalID: 4501030079559126996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 179
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b98ae45561a13a0800000000000000
+      internalID: -6694013340485117050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_6
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533abe4bf31424530800000000000000
+      internalID: 3837701574347170613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 184
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273d1ebae4ee087b0800000000000000
+      internalID: -5223913546091211918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_8
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 161
+        width: 19
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de449315319c2c0f0800000000000000
+      internalID: -1098094274320710419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 168
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d330d194528863770800000000000000
+      internalID: 8590203032977605437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_10
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 184
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c00221572d34b7a0800000000000000
+      internalID: -6362393134493466428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_11
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 181
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0874a27bf5cb760800000000000000
+      internalID: 7474954721821163772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 177
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33342c50ec8afe5c0800000000000000
+      internalID: -4183939925990554829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_13
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 158
+        width: 19
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9722d2720ffcb30800000000000000
+      internalID: 4309927419468478930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_14
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 125
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887f86987a2abf7c0800000000000000
+      internalID: -4036453800558921848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_15
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 171
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65448d1bb37b212e0800000000000000
+      internalID: -2156459804542352298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 157
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a2edb21d871a910800000000000000
+      internalID: 1846890161978092178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 156
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409ab593e90c87ef0800000000000000
+      internalID: -110126405070903036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 157
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1785b7a8581fe1950800000000000000
+      internalID: 6421835674533189745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_19
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 163
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9ac195a5cc204e0800000000000000
+      internalID: -2016824994694387218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 145
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16000ec830b4e5e00800000000000000
+      internalID: 1035347442962268257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_21
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 23
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a211a660832bde950800000000000000
+      internalID: 6480031392551538986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 52
+        width: 49
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a3b779a56d57b40800000000000000
+      internalID: 5437487809696578080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 132
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe50509b95e87d90800000000000000
+      internalID: -7099672356245709124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_24
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 134
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f290fc7ecb85da510800000000000000
+      internalID: 1562002214133631279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 114
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b192d98c0cb489a0800000000000000
+      internalID: -6231649222336015944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_26
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 98
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c357f082688a2bf0800000000000000
+      internalID: -348316064515927095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_27
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 74
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42866d898e0730120800000000000000
+      internalID: 2378869172480665636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 54
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2881672e616cbff80800000000000000
+      internalID: -8071640105540511614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 44
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafd2f19a2cb221f0800000000000000
+      internalID: -1071086870337495123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 28
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dbeb822d0c10d10800000000000000
+      internalID: 2090163710935874823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5211689f76e66250800000000000000
+      internalID: 5937686594426311259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 41
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64549cd5ce1133960800000000000000
+      internalID: 7580422304678102342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 23
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a2276ef24de0720800000000000000
+      internalID: 2814420119347931790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_34
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 23
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa79ac21b4a7c3820800000000000000
+      internalID: 2899326722976159658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_35
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 23
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0647b4ee610e8120800000000000000
+      internalID: 2417871625739781647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NatureArrow_00_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 23
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690f0293d172e4f40800000000000000
+      internalID: 5714547983645733014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      NatureArrow_00_0: 7106061454552992662
+      NatureArrow_00_1: 5901275804511766495
+      NatureArrow_00_10: -6362393134493466428
+      NatureArrow_00_11: 7474954721821163772
+      NatureArrow_00_12: -4183939925990554829
+      NatureArrow_00_13: 4309927419468478930
+      NatureArrow_00_14: -4036453800558921848
+      NatureArrow_00_15: -2156459804542352298
+      NatureArrow_00_16: 1846890161978092178
+      NatureArrow_00_17: -110126405070903036
+      NatureArrow_00_18: 6421835674533189745
+      NatureArrow_00_19: -2016824994694387218
+      NatureArrow_00_2: 2419302520965309269
+      NatureArrow_00_20: 1035347442962268257
+      NatureArrow_00_21: 6480031392551538986
+      NatureArrow_00_22: 5437487809696578080
+      NatureArrow_00_23: -7099672356245709124
+      NatureArrow_00_24: 1562002214133631279
+      NatureArrow_00_25: -6231649222336015944
+      NatureArrow_00_26: -348316064515927095
+      NatureArrow_00_27: 2378869172480665636
+      NatureArrow_00_28: -8071640105540511614
+      NatureArrow_00_29: -1071086870337495123
+      NatureArrow_00_3: 5980995414778378214
+      NatureArrow_00_30: 2090163710935874823
+      NatureArrow_00_31: 5937686594426311259
+      NatureArrow_00_32: 7580422304678102342
+      NatureArrow_00_33: 2814420119347931790
+      NatureArrow_00_34: 2899326722976159658
+      NatureArrow_00_35: 2417871625739781647
+      NatureArrow_00_36: 5714547983645733014
+      NatureArrow_00_4: 4501030079559126996
+      NatureArrow_00_5: -6694013340485117050
+      NatureArrow_00_6: 3837701574347170613
+      NatureArrow_00_7: -5223913546091211918
+      NatureArrow_00_8: -1098094274320710419
+      NatureArrow_00_9: 8590203032977605437
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

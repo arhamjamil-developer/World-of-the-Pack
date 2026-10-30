@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: HealingCircle
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: FairyLulu
+  description: a soft pastel aqua healing ring with few small hearts and healing
+    sparkles, clear transparent center
+  frames:
+  - {fileID: 21300000, guid: e73878a0e3a7d45419d0584849db4125, type: 3}
+  - {fileID: 21300000, guid: 41add43ea062f9146bdf2e8f56522a2d, type: 3}
+  - {fileID: 21300000, guid: e1f580ad48c95744181c5ecdb0a45da2, type: 3}
+  - {fileID: 21300000, guid: 6e279f4edf5574241914ceb8a4ed2c79, type: 3}
+  - {fileID: 21300000, guid: 7b9c35fc96e2ab64d898014b6863fc9f, type: 3}
+  - {fileID: 21300000, guid: ef4a38ee3f9174a4684ae481019fb3a1, type: 3}
+  framesPerSecond: 10
+  sortingOrder: 7
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: b448903309387974196a05e632beacab, type: 2}

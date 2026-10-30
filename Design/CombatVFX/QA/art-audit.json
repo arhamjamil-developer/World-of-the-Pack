@@ -1,0 +1,1472 @@
+[
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 841,
+    "visibleSamples": 61
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 598,
+    "visibleSamples": 185
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 512,
+    "visibleSamples": 284
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 500,
+    "visibleSamples": 230
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 581,
+    "visibleSamples": 122
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornBarrier_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 852,
+    "visibleSamples": 31
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 850,
+    "visibleSamples": 73
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 710,
+    "visibleSamples": 135
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 572,
+    "visibleSamples": 228
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 613,
+    "visibleSamples": 146
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 711,
+    "visibleSamples": 87
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\AcornShockwave_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 848,
+    "visibleSamples": 48
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 927,
+    "visibleSamples": 58
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 870,
+    "visibleSamples": 90
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 775,
+    "visibleSamples": 160
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 848,
+    "visibleSamples": 90
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 916,
+    "visibleSamples": 43
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\BouncingAcorn_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 953,
+    "visibleSamples": 25
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 891,
+    "visibleSamples": 70
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 774,
+    "visibleSamples": 154
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 579,
+    "visibleSamples": 290
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 682,
+    "visibleSamples": 183
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 781,
+    "visibleSamples": 132
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\CaptainBobo\\EarthImpact_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 890,
+    "visibleSamples": 62
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 682,
+    "visibleSamples": 97
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 486,
+    "visibleSamples": 242
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 415,
+    "visibleSamples": 418
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 488,
+    "visibleSamples": 280
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 512,
+    "visibleSamples": 144
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\BlessingPop_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 686,
+    "visibleSamples": 45
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 720,
+    "visibleSamples": 123
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 522,
+    "visibleSamples": 242
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 407,
+    "visibleSamples": 378
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 485,
+    "visibleSamples": 248
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 519,
+    "visibleSamples": 193
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\HealingCircle_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 701,
+    "visibleSamples": 63
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 886,
+    "visibleSamples": 38
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 755,
+    "visibleSamples": 101
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 579,
+    "visibleSamples": 220
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 670,
+    "visibleSamples": 168
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 777,
+    "visibleSamples": 80
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\MoonBubble_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 865,
+    "visibleSamples": 30
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 801,
+    "visibleSamples": 70
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 584,
+    "visibleSamples": 176
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 405,
+    "visibleSamples": 410
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 472,
+    "visibleSamples": 290
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 608,
+    "visibleSamples": 163
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\FairyLulu\\ProtectiveBubble_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 833,
+    "visibleSamples": 21
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 694,
+    "visibleSamples": 91
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 500,
+    "visibleSamples": 200
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 460,
+    "visibleSamples": 301
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 509,
+    "visibleSamples": 194
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 581,
+    "visibleSamples": 109
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonImpact_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 674,
+    "visibleSamples": 34
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 829,
+    "visibleSamples": 44
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 687,
+    "visibleSamples": 109
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 577,
+    "visibleSamples": 213
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 622,
+    "visibleSamples": 147
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 718,
+    "visibleSamples": 98
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\MoonlightSlash_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 828,
+    "visibleSamples": 24
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 643,
+    "visibleSamples": 82
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 547,
+    "visibleSamples": 153
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 482,
+    "visibleSamples": 285
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 522,
+    "visibleSamples": 150
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 624,
+    "visibleSamples": 65
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\PawDash_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 694,
+    "visibleSamples": 41
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 625,
+    "visibleSamples": 93
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 516,
+    "visibleSamples": 198
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 412,
+    "visibleSamples": 310
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 484,
+    "visibleSamples": 218
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 505,
+    "visibleSamples": 124
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\HeroWolvy\\RallyHowl_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 598,
+    "visibleSamples": 42
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 791,
+    "visibleSamples": 66
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 617,
+    "visibleSamples": 183
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 516,
+    "visibleSamples": 238
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 548,
+    "visibleSamples": 253
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 587,
+    "visibleSamples": 132
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\ForestFocus_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 774,
+    "visibleSamples": 39
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 814,
+    "visibleSamples": 69
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 619,
+    "visibleSamples": 212
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 535,
+    "visibleSamples": 299
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 576,
+    "visibleSamples": 222
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 658,
+    "visibleSamples": 123
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafImpact_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 843,
+    "visibleSamples": 38
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 874,
+    "visibleSamples": 54
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 638,
+    "visibleSamples": 174
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 520,
+    "visibleSamples": 277
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 558,
+    "visibleSamples": 205
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 650,
+    "visibleSamples": 139
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\LeafVolley_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 853,
+    "visibleSamples": 26
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 923,
+    "visibleSamples": 37
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 854,
+    "visibleSamples": 68
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 779,
+    "visibleSamples": 105
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 790,
+    "visibleSamples": 96
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 829,
+    "visibleSamples": 60
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\PrincessElva\\NatureArrow_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 926,
+    "visibleSamples": 11
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 819,
+    "visibleSamples": 57
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 682,
+    "visibleSamples": 124
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 564,
+    "visibleSamples": 259
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 604,
+    "visibleSamples": 144
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 655,
+    "visibleSamples": 70
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\QuickImpact_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 794,
+    "visibleSamples": 28
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 825,
+    "visibleSamples": 63
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 679,
+    "visibleSamples": 128
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 606,
+    "visibleSamples": 247
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 674,
+    "visibleSamples": 158
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 720,
+    "visibleSamples": 84
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\Whirlwind_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 782,
+    "visibleSamples": 36
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 903,
+    "visibleSamples": 35
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 840,
+    "visibleSamples": 62
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 797,
+    "visibleSamples": 107
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 828,
+    "visibleSamples": 76
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 863,
+    "visibleSamples": 50
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\WindStrike_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 887,
+    "visibleSamples": 23
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 864,
+    "visibleSamples": 46
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 752,
+    "visibleSamples": 111
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 636,
+    "visibleSamples": 179
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 728,
+    "visibleSamples": 108
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 793,
+    "visibleSamples": 71
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\ScoutPip\\ZoomDash_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 867,
+    "visibleSamples": 31
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 820,
+    "visibleSamples": 92
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 679,
+    "visibleSamples": 191
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 499,
+    "visibleSamples": 327
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 579,
+    "visibleSamples": 220
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 720,
+    "visibleSamples": 120
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\ComboLink_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 862,
+    "visibleSamples": 39
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 742,
+    "visibleSamples": 77
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 651,
+    "visibleSamples": 138
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 417,
+    "visibleSamples": 427
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 514,
+    "visibleSamples": 196
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 662,
+    "visibleSamples": 89
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\CriticalBurst_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 729,
+    "visibleSamples": 39
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 631,
+    "visibleSamples": 84
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 541,
+    "visibleSamples": 236
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 387,
+    "visibleSamples": 468
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 512,
+    "visibleSamples": 212
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 581,
+    "visibleSamples": 112
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemyDefeat_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 731,
+    "visibleSamples": 45
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 843,
+    "visibleSamples": 103
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 593,
+    "visibleSamples": 245
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 439,
+    "visibleSamples": 411
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 522,
+    "visibleSamples": 262
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 586,
+    "visibleSamples": 186
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\EnemySpawn_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 752,
+    "visibleSamples": 93
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 941,
+    "visibleSamples": 29
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 723,
+    "visibleSamples": 135
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 546,
+    "visibleSamples": 280
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 616,
+    "visibleSamples": 156
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 789,
+    "visibleSamples": 77
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MarchDust_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 935,
+    "visibleSamples": 12
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 738,
+    "visibleSamples": 89
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 454,
+    "visibleSamples": 253
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 388,
+    "visibleSamples": 464
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 495,
+    "visibleSamples": 267
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 613,
+    "visibleSamples": 141
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Shared\\MoonTransformation_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 683,
+    "visibleSamples": 47
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\DeploymentInvalid_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 520,
+    "visibleSamples": 206
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\DeploymentValid_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 618,
+    "visibleSamples": 219
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\EnemyChargeLane_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 629,
+    "visibleSamples": 221
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\EnemyConeSouth_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 538,
+    "visibleSamples": 207
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\EnemyLandingTarget_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 503,
+    "visibleSamples": 240
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\Telegraphs\\EnemySlamCircle_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 458,
+    "visibleSamples": 269
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 835,
+    "visibleSamples": 119
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 647,
+    "visibleSamples": 210
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 521,
+    "visibleSamples": 278
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 636,
+    "visibleSamples": 209
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 695,
+    "visibleSamples": 182
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BouncingTrap_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 753,
+    "visibleSamples": 142
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 746,
+    "visibleSamples": 104
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 571,
+    "visibleSamples": 234
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 473,
+    "visibleSamples": 350
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 514,
+    "visibleSamples": 217
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 663,
+    "visibleSamples": 137
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BrassImpact_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 810,
+    "visibleSamples": 43
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 883,
+    "visibleSamples": 72
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 655,
+    "visibleSamples": 202
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 512,
+    "visibleSamples": 352
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 622,
+    "visibleSamples": 230
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 646,
+    "visibleSamples": 171
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\BubbleDevice_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 788,
+    "visibleSamples": 51
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 881,
+    "visibleSamples": 58
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 775,
+    "visibleSamples": 133
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 677,
+    "visibleSamples": 170
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 747,
+    "visibleSamples": 116
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 825,
+    "visibleSamples": 85
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\TinkerTilly\\SpringBolt_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 895,
+    "visibleSamples": 23
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 819,
+    "visibleSamples": 86
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 649,
+    "visibleSamples": 201
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 443,
+    "visibleSamples": 393
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 577,
+    "visibleSamples": 242
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 655,
+    "visibleSamples": 117
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\CosmicPop_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 824,
+    "visibleSamples": 35
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 896,
+    "visibleSamples": 55
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 806,
+    "visibleSamples": 93
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 531,
+    "visibleSamples": 281
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 642,
+    "visibleSamples": 140
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 768,
+    "visibleSamples": 76
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\MoonNova_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 893,
+    "visibleSamples": 27
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 900,
+    "visibleSamples": 33
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 816,
+    "visibleSamples": 67
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 718,
+    "visibleSamples": 137
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 773,
+    "visibleSamples": 95
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 822,
+    "visibleSamples": 60
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarProjectile_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 904,
+    "visibleSamples": 24
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_00.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 843,
+    "visibleSamples": 50
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_01.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 744,
+    "visibleSamples": 132
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_02.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 600,
+    "visibleSamples": 231
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_03.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 691,
+    "visibleSamples": 138
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_04.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 742,
+    "visibleSamples": 102
+  },
+  {
+    "file": "Assets\\VFX\\WorldOfThePack\\Art\\WizardMomo\\StarShower_05.png",
+    "width": 256,
+    "height": 256,
+    "transparentSamples": 859,
+    "visibleSamples": 59
+  }
+]

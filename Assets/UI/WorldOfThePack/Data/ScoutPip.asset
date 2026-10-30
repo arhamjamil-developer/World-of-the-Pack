@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: ScoutPip
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: ScoutPip
+  displayName: Scout Pip
+  shortName: PIP
+  humanPortrait: {fileID: 21300000, guid: eb70ff501d4b1ed428e04cb831bfd2c4, type: 3}
+  wolfPortrait: {fileID: 21300000, guid: 043fbcb67049df348983c49b77ea722d, type: 3}
+  accent: {r: 0.3019608, g: 0.85882354, b: 0.78431374, a: 1}
+  maximumEnergy: 100

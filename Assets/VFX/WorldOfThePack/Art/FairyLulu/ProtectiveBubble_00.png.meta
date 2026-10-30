@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 5bd1099ae9be0af4f86b3eb5b4ed6745
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1809032351520838956
+    second: ProtectiveBubble_00_0
+  - first:
+      213: -4158271431006470307
+    second: ProtectiveBubble_00_1
+  - first:
+      213: 130301888815122655
+    second: ProtectiveBubble_00_2
+  - first:
+      213: 5205998142825489920
+    second: ProtectiveBubble_00_3
+  - first:
+      213: -158030679237936040
+    second: ProtectiveBubble_00_4
+  - first:
+      213: -1417758870690972483
+    second: ProtectiveBubble_00_5
+  - first:
+      213: -8755083175888387531
+    second: ProtectiveBubble_00_6
+  - first:
+      213: -6787127470178598579
+    second: ProtectiveBubble_00_7
+  - first:
+      213: -6250428911943771116
+    second: ProtectiveBubble_00_8
+  - first:
+      213: 572869212844210821
+    second: ProtectiveBubble_00_9
+  - first:
+      213: 4484627623378274745
+    second: ProtectiveBubble_00_10
+  - first:
+      213: 6180106455619037661
+    second: ProtectiveBubble_00_11
+  - first:
+      213: -6494049508702452012
+    second: ProtectiveBubble_00_12
+  - first:
+      213: 4412018231491228297
+    second: ProtectiveBubble_00_13
+  - first:
+      213: 7005206126028494609
+    second: ProtectiveBubble_00_14
+  - first:
+      213: 3016523349100926348
+    second: ProtectiveBubble_00_15
+  - first:
+      213: -5287962299590886051
+    second: ProtectiveBubble_00_16
+  - first:
+      213: 2205186484363698114
+    second: ProtectiveBubble_00_17
+  - first:
+      213: 2510993737474068987
+    second: ProtectiveBubble_00_18
+  - first:
+      213: 290358513387430210
+    second: ProtectiveBubble_00_19
+  - first:
+      213: -8289618982359101385
+    second: ProtectiveBubble_00_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 199
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d69bc659fa1910800000000000000
+      internalID: 1809032351520838956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 192
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5f343b3a2ada46c0800000000000000
+      internalID: -4158271431006470307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 23
+        width: 173
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd84364a0eceec100800000000000000
+      internalID: 130301888815122655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 198
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006e4747abb6f3840800000000000000
+      internalID: 5205998142825489920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_4
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 216
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cb86c3fef8ecdf0800000000000000
+      internalID: -158030679237936040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_5
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 192
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc3e4791db135ce0800000000000000
+      internalID: -1417758870690972483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 136
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5328c2aec32bf7680800000000000000
+      internalID: -8755083175888387531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 164
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4185be86874fc1a0800000000000000
+      internalID: -6787127470178598579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 147
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c92c155040249a0800000000000000
+      internalID: -6250428911943771116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 77
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a365e838d33f700800000000000000
+      internalID: 572869212844210821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_10
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 85
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9cd5910199c3e30800000000000000
+      internalID: 4484627623378274745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 77
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd96549e31624c550800000000000000
+      internalID: 6180106455619037661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_12
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 49
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d68df7f06080e5a0800000000000000
+      internalID: -6494049508702452012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_13
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982f496a433aa3d30800000000000000
+      internalID: 4412018231491228297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11791504bdd773160800000000000000
+      internalID: 7005206126028494609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8515d7f008dcd920800000000000000
+      internalID: 3016523349100926348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d3a3b2e426d96b0800000000000000
+      internalID: -5287962299590886051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 23
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf9df78c656a9e10800000000000000
+      internalID: 2205186484363698114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 36
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf15f5b1087d8d220800000000000000
+      internalID: 2510993737474068987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 36
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241e7ff878f870400800000000000000
+      internalID: 290358513387430210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ProtectiveBubble_00_20
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 32
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7309621b47b55fc80800000000000000
+      internalID: -8289618982359101385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ProtectiveBubble_00_0: 1809032351520838956
+      ProtectiveBubble_00_1: -4158271431006470307
+      ProtectiveBubble_00_10: 4484627623378274745
+      ProtectiveBubble_00_11: 6180106455619037661
+      ProtectiveBubble_00_12: -6494049508702452012
+      ProtectiveBubble_00_13: 4412018231491228297
+      ProtectiveBubble_00_14: 7005206126028494609
+      ProtectiveBubble_00_15: 3016523349100926348
+      ProtectiveBubble_00_16: -5287962299590886051
+      ProtectiveBubble_00_17: 2205186484363698114
+      ProtectiveBubble_00_18: 2510993737474068987
+      ProtectiveBubble_00_19: 290358513387430210
+      ProtectiveBubble_00_2: 130301888815122655
+      ProtectiveBubble_00_20: -8289618982359101385
+      ProtectiveBubble_00_3: 5205998142825489920
+      ProtectiveBubble_00_4: -158030679237936040
+      ProtectiveBubble_00_5: -1417758870690972483
+      ProtectiveBubble_00_6: -8755083175888387531
+      ProtectiveBubble_00_7: -6787127470178598579
+      ProtectiveBubble_00_8: -6250428911943771116
+      ProtectiveBubble_00_9: 572869212844210821
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

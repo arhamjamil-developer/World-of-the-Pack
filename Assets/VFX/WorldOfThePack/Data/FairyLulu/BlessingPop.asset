@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: BlessingPop
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: FairyLulu
+  description: a tiny pink/aqua heart-and-crescent sparkle pop, gentle not explosive
+  frames:
+  - {fileID: 21300000, guid: ffc5adc8bd8c9cd46a5220d2adf31b47, type: 3}
+  - {fileID: 21300000, guid: 55442a416bfccad47891886af4ce8c14, type: 3}
+  - {fileID: 21300000, guid: 20d277a1a833ebd43a25c12884e8af83, type: 3}
+  - {fileID: 21300000, guid: c382f6139fd9bb840b4238d3f3344b1a, type: 3}
+  - {fileID: 21300000, guid: 43bdaa6756190b446a4b707b3d2a48f3, type: 3}
+  - {fileID: 21300000, guid: 20086ac1f7efc8b4c9778f97990393cf, type: 3}
+  framesPerSecond: 10
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: e1ee2c885deab8e4daefe64653fb5e08, type: 2}

@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 128
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,7 +144,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -208,529 +208,529 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FairyLulu_Human_North_0
+      name: FairyLulu_Human_Idle_North_00
       rect:
         serializedVersion: 2
-        x: 62
-        y: 814
-        width: 156
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3d34aec9e056de530800000000000000
-      internalID: 3885873166927152083
+      spriteID: 0555e51555a151874c5995ab94a85d57
+      internalID: -1249701176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_1
+      name: FairyLulu_Human_Idle_North_01
       rect:
         serializedVersion: 2
-        x: 316
-        y: 815
-        width: 155
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66953b21fea7215b0800000000000000
-      internalID: -5399117836034287258
+      spriteID: f57abbf301d44c4b71c955e2b20ab994
+      internalID: -355582437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_2
+      name: FairyLulu_Human_Idle_North_02
       rect:
         serializedVersion: 2
-        x: 571
-        y: 815
-        width: 152
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5999163b41fa12f0800000000000000
-      internalID: -1001222661804025506
+      spriteID: 628153f21576c43ee2e4b08b4b04eb35
+      internalID: 841578317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_3
+      name: FairyLulu_Human_Idle_North_03
       rect:
         serializedVersion: 2
-        x: 823
-        y: 815
-        width: 162
-        height: 164
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fbf5cf62691942d10800000000000000
-      internalID: 2099963400346689471
+      spriteID: ee96f2705011fb1623c446348f24218d
+      internalID: -486892039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_4
+      name: FairyLulu_Human_Idle_North_04
       rect:
         serializedVersion: 2
-        x: 1082
-        y: 815
-        width: 154
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 220bfac7ed9e3d980800000000000000
-      internalID: -8515205328643575774
+      spriteID: 31fc205be63e413c3d60e02075dd99b9
+      internalID: 1939041353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_5
+      name: FairyLulu_Human_Idle_North_05
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 815
-        width: 153
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 768
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2f103beb7cf00e950800000000000000
-      internalID: 6476193614731084274
+      spriteID: d4fecad2b3b8b50a8ad8ee6752fc4144
+      internalID: -1092146753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_6
+      name: FairyLulu_Human_Walk_North_00
       rect:
         serializedVersion: 2
-        x: 60
-        y: 566
-        width: 152
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1a1bbfbda62829d60800000000000000
-      internalID: 7895516492202750369
+      spriteID: fac676ebb19f1d5a75ea8b47c4e9672a
+      internalID: -2053242161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_7
+      name: FairyLulu_Human_Walk_North_01
       rect:
         serializedVersion: 2
-        x: 322
-        y: 560
-        width: 145
-        height: 167
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e9a2f8c9ca955f5e0800000000000000
-      internalID: -1876495071834068322
+      spriteID: dda936bce0ffe7e4a105cfd4d35ad364
+      internalID: -2101508320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_8
+      name: FairyLulu_Human_Walk_North_02
       rect:
         serializedVersion: 2
-        x: 569
-        y: 558
-        width: 150
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7295de431a5020a20800000000000000
-      internalID: 3026988089482238247
+      spriteID: 281424ac1aaace7739644b5aac30c560
+      internalID: -1291282122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_9
+      name: FairyLulu_Human_Walk_North_03
       rect:
         serializedVersion: 2
-        x: 820
-        y: 555
-        width: 157
-        height: 169
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2b91af0002da82d10800000000000000
-      internalID: 2101119579135285682
+      spriteID: 757aae0631eeda2c2636e49e1fade35c
+      internalID: 37001539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_10
+      name: FairyLulu_Human_Walk_North_04
       rect:
         serializedVersion: 2
-        x: 1081
-        y: 554
-        width: 147
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b0ad6aca6f1d7f50800000000000000
-      internalID: 6880690349215162544
+      spriteID: 5d935da6cef095905b60bf18019189da
+      internalID: 1334831276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_11
+      name: FairyLulu_Human_Walk_North_05
       rect:
         serializedVersion: 2
-        x: 1336
-        y: 558
-        width: 152
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 512
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9db300a615994f950800000000000000
-      internalID: 6481974338642787289
+      spriteID: 3ae883b7d66ab3f1993623a500485e7e
+      internalID: -681859201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_12
+      name: FairyLulu_Human_Attack_North_00
       rect:
         serializedVersion: 2
-        x: 60
-        y: 313
-        width: 155
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f7850e37e28abf4c0800000000000000
-      internalID: -4252620505655256961
+      spriteID: 61547d18f70c6e3366c5362b07d94a6a
+      internalID: 644268927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_13
+      name: FairyLulu_Human_Attack_North_01
       rect:
         serializedVersion: 2
-        x: 312
-        y: 308
-        width: 173
-        height: 162
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 13b590decf9ca8ee0800000000000000
-      internalID: -1257971057750877391
+      spriteID: 5e7663fc5d6d73b6d2278543ac887b7d
+      internalID: -670463489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_14
+      name: FairyLulu_Human_Attack_North_02
       rect:
         serializedVersion: 2
-        x: 561
-        y: 301
-        width: 160
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a4b188a78dcda790800000000000000
-      internalID: -7517126220480138080
+      spriteID: 198a9e6d9e3a0c28da6e40825185d4de
+      internalID: -1942328608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_15
+      name: FairyLulu_Human_Attack_North_03
       rect:
         serializedVersion: 2
-        x: 817
-        y: 300
-        width: 160
-        height: 189
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2e74f6055201ad5a0800000000000000
-      internalID: -6495861760079214622
+      spriteID: 6f19d0a53a89c56a52d15d88237fa39c
+      internalID: 2090356190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_16
+      name: FairyLulu_Human_Attack_North_04
       rect:
         serializedVersion: 2
-        x: 1075
-        y: 302
-        width: 186
-        height: 170
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1b2314da845e35a20800000000000000
-      internalID: 3050033472967094961
+      spriteID: 56be38dba20493339a8ef122f26945ab
+      internalID: -1732761919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_17
+      name: FairyLulu_Human_Attack_North_05
       rect:
         serializedVersion: 2
-        x: 1339
-        y: 312
-        width: 150
-        height: 163
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 256
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0649ccf2de0f06670800000000000000
-      internalID: 8530082595739571296
+      spriteID: abb6be5393b22b2beef35cbcfa98191c
+      internalID: -276886270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_18
+      name: FairyLulu_Human_Dead_North_00
       rect:
         serializedVersion: 2
-        x: 61
-        y: 51
-        width: 158
-        height: 161
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2dbebec34a8a621a0800000000000000
-      internalID: -6834589961137951790
+      spriteID: 562f3beb71437ef62dd48a926b4198e7
+      internalID: -1771702710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_19
+      name: FairyLulu_Human_Dead_North_01
       rect:
         serializedVersion: 2
-        x: 306
-        y: 49
-        width: 166
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1268a5b6115595780800000000000000
-      internalID: -8693824072358132191
+      spriteID: 6bb390ee983e32b05b7e8a16ed5c2a5b
+      internalID: -1777688392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_20
+      name: FairyLulu_Human_Dead_North_02
       rect:
         serializedVersion: 2
-        x: 560
-        y: 47
-        width: 170
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fdfa19609fd51e080800000000000000
-      internalID: -9159936842956427297
+      spriteID: ba6f38dce0a6b16981e95b55f01357f8
+      internalID: 1696611646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_21
+      name: FairyLulu_Human_Dead_North_03
       rect:
         serializedVersion: 2
-        x: 801
-        y: 47
-        width: 190
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9082a212ad6338000800000000000000
-      internalID: 36933532436277257
+      spriteID: 327762eca74c72ddfc53979f7eb36da1
+      internalID: -630481735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_22
+      name: FairyLulu_Human_Dead_North_04
       rect:
         serializedVersion: 2
-        x: 1060
-        y: 45
-        width: 184
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1024
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f62cc4c2476f45a90800000000000000
-      internalID: -7325959715005087121
+      spriteID: aa03e4eb2b1847b943728a5ef4d27541
+      internalID: -1875446821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FairyLulu_Human_North_23
+      name: FairyLulu_Human_Dead_North_05
       rect:
         serializedVersion: 2
-        x: 1318
-        y: 44
-        width: 173
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1280
+        y: 0
+        width: 256
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a63308e17b0917990800000000000000
-      internalID: -7389966397373140118
+      spriteID: 792ad4881d45fe4d804761756740be16
+      internalID: 763444996
       vertices: []
       indices: 
       edges: []
@@ -739,7 +739,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a773a475b6e64c3458d285d864582307
     internalID: 0
     vertices: []
     indices: 
@@ -749,30 +749,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FairyLulu_Human_North_0: 3885873166927152083
-      FairyLulu_Human_North_1: -5399117836034287258
-      FairyLulu_Human_North_10: 6880690349215162544
-      FairyLulu_Human_North_11: 6481974338642787289
-      FairyLulu_Human_North_12: -4252620505655256961
-      FairyLulu_Human_North_13: -1257971057750877391
-      FairyLulu_Human_North_14: -7517126220480138080
-      FairyLulu_Human_North_15: -6495861760079214622
-      FairyLulu_Human_North_16: 3050033472967094961
-      FairyLulu_Human_North_17: 8530082595739571296
-      FairyLulu_Human_North_18: -6834589961137951790
-      FairyLulu_Human_North_19: -8693824072358132191
-      FairyLulu_Human_North_2: -1001222661804025506
-      FairyLulu_Human_North_20: -9159936842956427297
-      FairyLulu_Human_North_21: 36933532436277257
-      FairyLulu_Human_North_22: -7325959715005087121
-      FairyLulu_Human_North_23: -7389966397373140118
-      FairyLulu_Human_North_3: 2099963400346689471
-      FairyLulu_Human_North_4: -8515205328643575774
-      FairyLulu_Human_North_5: 6476193614731084274
-      FairyLulu_Human_North_6: 7895516492202750369
-      FairyLulu_Human_North_7: -1876495071834068322
-      FairyLulu_Human_North_8: 3026988089482238247
-      FairyLulu_Human_North_9: 2101119579135285682
+      FairyLulu_Human_Attack_North_00: 644268927
+      FairyLulu_Human_Attack_North_01: -670463489
+      FairyLulu_Human_Attack_North_02: -1942328608
+      FairyLulu_Human_Attack_North_03: 2090356190
+      FairyLulu_Human_Attack_North_04: -1732761919
+      FairyLulu_Human_Attack_North_05: -276886270
+      FairyLulu_Human_Dead_North_00: -1771702710
+      FairyLulu_Human_Dead_North_01: -1777688392
+      FairyLulu_Human_Dead_North_02: 1696611646
+      FairyLulu_Human_Dead_North_03: -630481735
+      FairyLulu_Human_Dead_North_04: -1875446821
+      FairyLulu_Human_Dead_North_05: 763444996
+      FairyLulu_Human_Idle_North_00: -1249701176
+      FairyLulu_Human_Idle_North_01: -355582437
+      FairyLulu_Human_Idle_North_02: 841578317
+      FairyLulu_Human_Idle_North_03: -486892039
+      FairyLulu_Human_Idle_North_04: 1939041353
+      FairyLulu_Human_Idle_North_05: -1092146753
+      FairyLulu_Human_Walk_North_00: -2053242161
+      FairyLulu_Human_Walk_North_01: -2101508320
+      FairyLulu_Human_Walk_North_02: -1291282122
+      FairyLulu_Human_Walk_North_03: 37001539
+      FairyLulu_Human_Walk_North_04: 1334831276
+      FairyLulu_Human_Walk_North_05: -681859201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

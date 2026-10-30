@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff66713e2d89b8a40b5361dd27fbe97e, type: 3}
+  m_Name: CosmicPop
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.VFX.CombatEffectDefinition
+  group: WizardMomo
+  description: a playful purple/gold cosmic star-shaped explosion, not a generic
+    circular fireball
+  frames:
+  - {fileID: 21300000, guid: 6eaacac2b894f4e428d4a7fb565fdaec, type: 3}
+  - {fileID: 21300000, guid: 490d7521d4a25bf419aed2b58cae9d17, type: 3}
+  - {fileID: 21300000, guid: a487d12dd72d8b34590e9fc5a4afa459, type: 3}
+  - {fileID: 21300000, guid: c3300a9c18a0aff498af21731fd681d8, type: 3}
+  - {fileID: 21300000, guid: c389ce372aa4b7244af38aed84caa617, type: 3}
+  - {fileID: 21300000, guid: 5cdc146047deb724394cd6db06880ae7, type: 3}
+  framesPerSecond: 12
+  sortingOrder: 18
+  staticMarker: 0
+  animationClip: {fileID: 7400000, guid: 9af67878d73423648bc148653c3de83d, type: 2}
