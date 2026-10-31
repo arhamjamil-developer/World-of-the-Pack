@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: EmberlaneBanditChief_Boss
+  m_EditorClassIdentifier: Assembly-CSharp:WorldOfThePack.Game:BossDefinition
+  bossId: EmberlaneBanditChief
+  bossName: Bandit Chief Vane
+  bossTitle: Warmaster of Emberlane
+  biome: 3
+  maxHealth: 950
+  moveSpeed: 0.95
+  basicAttackDamage: 45
+  attackInterval: 1.35
+  attackRange: 1.7
+  breachDamage: 70
+  energyReward: 200
+  tint: {r: 1, g: 0.55, b: 0.45, a: 1}
+  specialAttacks:
+  - attackName: Fiery Ambush Cleave
+    telegraphType: 1
+    telegraphDuration: 1.1
+    damage: 62
+    radius: 3.4
+    cooldown: 8
+    vfxName: EnemyConeSouth
+    isStunAttack: 0
+    stunDuration: 1.5
+  - attackName: Infernal Charge
+    telegraphType: 3
+    telegraphDuration: 1.3
+    damage: 68
+    radius: 2.2
+    cooldown: 12
+    vfxName: EnemyChargeLane
+    isStunAttack: 0
+    stunDuration: 1.5
+  enrageHealthPercent: 0.4
+  enrageAttackSpeedMultiplier: 1.35
+  moonShardsReward: 180
+  moonFragmentIndex: 4
+  unlockedHeroOnDefeat: TinkerTilly

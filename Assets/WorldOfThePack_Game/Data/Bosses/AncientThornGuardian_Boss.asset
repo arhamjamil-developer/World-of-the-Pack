@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: AncientThornGuardian_Boss
+  m_EditorClassIdentifier: Assembly-CSharp:WorldOfThePack.Game:BossDefinition
+  bossId: AncientThornGuardian
+  bossName: Bramble Brute
+  bossTitle: Ancient Forest Colossus
+  biome: 0
+  maxHealth: 500
+  moveSpeed: 0.8
+  basicAttackDamage: 28
+  attackInterval: 1.6
+  attackRange: 1.8
+  breachDamage: 40
+  energyReward: 120
+  tint: {r: 0.9, g: 0.6, b: 0.6, a: 1}
+  specialAttacks:
+  - attackName: Bramble Slam
+    telegraphType: 2
+    telegraphDuration: 1.2
+    damage: 38
+    radius: 2.4
+    cooldown: 7
+    vfxName: EnemySlamCircle
+    isStunAttack: 1
+    stunDuration: 1.2
+  - attackName: Thorn Sweeper
+    telegraphType: 1
+    telegraphDuration: 1.4
+    damage: 44
+    radius: 3.2
+    cooldown: 11
+    vfxName: EnemyConeSouth
+    isStunAttack: 0
+    stunDuration: 1.5
+  enrageHealthPercent: 0.4
+  enrageAttackSpeedMultiplier: 1.35
+  moonShardsReward: 80
+  moonFragmentIndex: 1
+  unlockedHeroOnDefeat: FairyLulu

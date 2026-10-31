@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f091cb232ba64393adcd5c8f5334a, type: 3}
+  m_Name: HeroWolvy_Kit
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.HeroKitDefinition
+  heroId: HeroWolvy
+  displayName: Hero Wolvy
+  shortName: WOLVY
+  formationRole: 0
+  preferredLane: 2
+  energyCost: 4
+  maxHealth: 140
+  moveSpeed: 1.45
+  attackDamage: 26
+  attackInterval: 1.1
+  attackRange: 1.4
+  agroRadius: 3.5
+  isRanged: 0
+  isHealer: 0
+  wolfHealthMultiplier: 1.25
+  wolfDamageMultiplier: 2
+  wolfSpeedMultiplier: 1.35
+  wolfAttackIntervalMultiplier: 0.65
+  basicAttackVfx: MoonlightSlash
+  special01:
+    abilityName: Paw Dash
+    abilityType: 4
+    cooldown: 7
+    value: 45
+    radius: 1.8
+    duration: 4
+    vfxName: PawDash
+    animatorAction: 4
+  special02:
+    abilityName: Rally Howl
+    abilityType: 6
+    cooldown: 12
+    value: 0.25
+    radius: 3.5
+    duration: 4
+    vfxName: RallyHowl
+    animatorAction: 5
+  passiveType: 0
+  passiveName: Alpha Presence
+  passiveDescription: Nearby allies gain +15% damage bonus.
+  passiveMagnitude: 0.15

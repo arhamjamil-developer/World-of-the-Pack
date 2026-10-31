@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: CloudstepStoneTitan_Boss
+  m_EditorClassIdentifier: Assembly-CSharp:WorldOfThePack.Game:BossDefinition
+  bossId: CloudstepStoneTitan
+  bossName: Cloudstep Stone Titan
+  bossTitle: Awakened Guardian of the Great Moon Tree
+  biome: 4
+  maxHealth: 1350
+  moveSpeed: 0.65
+  basicAttackDamage: 55
+  attackInterval: 2
+  attackRange: 2.4
+  breachDamage: 100
+  energyReward: 300
+  tint: {r: 0.85, g: 0.85, b: 0.9, a: 1}
+  specialAttacks:
+  - attackName: Colossal Seismic Stomp
+    telegraphType: 2
+    telegraphDuration: 1.6
+    damage: 80
+    radius: 3.6
+    cooldown: 9
+    vfxName: EnemySlamCircle
+    isStunAttack: 1
+    stunDuration: 2
+  - attackName: Falling Sky Boulders
+    telegraphType: 4
+    telegraphDuration: 1.4
+    damage: 85
+    radius: 3.2
+    cooldown: 13
+    vfxName: EnemyLandingTarget
+    isStunAttack: 0
+    stunDuration: 1.5
+  enrageHealthPercent: 0.4
+  enrageAttackSpeedMultiplier: 1.35
+  moonShardsReward: 300
+  moonFragmentIndex: 5
+  unlockedHeroOnDefeat: 

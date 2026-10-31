@@ -34,12 +34,13 @@ namespace WorldOfThePack.Game
         {
             if (canvasScaler != null)
             {
+                canvasScaler.referenceResolution = new Vector2(576, 1024);
                 float aspect = (float)Screen.width / Mathf.Max(1, Screen.height);
-                // iPad aspect is around 0.75 (3:4) or wider; iPhone is around 0.46 - 0.56
+                // iPad aspect is around 0.75 (3:4) or wider; iPhone is around 0.46 - 0.56 (9:16)
                 if (aspect > 0.65f)
                 {
                     // Tablet / iPad: Match height to prevent UI overflowing vertically
-                    canvasScaler.matchWidthOrHeight = 1.0f;
+                    canvasScaler.matchWidthOrHeight = 0.5f;
                 }
                 else
                 {

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f091cb232ba64393adcd5c8f5334a, type: 3}
+  m_Name: WizardMomo_Kit
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.HeroKitDefinition
+  heroId: WizardMomo
+  displayName: Wizard Momo
+  shortName: MOMO
+  formationRole: 4
+  preferredLane: 4
+  energyCost: 4
+  maxHealth: 80
+  moveSpeed: 1.3
+  attackDamage: 25
+  attackInterval: 1.5
+  attackRange: 4
+  agroRadius: 4.8
+  isRanged: 1
+  isHealer: 0
+  wolfHealthMultiplier: 1.2
+  wolfDamageMultiplier: 2.2
+  wolfSpeedMultiplier: 1.3
+  wolfAttackIntervalMultiplier: 0.65
+  basicAttackVfx: StarProjectile
+  special01:
+    abilityName: Star Sprinkle
+    abilityType: 1
+    cooldown: 8
+    value: 38
+    radius: 2.4
+    duration: 4
+    vfxName: StarShower
+    animatorAction: 4
+  special02:
+    abilityName: Moon Pop
+    abilityType: 1
+    cooldown: 13
+    value: 55
+    radius: 2.8
+    duration: 4
+    vfxName: MoonNova
+    animatorAction: 5
+  passiveType: 5
+  passiveName: Star Chain
+  passiveDescription: Projectiles chain to hit an additional nearby enemy.
+  passiveMagnitude: 0.65

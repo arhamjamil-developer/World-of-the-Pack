@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f091cb232ba64393adcd5c8f5334a, type: 3}
+  m_Name: ScoutPip_Kit
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.HeroKitDefinition
+  heroId: ScoutPip
+  displayName: Scout Pip
+  shortName: PIP
+  formationRole: 1
+  preferredLane: 0
+  energyCost: 3
+  maxHealth: 95
+  moveSpeed: 1.7
+  attackDamage: 18
+  attackInterval: 0.9
+  attackRange: 1.3
+  agroRadius: 3.8
+  isRanged: 0
+  isHealer: 0
+  wolfHealthMultiplier: 1.2
+  wolfDamageMultiplier: 2.1
+  wolfSpeedMultiplier: 1.4
+  wolfAttackIntervalMultiplier: 0.6
+  basicAttackVfx: WindStrike
+  special01:
+    abilityName: Zoom Dash
+    abilityType: 4
+    cooldown: 6
+    value: 40
+    radius: 1.8
+    duration: 4
+    vfxName: ZoomDash
+    animatorAction: 4
+  special02:
+    abilityName: Whirl Paw
+    abilityType: 1
+    cooldown: 11
+    value: 45
+    radius: 2
+    duration: 4
+    vfxName: Whirlwind
+    animatorAction: 5
+  passiveType: 4
+  passiveName: Quick Paws
+  passiveDescription: +30% movement speed and +20% dodge chance.
+  passiveMagnitude: 0.3

@@ -13,7 +13,7 @@ namespace WorldOfThePack.Game
         [Header("Hero Definitions")]
         [SerializeField] private List<HeroCardDefinition> heroDefinitions = new List<HeroCardDefinition>();
 
-        private bool isWolfForm = true;
+        private bool isWolfForm = false;
 
         private void Start()
         {
@@ -45,10 +45,12 @@ namespace WorldOfThePack.Game
 
         private void LoadDefaultDefinitionsIfNeeded()
         {
-            if (heroDefinitions.Count > 0) return;
+            if (heroDefinitions.Count >= 5 && heroDefinitions[0] != null && heroDefinitions[0].heroId == "HeroWolvy" && heroDefinitions[2] != null && heroDefinitions[2].heroId == "FairyLulu") return;
+
+            heroDefinitions.Clear();
 
 #if UNITY_EDITOR
-            string[] heroNames = { "HeroWolvy", "PrincessElva", "CaptainBobo", "FairyLulu", "ScoutPip", "WizardMomo", "TinkerTilly" };
+            string[] heroNames = { "HeroWolvy", "PrincessElva", "FairyLulu", "CaptainBobo", "ScoutPip", "WizardMomo", "TinkerTilly" };
             foreach (string name in heroNames)
             {
                 string path = "Assets/UI/WorldOfThePack/Data/" + name + ".asset";
@@ -69,13 +71,27 @@ namespace WorldOfThePack.Game
 
                 // Remove previous listeners to avoid double hook
                 cardSlots[i].deployRequested.RemoveAllListeners();
+                cardSlots[i].deployAtPositionRequested.RemoveAllListeners();
 
-                // Bind card
-                cardSlots[i].Bind(def, initialEnergy: 20f, wolf: isWolfForm);
+                // Slot 0 (Hero Wolvy) starts ready at 100 energy for instant first deployment!
+                // Other slots match mockup progression: Elva 60, Lulu 40, Bobo 80, Pip 30
+                float initialEnergy = i switch
+                {
+                    0 => 100f,
+                    1 => 60f,
+                    2 => 40f,
+                    3 => 80f,
+                    4 => 30f,
+                    _ => 20f + i * 10f
+                };
 
-                // Listen to deploy request
+                // Start in Human Form
+                cardSlots[i].Bind(def, initialEnergy: initialEnergy, wolf: false);
+
+                // Listen to deployment requests
                 HeroDeploymentCard card = cardSlots[i];
                 card.deployRequested.AddListener((heroDef) => HandleDeployRequest(card, heroDef));
+                card.deployAtPositionRequested.AddListener((heroDef, pos) => HandleDeployAtPositionRequest(card, heroDef, pos));
             }
         }
 
@@ -87,10 +103,29 @@ namespace WorldOfThePack.Game
                 return;
             }
 
-            bool deployed = GameDirector.Instance.TryDeployHero(heroDef);
-            if (deployed)
+            HeroUnit spawnedHero = GameDirector.Instance.DeployHero(heroDef);
+            if (spawnedHero != null)
             {
-                card.ConfirmDeployment();
+                card.ConfirmDeployment(spawnedHero);
+            }
+            else
+            {
+                card.CancelDeployment();
+            }
+        }
+
+        private void HandleDeployAtPositionRequest(HeroDeploymentCard card, HeroCardDefinition heroDef, Vector3 worldPos)
+        {
+            if (GameDirector.Instance == null)
+            {
+                card.CancelDeployment();
+                return;
+            }
+
+            HeroUnit spawnedHero = GameDirector.Instance.DeployHeroAtPosition(heroDef, worldPos);
+            if (spawnedHero != null)
+            {
+                card.ConfirmDeployment(spawnedHero);
             }
             else
             {
@@ -103,7 +138,7 @@ namespace WorldOfThePack.Game
             if (cardSlots == null) return;
             foreach (var card in cardSlots)
             {
-                if (card != null && !card.IsReady)
+                if (card != null)
                 {
                     card.AddEnergy(amount);
                 }

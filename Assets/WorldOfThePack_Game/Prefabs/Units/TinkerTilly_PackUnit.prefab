@@ -60,13 +60,15 @@ MonoBehaviour:
   healthBarFill: {fileID: 0}
   selectionRing: {fileID: 0}
   heroId: TinkerTilly
-  isWolfForm: 1
+  heroKit: {fileID: 11400000, guid: fa0e048dcb5e05d4d9544a9cf80af0d7, type: 2}
+  isAlpha: 0
+  assignedLaneIndex: 2
+  isWolfForm: 0
   humanVisual: {fileID: 2381522707777625602}
   wolfVisual: {fileID: 2833693547676051935}
-  isRanged: 0
-  isHealer: 0
-  healAmount: 15
-  attackVfxName: MoonlightSlash
+  agroRadius: 3.5
+  maxChaseDistance: 2.4
+  wolfSurgeDuration: 20
 --- !u!1001 &177978302343042118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78,6 +80,10 @@ PrefabInstance:
     - target: {fileID: 2678237797221825945, guid: ef266895f1ea52547aef4095925dd625, type: 3}
       propertyPath: m_Name
       value: WolfVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678237797221825945, guid: ef266895f1ea52547aef4095925dd625, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7233237706440736868, guid: ef266895f1ea52547aef4095925dd625, type: 3}
       propertyPath: m_LocalPosition.x
@@ -185,10 +191,6 @@ PrefabInstance:
     - target: {fileID: 4721527241347680970, guid: 8d3ef61db77255648bcf9f804130b845, type: 3}
       propertyPath: m_Name
       value: HumanVisual
-      objectReference: {fileID: 0}
-    - target: {fileID: 4721527241347680970, guid: 8d3ef61db77255648bcf9f804130b845, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

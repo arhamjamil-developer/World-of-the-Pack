@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f091cb232ba64393adcd5c8f5334a, type: 3}
+  m_Name: FairyLulu_Kit
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.HeroKitDefinition
+  heroId: FairyLulu
+  displayName: Fairy Lulu
+  shortName: LULU
+  formationRole: 3
+  preferredLane: 1
+  energyCost: 4
+  maxHealth: 85
+  moveSpeed: 1.45
+  attackDamage: 12
+  attackInterval: 1.6
+  attackRange: 3.5
+  agroRadius: 4.5
+  isRanged: 1
+  isHealer: 1
+  wolfHealthMultiplier: 1.2
+  wolfDamageMultiplier: 1.8
+  wolfSpeedMultiplier: 1.35
+  wolfAttackIntervalMultiplier: 0.65
+  basicAttackVfx: MoonBubble
+  special01:
+    abilityName: Moon Hug
+    abilityType: 2
+    cooldown: 9
+    value: 50
+    radius: 2.5
+    duration: 4
+    vfxName: HealingCircle
+    animatorAction: 4
+  special02:
+    abilityName: Bubble Blessing
+    abilityType: 3
+    cooldown: 16
+    value: 35
+    radius: 4
+    duration: 6
+    vfxName: BlessingPop
+    animatorAction: 5
+  passiveType: 2
+  passiveName: Kindhearted Magic
+  passiveDescription: Aura restores 4 HP every second to wounded pack members.
+  passiveMagnitude: 4

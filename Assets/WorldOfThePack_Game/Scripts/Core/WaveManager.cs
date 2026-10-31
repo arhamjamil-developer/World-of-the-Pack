@@ -41,6 +41,17 @@ namespace WorldOfThePack.Game
 
         private int remainingEnemiesInWave;
         private readonly List<EnemyUnit> activeEnemies = new List<EnemyUnit>();
+        private bool isPausedForCamp = false;
+
+        public void PauseForCamp()
+        {
+            isPausedForCamp = true;
+        }
+
+        public void ResumeFromCamp()
+        {
+            isPausedForCamp = false;
+        }
 
         private void Start()
         {
@@ -53,11 +64,37 @@ namespace WorldOfThePack.Game
             StartCoroutine(WaveRoutine());
         }
 
+        public void JumpToWave(int waveIndex)
+        {
+            StopAllCoroutines();
+            // Clear remaining enemies from previous wave
+            foreach (var e in activeEnemies)
+            {
+                if (e != null && e.gameObject != null) Destroy(e.gameObject);
+            }
+            activeEnemies.Clear();
+            remainingEnemiesInWave = 0;
+
+            CurrentWaveIndex = Mathf.Clamp(waveIndex, 0, authoredWaves.Count - 1);
+            StartCoroutine(WaveRoutine());
+        }
+
         private IEnumerator WaveRoutine()
         {
             while (true)
             {
-                yield return new WaitForSeconds(1.0f);
+                while (isPausedForCamp)
+                {
+                    yield return new WaitForSeconds(0.5f);
+                }
+
+                float delay = CurrentWaveIndex == 0 ? 1.0f : waveRestDuration;
+                yield return new WaitForSeconds(delay);
+
+                while (isPausedForCamp)
+                {
+                    yield return new WaitForSeconds(0.5f);
+                }
 
                 IsWaveActive = true;
                 string wName = CurrentWaveName;
@@ -65,6 +102,11 @@ namespace WorldOfThePack.Game
 
                 WaveDefinition currentWave = GetWave(CurrentWaveIndex);
                 remainingEnemiesInWave = currentWave.spawns.Count;
+
+                if (CurrentWaveIndex == 4)
+                {
+                    SpawnBoss();
+                }
 
                 for (int i = 0; i < currentWave.spawns.Count; i++)
                 {
@@ -80,7 +122,7 @@ namespace WorldOfThePack.Game
                 // Wait until all enemies in wave are defeated
                 while (remainingEnemiesInWave > 0)
                 {
-                    yield return new WaitForSeconds(0.5f);
+                    yield return new WaitForSeconds(0.4f);
                 }
 
                 IsWaveActive = false;
@@ -98,9 +140,10 @@ namespace WorldOfThePack.Game
 
         private void SpawnEnemy(EnemyType type, float laneX)
         {
-            Vector3 spawnPos = new Vector3(Mathf.Clamp(laneX, -1.6f, 1.6f), 6.5f, 0f);
+            // Position ahead of current formation anchor / camera viewport
+            float baseY = Camera.main != null ? Camera.main.transform.position.y : (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f);
+            Vector3 spawnPos = new Vector3(Mathf.Clamp(laneX, -1.6f, 1.6f), baseY + 6.8f, 0f);
 
-            // Spawn dust/spawn VFX
             CombatVFXPool.SpawnEffect("EnemySpawn", spawnPos);
 
             GameObject prefab = type switch
@@ -125,6 +168,26 @@ namespace WorldOfThePack.Game
 
             activeEnemies.Add(enemy);
             enemy.OnDefeated += OnEnemyDefeated;
+        }
+
+        private void SpawnBoss()
+        {
+            float baseY = Camera.main != null ? Camera.main.transform.position.y : (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f);
+            Vector3 bossPos = new Vector3(0f, baseY + 4.8f, 0f);
+            GameObject bossPrefab = null;
+#if UNITY_EDITOR
+            bossPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/WorldOfThePack_Game/Prefabs/Units/Boss_AncientThornGuardian.prefab");
+#endif
+            if (bossPrefab != null)
+            {
+                GameObject bossGo = Instantiate(bossPrefab, bossPos, Quaternion.identity);
+                BossUnit bu = bossGo.GetComponent<BossUnit>();
+                if (bu != null)
+                {
+                    remainingEnemiesInWave++;
+                    bu.OnDefeated += (c) => remainingEnemiesInWave = Mathf.Max(0, remainingEnemiesInWave - 1);
+                }
+            }
         }
 
         private void OnEnemyDefeated(Combatant c)
@@ -155,7 +218,7 @@ namespace WorldOfThePack.Game
                 def.spawns.Add(new EnemySpawnConfig
                 {
                     type = t,
-                    spawnDelay = UnityEngine.Random.Range(0.6f, 1.8f),
+                    spawnDelay = UnityEngine.Random.Range(0.6f, 1.6f),
                     laneX = UnityEngine.Random.Range(-1.5f, 1.5f)
                 });
             }
@@ -168,44 +231,39 @@ namespace WorldOfThePack.Game
 
             // Wave 1: First skirmish
             WaveDefinition w1 = new WaveDefinition { waveName = "Forest Patrol" };
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.5f, laneX = -0.8f });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = 0.8f });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 3.0f, laneX = 0.0f });
+            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.5f, laneX = -0.6f });
+            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.2f, laneX = 0.6f });
             authoredWaves.Add(w1);
 
             // Wave 2: Scout Hounds
             WaveDefinition w2 = new WaveDefinition { waveName = "Hound Pursuit" };
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.5f, laneX = -1.2f });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.5f, laneX = 1.2f });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.5f, laneX = -0.4f });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = 0.4f });
+            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.5f, laneX = -1.0f });
+            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.2f, laneX = 1.0f });
+            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = 0.0f });
             authoredWaves.Add(w2);
 
             // Wave 3: Heavy Ambush
             WaveDefinition w3 = new WaveDefinition { waveName = "Treeline Ambush" };
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.5f, laneX = -1.4f });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.2f, laneX = 1.4f });
+            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.5f, laneX = -1.2f });
+            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.0f, laneX = 1.2f });
             w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.5f, laneX = 0.0f });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.5f, laneX = -0.6f });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.5f, laneX = 0.6f });
+            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = -0.5f });
             authoredWaves.Add(w3);
 
             // Wave 4: Captain Arrival
             WaveDefinition w4 = new WaveDefinition { waveName = "Hunter Captain Vanguard" };
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.5f, laneX = -1.0f });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.0f, laneX = 1.0f });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 2.5f, laneX = 0.0f });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = -1.2f });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.5f, laneX = -0.8f });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.8f, laneX = 0.8f });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 2.2f, laneX = 0.0f });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 2.0f, laneX = -1.0f });
             authoredWaves.Add(w4);
 
-            // Wave 5: Sanctuary Breakthrough
-            WaveDefinition w5 = new WaveDefinition { waveName = "Sanctuary Perimeter Clash" };
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.5f, laneX = -1.2f });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.0f, laneX = 1.2f });
+            // Wave 5: Bramble Brute Forest Colossus
+            WaveDefinition w5 = new WaveDefinition { waveName = "Bramble Brute Forest Colossus" };
+            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.4f, laneX = -1.1f });
+            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.4f, laneX = 1.1f });
             w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 2.0f, laneX = -0.5f });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.5f, laneX = 1.0f });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.5f, laneX = -1.0f });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 3.0f, laneX = 0.5f });
+            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 2.0f, laneX = 0.5f });
             authoredWaves.Add(w5);
         }
 
@@ -214,13 +272,11 @@ namespace WorldOfThePack.Game
             GameObject go = new GameObject("Enemy_" + type);
             go.transform.position = position;
 
-            // Simple visual representation using character art or colored sprite
             GameObject body = new GameObject("Body");
             body.transform.SetParent(go.transform, false);
             SpriteRenderer sr = body.AddComponent<SpriteRenderer>();
 
 #if UNITY_EDITOR
-            // Try loading one of the character north sprites with distinct enemy tint
             string path = "Assets/Characters/ScoutPip/Wolf/ScoutPip_Wolf_North.png";
             var sprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath(path);
             foreach (var s in sprites)
@@ -242,7 +298,6 @@ namespace WorldOfThePack.Game
             body.transform.localScale = type == EnemyType.Captain ? new Vector3(1.3f, 1.3f, 1f) : Vector3.one;
 
             EnemyUnit unit = go.AddComponent<EnemyUnit>();
-            // Use reflection or serialized backing if needed; unit will auto-configure in Awake based on enemyType
             var field = typeof(EnemyUnit).GetField("enemyType", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
             if (field != null) field.SetValue(unit, type);
 

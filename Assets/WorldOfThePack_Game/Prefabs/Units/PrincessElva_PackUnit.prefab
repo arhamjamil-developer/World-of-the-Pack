@@ -60,13 +60,15 @@ MonoBehaviour:
   healthBarFill: {fileID: 0}
   selectionRing: {fileID: 0}
   heroId: PrincessElva
-  isWolfForm: 1
+  heroKit: {fileID: 11400000, guid: 5ee6110cc187f574cbbe4612ab1a8571, type: 2}
+  isAlpha: 0
+  assignedLaneIndex: 2
+  isWolfForm: 0
   humanVisual: {fileID: 2893495028068210583}
   wolfVisual: {fileID: 7272097862636842017}
-  isRanged: 0
-  isHealer: 0
-  healAmount: 15
-  attackVfxName: MoonlightSlash
+  agroRadius: 3.5
+  maxChaseDistance: 2.4
+  wolfSurgeDuration: 20
 --- !u!1001 &907284136109861392
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,6 +120,10 @@ PrefabInstance:
     - target: {fileID: 7529170198271903281, guid: ae80bd06a8d2ef449b846ac84d8445f3, type: 3}
       propertyPath: m_Name
       value: WolfVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 7529170198271903281, guid: ae80bd06a8d2ef449b846ac84d8445f3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -185,10 +191,6 @@ PrefabInstance:
     - target: {fileID: 8303693195371232184, guid: aa2875b0df959ae41a63dafb03428f90, type: 3}
       propertyPath: m_Name
       value: HumanVisual
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303693195371232184, guid: aa2875b0df959ae41a63dafb03428f90, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

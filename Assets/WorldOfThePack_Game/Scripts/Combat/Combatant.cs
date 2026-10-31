@@ -28,6 +28,9 @@ namespace WorldOfThePack.Game
         public Vector3 Position => transform.position;
         public bool IsAlive => currentHealth > 0f;
         public float HealthPercent => Mathf.Clamp01(currentHealth / Mathf.Max(1f, maxHealth));
+        public float MaxHealth => maxHealth;
+        public float CurrentHealth => currentHealth;
+        public float AttackDamage => attackDamage;
         public string UnitName => unitName;
 
         public event Action<Combatant> OnDefeated;
@@ -40,11 +43,25 @@ namespace WorldOfThePack.Game
         protected virtual void Awake()
         {
             if (animator == null) animator = GetComponentInChildren<Animator>();
-            if (bodyRenderer == null && animator != null)
+            if (bodyRenderer == null)
             {
-                Transform bodyChild = animator.transform.Find("Body");
-                if (bodyChild != null) bodyRenderer = bodyChild.GetComponent<SpriteRenderer>();
-                if (bodyRenderer == null) bodyRenderer = GetComponentInChildren<SpriteRenderer>();
+                if (animator != null)
+                {
+                    Transform bodyChild = animator.transform.Find("Body");
+                    if (bodyChild != null) bodyRenderer = bodyChild.GetComponent<SpriteRenderer>();
+                }
+                if (bodyRenderer == null)
+                {
+                    var renderers = GetComponentsInChildren<SpriteRenderer>(true);
+                    foreach (var r in renderers)
+                    {
+                        if (r != selectionRing && !r.name.Contains("Ring") && !r.name.Contains("Bar") && !r.name.Contains("Fill") && !r.name.Contains("BG") && !r.name.Contains("Crown"))
+                        {
+                            bodyRenderer = r;
+                            break;
+                        }
+                    }
+                }
             }
 
             currentHealth = maxHealth;
@@ -66,10 +83,12 @@ namespace WorldOfThePack.Game
 
         protected virtual void UpdateSortingOrder()
         {
-            // Standard 2D top-down perspective sorting
+            // Standard 2D top-down perspective sorting relative to camera viewport
             if (bodyRenderer != null)
             {
-                bodyRenderer.sortingOrder = Mathf.RoundToInt(-transform.position.y * 32f);
+                float camY = Camera.main != null ? Camera.main.transform.position.y : 0f;
+                float relativeY = transform.position.y - camY;
+                bodyRenderer.sortingOrder = 200 + Mathf.RoundToInt(-relativeY * 16f);
             }
         }
 
@@ -135,10 +154,9 @@ namespace WorldOfThePack.Game
 
         private System.Collections.IEnumerator HitFlashRoutine()
         {
-            Color orig = bodyRenderer.color;
-            bodyRenderer.color = new Color(1f, 0.4f, 0.4f, 1f);
+            if (bodyRenderer != null) bodyRenderer.color = new Color(1f, 0.4f, 0.4f, 1f);
             yield return new WaitForSeconds(0.08f);
-            if (bodyRenderer != null) bodyRenderer.color = orig;
+            if (bodyRenderer != null) bodyRenderer.color = Color.white;
         }
 
         protected void BuildDefaultHealthBarIfNeeded()

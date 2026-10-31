@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: RiverGuardian_Boss
+  m_EditorClassIdentifier: Assembly-CSharp:WorldOfThePack.Game:BossDefinition
+  bossId: RiverGuardian
+  bossName: River Guardian
+  bossTitle: Serpent of the Blue Shallows
+  biome: 2
+  maxHealth: 820
+  moveSpeed: 0.85
+  basicAttackDamage: 38
+  attackInterval: 1.5
+  attackRange: 2.2
+  breachDamage: 60
+  energyReward: 180
+  tint: {r: 0.6, g: 0.8, b: 1, a: 1}
+  specialAttacks:
+  - attackName: Tidal Surge Lane
+    telegraphType: 3
+    telegraphDuration: 1.4
+    damage: 55
+    radius: 2
+    cooldown: 9
+    vfxName: EnemyChargeLane
+    isStunAttack: 0
+    stunDuration: 1.5
+  - attackName: Vortex Geyser
+    telegraphType: 4
+    telegraphDuration: 1.2
+    damage: 60
+    radius: 2.8
+    cooldown: 13
+    vfxName: EnemyLandingTarget
+    isStunAttack: 0
+    stunDuration: 1.5
+  enrageHealthPercent: 0.4
+  enrageAttackSpeedMultiplier: 1.35
+  moonShardsReward: 150
+  moonFragmentIndex: 3
+  unlockedHeroOnDefeat: WizardMomo

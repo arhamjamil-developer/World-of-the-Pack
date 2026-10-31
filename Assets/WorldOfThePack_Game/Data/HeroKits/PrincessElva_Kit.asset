@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 960f091cb232ba64393adcd5c8f5334a, type: 3}
+  m_Name: PrincessElva_Kit
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.HeroKitDefinition
+  heroId: PrincessElva
+  displayName: Princess Elva
+  shortName: ELVA
+  formationRole: 2
+  preferredLane: 2
+  energyCost: 3
+  maxHealth: 90
+  moveSpeed: 1.35
+  attackDamage: 18
+  attackInterval: 1.25
+  attackRange: 4.2
+  agroRadius: 5
+  isRanged: 1
+  isHealer: 0
+  wolfHealthMultiplier: 1.2
+  wolfDamageMultiplier: 2
+  wolfSpeedMultiplier: 1.3
+  wolfAttackIntervalMultiplier: 0.65
+  basicAttackVfx: NatureArrow
+  special01:
+    abilityName: Leaf Volley
+    abilityType: 1
+    cooldown: 8
+    value: 32
+    radius: 2.5
+    duration: 4
+    vfxName: LeafVolley
+    animatorAction: 4
+  special02:
+    abilityName: Forest Focus
+    abilityType: 6
+    cooldown: 14
+    value: 0.4
+    radius: 0
+    duration: 6
+    vfxName: ForestFocus
+    animatorAction: 5
+  passiveType: 1
+  passiveName: Nature Precision
+  passiveDescription: +25% critical strike chance against distant foes.
+  passiveMagnitude: 0.25

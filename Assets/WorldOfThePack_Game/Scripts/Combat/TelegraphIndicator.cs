@@ -16,14 +16,30 @@ namespace WorldOfThePack.Game
             }
             else
             {
-                // Fallback procedural warning circle if prefab not in Resources
+                // Fallback procedural or HD warning indicator
                 instance = new GameObject("Telegraph_" + prefabName);
                 instance.transform.position = position;
                 SpriteRenderer sr = instance.AddComponent<SpriteRenderer>();
+#if UNITY_EDITOR
+                var slamSprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>("Assets/VFX/WorldOfThePack/Art/Telegraph_OrangeSlam1_2s.png");
+                if (slamSprite != null)
+                {
+                    sr.sprite = slamSprite;
+                    sr.color = Color.white;
+                    instance.transform.localScale = new Vector3(2.4f, 1.8f, 1f);
+                }
+                else
+                {
+                    sr.sprite = GetCircleSprite();
+                    sr.color = new Color(1f, 0.45f, 0.1f, 0.65f);
+                    instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
+                }
+#else
                 sr.sprite = GetCircleSprite();
-                sr.color = new Color(1f, 0.2f, 0.2f, 0.4f);
-                sr.sortingOrder = -10;
+                sr.color = new Color(1f, 0.45f, 0.1f, 0.65f);
                 instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
+#endif
+                sr.sortingOrder = -10;
             }
 
             TelegraphIndicator ti = instance.AddComponent<TelegraphIndicator>();

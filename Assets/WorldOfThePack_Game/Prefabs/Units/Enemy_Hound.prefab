@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_LocalScale: {x: 1.65, y: 1.65, z: 1.65}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5145798339541947318}
@@ -81,8 +81,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 1780227882, guid: 9f466661b7402d549a071b12c71286ea, type: 3}
-  m_Color: {r: 0.85, g: 0.65, b: 0.35, a: 1}
+  m_Sprite: {fileID: 7425766781955698761, guid: e32c4e180a40db24080f725631983b89, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -152,7 +152,6 @@ MonoBehaviour:
   enemyType: 1
   energyReward: 25
   breachDamage: 15
-  breachYThreshold: -3.8
   hasTelegraph: 0
   telegraphDuration: 1
   telegraphPrefabName: EnemyConeSouth

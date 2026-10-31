@@ -60,13 +60,15 @@ MonoBehaviour:
   healthBarFill: {fileID: 0}
   selectionRing: {fileID: 0}
   heroId: CaptainBobo
-  isWolfForm: 1
+  heroKit: {fileID: 11400000, guid: f72f7e6aa40e5ae4eb34bc4a7cafe4c6, type: 2}
+  isAlpha: 0
+  assignedLaneIndex: 2
+  isWolfForm: 0
   humanVisual: {fileID: 8457759397700318268}
   wolfVisual: {fileID: 3652716462616147210}
-  isRanged: 0
-  isHealer: 0
-  healAmount: 15
-  attackVfxName: MoonlightSlash
+  agroRadius: 3.5
+  maxChaseDistance: 2.4
+  wolfSurgeDuration: 20
 --- !u!1001 &2914189912123676350
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -118,10 +120,6 @@ PrefabInstance:
     - target: {fileID: 6714505393525924482, guid: 493667f6346e35c4ab461f72ef960ea7, type: 3}
       propertyPath: m_Name
       value: HumanVisual
-      objectReference: {fileID: 0}
-    - target: {fileID: 6714505393525924482, guid: 493667f6346e35c4ab461f72ef960ea7, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -189,6 +187,10 @@ PrefabInstance:
     - target: {fileID: 8269947329268553797, guid: 72a9a19908dcc5d48be7e4d82ad66bd4, type: 3}
       propertyPath: m_Name
       value: WolfVisual
+      objectReference: {fileID: 0}
+    - target: {fileID: 8269947329268553797, guid: 72a9a19908dcc5d48be7e4d82ad66bd4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

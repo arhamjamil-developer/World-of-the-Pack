@@ -614,13 +614,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
+  m_fontSize: 15
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 11.2
   m_fontSizeMax: 16
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -908,8 +908,12 @@ MonoBehaviour:
   chargingText: CHARGING
   pendingText: DEPLOYING
   lockedText: LOCKED
+  wolfReadyText: WOLF FORM!
   displayNameOverride: 
   deployRequested:
+    m_PersistentCalls:
+      m_Calls: []
+  deployAtPositionRequested:
     m_PersistentCalls:
       m_Calls: []
   energy: 100
@@ -1339,14 +1343,14 @@ MonoBehaviour:
   m_text: WOLVY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d696aeb1695e6664b80579f543793fd6, type: 2}
-  m_sharedMaterial: {fileID: 6780733737775524539, guid: d696aeb1695e6664b80579f543793fd6, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 7344675ccd445e640a5ec6ef06108c34, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.22, g: 0.11, b: 0.055, a: 1}
+  m_fontColor: {r: 1, g: 0.96, b: 0.86, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1363,13 +1367,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16
+  m_fontSize: 17
   m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 11.2
   m_fontSizeMax: 16
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1443,7 +1447,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -2, y: -2}
+  m_SizeDelta: {x: -4, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5869551400425709278
 CanvasRenderer:
@@ -1500,13 +1504,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 11
+  m_fontSize: 13
   m_fontSizeBase: 11
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 7.7
   m_fontSizeMax: 11
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

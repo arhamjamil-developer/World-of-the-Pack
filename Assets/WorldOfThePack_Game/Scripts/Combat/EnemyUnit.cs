@@ -16,7 +16,6 @@ namespace WorldOfThePack.Game
         [SerializeField] private EnemyType enemyType = EnemyType.Soldier;
         [SerializeField] private float energyReward = 25f;
         [SerializeField] private float breachDamage = 15f;
-        [SerializeField] private float breachYThreshold = -3.8f;
 
         [Header("Telegraph Attack")]
         [SerializeField] private bool hasTelegraph = false;
@@ -45,10 +44,10 @@ namespace WorldOfThePack.Game
                     unitName = "Hunter Hound";
                     maxHealth = 45f;
                     currentHealth = 45f;
-                    moveSpeed = 2.2f;
+                    moveSpeed = 2.1f;
                     attackRange = 1.1f;
                     attackDamage = 10f;
-                    attackInterval = 0.8f;
+                    attackInterval = 0.85f;
                     energyReward = 20f;
                     breachDamage = 10f;
                     break;
@@ -56,7 +55,7 @@ namespace WorldOfThePack.Game
                     unitName = "Patrol Captain";
                     maxHealth = 220f;
                     currentHealth = 220f;
-                    moveSpeed = 0.9f;
+                    moveSpeed = 0.85f;
                     attackRange = 1.5f;
                     attackDamage = 35f;
                     attackInterval = 2.2f;
@@ -71,7 +70,7 @@ namespace WorldOfThePack.Game
                     unitName = "Forest Patrol Soldier";
                     maxHealth = 80f;
                     currentHealth = 80f;
-                    moveSpeed = 1.3f;
+                    moveSpeed = 1.25f;
                     attackRange = 1.2f;
                     attackDamage = 15f;
                     attackInterval = 1.3f;
@@ -81,19 +80,13 @@ namespace WorldOfThePack.Game
             }
         }
 
+        private float attackAnimEndTime = 0f;
+
         private void SetupEnemyVisual()
         {
-            // If body renderer exists, give it a distinctive cartoon hunter coloring
             if (bodyRenderer != null)
             {
-                // Invert scale Y slightly or flip to face southwards toward the pack
-                // If using upright sprite, facing south or distinct tint
-                bodyRenderer.color = enemyType switch
-                {
-                    EnemyType.Captain => new Color(1f, 0.7f, 0.7f, 1f),
-                    EnemyType.Hound => new Color(0.9f, 0.8f, 0.7f, 1f),
-                    _ => new Color(0.95f, 0.85f, 0.85f, 1f)
-                };
+                bodyRenderer.color = Color.white;
             }
         }
 
@@ -103,19 +96,20 @@ namespace WorldOfThePack.Game
             GameObject ring = new GameObject("EnemyRing");
             ring.transform.SetParent(transform, false);
             ring.transform.localPosition = new Vector3(0f, -0.2f, 0f);
-            ring.transform.localScale = new Vector3(0.95f, 0.45f, 1f);
+            ring.transform.localScale = new Vector3(1.15f, 0.75f, 1f);
             selectionRing = ring.AddComponent<SpriteRenderer>();
             selectionRing.sprite = GetEnemyRingSprite();
-            selectionRing.color = new Color(1f, 0.4f, 0.1f, 0.75f); // Team orange/red ring
+            selectionRing.color = Color.white;
             selectionRing.sortingOrder = -5;
         }
 
         protected override void UpdateBehavior()
         {
-            if (isPreparingAttack) return;
+            if (isPreparingAttack || isDead) return;
 
-            // Check if breached the defence line
-            if (transform.position.y <= breachYThreshold)
+            // Check if breached past the formation anchor or bottom of viewport
+            float breachLimit = (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : (Camera.main != null ? Camera.main.transform.position.y : 0f)) - 3.8f;
+            if (transform.position.y <= breachLimit)
             {
                 BreachPackLine();
                 return;
@@ -128,6 +122,11 @@ namespace WorldOfThePack.Game
                 float distance = Vector2.Distance(transform.position, currentTarget.Position);
                 if (distance <= attackRange)
                 {
+                    if (Time.time < attackAnimEndTime)
+                    {
+                        // Maintain attack animation smoothly
+                        return;
+                    }
                     SetAnimationAction(0);
                     if (Time.time >= nextAttackTime)
                     {
@@ -148,8 +147,9 @@ namespace WorldOfThePack.Game
             }
             else
             {
-                // Advance southward down the corridor
-                MoveTowards(new Vector3(transform.position.x, breachYThreshold - 1f, 0f));
+                // Advance southward towards formation anchor
+                float targetY = (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : transform.position.y) - 2f;
+                MoveTowards(new Vector3(transform.position.x, targetY, 0f));
             }
         }
 
@@ -166,6 +166,7 @@ namespace WorldOfThePack.Game
         private void ExecuteAttack(Combatant target)
         {
             nextAttackTime = Time.time + attackInterval;
+            attackAnimEndTime = Time.time + 0.45f;
             SetAnimationAction(2); // Attack
             target.TakeDamage(attackDamage, this);
             CombatVFXPool.SpawnEffect("CriticalBurst", target.Position + Vector3.up * 0.2f);
@@ -176,8 +177,7 @@ namespace WorldOfThePack.Game
             isPreparingAttack = true;
             nextAttackTime = Time.time + attackInterval + telegraphDuration;
 
-            // Spawn warning telegraph
-            GameObject telegraph = TelegraphIndicator.Spawn(telegraphPrefabName, transform.position, telegraphDuration);
+            TelegraphIndicator.Spawn(telegraphPrefabName, transform.position, telegraphDuration);
 
             yield return new WaitForSeconds(telegraphDuration);
 
@@ -186,6 +186,7 @@ namespace WorldOfThePack.Game
 
             if (target != null && target.IsAlive && Vector2.Distance(transform.position, target.Position) <= attackRange * 1.5f)
             {
+                attackAnimEndTime = Time.time + 0.5f;
                 SetAnimationAction(2);
                 target.TakeDamage(attackDamage, this);
                 CombatVFXPool.SpawnEffect("CriticalBurst", target.Position);
@@ -197,7 +198,6 @@ namespace WorldOfThePack.Game
             if (isDead) return;
             isDead = true;
 
-            // Damage shared pack health
             if (GameDirector.Instance != null)
             {
                 GameDirector.Instance.DamagePack(breachDamage);
@@ -211,10 +211,8 @@ namespace WorldOfThePack.Game
         {
             base.Die(killer);
 
-            // Spawn cartoon defeat puff VFX
             CombatVFXPool.SpawnEffect("EnemyDefeat", transform.position);
 
-            // Reward energy to player card deck
             if (GameDirector.Instance != null)
             {
                 GameDirector.Instance.OnEnemyKilled(this, energyReward);
@@ -244,6 +242,10 @@ namespace WorldOfThePack.Game
         private static Sprite GetEnemyRingSprite()
         {
             if (cachedEnemyRingSprite != null) return cachedEnemyRingSprite;
+#if UNITY_EDITOR
+            var loaded = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>("Assets/VFX/WorldOfThePack/Art/GroundRing_EnemyOrange_HD.png");
+            if (loaded != null) { cachedEnemyRingSprite = loaded; return cachedEnemyRingSprite; }
+#endif
             int size = 64;
             Texture2D tex = new Texture2D(size, size);
             Color clear = new Color(0, 0, 0, 0);
@@ -256,14 +258,8 @@ namespace WorldOfThePack.Game
                 for (int x = 0; x < size; x++)
                 {
                     float d = Vector2.Distance(new Vector2(x, y), center);
-                    if (d <= radius && d >= inner)
-                    {
-                        tex.SetPixel(x, y, Color.white);
-                    }
-                    else
-                    {
-                        tex.SetPixel(x, y, clear);
-                    }
+                    if (d <= radius && d >= inner) tex.SetPixel(x, y, Color.white);
+                    else tex.SetPixel(x, y, clear);
                 }
             }
             tex.Apply();
