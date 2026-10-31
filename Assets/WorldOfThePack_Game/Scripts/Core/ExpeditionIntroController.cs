@@ -8,7 +8,16 @@ namespace WorldOfThePack.Game
 {
     public class ExpeditionIntroController : MonoBehaviour
     {
-        public static ExpeditionIntroController Instance { get; private set; }
+        private static ExpeditionIntroController instance;
+        public static ExpeditionIntroController Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<ExpeditionIntroController>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Intro Timings (Seconds)")]
         [SerializeField] private float envRevealDuration = 2.0f;
@@ -28,14 +37,29 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
+
+            if (bannerPanel == null)
+            {
+                var bp = GameObject.Find("BannerPanel");
+                if (bp != null)
+                {
+                    bannerPanel = bp;
+                    bannerText = bp.GetComponentInChildren<TMP_Text>(true);
+                }
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         public void PlayIntroSequence()
         {
-            if (introCoroutine != null) StopCoroutine(introCoroutine);
-            introCoroutine = StartCoroutine(IntroSequenceRoutine());
+            ShowNotification("Sunny Forest Trail • Wave 1", 2.2f);
+            OnIntroCompleted?.Invoke();
         }
 
         public void SkipIntro()
@@ -88,7 +112,7 @@ namespace WorldOfThePack.Game
             if (FormationController.Instance != null)
             {
                 FormationController.Instance.SetMarching(false);
-                FormationController.Instance.SetAnchorPosition(new Vector3(0f, -1.8f, 0f));
+                FormationController.Instance.SetAnchorPosition(new Vector3(0f, 0.4f, 0f));
             }
 
             ShowNotification("Sunny Forest Trail", 1.8f);

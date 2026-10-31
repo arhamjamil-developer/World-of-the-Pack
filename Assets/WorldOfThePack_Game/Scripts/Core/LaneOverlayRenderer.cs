@@ -5,7 +5,16 @@ namespace WorldOfThePack.Game
     [ExecuteAlways]
     public class LaneOverlayRenderer : MonoBehaviour
     {
-        public static LaneOverlayRenderer Instance { get; private set; }
+        private static LaneOverlayRenderer instance;
+        public static LaneOverlayRenderer Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<LaneOverlayRenderer>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Lane Visuals")]
         [SerializeField] private Color normalDividerColor = new Color(1f, 1f, 1f, 0.08f);
@@ -19,10 +28,15 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this && Application.isPlaying) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this && Application.isPlaying) { Destroy(this); return; }
 
             BuildOverlay();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Update()

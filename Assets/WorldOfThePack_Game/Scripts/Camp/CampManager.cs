@@ -17,7 +17,16 @@ namespace WorldOfThePack.Game
 
     public class CampManager : MonoBehaviour
     {
-        public static CampManager Instance { get; private set; }
+        private static CampManager instance;
+        public static CampManager Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<CampManager>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Camp Spawning Configuration")]
         [SerializeField] private float firstCampDistance = 80f;
@@ -50,10 +59,15 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
             LoadCampsiteSprite();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Start()
@@ -123,7 +137,7 @@ namespace WorldOfThePack.Game
             }
 
             // Pause wave spawns temporarily
-            WaveManager wm = GetComponent<WaveManager>();
+            WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
             if (wm != null)
             {
                 wm.PauseForCamp();
@@ -239,7 +253,7 @@ namespace WorldOfThePack.Game
             }
 
             // Resume waves
-            WaveManager wm = GetComponent<WaveManager>();
+            WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
             if (wm != null)
             {
                 wm.ResumeFromCamp();

@@ -34,9 +34,14 @@ namespace WorldOfThePack.Game
         private void Awake()
         {
             if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            else if (Instance != this) { Destroy(this); return; }
 
             EnsureUIHierarchy();
+        }
+
+        private void OnDestroy()
+        {
+            if (Instance == this) Instance = null;
         }
 
         private void EnsureUIHierarchy()

@@ -232,7 +232,11 @@ namespace WorldOfThePack.Game
             {
                 if (packCountLabel != null)
                 {
-                    packCountLabel.text = $"ALLIES: {GameDirector.Instance.ActiveAllyCount}/{GameDirector.Instance.MaxAllies}";
+                    packCountLabel.text = $"ALLIES {GameDirector.Instance.ActiveAllyCount}";
+                }
+                if (scoreLabel != null)
+                {
+                    scoreLabel.text = $"DEFEATED {GameDirector.Instance.TotalKills}";
                 }
 
                 // Hide skip button once intro finishes
@@ -315,9 +319,9 @@ namespace WorldOfThePack.Game
 
         private void UpdateScore(int score)
         {
-            if (scoreLabel != null)
+            if (scoreLabel != null && GameDirector.Instance != null)
             {
-                scoreLabel.text = $"SCORE: {score}";
+                scoreLabel.text = $"DEFEATED {GameDirector.Instance.TotalKills}";
             }
         }
 
@@ -327,7 +331,17 @@ namespace WorldOfThePack.Game
             {
                 waveLabel.text = $"WAVE {waveNum:D2}";
             }
-            ShowBanner($"WAVE {waveNum}\n{waveName}");
+
+            string storyDialogue = waveNum switch
+            {
+                1 => "Wolvy: \"Hunters are close! Pack, follow my lead!\"",
+                2 => "Bobo: \"Hounds flanking through the trees! Hold the line!\"",
+                3 => "Elva: \"Patrols spotted in the thicket! Draw arrows!\"",
+                4 => "Lulu: \"The treeline is clearing ahead! Keep pushing!\"",
+                5 => "Wolvy: \"The Ancient Guardian awakens! Unleash wolf power!\"",
+                _ => $"WAVE {waveNum:D2} • {waveName.ToUpper()}"
+            };
+            ShowBanner(storyDialogue, 3.2f);
         }
 
         private void OnWaveCompleted(int waveNum)

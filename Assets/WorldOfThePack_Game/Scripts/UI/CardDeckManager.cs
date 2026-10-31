@@ -22,30 +22,47 @@ namespace WorldOfThePack.Game
             InitializeHand();
         }
 
+        private void Update()
+        {
+            if (GameDirector.Instance == null || GameDirector.Instance.CurrentState != GameState.Playing) return;
+
+            // Continuous passive trickle charge (approx +3.5% energy per second) so cards constantly progress
+            float passiveFill = 3.5f * Time.deltaTime;
+            DistributeEnergy(passiveFill);
+        }
+
         private void FindCardSlotsIfNeeded()
         {
             if (heroHand == null) heroHand = FindFirstObjectByType<ResponsiveHeroHand>();
             if (cardSlots == null || cardSlots.Length == 0)
             {
-                if (heroHand != null && heroHand.cards != null && heroHand.cards.Length > 0)
+                if (heroHand != null)
                 {
-                    cardSlots = heroHand.cards;
+                    cardSlots = heroHand.GetComponentsInChildren<HeroDeploymentCard>(true);
                 }
                 else
                 {
-                    cardSlots = FindObjectsByType<HeroDeploymentCard>(FindObjectsSortMode.None);
+                    var found = FindObjectsByType<HeroDeploymentCard>(FindObjectsSortMode.None);
+                    System.Array.Sort(found, (a, b) => a.transform.GetSiblingIndex().CompareTo(b.transform.GetSiblingIndex()));
+                    cardSlots = found;
                 }
+            }
+
+            if (heroHand != null && (heroHand.cards == null || heroHand.cards.Length == 0))
+            {
+                heroHand.cards = cardSlots;
             }
 
             if (heroHand != null)
             {
+                heroHand.transformationRequested.RemoveListener(ToggleAllForms);
                 heroHand.transformationRequested.AddListener(ToggleAllForms);
             }
         }
 
         private void LoadDefaultDefinitionsIfNeeded()
         {
-            if (heroDefinitions.Count >= 5 && heroDefinitions[0] != null && heroDefinitions[0].heroId == "HeroWolvy" && heroDefinitions[2] != null && heroDefinitions[2].heroId == "FairyLulu") return;
+            if (heroDefinitions.Count >= 7 && heroDefinitions[0] != null && heroDefinitions[0].heroId == "HeroWolvy" && heroDefinitions[6] != null && heroDefinitions[6].heroId == "TinkerTilly") return;
 
             heroDefinitions.Clear();
 
@@ -67,7 +84,19 @@ namespace WorldOfThePack.Game
             for (int i = 0; i < cardSlots.Length; i++)
             {
                 if (cardSlots[i] == null) continue;
-                HeroCardDefinition def = heroDefinitions[i % heroDefinitions.Count];
+
+                // Match definition by heroId if card slot contains heroId in its name, else fallback by index
+                HeroCardDefinition def = null;
+                string slotName = cardSlots[i].gameObject.name;
+                foreach (var d in heroDefinitions)
+                {
+                    if (d != null && slotName.Contains(d.heroId))
+                    {
+                        def = d;
+                        break;
+                    }
+                }
+                if (def == null) def = heroDefinitions[i % heroDefinitions.Count];
 
                 // Remove previous listeners to avoid double hook
                 cardSlots[i].deployRequested.RemoveAllListeners();
@@ -141,6 +170,32 @@ namespace WorldOfThePack.Game
                 if (card != null)
                 {
                     card.AddEnergy(amount);
+                }
+            }
+        }
+
+        public void DistributeKillEnergy(float amount, Vector3 sourceWorldPos)
+        {
+            if (cardSlots == null) return;
+            foreach (var card in cardSlots)
+            {
+                if (card != null)
+                {
+                    card.AddEnergy(amount);
+                    WorldOfThePack.VFX.EnergyOrbVFX.Spawn(sourceWorldPos, card.transform.position, amount);
+                }
+            }
+        }
+
+        public void LinkSpawnedHeroToCard(HeroUnit hero)
+        {
+            if (hero == null || cardSlots == null) return;
+            foreach (var card in cardSlots)
+            {
+                if (card != null && card.Definition != null && card.Definition.heroId == hero.HeroId)
+                {
+                    card.SetDeployedHero(hero);
+                    break;
                 }
             }
         }

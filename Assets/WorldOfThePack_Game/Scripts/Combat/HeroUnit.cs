@@ -169,28 +169,29 @@ namespace WorldOfThePack.Game
             }
         }
 
+        public float UnitScale => isAlpha ? 0.46f : 0.40f;
+
         private IEnumerator SpawnSequenceRoutine()
         {
             currentState = HeroState.JoiningFormation;
-            Vector3 targetScale = Vector3.one;
-            transform.localScale = Vector3.zero;
+            Vector3 targetScale = Vector3.one * UnitScale;
+            transform.localScale = targetScale; // Immediately full-size so heroes are visible on Frame 1
 
             CombatVFXPool.SpawnEffect("MagicImpact", transform.position);
 
             float elapsed = 0f;
-            float duration = 0.35f;
+            float duration = 0.22f;
             while (elapsed < duration)
             {
                 elapsed += Time.deltaTime;
                 float t = Mathf.Clamp01(elapsed / duration);
-                float scale = Mathf.Sin(t * Mathf.PI * 0.5f) * (1f + 0.15f * (1f - t));
-                transform.localScale = targetScale * scale;
+                float punch = 1f + 0.16f * Mathf.Sin(t * Mathf.PI);
+                transform.localScale = targetScale * punch;
                 yield return null;
             }
             transform.localScale = targetScale;
 
             SetAnimationAction(0); // Idle
-            yield return new WaitForSeconds(0.2f);
         }
 
         private void SetupFormVisuals()
@@ -198,12 +199,19 @@ namespace WorldOfThePack.Game
             if (wolfVisual != null) wolfVisual.SetActive(isWolfForm);
             if (humanVisual != null) humanVisual.SetActive(!isWolfForm);
 
-            animator = GetComponentInChildren<Animator>();
-            if (animator != null)
+            GameObject activeVisual = isWolfForm ? wolfVisual : humanVisual;
+            if (activeVisual != null)
             {
-                Transform bodyChild = animator.transform.Find("Body");
-                if (bodyChild != null) bodyRenderer = bodyChild.GetComponent<SpriteRenderer>();
-                if (bodyRenderer == null) bodyRenderer = animator.GetComponentInChildren<SpriteRenderer>();
+                animator = activeVisual.GetComponent<Animator>();
+                if (animator == null) animator = activeVisual.GetComponentInChildren<Animator>();
+
+                Transform bodyChild = activeVisual.transform.Find("Body");
+                bodyRenderer = bodyChild != null ? bodyChild.GetComponent<SpriteRenderer>() : activeVisual.GetComponentInChildren<SpriteRenderer>();
+            }
+            else
+            {
+                animator = GetComponentInChildren<Animator>();
+                bodyRenderer = GetComponentInChildren<SpriteRenderer>();
             }
 
             if (bodyRenderer != null)
@@ -211,6 +219,8 @@ namespace WorldOfThePack.Game
                 bodyRenderer.enabled = true;
                 bodyRenderer.color = Color.white;
             }
+
+            UpdateSortingOrder();
         }
 
         public void SetForm(bool wolf)
@@ -293,13 +303,13 @@ namespace WorldOfThePack.Game
 
             alphaCrownVisual = new GameObject("AlphaCrown");
             alphaCrownVisual.transform.SetParent(transform, false);
-            alphaCrownVisual.transform.localPosition = new Vector3(0f, 1.45f, 0f);
+            alphaCrownVisual.transform.localPosition = new Vector3(0f, 0.85f, 0f);
 
             SpriteRenderer sr = alphaCrownVisual.AddComponent<SpriteRenderer>();
             sr.sprite = GetAlphaCrownSprite();
             sr.sortingOrder = bodyRenderer != null ? bodyRenderer.sortingOrder + 5 : 350;
             sr.color = new Color(1f, 0.88f, 0.25f, 0.95f);
-            alphaCrownVisual.transform.localScale = Vector3.one * 0.45f;
+            alphaCrownVisual.transform.localScale = Vector3.one * 0.28f;
         }
 
         protected override void UpdateSortingOrder()
@@ -463,9 +473,9 @@ namespace WorldOfThePack.Game
             switch (currentState)
             {
                 case HeroState.JoiningFormation:
-                    MoveTowards(slotTarget, moveSpeed * 1.5f);
+                    SmoothFollowTowards(slotTarget, moveSpeed * 1.6f);
                     ApplyFlockSeparation();
-                    if (Vector2.Distance(transform.position, slotTarget) < 0.2f)
+                    if (Vector2.Distance(transform.position, slotTarget) < 0.15f)
                     {
                         currentState = HeroState.Marching;
                     }
@@ -480,15 +490,15 @@ namespace WorldOfThePack.Game
                     else
                     {
                         float distToSlot = Vector2.Distance(transform.position, slotTarget);
-                        if (distToSlot > 0.08f)
+                        if (distToSlot > 0.04f)
                         {
-                            MoveTowards(slotTarget, moveSpeed);
+                            SmoothFollowTowards(slotTarget, moveSpeed);
                             ApplyFlockSeparation();
                         }
                         else
                         {
-                            transform.position = slotTarget;
-                            bool formationMoving = FormationController.Instance != null && FormationController.Instance.IsMarching;
+                            transform.position = Vector3.Lerp(transform.position, slotTarget, Time.deltaTime * 12f);
+                            bool formationMoving = FormationController.Instance != null && FormationController.Instance.IsMarching && FormationController.Instance.CurrentSpeed > 0.1f;
                             SetAnimationAction(formationMoving ? 1 : 0);
                             currentState = formationMoving ? HeroState.Marching : HeroState.Idle;
                         }
@@ -593,9 +603,9 @@ namespace WorldOfThePack.Game
                     break;
 
                 case HeroState.ReturningToFormation:
-                    MoveTowards(slotTarget, moveSpeed * 1.3f);
+                    SmoothFollowTowards(slotTarget, moveSpeed * 1.5f);
                     ApplyFlockSeparation();
-                    if (Vector2.Distance(transform.position, slotTarget) < 0.2f)
+                    if (Vector2.Distance(transform.position, slotTarget) < 0.15f)
                     {
                         currentState = HeroState.Marching;
                     }
@@ -744,6 +754,8 @@ namespace WorldOfThePack.Game
             nextAttackTime = Time.time + attackInterval;
             attackAnimEndTime = Time.time + 0.45f;
             SetAnimationAction(2);
+            float attackSpeed = Mathf.Clamp(1.2f / Mathf.Max(0.4f, attackInterval), 0.8f, 2.2f);
+            SetAnimationPlaybackSpeed(attackSpeed);
 
             float finalDamage = attackDamage;
 
@@ -818,6 +830,26 @@ namespace WorldOfThePack.Game
             return transform.position;
         }
 
+        private Vector3 followVelocity;
+        [SerializeField] private float followDamping = 0.15f;
+
+        private void SmoothFollowTowards(Vector3 targetPos, float speed)
+        {
+            float maxS = speed * (FormationController.Instance != null ? Mathf.Max(1.4f, FormationController.Instance.CurrentSpeed * 1.5f) : 2.5f);
+            Vector3 newPos = Vector3.SmoothDamp(transform.position, targetPos, ref followVelocity, followDamping, maxS);
+            newPos.x = Mathf.Clamp(newPos.x, -1.8f, 1.8f);
+            newPos.z = 0f;
+            transform.position = newPos;
+
+            SetAnimationAction(1);
+
+            // Match walk animation stride rate precisely with physical speed to eliminate foot-sliding
+            float formationSpeed = (FormationController.Instance != null && FormationController.Instance.IsMarching) ? FormationController.Instance.CurrentSpeed : 0f;
+            float effectiveSpeed = Mathf.Max(followVelocity.magnitude, formationSpeed);
+            float strideRate = Mathf.Clamp(effectiveSpeed / 1.15f, 0.35f, 2.2f);
+            SetAnimationPlaybackSpeed(strideRate);
+        }
+
         private void MoveTowards(Vector3 targetPos, float speed)
         {
             Vector3 dir = (targetPos - transform.position).normalized;
@@ -828,6 +860,8 @@ namespace WorldOfThePack.Game
             transform.position = newPos;
 
             SetAnimationAction(1);
+            float strideRate = Mathf.Clamp(speed / 1.15f, 0.4f, 2.2f);
+            SetAnimationPlaybackSpeed(strideRate);
         }
 
         private Combatant FindNearestEnemyWithinRange(float range)
@@ -923,8 +957,8 @@ namespace WorldOfThePack.Game
             if (selectionRing != null) return;
             GameObject ring = new GameObject("AllyRing");
             ring.transform.SetParent(transform, false);
-            ring.transform.localPosition = new Vector3(0f, -0.2f, 0f);
-            ring.transform.localScale = new Vector3(1.15f, 0.75f, 1f);
+            ring.transform.localPosition = new Vector3(0f, -0.1f, 0f);
+            ring.transform.localScale = new Vector3(0.65f, 0.42f, 1f);
             selectionRing = ring.AddComponent<SpriteRenderer>();
             selectionRing.sprite = GetRingSprite();
             selectionRing.color = Color.white;

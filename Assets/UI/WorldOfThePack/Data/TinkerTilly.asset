@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: TILLY
   humanPortrait: {fileID: 21300000, guid: 8aa28c54e9a464f40869b476de4269bc, type: 3}
   wolfPortrait: {fileID: 21300000, guid: f594200b7c5001f448c8ffbd2a6325ad, type: 3}
+  idleSprite: {fileID: -363721285, guid: 616d0f0304936e443944a5d13fbfbe61, type: 3}
+  wolfIdleSprite: {fileID: 949570978, guid: b71d2bf5b9a209448bb839e5fddc3723, type: 3}
   accent: {r: 0.9764706, g: 0.7411765, b: 0.25882354, a: 1}
   maximumEnergy: 100

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -16,6 +17,7 @@ namespace WorldOfThePack.UI
     {
         [Header("Card Identity")]
         public HeroCardDefinition definition;
+        public HeroCardDefinition Definition => definition;
         public CardPortraitView portraitView;
 
         [Header("UI Text & Labels")]
@@ -56,27 +58,33 @@ namespace WorldOfThePack.UI
         [SerializeField] private bool pending;
 
         private HeroUnit activeHero;
+        private readonly List<HeroUnit> deployedHeroes = new List<HeroUnit>();
         private Vector3 originalLocalPos;
         private RectTransform rectTransform;
         private Canvas rootCanvas;
         private CanvasGroup canvasGroup;
+        private ScrollRect parentScrollRect;
         private bool isDragging = false;
+        private bool isScrollingParent = false;
+        private bool isWolfForm = false;
 
         public float Energy => energy;
         public float CardCost => 100f;
         public int MaximumEnergy => 100;
         public bool IsPending => pending;
-        public bool HasActiveHero => activeHero != null && activeHero.IsAlive;
+        public bool HasActiveHero => deployedHeroes.Exists(h => h != null && h.IsAlive);
+        public int ActiveHeroCount => deployedHeroes.FindAll(h => h != null && h.IsAlive).Count;
         public bool HasEnoughEnergy => energy >= 99.5f;
-        public bool IsWolfSurgeReady => HasActiveHero && !locked && !pending && (HasEnoughEnergy || (GameDirector.Instance != null && GameDirector.Instance.IsWolfInstinctActive));
+        public bool IsWolfSurgeReady => HasActiveHero && !locked && !pending && (GameDirector.Instance != null && GameDirector.Instance.IsWolfInstinctActive);
         public bool IsDeployReady => !locked && !pending && HasEnoughEnergy;
         public bool IsReady => IsDeployReady || IsWolfSurgeReady;
-        public HeroUnit ActiveHero => activeHero;
+        public HeroUnit ActiveHero => deployedHeroes.Find(h => h != null && h.IsAlive);
 
         private void Awake()
         {
             rectTransform = GetComponent<RectTransform>();
             rootCanvas = GetComponentInParent<Canvas>();
+            parentScrollRect = GetComponentInParent<ScrollRect>();
             canvasGroup = GetComponent<CanvasGroup>();
             if (canvasGroup == null) canvasGroup = gameObject.AddComponent<CanvasGroup>();
         }
@@ -117,23 +125,35 @@ namespace WorldOfThePack.UI
 
         public void SetDeployedHero(HeroUnit hero)
         {
-            if (activeHero != null)
+            if (hero == null) return;
+            deployedHeroes.RemoveAll(h => h == null);
+            if (!deployedHeroes.Contains(hero))
             {
-                activeHero.OnDefeated -= OnHeroDefeated;
+                deployedHeroes.Add(hero);
+                hero.OnDefeated += OnHeroDefeated;
             }
-
             activeHero = hero;
-            if (activeHero != null)
-            {
-                activeHero.OnDefeated += OnHeroDefeated;
-            }
+            pending = false;
             Refresh();
         }
 
         private void OnHeroDefeated(Combatant c)
         {
-            activeHero = null;
-            SetForm(false);
+            if (c is HeroUnit hu)
+            {
+                hu.OnDefeated -= OnHeroDefeated;
+                deployedHeroes.Remove(hu);
+            }
+            deployedHeroes.RemoveAll(h => h == null || !h.IsAlive);
+            if (deployedHeroes.Count == 0)
+            {
+                activeHero = null;
+                SetForm(false);
+            }
+            else
+            {
+                activeHero = deployedHeroes[0];
+            }
             Refresh();
         }
 
@@ -145,12 +165,17 @@ namespace WorldOfThePack.UI
 
         public void AddEnergy(float amount)
         {
-            if (HasActiveHero && activeHero.IsSurgingWolf) return; // Freeze meter during 20s active wolf surge
+            HeroUnit liveHero = ActiveHero;
+            if (liveHero != null && liveHero.IsSurgingWolf) return; // Freeze meter during 20s active wolf surge
             SetEnergy(energy + amount);
         }
 
         public void SetLocked(bool value) { locked = value; Refresh(); }
-        public void SetForm(bool wolf) { if (portraitView != null) portraitView.SetForm(wolf); }
+        public void SetForm(bool wolf)
+        {
+            isWolfForm = wolf;
+            if (portraitView != null) portraitView.SetForm(wolf);
+        }
         public void SetSelected(bool value) { if (selectionFrame != null) selectionFrame.enabled = value; }
         public void SetDisplayName(string value) { displayNameOverride = value; Refresh(); }
         public void SetCardAlpha(float a) { if (canvasGroup != null) canvasGroup.alpha = a; }
@@ -166,21 +191,16 @@ namespace WorldOfThePack.UI
 
         private void OnButtonClicked()
         {
-            if (HasActiveHero)
+            if (IsDeployReady)
             {
-                if (IsWolfSurgeReady)
-                {
-                    ActivateWolfSurge();
-                }
+                pending = true;
+                deployRequested.Invoke(definition);
+                SetEnergy(0);
+                Refresh();
             }
-            else
+            else if (HasActiveHero && IsWolfSurgeReady)
             {
-                if (IsDeployReady)
-                {
-                    pending = true;
-                    Refresh();
-                    deployRequested.Invoke(definition);
-                }
+                ActivateWolfSurge();
             }
         }
 
@@ -190,7 +210,10 @@ namespace WorldOfThePack.UI
 
             energy = 0f;
             SetForm(true); // Switch card portrait to Wolf
-            activeHero.ActivateWolfSurge(20f);
+            foreach (var h in deployedHeroes)
+            {
+                if (h != null && h.IsAlive) h.ActivateWolfSurge(20f);
+            }
             Refresh();
 
             if (deployedEffect != null) deployedEffect.Play(false);
@@ -225,8 +248,21 @@ namespace WorldOfThePack.UI
 
         public void OnBeginDrag(PointerEventData eventData)
         {
-            if (!IsDeployReady) return;
+            if (parentScrollRect == null) parentScrollRect = GetComponentInParent<ScrollRect>();
 
+            float dx = Mathf.Abs(eventData.delta.x);
+            float dy = Mathf.Abs(eventData.delta.y);
+
+            // If drag is primarily horizontal or card cannot deploy or user drags downwards: route to ScrollRect!
+            if (dx > dy || !IsDeployReady || eventData.delta.y < 0)
+            {
+                isScrollingParent = true;
+                isDragging = false;
+                if (parentScrollRect != null) parentScrollRect.OnBeginDrag(eventData);
+                return;
+            }
+
+            isScrollingParent = false;
             isDragging = true;
             originalLocalPos = rectTransform.localPosition;
             rectTransform.localScale = Vector3.one * 1.08f;
@@ -242,13 +278,41 @@ namespace WorldOfThePack.UI
 
             if (CardDragGhostPreview.Instance != null)
             {
-                Sprite previewSprite = definition != null ? definition.humanPortrait : null;
+                Sprite previewSprite = GetIdlePreviewSprite();
                 CardDragGhostPreview.Instance.Show(previewSprite, worldPos, targetSlotPos, isValid);
             }
         }
 
+        private Sprite GetIdlePreviewSprite()
+        {
+            if (definition == null) return null;
+            bool wolf = isWolfForm || (HasActiveHero && activeHero.IsSurgingWolf);
+            Sprite sprite = wolf ? definition.wolfIdleSprite : definition.idleSprite;
+            if (sprite != null) return sprite;
+
+            string id = definition.heroId;
+            string prefabPath = wolf
+                ? $"Assets/Characters/{id}/Prefabs/{id}_Wolf_North.prefab"
+                : $"Assets/WorldOfThePack_Game/Prefabs/Units/{id}_PackUnit.prefab";
+#if UNITY_EDITOR
+            var go = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>(prefabPath);
+            if (go != null)
+            {
+                var sr = go.GetComponentInChildren<SpriteRenderer>();
+                if (sr != null && sr.sprite != null) return sr.sprite;
+            }
+#endif
+            return wolf ? definition.wolfPortrait : definition.humanPortrait;
+        }
+
         public void OnDrag(PointerEventData eventData)
         {
+            if (isScrollingParent)
+            {
+                if (parentScrollRect != null) parentScrollRect.OnDrag(eventData);
+                return;
+            }
+
             if (!isDragging) return;
 
             if (rootCanvas != null)
@@ -276,6 +340,13 @@ namespace WorldOfThePack.UI
 
         public void OnEndDrag(PointerEventData eventData)
         {
+            if (isScrollingParent)
+            {
+                isScrollingParent = false;
+                if (parentScrollRect != null) parentScrollRect.OnEndDrag(eventData);
+                return;
+            }
+
             if (!isDragging) return;
 
             isDragging = false;
@@ -359,9 +430,9 @@ namespace WorldOfThePack.UI
             float camY = cam != null ? cam.transform.position.y : 0f;
 
             // Must be within horizontal corridor bounds (-1.8 to 1.8)
-            // And within playable vertical bounds (between bottom safe lane and upper screen)
+            // And strictly within the clear battlefield corridor (above Card UI at -2.26f and below Top HUD at +4.8f)
             bool xValid = Mathf.Abs(worldPos.x) <= 1.8f;
-            bool yValid = worldPos.y >= camY - 3.8f && worldPos.y <= camY + 2.2f;
+            bool yValid = worldPos.y >= camY - 1.6f && worldPos.y <= camY + 2.8f;
 
             return xValid && yValid;
         }
@@ -395,11 +466,13 @@ namespace WorldOfThePack.UI
                 nameLabel.text = !string.IsNullOrEmpty(displayNameOverride) ? displayNameOverride : definition == null ? "HERO" : definition.shortName;
             }
 
+            HeroUnit liveHero = ActiveHero;
+
             // Energy meter display
-            if (HasActiveHero && activeHero.IsSurgingWolf)
+            if (liveHero != null && liveHero.IsSurgingWolf)
             {
-                if (energyLabel != null) energyLabel.text = $"{Mathf.Ceil(activeHero.WolfSurgeRemaining)}s";
-                if (energyFill != null) energyFill.fillAmount = activeHero.WolfSurgePercent;
+                if (energyLabel != null) energyLabel.text = $"{Mathf.Ceil(liveHero.WolfSurgeRemaining)}s";
+                if (energyFill != null) energyFill.fillAmount = liveHero.WolfSurgePercent;
             }
             else
             {
@@ -423,17 +496,25 @@ namespace WorldOfThePack.UI
 
             if (stateLabel != null)
             {
+                int count = ActiveHeroCount;
                 if (locked) stateLabel.text = lockedText;
-                else if (pending) stateLabel.text = pendingText;
-                else if (HasActiveHero)
+                else if (pending) stateLabel.text = "";
+                else if (IsWolfSurgeReady) stateLabel.text = wolfReadyText;
+                else if (ready)
                 {
-                    if (activeHero.IsSurgingWolf) stateLabel.text = $"WOLF {Mathf.Ceil(activeHero.WolfSurgeRemaining)}s";
-                    else if (IsWolfSurgeReady) stateLabel.text = wolfReadyText;
-                    else stateLabel.text = chargingText;
+                    // DeployButton_Green artwork already has embossed 'DEPLOY' graphic baked in;
+                    // show count badge if multiple active, otherwise leave clean so artwork shines through
+                    stateLabel.text = count > 1 ? $"x{count}" : "";
+                }
+                else if (liveHero != null && liveHero.IsSurgingWolf)
+                {
+                    stateLabel.text = "WOLF SURGE";
                 }
                 else
                 {
-                    stateLabel.text = ready ? deployText : chargingText;
+                    // ChargingButton_Navy artwork already has embossed 'CHARGING' graphic baked in;
+                    // Leave clean so the embossed pill shines through, or show count badge if multi-deployed
+                    stateLabel.text = count > 1 ? $"x{count}" : "";
                 }
             }
 
@@ -452,7 +533,7 @@ namespace WorldOfThePack.UI
             // Golden radiant border when wolf surge is ready or surging
             if (selectionFrame != null)
             {
-                selectionFrame.enabled = IsWolfSurgeReady || (HasActiveHero && activeHero.IsSurgingWolf);
+                selectionFrame.enabled = IsWolfSurgeReady || (liveHero != null && liveHero.IsSurgingWolf);
                 if (selectionFrame.enabled)
                 {
                     selectionFrame.color = new Color(1.0f, 0.85f, 0.2f, 0.95f);

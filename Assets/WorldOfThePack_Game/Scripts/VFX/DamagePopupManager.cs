@@ -21,6 +21,11 @@ namespace WorldOfThePack.Game
             }
         }
 
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
+        }
+
         public static void ShowPopup(Vector3 worldPos, float amount, bool isEnemyHit, bool isHeal = false)
         {
             Instance.CreatePopup(worldPos, amount, isEnemyHit, isHeal);

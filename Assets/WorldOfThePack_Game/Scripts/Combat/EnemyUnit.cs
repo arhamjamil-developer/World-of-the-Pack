@@ -25,12 +25,25 @@ namespace WorldOfThePack.Game
         private bool isPreparingAttack;
 
         public EnemyType Type => enemyType;
+        public float EnemyScale => enemyType switch
+        {
+            EnemyType.Captain => 1.15f,
+            EnemyType.Hound => 0.82f,
+            _ => 0.95f
+        };
+
+        private Vector2 entryDirection = Vector2.down;
+        public void SetEntryDirection(Vector2 dir)
+        {
+            entryDirection = dir.normalized;
+        }
 
         protected override void Awake()
         {
             faction = UnitFaction.Hunters;
             base.Awake();
 
+            transform.localScale = Vector3.one * EnemyScale;
             ConfigureEnemyStats();
             SetupEnemyVisual();
             SetupSelectionRing();
@@ -95,8 +108,8 @@ namespace WorldOfThePack.Game
             if (selectionRing != null) return;
             GameObject ring = new GameObject("EnemyRing");
             ring.transform.SetParent(transform, false);
-            ring.transform.localPosition = new Vector3(0f, -0.2f, 0f);
-            ring.transform.localScale = new Vector3(1.15f, 0.75f, 1f);
+            ring.transform.localPosition = new Vector3(0f, -0.1f, 0f);
+            ring.transform.localScale = new Vector3(0.38f, 0.24f, 1f);
             selectionRing = ring.AddComponent<SpriteRenderer>();
             selectionRing.sprite = GetEnemyRingSprite();
             selectionRing.color = Color.white;
@@ -107,8 +120,9 @@ namespace WorldOfThePack.Game
         {
             if (isPreparingAttack || isDead) return;
 
-            // Check if breached past the formation anchor or bottom of viewport
-            float breachLimit = (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : (Camera.main != null ? Camera.main.transform.position.y : 0f)) - 3.8f;
+            // Check if breached past the formation anchor or behind the pack line (strictly above cards)
+            float anchorY = FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : (Camera.main != null ? Camera.main.transform.position.y : 0f);
+            float breachLimit = anchorY - 1.2f;
             if (transform.position.y <= breachLimit)
             {
                 BreachPackLine();
@@ -147,9 +161,9 @@ namespace WorldOfThePack.Game
             }
             else
             {
-                // Advance southward towards formation anchor
-                float targetY = (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : transform.position.y) - 2f;
-                MoveTowards(new Vector3(transform.position.x, targetY, 0f));
+                // Advance southward along entry direction towards formation
+                Vector3 dir = new Vector3(entryDirection.x, entryDirection.y, 0f);
+                MoveTowards(transform.position + dir * 2f);
             }
         }
 
@@ -161,6 +175,8 @@ namespace WorldOfThePack.Game
             transform.position = newPos;
 
             SetAnimationAction(1); // Walk
+            float strideRate = Mathf.Clamp(moveSpeed / 1.15f, 0.4f, 2.0f);
+            SetAnimationPlaybackSpeed(strideRate);
         }
 
         private void ExecuteAttack(Combatant target)
@@ -168,6 +184,8 @@ namespace WorldOfThePack.Game
             nextAttackTime = Time.time + attackInterval;
             attackAnimEndTime = Time.time + 0.45f;
             SetAnimationAction(2); // Attack
+            float attackSpeed = Mathf.Clamp(1.2f / Mathf.Max(0.4f, attackInterval), 0.8f, 2.0f);
+            SetAnimationPlaybackSpeed(attackSpeed);
             target.TakeDamage(attackDamage, this);
             CombatVFXPool.SpawnEffect("CriticalBurst", target.Position + Vector3.up * 0.2f);
         }
@@ -204,6 +222,7 @@ namespace WorldOfThePack.Game
             }
 
             CombatVFXPool.SpawnEffect("CriticalBurst", transform.position);
+            RaiseDefeated();
             Destroy(gameObject);
         }
 

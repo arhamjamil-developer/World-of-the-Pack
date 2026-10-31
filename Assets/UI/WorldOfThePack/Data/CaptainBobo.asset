@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: BOBO
   humanPortrait: {fileID: 21300000, guid: 9ff84b31e614d8c4ebd644f4d5bfba5b, type: 3}
   wolfPortrait: {fileID: 21300000, guid: 7139707a2f560b94cba7ff4a08c9dfc1, type: 3}
+  idleSprite: {fileID: -217134773, guid: 2c3f019bada24724aad9ce12adf7e989, type: 3}
+  wolfIdleSprite: {fileID: -6304543, guid: fd18cc9c193d1944586dcf4185cca376, type: 3}
   accent: {r: 0.91764706, g: 0.64705884, b: 0.28627452, a: 1}
   maximumEnergy: 100

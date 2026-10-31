@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: ELVA
   humanPortrait: {fileID: 21300000, guid: 99bcee8ee77973444a74c17c1f0809fb, type: 3}
   wolfPortrait: {fileID: 21300000, guid: 4bd37a506b03bcf48b15f42000a20f0c, type: 3}
+  idleSprite: {fileID: 1968274894, guid: 99e6eda7bd70f2f44b133ddee21f7b14, type: 3}
+  wolfIdleSprite: {fileID: -1022750836, guid: 9560da8669eb7aa4cb5bf1037da199fc, type: 3}
   accent: {r: 0.3882353, g: 0.74509805, b: 0.3254902, a: 1}
   maximumEnergy: 100

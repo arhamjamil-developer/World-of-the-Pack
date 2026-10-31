@@ -7,7 +7,16 @@ namespace WorldOfThePack.Game
 {
     public class StoryCampaignDirector : MonoBehaviour
     {
-        public static StoryCampaignDirector Instance { get; private set; }
+        private static StoryCampaignDirector instance;
+        public static StoryCampaignDirector Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<StoryCampaignDirector>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Campaign Configuration")]
         [SerializeField] private int activeChapter = 1;
@@ -32,8 +41,8 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
             if (SaveManager.Instance != null)
             {
@@ -56,6 +65,8 @@ namespace WorldOfThePack.Game
 
         private void OnDestroy()
         {
+            if (instance == this) instance = null;
+
             WaveManager wm = FindFirstObjectByType<WaveManager>();
             if (wm != null)
             {

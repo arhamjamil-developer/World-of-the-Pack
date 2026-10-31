@@ -11,8 +11,8 @@ namespace WorldOfThePack.Game
         [SerializeField] private float minHorizontalWidth = 5.5f;
         [SerializeField] private float defaultVerticalSize = 6.2f;
 
-        [Header("Tracking Anchor (60% Ahead, 25% Formation, 15% Behind)")]
-        [SerializeField] private float verticalLead = 2.4f;
+        [Header("Tracking Anchor (Centered Battlefield Framing)")]
+        [SerializeField] private float verticalLead = 0.55f;
         [SerializeField] private float smoothTime = 0.25f;
 
         private Camera cam;

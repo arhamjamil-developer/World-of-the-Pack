@@ -4,7 +4,16 @@ namespace WorldOfThePack.UI
 {
     public class CardDragGhostPreview : MonoBehaviour
     {
-        public static CardDragGhostPreview Instance { get; private set; }
+        private static CardDragGhostPreview instance;
+        public static CardDragGhostPreview Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<CardDragGhostPreview>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [SerializeField] private SpriteRenderer ghostRenderer;
         [SerializeField] private SpriteRenderer reticleRenderer;
@@ -14,11 +23,16 @@ namespace WorldOfThePack.UI
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
             BuildPreviewObjectsIfNeeded();
             Hide();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Update()
@@ -102,13 +116,16 @@ namespace WorldOfThePack.UI
 
         public void Show(Sprite heroSprite, Vector3 worldPos, Vector3 targetSlotPos, bool isValid)
         {
+            BuildPreviewObjectsIfNeeded();
             gameObject.SetActive(true);
             transform.position = worldPos;
 
             if (ghostRenderer != null)
             {
                 ghostRenderer.sprite = heroSprite;
-                ghostRenderer.color = isValid ? new Color(0.75f, 0.9f, 1.0f, 0.70f) : new Color(1f, 0.35f, 0.35f, 0.65f);
+                ghostRenderer.transform.localScale = Vector3.one * 0.44f;
+                ghostRenderer.transform.localPosition = new Vector3(0f, 0.22f, 0f);
+                ghostRenderer.color = isValid ? new Color(0.85f, 0.95f, 1.0f, 0.85f) : new Color(1f, 0.35f, 0.35f, 0.65f);
             }
 
             if (reticleRenderer != null)

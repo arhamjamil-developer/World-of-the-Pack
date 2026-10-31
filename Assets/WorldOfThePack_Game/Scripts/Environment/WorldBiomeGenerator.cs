@@ -17,7 +17,16 @@ namespace WorldOfThePack.Game
 
     public class WorldBiomeGenerator : MonoBehaviour
     {
-        public static WorldBiomeGenerator Instance { get; private set; }
+        private static WorldBiomeGenerator instance;
+        public static WorldBiomeGenerator Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<WorldBiomeGenerator>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Biome Configurations")]
         [SerializeField] private List<BiomeSegmentConfig> biomes = new List<BiomeSegmentConfig>();
@@ -46,11 +55,16 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
             LoadSpritesIfNeeded();
             BuildDefaultBiomes();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Start()
@@ -137,15 +151,39 @@ namespace WorldOfThePack.Game
             OnBiomeChanged?.Invoke(currentBiome, CurrentBiomeName);
         }
 
+        public void ResetWorld()
+        {
+            InitializeWorld();
+        }
+
         private void InitializeWorld()
         {
+            // Clean up any existing segments thoroughly
             foreach (var s in activeSegments)
             {
-                if (s != null) Destroy(s);
+                if (s != null)
+                {
+                    if (Application.isPlaying) Destroy(s);
+                    else DestroyImmediate(s);
+                }
             }
             activeSegments.Clear();
 
-            float startY = -segmentHeight * 0.5f;
+            // Clear any lingering child objects under transform
+            var toRemove = new List<GameObject>();
+            foreach (Transform child in transform)
+            {
+                toRemove.Add(child.gameObject);
+            }
+            foreach (var go in toRemove)
+            {
+                if (Application.isPlaying) Destroy(go);
+                else DestroyImmediate(go);
+            }
+
+            segmentsSpawned = 0;
+            // Center the primary initial segment on origin (Y = 0) with a buffer segment behind
+            float startY = -segmentHeight;
             lastGeneratedY = startY;
 
             for (int i = 0; i < activeSegmentCount; i++)
@@ -160,20 +198,21 @@ namespace WorldOfThePack.Game
             float camY = targetCamera != null ? targetCamera.transform.position.y : 0f;
 
             // Generate segment ahead
-            if (lastGeneratedY - camY < segmentHeight * 1.5f)
+            if (lastGeneratedY - camY < segmentHeight * 2.0f)
             {
                 SpawnNextSegment();
             }
 
-            // Recycle segments far below
-            float despawnY = camY - segmentHeight * 2.0f;
+            // Recycle segments far below viewport
+            float despawnY = camY - segmentHeight * 2.2f;
             for (int i = activeSegments.Count - 1; i >= 0; i--)
             {
                 GameObject seg = activeSegments[i];
                 if (seg != null && seg.transform.position.y < despawnY)
                 {
                     activeSegments.RemoveAt(i);
-                    Destroy(seg);
+                    if (Application.isPlaying) Destroy(seg);
+                    else DestroyImmediate(seg);
                 }
             }
         }
@@ -182,6 +221,15 @@ namespace WorldOfThePack.Game
         {
             BiomeSegmentConfig config = GetCurrentBiomeConfig();
             Sprite sprite = config != null ? config.groundTileSprite : null;
+
+            // Safety fallback to guarantee terrain is never blank
+            if (sprite == null)
+            {
+                LoadSpritesIfNeeded();
+                BuildDefaultBiomes();
+                config = GetCurrentBiomeConfig();
+                sprite = config != null ? config.groundTileSprite : null;
+            }
 
             GameObject segmentObj = new GameObject($"BiomeSegment_{segmentsSpawned}_{currentBiome}");
             segmentObj.transform.SetParent(transform, false);

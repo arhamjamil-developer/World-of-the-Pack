@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: PIP
   humanPortrait: {fileID: 21300000, guid: eb70ff501d4b1ed428e04cb831bfd2c4, type: 3}
   wolfPortrait: {fileID: 21300000, guid: 043fbcb67049df348983c49b77ea722d, type: 3}
+  idleSprite: {fileID: 1573287969, guid: dfd00360f7f18824897d652f00a6e257, type: 3}
+  wolfIdleSprite: {fileID: 1666875369, guid: 9f466661b7402d549a071b12c71286ea, type: 3}
   accent: {r: 0.3019608, g: 0.85882354, b: 0.78431374, a: 1}
   maximumEnergy: 100

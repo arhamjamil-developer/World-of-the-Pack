@@ -53,6 +53,11 @@ namespace WorldOfThePack.Game
             }
         }
 
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
+        }
+
         public void Load()
         {
             try

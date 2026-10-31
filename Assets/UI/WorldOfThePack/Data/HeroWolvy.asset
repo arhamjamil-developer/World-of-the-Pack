@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: WOLVY
   humanPortrait: {fileID: 21300000, guid: d7e56f73fa509c64cb33c58b0665553c, type: 3}
   wolfPortrait: {fileID: 21300000, guid: 7af7167e00678e64bb297be7c567bb00, type: 3}
+  idleSprite: {fileID: -1820154012, guid: c82f455f08218ae44a64e4b49eaf48a4, type: 3}
+  wolfIdleSprite: {fileID: 1667726223, guid: 75618dbae7f5659419a5d22569ce1d21, type: 3}
   accent: {r: 0.28627452, g: 0.6431373, b: 0.9647059, a: 1}
   maximumEnergy: 100

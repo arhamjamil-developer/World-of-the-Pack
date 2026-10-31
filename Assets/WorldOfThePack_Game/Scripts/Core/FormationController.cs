@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace WorldOfThePack.Game
 {
@@ -27,49 +28,143 @@ namespace WorldOfThePack.Game
 
     public class FormationController : MonoBehaviour
     {
-        public static FormationController Instance { get; private set; }
+        private static FormationController instance;
+        public static FormationController Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<FormationController>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
-        [Header("Formation Anchor Movement")]
+        [Header("Formation Anchor & Touch Movement")]
+        [Tooltip("Base forward march speed when marching automatically")]
         [SerializeField] private float marchSpeed = 1.1f;
-        [SerializeField] private float engagedSpeed = 0.2f;
+        [Tooltip("Forward speed when player touches or drags forward")]
+        [SerializeField] private float touchAdvanceSpeed = 2.5f;
+        [Tooltip("Minimum forward crawl speed when not touching")]
+        [SerializeField] private float idleCrawlSpeed = 0.35f;
+        [Tooltip("Movement speed when any ally is actively engaged in combat")]
+        [SerializeField] private float engagedSpeed = 0.25f;
+        [Tooltip("Lateral steering speed across corridor")]
+        [SerializeField] private float steerSpeed = 3.5f;
+        [SerializeField] private bool allowTouchSteering = true;
         [SerializeField] private bool isMarching = false;
-        [SerializeField] private Vector3 anchorPosition = new Vector3(0f, -1.4f, 0f);
+        [SerializeField] private Vector3 anchorPosition = new Vector3(0f, 0.4f, 0f);
 
-        [Header("Formation Slots (3 Rows)")]
+        [Header("Formation Slots (Leader-First Layout)")]
         [SerializeField] private List<FormationSlot> slots = new List<FormationSlot>();
+
+        private float currentForwardSpeed;
+        private float targetAnchorX = 0f;
+        private int currentFormationIndex = 0;
 
         public Vector3 AnchorPosition => anchorPosition;
         public bool IsMarching => isMarching;
-        public float CurrentSpeed => isMarching ? (HasEngagedAllies() ? engagedSpeed : marchSpeed) : 0f;
+        public float CurrentSpeed => currentForwardSpeed;
+        public int CurrentFormationIndex => currentFormationIndex;
 
         public event Action<FormationSlot, HeroUnit> OnHeroAssignedToSlot;
         public event Action<FormationSlot> OnSlotVacated;
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
             InitializeFormationSlots();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Update()
         {
             if (isMarching)
             {
-                float speed = CurrentSpeed;
-                anchorPosition += Vector3.up * (speed * Time.deltaTime);
-                transform.position = anchorPosition;
+                HandleTouchProgression();
             }
+        }
+
+        /// <summary>
+        /// Player controls forward progression by touch.
+        /// Rule: "by touch they can go to further and only can go further".
+        /// Anchor Y only advances (+Y), never retreats backward.
+        /// </summary>
+        private void HandleTouchProgression()
+        {
+            bool isTouching = false;
+            Vector2 touchScreenPos = Vector2.zero;
+
+            // 1. Touchscreen input (Mobile / iOS)
+            if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed)
+            {
+                isTouching = true;
+                touchScreenPos = Touchscreen.current.primaryTouch.position.ReadValue();
+            }
+            // 2. Mouse input (Unity Editor testing)
+            else if (Mouse.current != null && Mouse.current.leftButton.isPressed)
+            {
+                isTouching = true;
+                touchScreenPos = Mouse.current.position.ReadValue();
+            }
+
+            float speedGoal = idleCrawlSpeed;
+
+            if (isTouching && Camera.main != null)
+            {
+                // Ignore touches on bottom 33% of screen (card UI and hand tray area)
+                if (touchScreenPos.y > Screen.height * 0.33f)
+                {
+                    Vector3 worldTouch = Camera.main.ScreenToWorldPoint(new Vector3(touchScreenPos.x, touchScreenPos.y, 10f));
+
+                    // Touch is ahead of anchor: advance forward!
+                    if (worldTouch.y > anchorPosition.y)
+                    {
+                        float forwardDiff = worldTouch.y - anchorPosition.y;
+                        speedGoal = Mathf.Lerp(1.2f, touchAdvanceSpeed, Mathf.Clamp01(forwardDiff / 3.2f));
+                    }
+
+                    // Lateral steering within corridor [-1.25, +1.25]
+                    if (allowTouchSteering)
+                    {
+                        targetAnchorX = Mathf.Clamp(worldTouch.x, -1.25f, 1.25f);
+                    }
+                }
+            }
+
+            // Lock/slow progression during intense melee clashes
+            if (HasEngagedAllies())
+            {
+                speedGoal = Mathf.Min(speedGoal, engagedSpeed);
+            }
+
+            // Smooth forward progression (strictly forward, Y can never decrease)
+            currentForwardSpeed = Mathf.Lerp(currentForwardSpeed, speedGoal, Time.deltaTime * 6f);
+            anchorPosition.y += Mathf.Max(0f, currentForwardSpeed) * Time.deltaTime;
+
+            // Smooth lateral steering across lanes
+            anchorPosition.x = Mathf.Lerp(anchorPosition.x, targetAnchorX, Time.deltaTime * steerSpeed);
+
+            transform.position = anchorPosition;
         }
 
         public void SetMarching(bool marching)
         {
             isMarching = marching;
+            if (!marching) currentForwardSpeed = 0f;
         }
 
-        private int currentFormationIndex = 0;
-        public int CurrentFormationIndex => currentFormationIndex;
+        public void SetAnchorPosition(Vector3 pos)
+        {
+            anchorPosition = pos;
+            targetAnchorX = pos.x;
+            transform.position = anchorPosition;
+        }
 
         public void CycleFormation()
         {
@@ -84,42 +179,42 @@ namespace WorldOfThePack.Game
                 var s = slots[i];
                 switch (patternIndex)
                 {
-                    case 0: // Standard Wedge (Mockup Reference)
+                    case 0: // Standard Wedge (Leader at the tip/top)
                         s.localOffset = s.preferredHeroId switch
                         {
-                            "HeroWolvy" => new Vector2(-0.42f, 0.65f),
-                            "CaptainBobo" => new Vector2(0.45f, 0.65f),
-                            "PrincessElva" => new Vector2(-0.68f, 0.02f),
-                            "WizardMomo" => new Vector2(0.0f, -0.15f),
-                            "ScoutPip" => new Vector2(0.92f, 0.18f),
-                            "FairyLulu" => new Vector2(-0.75f, -0.78f),
-                            "TinkerTilly" => new Vector2(0.78f, -0.75f),
+                            "HeroWolvy" => new Vector2(0.0f, 0.65f),      // Leader at top center
+                            "CaptainBobo" => new Vector2(-0.55f, 0.15f),  // Beside on left
+                            "PrincessElva" => new Vector2(0.55f, 0.15f),  // Beside on right
+                            "FairyLulu" => new Vector2(0.0f, -0.40f),     // Rear support
+                            "ScoutPip" => new Vector2(-0.85f, -0.25f),    // Left skirmisher
+                            "WizardMomo" => new Vector2(0.85f, -0.25f),   // Right mage
+                            "TinkerTilly" => new Vector2(0.0f, -0.85f),   // Rear engineer
                             _ => s.localOffset
                         };
                         break;
                     case 1: // Defensive Wall
                         s.localOffset = s.preferredHeroId switch
                         {
-                            "HeroWolvy" => new Vector2(0.0f, 0.5f),
-                            "CaptainBobo" => new Vector2(-0.85f, 0.5f),
-                            "PrincessElva" => new Vector2(0.85f, 0.5f),
-                            "WizardMomo" => new Vector2(0.0f, -0.4f),
-                            "ScoutPip" => new Vector2(-1.1f, -0.3f),
-                            "FairyLulu" => new Vector2(0.6f, -0.6f),
-                            "TinkerTilly" => new Vector2(-0.6f, -0.6f),
+                            "HeroWolvy" => new Vector2(0.0f, 0.45f),
+                            "CaptainBobo" => new Vector2(-0.70f, 0.45f),
+                            "PrincessElva" => new Vector2(0.70f, 0.45f),
+                            "WizardMomo" => new Vector2(0.50f, -0.35f),
+                            "ScoutPip" => new Vector2(-0.50f, -0.35f),
+                            "FairyLulu" => new Vector2(0.0f, -0.65f),
+                            "TinkerTilly" => new Vector2(0.0f, -1.05f),
                             _ => s.localOffset
                         };
                         break;
-                    case 2: // Dual Column
+                    case 2: // Column (Corridor Sprint)
                         s.localOffset = s.preferredHeroId switch
                         {
-                            "HeroWolvy" => new Vector2(-0.55f, 0.7f),
-                            "CaptainBobo" => new Vector2(0.55f, 0.7f),
-                            "PrincessElva" => new Vector2(-0.55f, 0.0f),
-                            "WizardMomo" => new Vector2(0.55f, 0.0f),
-                            "ScoutPip" => new Vector2(-0.55f, -0.7f),
-                            "FairyLulu" => new Vector2(0.55f, -0.7f),
-                            "TinkerTilly" => new Vector2(0.0f, -1.1f),
+                            "HeroWolvy" => new Vector2(0.0f, 0.70f),
+                            "CaptainBobo" => new Vector2(-0.45f, 0.20f),
+                            "PrincessElva" => new Vector2(0.45f, 0.20f),
+                            "ScoutPip" => new Vector2(-0.45f, -0.30f),
+                            "WizardMomo" => new Vector2(0.45f, -0.30f),
+                            "FairyLulu" => new Vector2(0.0f, -0.65f),
+                            "TinkerTilly" => new Vector2(0.0f, -1.05f),
                             _ => s.localOffset
                         };
                         break;
@@ -127,94 +222,82 @@ namespace WorldOfThePack.Game
             }
         }
 
-        public void SetAnchorPosition(Vector3 pos)
-        {
-            anchorPosition = pos;
-            transform.position = anchorPosition;
-        }
-
         private void InitializeFormationSlots()
         {
             slots.Clear();
 
-            // FRONT ROW: Tanks & Melee (Leading the pack)
-            // Slot 0: Hero Wolvy (Center-left lead)
+            // FRONT: Leader Wolvy at the top center
             slots.Add(new FormationSlot
             {
                 slotIndex = 0,
                 preferredHeroId = "HeroWolvy",
                 role = FormationRole.Tank,
-                localOffset = new Vector2(-0.42f, 0.65f)
+                localOffset = new Vector2(0.0f, 0.65f)
             });
 
-            // Slot 1: Captain Bobo (Center-right lead)
+            // MID-LEFT: Captain Bobo beside Wolvy
             slots.Add(new FormationSlot
             {
                 slotIndex = 1,
                 preferredHeroId = "CaptainBobo",
                 role = FormationRole.Tank,
-                localOffset = new Vector2(0.45f, 0.65f)
+                localOffset = new Vector2(-0.55f, 0.15f)
             });
 
-            // MIDDLE ROW: Skirmishers & Rangers
-            // Slot 2: Princess Elva (Mid-left archer)
+            // MID-RIGHT: Princess Elva beside Wolvy
             slots.Add(new FormationSlot
             {
                 slotIndex = 2,
                 preferredHeroId = "PrincessElva",
                 role = FormationRole.Ranger,
-                localOffset = new Vector2(-0.68f, 0.02f)
+                localOffset = new Vector2(0.55f, 0.15f)
             });
 
-            // Slot 3: Wizard Momo (Center magical controller)
+            // REAR SUPPORT: Fairy Lulu
             slots.Add(new FormationSlot
             {
                 slotIndex = 3,
-                preferredHeroId = "WizardMomo",
-                role = FormationRole.Mage,
-                localOffset = new Vector2(0.0f, -0.15f)
+                preferredHeroId = "FairyLulu",
+                role = FormationRole.Support,
+                localOffset = new Vector2(0.0f, -0.40f)
             });
 
-            // Slot 4: Scout Pip (Mid-right skirmisher)
+            // FLANK LEFT: Scout Pip
             slots.Add(new FormationSlot
             {
                 slotIndex = 4,
                 preferredHeroId = "ScoutPip",
                 role = FormationRole.Skirmisher,
-                localOffset = new Vector2(0.92f, 0.18f)
+                localOffset = new Vector2(-0.85f, -0.25f)
             });
 
-            // BACK ROW: Support & Engineering
-            // Slot 5: Fairy Lulu (Rear-left healer)
+            // FLANK RIGHT: Wizard Momo
             slots.Add(new FormationSlot
             {
                 slotIndex = 5,
-                preferredHeroId = "FairyLulu",
-                role = FormationRole.Support,
-                localOffset = new Vector2(-0.75f, -0.78f)
+                preferredHeroId = "WizardMomo",
+                role = FormationRole.Mage,
+                localOffset = new Vector2(0.85f, -0.25f)
             });
 
-            // Slot 6: Tinker Tilly (Rear-right engineer)
+            // REAR ANCHOR: Tinker Tilly
             slots.Add(new FormationSlot
             {
                 slotIndex = 6,
                 preferredHeroId = "TinkerTilly",
                 role = FormationRole.Ranger,
-                localOffset = new Vector2(0.78f, -0.75f)
+                localOffset = new Vector2(0.0f, -0.85f)
             });
         }
 
-        /// <summary>
-        /// Assigns a hero to their preferred slot, or the best available open slot matching role.
-        /// </summary>
         public FormationSlot AssignHero(HeroUnit hero)
         {
             if (hero == null) return null;
 
-            // 1. Try preferred slot
+            // 1. Preferred hero slot
             FormationSlot targetSlot = slots.Find(s => s.preferredHeroId == hero.HeroId && !s.IsOccupied);
 
-            // 2. Fallback to any empty slot
+            // 2. Any vacant slot
             if (targetSlot == null)
             {
                 targetSlot = slots.Find(s => !s.IsOccupied);
@@ -255,7 +338,6 @@ namespace WorldOfThePack.Game
         {
             if (hero == null) return anchorPosition;
 
-            // Prioritize the assigned formation slot for clean, beautiful spacing matching the mockup
             FormationSlot slot = slots.Find(s => s.assignedHero == hero);
             if (slot != null)
             {
@@ -264,7 +346,7 @@ namespace WorldOfThePack.Game
 
             if (hero.IsAlpha)
             {
-                return anchorPosition + new Vector3(LaneSystem.GetLaneX(2), hero.FormationYOffset, 0f);
+                return anchorPosition + new Vector3(0f, 0.65f, 0f);
             }
 
             if (hero.AssignedLaneIndex >= 0)
@@ -311,7 +393,7 @@ namespace WorldOfThePack.Game
             return anchorPosition;
         }
 
-        private bool HasEngagedAllies()
+        public bool HasEngagedAllies()
         {
             for (int i = 0; i < slots.Count; i++)
             {
@@ -334,7 +416,7 @@ namespace WorldOfThePack.Game
                 {
                     Vector3 slotPos = anchorPosition + new Vector3(s.localOffset.x, s.localOffset.y, 0f);
                     Gizmos.color = s.IsOccupied ? Color.green : Color.yellow;
-                    Gizmos.DrawWireCube(slotPos, new Vector3(0.6f, 0.6f, 0.1f));
+                    Gizmos.DrawWireCube(slotPos, new Vector3(0.5f, 0.5f, 0.1f));
                 }
             }
         }

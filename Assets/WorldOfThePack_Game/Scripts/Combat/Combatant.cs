@@ -131,8 +131,13 @@ namespace WorldOfThePack.Game
             if (healthBarPivot != null) healthBarPivot.gameObject.SetActive(false);
             if (selectionRing != null) selectionRing.gameObject.SetActive(false);
 
-            OnDefeated?.Invoke(this);
+            RaiseDefeated();
             Destroy(gameObject, 1.8f);
+        }
+
+        protected void RaiseDefeated()
+        {
+            OnDefeated?.Invoke(this);
         }
 
         protected void SetAnimationAction(int actionIndex)
@@ -140,6 +145,18 @@ namespace WorldOfThePack.Game
             if (animator != null && animator.gameObject.activeInHierarchy)
             {
                 animator.SetInteger("Action", actionIndex);
+                if (actionIndex == 0) // Idle
+                {
+                    animator.speed = 1.0f;
+                }
+            }
+        }
+
+        public void SetAnimationPlaybackSpeed(float speedMultiplier)
+        {
+            if (animator != null && animator.gameObject.activeInHierarchy)
+            {
+                animator.speed = Mathf.Clamp(speedMultiplier, 0.25f, 3.0f);
             }
         }
 

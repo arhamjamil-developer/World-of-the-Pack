@@ -10,6 +10,8 @@ namespace WorldOfThePack.UI
         public string shortName;
         public Sprite humanPortrait;
         public Sprite wolfPortrait;
+        public Sprite idleSprite;
+        public Sprite wolfIdleSprite;
         public Color accent = Color.white;
         [Min(1)] public int maximumEnergy = 100;
     }

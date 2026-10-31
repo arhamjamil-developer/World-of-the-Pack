@@ -18,7 +18,16 @@ namespace WorldOfThePack.Game
 
     public class GameDirector : MonoBehaviour
     {
-        public static GameDirector Instance { get; private set; }
+        private static GameDirector instance;
+        public static GameDirector Instance
+        {
+            get
+            {
+                if (instance == null) instance = FindFirstObjectByType<GameDirector>();
+                return instance;
+            }
+            private set => instance = value;
+        }
 
         [Header("Alpha Leader Condition")]
         [SerializeField] private HeroUnit alphaLeader;
@@ -37,7 +46,7 @@ namespace WorldOfThePack.Game
         private float wolfInstinctTimer = 0f;
 
         [Header("Population")]
-        [SerializeField] private int maxAllies = 10;
+        [SerializeField] private int maxAllies = 16;
 
         [Header("Starter Pack (Core Trio)")]
         [SerializeField] private List<string> starterHeroIds = new List<string> { "HeroWolvy", "CaptainBobo", "PrincessElva" };
@@ -67,7 +76,14 @@ namespace WorldOfThePack.Game
 
         public int TotalKills { get; private set; }
         public int Score { get; private set; }
-        public int ActiveAllyCount => activeAllies.Count;
+        public int ActiveAllyCount
+        {
+            get
+            {
+                activeAllies.RemoveAll(h => h == null);
+                return activeAllies.Count;
+            }
+        }
         public int MaxAllies => maxAllies;
 
         public event Action<float, float> OnPackHealthChanged;
@@ -83,10 +99,16 @@ namespace WorldOfThePack.Game
 
         private void Awake()
         {
-            if (Instance == null) Instance = this;
-            else if (Instance != this) { Destroy(gameObject); return; }
+            if (instance == null) instance = this;
+            else if (instance != this) { Destroy(this); return; }
 
+            Application.runInBackground = true;
             deckManager = GetComponent<CardDeckManager>();
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         private void Start()
@@ -122,25 +144,29 @@ namespace WorldOfThePack.Game
 
         public void StartGame()
         {
-            CurrentState = GameState.Intro;
+            CurrentState = GameState.Playing;
             Time.timeScale = 1f;
 
-            // Trigger the scenic opening sequence
+            // Spawn the starting core pack immediately on frame 1
+            SpawnStarterPack();
+
+            // Begin pack march immediately
+            if (FormationController.Instance != null)
+            {
+                FormationController.Instance.SetMarching(true);
+            }
+
+            // Start wave 1 right away
+            WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
+            if (wm != null)
+            {
+                wm.StartFirstWave();
+            }
+
+            // Non-blocking scenic notification
             if (ExpeditionIntroController.Instance != null)
             {
-                ExpeditionIntroController.Instance.PlayIntroSequence();
-            }
-            else
-            {
-                // Fallback direct start
-                SpawnStarterPack();
-                if (FormationController.Instance != null)
-                {
-                    FormationController.Instance.SetMarching(true);
-                }
-                CurrentState = GameState.Playing;
-                WaveManager wm = GetComponent<WaveManager>();
-                if (wm != null) wm.StartFirstWave();
+                ExpeditionIntroController.Instance.ShowNotification("Sunny Forest Trail • Wave 1", 2.2f);
             }
 
             OnStateChanged?.Invoke(CurrentState);
@@ -157,12 +183,13 @@ namespace WorldOfThePack.Game
 
         public void SpawnStarterPack()
         {
+            activeAllies.RemoveAll(h => h == null);
             if (activeAllies.Count > 0) return;
 
-            // 1. Spawn Alpha Leader in Center Lane (Lane 2)
+            // 1. Spawn Alpha Leader Wolvy at the top / front
             Vector3 alphaPos = FormationController.Instance != null
-                ? FormationController.Instance.AnchorPosition + new Vector3(LaneSystem.GetLaneX(2), 0.75f, 0f)
-                : new Vector3(0f, -1.0f, 0f);
+                ? FormationController.Instance.GetSlotWorldPositionByIndex(0)
+                : new Vector3(0f, 0.65f, 0f);
 
             HeroUnit alpha = SpawnHeroUnitById("HeroWolvy", alphaPos, false);
             if (alpha != null)
@@ -174,21 +201,29 @@ namespace WorldOfThePack.Game
                 maxPackHealth = alpha.MaxHealth;
             }
 
-            // 2. Spawn Guardian Tank in Mid-Left Lane (Lane 1)
+            // 2. Spawn Guardian Tank Bobo beside Wolvy on mid-left
             Vector3 tankPos = FormationController.Instance != null
-                ? FormationController.Instance.AnchorPosition + new Vector3(LaneSystem.GetLaneX(1), 0.75f, 0f)
-                : new Vector3(-0.72f, -1.0f, 0f);
+                ? FormationController.Instance.GetSlotWorldPositionByIndex(1)
+                : new Vector3(-0.55f, 0.15f, 0f);
 
             HeroUnit tank = SpawnHeroUnitById("CaptainBobo", tankPos, false);
             if (tank != null) tank.SetAssignedLane(1);
 
-            // 3. Spawn Hunter Archer in Mid-Right Lane (Lane 3)
+            // 3. Spawn Hunter Archer Elva beside Wolvy on mid-right
             Vector3 hunterPos = FormationController.Instance != null
-                ? FormationController.Instance.AnchorPosition + new Vector3(LaneSystem.GetLaneX(3), -0.45f, 0f)
-                : new Vector3(0.72f, -1.6f, 0f);
+                ? FormationController.Instance.GetSlotWorldPositionByIndex(2)
+                : new Vector3(0.55f, 0.15f, 0f);
 
             HeroUnit hunter = SpawnHeroUnitById("PrincessElva", hunterPos, false);
             if (hunter != null) hunter.SetAssignedLane(3);
+
+            // 4. Spawn Healer Lulu in back row
+            Vector3 healerPos = FormationController.Instance != null
+                ? FormationController.Instance.GetSlotWorldPositionByIndex(3)
+                : new Vector3(0.0f, -0.40f, 0f);
+
+            HeroUnit healer = SpawnHeroUnitById("FairyLulu", healerPos, false);
+            if (healer != null) healer.SetAssignedLane(2);
 
             OnPackHealthChanged?.Invoke(CurrentPackHealth, MaxPackHealth);
         }
@@ -260,18 +295,23 @@ namespace WorldOfThePack.Game
             OnWolfInstinctChanged?.Invoke(false, 0f);
         }
 
-        public HeroUnit DeployHeroInLane(HeroCardDefinition def, int laneIndex, float energyCost = 3f)
+        public HeroUnit DeployHeroInLane(HeroCardDefinition def, int laneIndex, float energyCost = 0f)
         {
+            activeAllies.RemoveAll(h => h == null);
             if (activeAllies.Count >= maxAllies) return null;
-            if (!TrySpendEnergy(energyCost)) return null;
 
             int lane = Mathf.Clamp(laneIndex, 0, LaneSystem.LaneCount - 1);
             float laneX = LaneSystem.GetLaneX(lane);
 
-            Vector3 spawnPos = new Vector3(laneX, -2.8f, 0f);
+            // Stagger position slightly for multiple units
+            int existingOfSameType = activeAllies.FindAll(h => h != null && h.HeroId == def.heroId).Count;
+            float staggerX = existingOfSameType > 0 ? (existingOfSameType % 2 == 1 ? -0.25f : 0.25f) : 0f;
+            float staggerY = existingOfSameType * -0.2f;
+
+            Vector3 spawnPos = new Vector3(laneX + staggerX, staggerY, 0f);
             if (FormationController.Instance != null)
             {
-                spawnPos = new Vector3(laneX, FormationController.Instance.AnchorPosition.y - 2.5f, 0f);
+                spawnPos = new Vector3(laneX + staggerX, FormationController.Instance.AnchorPosition.y - 0.5f + staggerY, 0f);
             }
 
             HeroUnit unit = SpawnHeroUnitById(def.heroId, spawnPos, false);
@@ -289,13 +329,30 @@ namespace WorldOfThePack.Game
             {
                 preferredLane = FormationController.Instance.GetPreferredLaneForHero(def.heroId);
             }
-            return DeployHeroInLane(def, preferredLane, GetCardEnergyCost(def.heroId));
+            return DeployHeroInLane(def, preferredLane, 0f);
         }
 
         public HeroUnit DeployHeroAtPosition(HeroCardDefinition def, Vector3 pos)
         {
-            int lane = LaneSystem.GetNearestLaneIndex(pos.x);
-            return DeployHeroInLane(def, lane, GetCardEnergyCost(def.heroId));
+            activeAllies.RemoveAll(h => h == null);
+            if (activeAllies.Count >= maxAllies) return null;
+
+            int lane = Mathf.Clamp(LaneSystem.GetNearestLaneIndex(pos.x), 0, LaneSystem.LaneCount - 1);
+            float laneX = LaneSystem.GetLaneX(lane);
+
+            // Keep deployed heroes firmly within the visible battlefield corridor (above Card Hand UI)
+            float camY = Camera.main != null ? Camera.main.transform.position.y : (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f);
+            float minAllowedY = camY - 1.5f;
+            float maxAllowedY = camY + 2.5f;
+            float clampedY = Mathf.Clamp(pos.y, minAllowedY, maxAllowedY);
+            Vector3 spawnPos = new Vector3(laneX, clampedY, 0f);
+
+            HeroUnit unit = SpawnHeroUnitById(def.heroId, spawnPos, false);
+            if (unit != null)
+            {
+                unit.SetAssignedLane(lane);
+            }
+            return unit;
         }
 
         public float GetCardEnergyCost(string heroId)
@@ -340,6 +397,11 @@ namespace WorldOfThePack.Game
 
             activeAllies.Add(hero);
             hero.OnDefeated += OnHeroDefeated;
+
+            if (deckManager != null)
+            {
+                deckManager.LinkSpawnedHeroToCard(hero);
+            }
             OnHeroSpawned?.Invoke(hero);
 
             return hero;
@@ -468,6 +530,38 @@ namespace WorldOfThePack.Game
             currentEnergy = 5f;
             currentMorale = 0f;
             isWolfInstinctActive = false;
+
+            // 1. Reset World Biome Generator so the background tiles are placed seamlessly without gaps
+            if (WorldBiomeGenerator.Instance != null)
+            {
+                WorldBiomeGenerator.Instance.ResetWorld();
+            }
+
+            // 2. Reset Formation Anchor to central starting corridor
+            if (FormationController.Instance != null)
+            {
+                FormationController.Instance.SetAnchorPosition(new Vector3(0f, 0.4f, 0f));
+                FormationController.Instance.SetMarching(false);
+            }
+
+            // 3. Reset Cinemachine Camera framing and damping
+            if (CinemachineCombatDirector.Instance != null)
+            {
+                CinemachineCombatDirector.Instance.ResetDirector();
+            }
+
+            // 4. Reset Wave Manager back to Wave 1
+            WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
+            if (wm != null)
+            {
+                wm.JumpToWave(0);
+            }
+
+            // 5. Reset Card Hand Tray
+            if (deckManager != null)
+            {
+                deckManager.InitializeHand();
+            }
 
             StartGame();
         }

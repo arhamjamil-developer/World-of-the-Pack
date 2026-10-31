@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: MOMO
   humanPortrait: {fileID: 21300000, guid: eabac3bbf0b17b6438156f66e11a6bc6, type: 3}
   wolfPortrait: {fileID: 21300000, guid: 7e501c9e3a4b3a84398c220cfb039596, type: 3}
+  idleSprite: {fileID: 775161295, guid: 76a7ad0c3668254458fe5e8018a31a3c, type: 3}
+  wolfIdleSprite: {fileID: 273327083, guid: 3197e758bbaf33b4cb4049d8c86476a6, type: 3}
   accent: {r: 0.6666667, g: 0.4862745, b: 0.92156863, a: 1}
   maximumEnergy: 100

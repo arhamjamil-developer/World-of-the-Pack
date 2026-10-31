@@ -36,7 +36,7 @@ namespace WorldOfThePack.Game
         private void Awake()
         {
             if (instance == null) instance = this;
-            else if (instance != this) { Destroy(gameObject); return; }
+            else if (instance != this) { Destroy(this); return; }
 
             foreach (var item in registeredPrefabs)
             {
@@ -45,6 +45,11 @@ namespace WorldOfThePack.Game
                     prefabCache[item.name] = item.prefab;
                 }
             }
+        }
+
+        private void OnDestroy()
+        {
+            if (instance == this) instance = null;
         }
 
         public static GameObject SpawnEffect(string effectName, Vector3 position, Quaternion rotation = default)
@@ -144,11 +149,29 @@ namespace WorldOfThePack.Game
             spark.transform.position = position;
             SpriteRenderer sr = spark.AddComponent<SpriteRenderer>();
             sr.sprite = GetSparkSprite();
-            sr.color = new Color(1f, 0.9f, 0.3f, 0.9f);
-            sr.sortingOrder = 900;
-            spark.transform.localScale = Vector3.one * 0.8f;
-            Destroy(spark, 0.35f);
+            sr.color = new Color(0.4f, 0.85f, 1f, 0.4f);
+            sr.sortingOrder = 15;
+            spark.transform.localScale = Vector3.one * 0.45f;
+            StartCoroutine(FadeAndDestroyRoutine(spark, sr));
             return spark;
+        }
+
+        private System.Collections.IEnumerator FadeAndDestroyRoutine(GameObject obj, SpriteRenderer sr)
+        {
+            float dur = 0.25f;
+            float elapsed = 0f;
+            Color init = sr != null ? sr.color : Color.white;
+            Vector3 initScale = obj != null ? obj.transform.localScale : Vector3.one;
+            while (elapsed < dur)
+            {
+                elapsed += Time.deltaTime;
+                float t = Mathf.Clamp01(elapsed / dur);
+                if (obj == null) yield break;
+                if (sr != null) sr.color = new Color(init.r, init.g, init.b, Mathf.Lerp(init.a, 0f, t));
+                obj.transform.localScale = Vector3.Lerp(initScale, initScale * 1.4f, t);
+                yield return null;
+            }
+            if (obj != null) Destroy(obj);
         }
 
         private static Sprite cachedSpark;

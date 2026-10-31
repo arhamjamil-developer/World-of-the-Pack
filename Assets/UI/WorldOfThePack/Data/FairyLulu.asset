@@ -17,5 +17,7 @@ MonoBehaviour:
   shortName: LULU
   humanPortrait: {fileID: 21300000, guid: 42069326dc2244b4882b1da564840681, type: 3}
   wolfPortrait: {fileID: 21300000, guid: b69b92c5e1c216540a04668ed0157907, type: 3}
+  idleSprite: {fileID: -1249701176, guid: efdaadf835157f14893444c6d32b7ce8, type: 3}
+  wolfIdleSprite: {fileID: 1893645967, guid: 1a2278cbcbb92da4997541fc102f211c, type: 3}
   accent: {r: 0.43529412, g: 0.8509804, b: 0.92941177, a: 1}
   maximumEnergy: 100
