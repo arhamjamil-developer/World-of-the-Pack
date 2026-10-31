@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: d9034f642e9f8bf42b197bbc01db3286
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4504442059637356375
+    second: Endless Expedition Wooden Game Banner_0
+  - first:
+      213: -6776243079294609389
+    second: Endless Expedition Wooden Game Banner_1
+  - first:
+      213: 8568763283873109232
+    second: Endless Expedition Wooden Game Banner_2
+  - first:
+      213: 5540186693724558206
+    second: Endless Expedition Wooden Game Banner_3
+  - first:
+      213: -3937354647145048034
+    second: Endless Expedition Wooden Game Banner_4
+  - first:
+      213: -2453574141287634016
+    second: Endless Expedition Wooden Game Banner_5
+  - first:
+      213: -5920156451891233123
+    second: Endless Expedition Wooden Game Banner_6
+  - first:
+      213: 1942620604506128846
+    second: Endless Expedition Wooden Game Banner_7
+  - first:
+      213: 1309387960963538268
+    second: Endless Expedition Wooden Game Banner_8
+  - first:
+      213: -1095693747979581457
+    second: Endless Expedition Wooden Game Banner_9
+  - first:
+      213: -5456496110718633160
+    second: Endless Expedition Wooden Game Banner_10
+  - first:
+      213: 2422424344900973183
+    second: Endless Expedition Wooden Game Banner_11
+  - first:
+      213: -7737952290691348339
+    second: Endless Expedition Wooden Game Banner_12
+  - first:
+      213: -6755264306466944020
+    second: Endless Expedition Wooden Game Banner_13
+  - first:
+      213: 4710521478763330671
+    second: Endless Expedition Wooden Game Banner_14
+  - first:
+      213: 3620010200190379596
+    second: Endless Expedition Wooden Game Banner_15
+  - first:
+      213: 2836606035353265181
+    second: Endless Expedition Wooden Game Banner_16
+  - first:
+      213: -2594146397669956128
+    second: Endless Expedition Wooden Game Banner_17
+  - first:
+      213: 2449417117428288161
+    second: Endless Expedition Wooden Game Banner_18
+  - first:
+      213: -8010144822492004643
+    second: Endless Expedition Wooden Game Banner_19
+  - first:
+      213: -386732339680189364
+    second: Endless Expedition Wooden Game Banner_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 2116
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a88cf3ffc10d71c0800000000000000
+      internalID: -4504442059637356375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 712
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31812fa42d2f5f1a0800000000000000
+      internalID: -6776243079294609389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 714
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f49aa3becc5ae670800000000000000
+      internalID: 8568763283873109232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 710
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e735cccd172b2ec40800000000000000
+      internalID: 5540186693724558206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 709
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e189f263fc4bb59c0800000000000000
+      internalID: -3937354647145048034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_5
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 700
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab677e615723fdd0800000000000000
+      internalID: -2453574141287634016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_6
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 693
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e3946c21167dda0800000000000000
+      internalID: -5920156451891233123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_7
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 712
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec141f8b52395fa10800000000000000
+      internalID: 1942620604506128846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_8
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 710
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d976eb961eb2210800000000000000
+      internalID: 1309387960963538268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_9
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 710
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe78f0967505bc0f0800000000000000
+      internalID: -1095693747979581457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_10
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 700
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bb05272b1a644b0800000000000000
+      internalID: -5456496110718633160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_11
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 685
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72b41d6b1e2e9120800000000000000
+      internalID: 2422424344900973183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_12
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 696
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d880c6893654d9490800000000000000
+      internalID: -7737952290691348339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_13
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 693
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb892977ea7042a0800000000000000
+      internalID: -6755264306466944020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_14
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 696
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c3988d3522f5140800000000000000
+      internalID: 4710521478763330671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_15
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 693
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4663a1f81cdc3230800000000000000
+      internalID: 3620010200190379596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_16
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 702
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14e5f00926ad5720800000000000000
+      internalID: 2836606035353265181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_17
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 689
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e58f789dbffbd0800000000000000
+      internalID: -2594146397669956128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_18
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 693
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa031704e31ef120800000000000000
+      internalID: 2449417117428288161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_19
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 692
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddefde739bf36d090800000000000000
+      internalID: -8010144822492004643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Endless Expedition Wooden Game Banner_20
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44e43e6cfc02aaf0800000000000000
+      internalID: -386732339680189364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Endless Expedition Wooden Game Banner_0: -4504442059637356375
+      Endless Expedition Wooden Game Banner_1: -6776243079294609389
+      Endless Expedition Wooden Game Banner_10: -5456496110718633160
+      Endless Expedition Wooden Game Banner_11: 2422424344900973183
+      Endless Expedition Wooden Game Banner_12: -7737952290691348339
+      Endless Expedition Wooden Game Banner_13: -6755264306466944020
+      Endless Expedition Wooden Game Banner_14: 4710521478763330671
+      Endless Expedition Wooden Game Banner_15: 3620010200190379596
+      Endless Expedition Wooden Game Banner_16: 2836606035353265181
+      Endless Expedition Wooden Game Banner_17: -2594146397669956128
+      Endless Expedition Wooden Game Banner_18: 2449417117428288161
+      Endless Expedition Wooden Game Banner_19: -8010144822492004643
+      Endless Expedition Wooden Game Banner_2: 8568763283873109232
+      Endless Expedition Wooden Game Banner_20: -386732339680189364
+      Endless Expedition Wooden Game Banner_3: 5540186693724558206
+      Endless Expedition Wooden Game Banner_4: -3937354647145048034
+      Endless Expedition Wooden Game Banner_5: -2453574141287634016
+      Endless Expedition Wooden Game Banner_6: -5920156451891233123
+      Endless Expedition Wooden Game Banner_7: 1942620604506128846
+      Endless Expedition Wooden Game Banner_8: 1309387960963538268
+      Endless Expedition Wooden Game Banner_9: -1095693747979581457
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
