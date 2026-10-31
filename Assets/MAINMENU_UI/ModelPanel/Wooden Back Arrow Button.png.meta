@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: a0e84c309b1f7574bb13861463e91e65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3242927144994168178
+    second: Wooden Back Arrow Button_0
+  - first:
+      213: -925330101619155956
+    second: Wooden Back Arrow Button_1
+  - first:
+      213: -7879803558880239427
+    second: Wooden Back Arrow Button_2
+  - first:
+      213: -8813980257835378481
+    second: Wooden Back Arrow Button_3
+  - first:
+      213: -8199792346686520016
+    second: Wooden Back Arrow Button_4
+  - first:
+      213: -2784433607941724313
+    second: Wooden Back Arrow Button_5
+  - first:
+      213: -5512340437960516727
+    second: Wooden Back Arrow Button_6
+  - first:
+      213: -6310031221019751055
+    second: Wooden Back Arrow Button_7
+  - first:
+      213: -9036761861238548170
+    second: Wooden Back Arrow Button_8
+  - first:
+      213: 6921690036907600395
+    second: Wooden Back Arrow Button_9
+  - first:
+      213: -2830648484702590495
+    second: Wooden Back Arrow Button_10
+  - first:
+      213: -6241558719437720168
+    second: Wooden Back Arrow Button_11
+  - first:
+      213: 3010958905713913795
+    second: Wooden Back Arrow Button_12
+  - first:
+      213: -8775688495501999754
+    second: Wooden Back Arrow Button_13
+  - first:
+      213: 7483309885814022718
+    second: Wooden Back Arrow Button_14
+  - first:
+      213: 8603866174783946937
+    second: Wooden Back Arrow Button_15
+  - first:
+      213: 3237901472209681657
+    second: Wooden Back Arrow Button_16
+  - first:
+      213: 1418270192944576077
+    second: Wooden Back Arrow Button_17
+  - first:
+      213: -5641082069689576772
+    second: Wooden Back Arrow Button_18
+  - first:
+      213: -1253772503789781999
+    second: Wooden Back Arrow Button_19
+  - first:
+      213: 4740757312483064334
+    second: Wooden Back Arrow Button_20
+  - first:
+      213: 1575886150937529439
+    second: Wooden Back Arrow Button_21
+  - first:
+      213: 165815980222156191
+    second: Wooden Back Arrow Button_22
+  - first:
+      213: 6675227733470070386
+    second: Wooden Back Arrow Button_23
+  - first:
+      213: -7069909762816212517
+    second: Wooden Back Arrow Button_24
+  - first:
+      213: 246007092734999644
+    second: Wooden Back Arrow Button_25
+  - first:
+      213: -4086707446431274159
+    second: Wooden Back Arrow Button_26
+  - first:
+      213: 2747565484739341579
+    second: Wooden Back Arrow Button_27
+  - first:
+      213: -3440824830947151445
+    second: Wooden Back Arrow Button_28
+  - first:
+      213: 6355499091122577442
+    second: Wooden Back Arrow Button_29
+  - first:
+      213: 7505185057128986232
+    second: Wooden Back Arrow Button_30
+  - first:
+      213: 3085606546739962331
+    second: Wooden Back Arrow Button_31
+  - first:
+      213: -5866452047009867017
+    second: Wooden Back Arrow Button_32
+  - first:
+      213: -4678137842097414664
+    second: Wooden Back Arrow Button_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 15
+        width: 2007
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82a62281fecef2d0800000000000000
+      internalID: -3242927144994168178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 746
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c9309dc219823f0800000000000000
+      internalID: -925330101619155956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_2
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 743
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0a515896055a290800000000000000
+      internalID: -7879803558880239427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 719
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc89a6a67a37ea580800000000000000
+      internalID: -8813980257835378481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_4
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 745
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03588c71e4c743e80800000000000000
+      internalID: -8199792346686520016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 749
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76769f9d264bb59d0800000000000000
+      internalID: -2784433607941724313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_6
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 716
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b975ac39b3083b0800000000000000
+      internalID: -5512340437960516727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_7
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 744
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d4e7559044e68a0800000000000000
+      internalID: -6310031221019751055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_8
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 740
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639141d47f8f69280800000000000000
+      internalID: -9036761861238548170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_9
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 741
+        width: 70
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aec377a68ce0060800000000000000
+      internalID: 6921690036907600395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_10
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 707
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ed49533487b8d0800000000000000
+      internalID: -2830648484702590495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 738
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8953c23f9678169a0800000000000000
+      internalID: -6241558719437720168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 727
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf60680c2319c920800000000000000
+      internalID: 3010958905713913795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 727
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6710f161fcd763680800000000000000
+      internalID: -8775688495501999754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_14
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 711
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e322d1061be0ad760800000000000000
+      internalID: 7483309885814022718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 723
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b00ff263b2176770800000000000000
+      internalID: 8603866174783946937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 727
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb5ccdb365fec20800000000000000
+      internalID: 3237901472209681657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_17
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 725
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d467cf5e935bea310800000000000000
+      internalID: 1418270192944576077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_18
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 719
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2d35fceb9d6b1b0800000000000000
+      internalID: -5641082069689576772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_19
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 723
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c3572fc84b99ee0800000000000000
+      internalID: -1253772503789781999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_20
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 683
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a73e878ad8ac140800000000000000
+      internalID: 4740757312483064334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 31
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cc619da1caed510800000000000000
+      internalID: 1575886150937529439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_22
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 406
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d893761c81d4200800000000000000
+      internalID: 165815980222156191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_23
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 47
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276c158b14c23ac50800000000000000
+      internalID: 6675227733470070386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_24
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 33
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd106495782a2ed90800000000000000
+      internalID: -7069909762816212517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_25
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 31
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c32beb52ef96300800000000000000
+      internalID: 246007092734999644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_26
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 35
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b2582da391947c0800000000000000
+      internalID: -4086707446431274159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_27
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 33
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d230b4040512620800000000000000
+      internalID: 2747565484739341579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_28
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 26
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba13d09eb0cbf30d0800000000000000
+      internalID: -3440824830947151445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_29
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220eda020c4433850800000000000000
+      internalID: 6355499091122577442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_30
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 33
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8763eb79b06c72860800000000000000
+      internalID: 7505185057128986232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_31
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 31
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd12e075ec642da20800000000000000
+      internalID: 3085606546739962331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_32
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 27
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa1d1ee1fc269ea0800000000000000
+      internalID: -5866452047009867017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden Back Arrow Button_33
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 19
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd987f1b6ae31fb0800000000000000
+      internalID: -4678137842097414664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wooden Back Arrow Button_0: -3242927144994168178
+      Wooden Back Arrow Button_1: -925330101619155956
+      Wooden Back Arrow Button_10: -2830648484702590495
+      Wooden Back Arrow Button_11: -6241558719437720168
+      Wooden Back Arrow Button_12: 3010958905713913795
+      Wooden Back Arrow Button_13: -8775688495501999754
+      Wooden Back Arrow Button_14: 7483309885814022718
+      Wooden Back Arrow Button_15: 8603866174783946937
+      Wooden Back Arrow Button_16: 3237901472209681657
+      Wooden Back Arrow Button_17: 1418270192944576077
+      Wooden Back Arrow Button_18: -5641082069689576772
+      Wooden Back Arrow Button_19: -1253772503789781999
+      Wooden Back Arrow Button_2: -7879803558880239427
+      Wooden Back Arrow Button_20: 4740757312483064334
+      Wooden Back Arrow Button_21: 1575886150937529439
+      Wooden Back Arrow Button_22: 165815980222156191
+      Wooden Back Arrow Button_23: 6675227733470070386
+      Wooden Back Arrow Button_24: -7069909762816212517
+      Wooden Back Arrow Button_25: 246007092734999644
+      Wooden Back Arrow Button_26: -4086707446431274159
+      Wooden Back Arrow Button_27: 2747565484739341579
+      Wooden Back Arrow Button_28: -3440824830947151445
+      Wooden Back Arrow Button_29: 6355499091122577442
+      Wooden Back Arrow Button_3: -8813980257835378481
+      Wooden Back Arrow Button_30: 7505185057128986232
+      Wooden Back Arrow Button_31: 3085606546739962331
+      Wooden Back Arrow Button_32: -5866452047009867017
+      Wooden Back Arrow Button_33: -4678137842097414664
+      Wooden Back Arrow Button_4: -8199792346686520016
+      Wooden Back Arrow Button_5: -2784433607941724313
+      Wooden Back Arrow Button_6: -5512340437960516727
+      Wooden Back Arrow Button_7: -6310031221019751055
+      Wooden Back Arrow Button_8: -9036761861238548170
+      Wooden Back Arrow Button_9: 6921690036907600395
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
