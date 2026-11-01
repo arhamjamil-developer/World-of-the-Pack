@@ -351,6 +351,7 @@ namespace WorldOfThePack.Game
 
         private void OnAllWavesCompleted()
         {
+            if (ArenaDirector.Instance != null) return;
             if (victoryModal != null) victoryModal.SetActive(true);
         }
 

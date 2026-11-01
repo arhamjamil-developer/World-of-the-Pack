@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: FairyLulu
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: FairyLulu
+  displayName: Fairy Lulu
+  shortName: LULU
+  humanPortrait: {fileID: -920246825479105454, guid: b8381a031afe4894f8c3b6340410aabe, type: 3}
+  wolfPortrait: {fileID: 770370696729542524, guid: e3f119b98c3d6e246a311dd3a59ded92, type: 3}
+  idleSprite: {fileID: -1249701176, guid: efdaadf835157f14893444c6d32b7ce8, type: 3}
+  wolfIdleSprite: {fileID: 1893645967, guid: 1a2278cbcbb92da4997541fc102f211c, type: 3}
+  accent: {r: 0.43529412, g: 0.8509804, b: 0.92941177, a: 1}
+  maximumEnergy: 100

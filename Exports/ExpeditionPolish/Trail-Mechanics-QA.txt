@@ -1,0 +1,10 @@
+Spring heals exactly 20% max health: True
+Duplicate route rejected: True
+Hunt lasts two encounters with +2 enemies / 1.5 charms: True
+Wave routine counts two extra enemies: True
+Rescue spends 4 charms, adds one ally, preserves card charge: True
+Repeated rescue blocked during cage animation: True
+Reset clears decision, hunt, focus and props: True
+Unaffordable rescue rejected; continue free: True
+
+Naturally reached wave-two route / EventSystem Spring click: True

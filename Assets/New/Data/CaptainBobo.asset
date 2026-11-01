@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: CaptainBobo
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: CaptainBobo
+  displayName: Captain Bobo
+  shortName: BOBO
+  humanPortrait: {fileID: -6588760728281326548, guid: 5df5d89a86d8f7e4fb3b2d772ea78f98, type: 3}
+  wolfPortrait: {fileID: -4512822856891937855, guid: c39a0ab7c4d4c7748aa34527c707ce25, type: 3}
+  idleSprite: {fileID: -217134773, guid: 2c3f019bada24724aad9ce12adf7e989, type: 3}
+  wolfIdleSprite: {fileID: -6304543, guid: fd18cc9c193d1944586dcf4185cca376, type: 3}
+  accent: {r: 0.91764706, g: 0.64705884, b: 0.28627452, a: 1}
+  maximumEnergy: 100

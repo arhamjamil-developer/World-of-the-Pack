@@ -3,86 +3,52 @@ using UnityEngine;
 
 namespace WorldOfThePack.Game
 {
-    public class TelegraphIndicator : MonoBehaviour
+    public sealed class TelegraphIndicator : MonoBehaviour
     {
-        public static GameObject Spawn(string prefabName, Vector3 position, float duration)
+        private static Material ringMaterial;
+        private LineRenderer outerRing, progressRing;
+        public static GameObject Spawn(string name, Vector3 position, float duration, float radius = 1.2f)
         {
-            GameObject prefab = Resources.Load<GameObject>("Telegraphs/" + prefabName);
-            GameObject instance = null;
-
-            if (prefab != null)
-            {
-                instance = Instantiate(prefab, position, Quaternion.identity);
-            }
-            else
-            {
-                // Fallback procedural or HD warning indicator
-                instance = new GameObject("Telegraph_" + prefabName);
-                instance.transform.position = position;
-                SpriteRenderer sr = instance.AddComponent<SpriteRenderer>();
-#if UNITY_EDITOR
-                var slamSprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>("Assets/VFX/WorldOfThePack/Art/Telegraph_OrangeSlam1_2s.png");
-                if (slamSprite != null)
-                {
-                    sr.sprite = slamSprite;
-                    sr.color = Color.white;
-                    instance.transform.localScale = new Vector3(2.4f, 1.8f, 1f);
-                }
-                else
-                {
-                    sr.sprite = GetCircleSprite();
-                    sr.color = new Color(1f, 0.45f, 0.1f, 0.65f);
-                    instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
-                }
-#else
-                sr.sprite = GetCircleSprite();
-                sr.color = new Color(1f, 0.45f, 0.1f, 0.65f);
-                instance.transform.localScale = new Vector3(2.5f, 2.5f, 1f);
-#endif
-                sr.sortingOrder = -10;
-            }
-
-            TelegraphIndicator ti = instance.AddComponent<TelegraphIndicator>();
-            ti.StartCoroutine(ti.FadeAndDestroy(duration));
-            return instance;
+            var go = new GameObject("Telegraph_" + name);
+            go.transform.position = position;
+            var indicator = go.AddComponent<TelegraphIndicator>();
+            indicator.outerRing = indicator.CreateRing("ThreatBoundary", radius, .025f);
+            indicator.progressRing = indicator.CreateRing("WindupProgress", radius, .045f);
+            indicator.StartCoroutine(indicator.Animate(Mathf.Max(.1f, duration)));
+            return go;
         }
-
-        private IEnumerator FadeAndDestroy(float duration)
+        private LineRenderer CreateRing(string name, float radius, float width)
         {
-            float elapsed = 0f;
-            Vector3 initialScale = transform.localScale;
-
+            if (ringMaterial == null) ringMaterial = new Material(Shader.Find("Sprites/Default"));
+            var go = new GameObject(name);
+            go.transform.SetParent(transform, false);
+            var line = go.AddComponent<LineRenderer>();
+            line.sharedMaterial = ringMaterial;
+            line.useWorldSpace = false; line.loop = true; line.positionCount = 64;
+            line.startWidth = line.endWidth = width; line.sortingOrder = 50;
+            for (int i = 0; i < 64; i++)
+            {
+                float angle = i * Mathf.PI * 2 / 64;
+                line.SetPosition(i, new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0) * radius);
+            }
+            return line;
+        }
+        private IEnumerator Animate(float duration)
+        {
+            float elapsed = 0;
             while (elapsed < duration)
             {
+                if (GameDirector.Instance == null || GameDirector.Instance.CurrentState == GameState.GameOver ||
+                    (CampManager.Instance != null && CampManager.Instance.IsAtCamp)) { Destroy(gameObject); yield break; }
                 elapsed += Time.deltaTime;
-                float progress = elapsed / duration;
-                // Subtle pulse effect
-                transform.localScale = initialScale * (1f + 0.1f * Mathf.Sin(progress * Mathf.PI * 4f));
+                float t = Mathf.Clamp01(elapsed / duration);
+                var color = Color.Lerp(new Color(1, .72f, .22f, .65f), new Color(1, .25f, .12f, .95f), t);
+                outerRing.startColor = outerRing.endColor = color;
+                progressRing.startColor = progressRing.endColor = color;
+                progressRing.transform.localScale = Vector3.one * Mathf.Lerp(.15f, 1, t);
                 yield return null;
             }
-
             Destroy(gameObject);
-        }
-
-        private static Sprite cachedCircle;
-        private static Sprite GetCircleSprite()
-        {
-            if (cachedCircle != null) return cachedCircle;
-            int size = 64;
-            Texture2D tex = new Texture2D(size, size);
-            Vector2 center = new Vector2(size / 2f, size / 2f);
-            for (int y = 0; y < size; y++)
-            {
-                for (int x = 0; x < size; x++)
-                {
-                    float d = Vector2.Distance(new Vector2(x, y), center);
-                    if (d <= size / 2f) tex.SetPixel(x, y, new Color(1f, 1f, 1f, Mathf.Clamp01((size / 2f - d) / 4f)));
-                    else tex.SetPixel(x, y, Color.clear);
-                }
-            }
-            tex.Apply();
-            cachedCircle = Sprite.Create(tex, new Rect(0, 0, size, size), new Vector2(0.5f, 0.5f), 32f);
-            return cachedCircle;
         }
     }
 }

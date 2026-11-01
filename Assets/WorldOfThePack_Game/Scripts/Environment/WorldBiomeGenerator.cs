@@ -35,6 +35,7 @@ namespace WorldOfThePack.Game
         [Header("Tile & Segment Settings")]
         [SerializeField] private float segmentHeight = 21.72f;
         [SerializeField] private int activeSegmentCount = 4;
+        [SerializeField] private Material terrainMaterial;
         [SerializeField] private float corridorWidth = 3.6f; // 42% width combat corridor (-1.8 to +1.8)
 
         [Header("Landmark & Camp Prefabs")]
@@ -239,6 +240,7 @@ namespace WorldOfThePack.Game
             GameObject ground = new GameObject("Ground");
             ground.transform.SetParent(segmentObj.transform, false);
             SpriteRenderer sr = ground.AddComponent<SpriteRenderer>();
+            if (terrainMaterial != null) sr.sharedMaterial = terrainMaterial;
             sr.sprite = sprite;
             sr.sortingOrder = -100;
             if (config != null) sr.color = config.ambientColor;

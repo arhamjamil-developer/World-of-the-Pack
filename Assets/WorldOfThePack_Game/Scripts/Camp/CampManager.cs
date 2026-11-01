@@ -29,8 +29,8 @@ namespace WorldOfThePack.Game
         }
 
         [Header("Camp Spawning Configuration")]
-        [SerializeField] private float firstCampDistance = 80f;
-        [SerializeField] private float campInterval = 120f;
+        [SerializeField] private float firstCampDistance = 16f; // ~65-75s active march/combat to reach first camp
+        [SerializeField] private float campInterval = 30f; // 120m for subsequent legs
         [SerializeField] private Sprite campsiteSprite;
 
         [Header("State")]
@@ -51,6 +51,10 @@ namespace WorldOfThePack.Game
         private float upcomingCampWorldY = 0f;
 
         public bool IsAtCamp => isAtCamp;
+        // UI reads the same route distance that triggers camp arrival.
+        public float RemainingDistance => isAtCamp ? 0f : Mathf.Max(0f, nextCampDistance - ((FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : startY) - startY));
+        public float LegDistance => campsVisited == 0 ? firstCampDistance : campInterval;
+        public float LegProgress => isAtCamp ? 1f : (1f - Mathf.Clamp01(RemainingDistance / Mathf.Max(1f, LegDistance)));
         public int CampsVisited => campsVisited;
         public ExpeditionRoute CurrentRoute => currentRoute;
 
@@ -91,6 +95,7 @@ namespace WorldOfThePack.Game
 
         private void Update()
         {
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.Phase != ArenaPhase.March) return;
             if (isAtCamp || GameDirector.Instance == null || GameDirector.Instance.CurrentState != GameState.Playing) return;
             if (FormationController.Instance == null) return;
 
@@ -98,7 +103,7 @@ namespace WorldOfThePack.Game
             float traveled = currentY - startY;
 
             // Spawn campsite visual ahead when nearing camp
-            if (!campSpawnedForUpcoming && traveled >= (nextCampDistance - 25f))
+            if (!campSpawnedForUpcoming && traveled >= (nextCampDistance - 6f))
             {
                 SpawnUpcomingCampsite(startY + nextCampDistance);
             }
@@ -127,6 +132,7 @@ namespace WorldOfThePack.Game
 
         public void ArriveAtCamp()
         {
+            if (isAtCamp) return; // Idempotent check
             isAtCamp = true;
             campsVisited++;
 
@@ -140,8 +146,26 @@ namespace WorldOfThePack.Game
             WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
             if (wm != null)
             {
-                wm.PauseForCamp();
+                wm.CancelEncounterAtCamp();
             }
+
+            // Despawn any lingering enemies so combat does not resume behind an open modal
+            EnemyUnit[] enemies = FindObjectsByType<EnemyUnit>(FindObjectsSortMode.None);
+            foreach (var enemy in enemies)
+            {
+                if (enemy != null && enemy.gameObject != null)
+                {
+                    enemy.gameObject.SetActive(false);
+                    Destroy(enemy.gameObject);
+                }
+            }
+            foreach (var boss in FindObjectsByType<BossUnit>(FindObjectsSortMode.None))
+            {
+                boss.gameObject.SetActive(false);
+                Destroy(boss.gameObject);
+            }
+            foreach (var projectile in FindObjectsByType<WorldOfThePack.CombatArt.CombatSpriteProjectile>(FindObjectsSortMode.None))
+                Destroy(projectile.gameObject);
 
             // Trigger camp reached event & popup UI
             OnCampReached?.Invoke();
@@ -154,23 +178,23 @@ namespace WorldOfThePack.Game
 
         public void ChooseCampOption(int optionIndex)
         {
+            if (!isAtCamp || optionIndex < 0 || optionIndex > 4) return;
             switch (optionIndex)
             {
-                case 0: // Hearth & Rest (Heal Pack)
-                    HealEntirePack(0.5f);
-                    GameHUDController hud = FindFirstObjectByType<GameHUDController>();
-                    if (hud != null) hud.ShowBanner("PACK HEALED (+50% HEALTH)!", 2.5f);
+                case 0: // Restore 25% leader health & pack
+                    HealEntirePack(0.25f);
+                    ShowCampFeedback("LEADER & PACK HEALED (+25% HEALTH)!");
                     break;
 
-                case 1: // Wolf Blessing (+Damage buff)
-                    PackDamageBuff += 0.25f;
+                case 1: // Pack Power: +20% Attack Damage
+                    PackDamageBuff += 0.20f;
                     ApplyDamageBuffToAllies(PackDamageBuff);
-                    GameHUDController hud2 = FindFirstObjectByType<GameHUDController>();
-                    if (hud2 != null) hud2.ShowBanner("WOLF BLESSING: +25% ATTACK DAMAGE!", 2.5f);
+                    ShowCampFeedback($"PACK POWER: +{Mathf.RoundToInt((PackDamageBuff - 1f) * 100)}% ATTACK DAMAGE!");
                     break;
 
-                case 2: // Forest Route (+Energy Regen)
-                    SelectRoute(ExpeditionRoute.SunlitForest);
+                case 2: // Moon Charge: +30% Card Energy Recharge Rate
+                    EnergyRegenMultiplier += 0.30f;
+                    ShowCampFeedback($"MOON CHARGE: +{Mathf.RoundToInt((EnergyRegenMultiplier - 1f) * 100)}% RECHARGE RATE!");
                     break;
 
                 case 3: // Cursed Mire (+Score / Harder Enemies)
@@ -183,6 +207,17 @@ namespace WorldOfThePack.Game
             }
 
             DepartCamp();
+        }
+
+        private void ShowCampFeedback(string bannerText)
+        {
+            var activeHud = FindFirstObjectByType<WorldOfThePack.NewUI.PackGameplayHUD>();
+            if (activeHud != null)
+            {
+                activeHud.ShowBanner(bannerText, 2.8f);
+            }
+            GameHUDController hud = FindFirstObjectByType<GameHUDController>();
+            if (hud != null) hud.ShowBanner(bannerText, 2.5f);
         }
 
         public void SelectRoute(ExpeditionRoute route)
@@ -238,6 +273,7 @@ namespace WorldOfThePack.Game
 
         private void DepartCamp()
         {
+            if (!isAtCamp) return; // Idempotent check
             isAtCamp = false;
             campSpawnedForUpcoming = false;
 
@@ -260,6 +296,21 @@ namespace WorldOfThePack.Game
             }
 
             OnCampDeparted?.Invoke(currentRoute);
+        }
+
+        public void ResetCampState()
+        {
+            isAtCamp = false;
+            campsVisited = 0;
+            campSpawnedForUpcoming = false;
+            EnergyRegenMultiplier = 1.0f;
+            ScoreMultiplier = 1.0f;
+            WolfPowerMultiplier = 1.0f;
+            PackDamageBuff = 1.0f;
+            startY = FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f;
+            nextCampDistance = firstCampDistance;
+            if (activeCampVisual != null) Destroy(activeCampVisual);
+            HideCampUI();
         }
 
         #region Camp UI Handling

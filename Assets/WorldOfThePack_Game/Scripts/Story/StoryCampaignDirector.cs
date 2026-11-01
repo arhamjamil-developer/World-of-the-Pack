@@ -35,6 +35,11 @@ namespace WorldOfThePack.Game
         public int ActiveChapter => activeChapter;
         public bool IsEndlessMode => isEndlessMode;
         public bool IsBossEncounterActive => bossEncounterActive;
+        public void ResetRun()
+        {
+            wavesCompletedInCurrentChapter = 0;
+            bossEncounterActive = false;
+        }
 
         public event Action<int, string> OnChapterStarted;
         public event Action<int> OnChapterCompleted;
@@ -89,19 +94,23 @@ namespace WorldOfThePack.Game
 
         private void HandleWaveCompleted(int waveNum)
         {
+            if (ArenaDirector.Instance != null) return;
+            if (isEndlessMode) return;
+
             wavesCompletedInCurrentChapter++;
 
-            // Camp Check (every 3 waves)
-            if (wavesCompletedInCurrentChapter == wavesPerCamp)
+            // Camp Check (delegated to CampManager for distance-based scheduling; only fallback if CampManager missing)
+            if (CampManager.Instance == null && wavesCompletedInCurrentChapter == wavesPerCamp)
             {
                 TriggerCampsite();
                 return;
             }
 
-            // Boss Check (at wave 5 of chapter)
+            // Boss Check (at wave 5 of chapter in story mode)
             if (wavesCompletedInCurrentChapter >= wavesPerBoss && !bossEncounterActive)
             {
-                SpawnChapterBoss();
+                // WaveManager owns boss spawning; chapter progression only observes defeat.
+                bossEncounterActive = true;
             }
         }
 

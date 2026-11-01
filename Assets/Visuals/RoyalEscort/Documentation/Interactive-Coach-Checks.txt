@@ -1,0 +1,13 @@
+Passed
+PASS: Opening has one leader and the queen lesson
+PASS: Enemy formation is staged before battle
+PASS: Next leads to card-selection action
+PASS: Spotlight blocks the wrong card
+PASS: Clicking the highlighted card selects without deploying
+PASS: Wrong grid tile spends nothing
+PASS: Target tile deploys one ally and spends charge and charms once
+PASS: Charge lesson requires acknowledgement
+PASS: Begin Battle starts real combat
+PASS: Leader plus ranged support survive the first wave
+PASS: Enemy defeats recharge the spent card
+PASS: Completing the interactive lesson persists v2 preference

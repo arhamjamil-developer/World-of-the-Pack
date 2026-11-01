@@ -63,9 +63,9 @@ namespace WorldOfThePack.Game
 
         public GameState CurrentState { get; private set; } = GameState.Intro;
         public HeroUnit AlphaLeader => alphaLeader;
-        public float PackHealthPercent => alphaLeader != null ? alphaLeader.HealthPercent : Mathf.Clamp01(currentPackHealth / Mathf.Max(1f, maxPackHealth));
-        public float CurrentPackHealth => alphaLeader != null ? alphaLeader.CurrentHealth : currentPackHealth;
-        public float MaxPackHealth => alphaLeader != null ? alphaLeader.MaxHealth : maxPackHealth;
+        public float PackHealthPercent => ArenaDirector.Instance != null && ArenaDirector.Instance.Queen != null ? ArenaDirector.Instance.Queen.HealthPercent : alphaLeader != null ? alphaLeader.HealthPercent : Mathf.Clamp01(currentPackHealth / Mathf.Max(1f, maxPackHealth));
+        public float CurrentPackHealth => ArenaDirector.Instance != null && ArenaDirector.Instance.Queen != null ? ArenaDirector.Instance.Queen.CurrentHealth : alphaLeader != null ? alphaLeader.CurrentHealth : currentPackHealth;
+        public float MaxPackHealth => ArenaDirector.Instance != null && ArenaDirector.Instance.Queen != null ? ArenaDirector.Instance.Queen.MaxHealth : alphaLeader != null ? alphaLeader.MaxHealth : maxPackHealth;
 
         public float CurrentEnergy => currentEnergy;
         public float MaxEnergy => maxEnergy;
@@ -76,6 +76,41 @@ namespace WorldOfThePack.Game
 
         public int TotalKills { get; private set; }
         public int Score { get; private set; }
+        public int MoonCharms { get; private set; } = 24;
+        public float RunSeconds { get; private set; }
+        public bool IsDecisionPending { get; set; }
+        public event Action<int> OnCharmsChanged;
+        public event Action OnHeroDeployed;
+        public int CharmCost(string id) => id switch
+        {
+            "ScoutPip" => 3, "PrincessElva" => 4, "CaptainBobo" => 5,
+            "FairyLulu" => 6, "WizardMomo" => 7, "TinkerTilly" => 5, _ => 4
+        };
+        public void AddCharms(int amount)
+        {
+            MoonCharms = Mathf.Clamp(MoonCharms + Mathf.Max(0, amount), 0, 9999);
+            OnCharmsChanged?.Invoke(MoonCharms);
+        }
+        public bool CanAfford(string id) => MoonCharms >= CharmCost(id);
+        public bool TrySpendCharms(int amount)
+        {
+            if (amount < 0 || MoonCharms < amount || CurrentState != GameState.Playing) return false;
+            MoonCharms -= amount; OnCharmsChanged?.Invoke(MoonCharms); return true;
+        }
+        public HeroUnit RecruitRescuedHero(string id, int price)
+        {
+            if (CurrentState != GameState.Playing || price < 0 || MoonCharms < price || ActiveAllyCount >= MaxAllies) return null;
+            var anchor = FormationController.Instance != null ? FormationController.Instance.AnchorPosition : Vector3.zero;
+            var hero = SpawnHeroUnitById(id, anchor + Vector3.down * .2f, false);
+            if (hero == null) return null;
+            TrySpendCharms(price); OnHeroDeployed?.Invoke(); return hero;
+        }
+        private void PayForDeployment(string id)
+        {
+            MoonCharms -= CharmCost(id);
+            OnCharmsChanged?.Invoke(MoonCharms);
+            OnHeroDeployed?.Invoke();
+        }
         public int ActiveAllyCount
         {
             get
@@ -85,6 +120,17 @@ namespace WorldOfThePack.Game
             }
         }
         public int MaxAllies => maxAllies;
+        public string GameOverReason { get; private set; } = "";
+
+        public void LogCombatMetrics()
+        {
+            var wm = WaveManager.Instance;
+            int spawns = CombatArt.CombatSpriteProjectile.SpawnedCount;
+            int impacts = CombatArt.CombatSpriteProjectile.ImpactCount;
+            string txt = $"WAVE: {wm?.CurrentWaveIndex} ({wm?.CurrentWaveName}) | KILLS: {TotalKills} | PROJ: spawns={spawns}, impacts={impacts} | ALPHA: {alphaLeader?.CurrentHealth}/{alphaLeader?.MaxHealth} | ALLIES: {activeAllies.Count}";
+            System.IO.File.WriteAllText("B:/temp_combat_metrics.txt", txt);
+            Debug.Log($"[COMBAT_METRICS] {txt}");
+        }
 
         public event Action<float, float> OnPackHealthChanged;
         public event Action<float, float> OnEnergyChanged;
@@ -104,6 +150,7 @@ namespace WorldOfThePack.Game
 
             Application.runInBackground = true;
             deckManager = GetComponent<CardDeckManager>();
+            if (GetComponent<ArenaDirector>() == null) gameObject.AddComponent<ArenaDirector>();
         }
 
         private void OnDestroy()
@@ -121,7 +168,11 @@ namespace WorldOfThePack.Game
         private void Update()
         {
             if (CurrentState != GameState.Playing) return;
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing) return;
+            if (IsDecisionPending) return;
 
+            if (CampManager.Instance != null && CampManager.Instance.IsAtCamp) return;
+            RunSeconds += Time.deltaTime;
             // Shared energy regeneration
             float regenMult = CampManager.Instance != null ? CampManager.Instance.EnergyRegenMultiplier : 1.0f;
             currentEnergy = Mathf.Min(maxEnergy, currentEnergy + baseEnergyRegenRate * regenMult * Time.deltaTime);
@@ -146,6 +197,7 @@ namespace WorldOfThePack.Game
         {
             CurrentState = GameState.Playing;
             Time.timeScale = 1f;
+            ArenaDirector.Instance?.ResetRun();
 
             // Spawn the starting core pack immediately on frame 1
             SpawnStarterPack();
@@ -183,8 +235,8 @@ namespace WorldOfThePack.Game
 
         public void SpawnStarterPack()
         {
-            activeAllies.RemoveAll(h => h == null);
-            if (activeAllies.Count > 0) return;
+            activeAllies.RemoveAll(h => h == null || !h.gameObject.activeInHierarchy);
+            if (alphaLeader != null && alphaLeader.IsAlive) return;
 
             // 1. Spawn Alpha Leader Wolvy at the top / front
             Vector3 alphaPos = FormationController.Instance != null
@@ -194,36 +246,17 @@ namespace WorldOfThePack.Game
             HeroUnit alpha = SpawnHeroUnitById("HeroWolvy", alphaPos, false);
             if (alpha != null)
             {
-                alpha.SetAlpha(true);
+                alpha.SetAlpha(false);
                 alpha.SetAssignedLane(2);
+                if (alphaLeader != null)
+                {
+                    alphaLeader.OnHealthChanged -= OnAlphaHealthChanged;
+                }
                 alphaLeader = alpha;
-                currentPackHealth = alpha.MaxHealth;
+                // Queen health owns the run HUD.
+                currentPackHealth = alpha.CurrentHealth;
                 maxPackHealth = alpha.MaxHealth;
             }
-
-            // 2. Spawn Guardian Tank Bobo beside Wolvy on mid-left
-            Vector3 tankPos = FormationController.Instance != null
-                ? FormationController.Instance.GetSlotWorldPositionByIndex(1)
-                : new Vector3(-0.55f, 0.15f, 0f);
-
-            HeroUnit tank = SpawnHeroUnitById("CaptainBobo", tankPos, false);
-            if (tank != null) tank.SetAssignedLane(1);
-
-            // 3. Spawn Hunter Archer Elva beside Wolvy on mid-right
-            Vector3 hunterPos = FormationController.Instance != null
-                ? FormationController.Instance.GetSlotWorldPositionByIndex(2)
-                : new Vector3(0.55f, 0.15f, 0f);
-
-            HeroUnit hunter = SpawnHeroUnitById("PrincessElva", hunterPos, false);
-            if (hunter != null) hunter.SetAssignedLane(3);
-
-            // 4. Spawn Healer Lulu in back row
-            Vector3 healerPos = FormationController.Instance != null
-                ? FormationController.Instance.GetSlotWorldPositionByIndex(3)
-                : new Vector3(0.0f, -0.40f, 0f);
-
-            HeroUnit healer = SpawnHeroUnitById("FairyLulu", healerPos, false);
-            if (healer != null) healer.SetAssignedLane(2);
 
             OnPackHealthChanged?.Invoke(CurrentPackHealth, MaxPackHealth);
         }
@@ -252,14 +285,13 @@ namespace WorldOfThePack.Game
             currentMorale = Mathf.Min(maxMorale, currentMorale + amount);
             OnMoraleChanged?.Invoke(currentMorale, maxMorale);
 
-            if (currentMorale >= maxMorale)
-            {
-                TriggerWolfInstinct(10f);
-            }
+            // Reaching full morale readies the player's Moonshift command.
         }
 
         public void TriggerWolfInstinct(float duration = 10f)
         {
+            if (CurrentState != GameState.Playing || IsDecisionPending || isWolfInstinctActive ||
+                (CampManager.Instance != null && CampManager.Instance.IsAtCamp)) return;
             isWolfInstinctActive = true;
             wolfInstinctTimer = duration;
 
@@ -297,6 +329,8 @@ namespace WorldOfThePack.Game
 
         public HeroUnit DeployHeroInLane(HeroCardDefinition def, int laneIndex, float energyCost = 0f)
         {
+            if (def == null || CurrentState != GameState.Playing || IsDecisionPending || !CanAfford(def.heroId) ||
+                (CampManager.Instance != null && CampManager.Instance.IsAtCamp)) return null;
             activeAllies.RemoveAll(h => h == null);
             if (activeAllies.Count >= maxAllies) return null;
 
@@ -314,10 +348,13 @@ namespace WorldOfThePack.Game
                 spawnPos = new Vector3(laneX + staggerX, FormationController.Instance.AnchorPosition.y - 0.5f + staggerY, 0f);
             }
 
+            if (ArenaDirector.Instance != null && !ArenaDirector.Instance.TryReserveCell(ref spawnPos, true)) return null;
             HeroUnit unit = SpawnHeroUnitById(def.heroId, spawnPos, false);
             if (unit != null)
             {
                 unit.SetAssignedLane(lane);
+                ArenaDirector.Instance?.RegisterPosition(unit, ArenaDirector.Instance.SnapDeployment(spawnPos));
+                PayForDeployment(def.heroId);
             }
             return unit;
         }
@@ -334,6 +371,8 @@ namespace WorldOfThePack.Game
 
         public HeroUnit DeployHeroAtPosition(HeroCardDefinition def, Vector3 pos)
         {
+            if (def == null || CurrentState != GameState.Playing || IsDecisionPending || !CanAfford(def.heroId) ||
+                (CampManager.Instance != null && CampManager.Instance.IsAtCamp)) return null;
             activeAllies.RemoveAll(h => h == null);
             if (activeAllies.Count >= maxAllies) return null;
 
@@ -346,11 +385,17 @@ namespace WorldOfThePack.Game
             float maxAllowedY = camY + 2.5f;
             float clampedY = Mathf.Clamp(pos.y, minAllowedY, maxAllowedY);
             Vector3 spawnPos = new Vector3(laneX, clampedY, 0f);
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.Phase != ArenaPhase.March) spawnPos = ArenaDirector.Instance.SnapDeployment(pos);
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing && !ArenaDirector.Instance.IsValidCell(pos)) return null;
+            if (TutorialManager.Instance != null && !TutorialManager.Instance.AllowsPlacement(def.heroId,spawnPos)) return null;
+            if (ArenaDirector.Instance != null && !ArenaDirector.Instance.TryReserveCell(ref spawnPos, false)) return null;
 
             HeroUnit unit = SpawnHeroUnitById(def.heroId, spawnPos, false);
             if (unit != null)
             {
                 unit.SetAssignedLane(lane);
+                ArenaDirector.Instance?.RegisterPosition(unit, ArenaDirector.Instance.SnapDeployment(spawnPos));
+                PayForDeployment(def.heroId);
             }
             return unit;
         }
@@ -416,7 +461,7 @@ namespace WorldOfThePack.Game
 
         public void OnAlphaDied(HeroUnit alpha)
         {
-            TriggerGameOver("The Alpha Leader has fallen!");
+            if (ArenaDirector.Instance == null) TriggerGameOver("Wolvy has fallen!");
         }
 
         private void OnHeroDefeated(Combatant c)
@@ -433,6 +478,7 @@ namespace WorldOfThePack.Game
 
         public void DamagePack(float amount)
         {
+            if (ArenaDirector.Instance != null) { ArenaDirector.Instance.Queen.TakeDamage(amount); return; }
             if (alphaLeader != null && alphaLeader.IsAlive)
             {
                 alphaLeader.TakeDamage(amount);
@@ -450,6 +496,7 @@ namespace WorldOfThePack.Game
 
         public void HealPack(float amount)
         {
+            if (ArenaDirector.Instance != null) { ArenaDirector.Instance.Queen.Heal(amount); return; }
             if (alphaLeader != null && alphaLeader.IsAlive)
             {
                 alphaLeader.Heal(amount);
@@ -463,7 +510,12 @@ namespace WorldOfThePack.Game
 
         public void OnEnemyKilled(Combatant enemy, float energyReward)
         {
+            if (CurrentState != GameState.Playing) return;
             TotalKills++;
+            int wave = WaveManager.Instance != null ? WaveManager.Instance.CurrentWaveIndex : 0;
+            int charmReward = enemy is BossUnit ? 6 : wave < 3 ? 2 : 1;
+            float routeMultiplier = WorldOfThePack.Expedition.TrailDecisionDirector.Instance != null ? WorldOfThePack.Expedition.TrailDecisionDirector.Instance.CharmMultiplier : 1;
+            AddCharms(Mathf.CeilToInt(charmReward * routeMultiplier));
             float scoreMult = CampManager.Instance != null ? CampManager.Instance.ScoreMultiplier : 1.0f;
             Score += Mathf.RoundToInt(energyReward * 10f * scoreMult);
             OnScoreChanged?.Invoke(Score);
@@ -471,7 +523,7 @@ namespace WorldOfThePack.Game
             // Reward shared energy, morale, and distribute independent energy to cards!
             AddEnergy(1.5f);
             AddMorale(10f);
-            FindFirstObjectByType<CardDeckManager>()?.DistributeEnergy(energyReward > 0 ? energyReward : 20f);
+            if (deckManager != null) deckManager.DistributeEnergy(energyReward > 0 ? energyReward : 20f);
 
             // Spawn radiant energy orbs arcing down towards the card hand
             Vector3 targetBottom = Camera.main != null ? Camera.main.transform.position + Vector3.down * 4.0f : enemy.Position + Vector3.down * 3f;
@@ -511,25 +563,83 @@ namespace WorldOfThePack.Game
         public void RestartGame()
         {
             Time.timeScale = 1f;
-
-            foreach (var hero in activeAllies)
+            CurrentState = GameState.Intro;
+            IsDecisionPending = false;
+            DamagePopupManager.Instance.ClearPopups();
+            CombatVFXPool.Instance.ClearForRun();
+            foreach (var pulse in FindObjectsByType<WorldOfThePack.Expedition.PackImpactPulse>(FindObjectsSortMode.None)) Destroy(pulse.gameObject);
+            foreach (var marker in FindObjectsByType<TelegraphIndicator>(FindObjectsSortMode.None)) Destroy(marker.gameObject);
+            foreach (var orb in FindObjectsByType<WorldOfThePack.VFX.EnergyOrbVFX>(FindObjectsSortMode.None)) Destroy(orb.gameObject);
+            foreach (var projectile in FindObjectsByType<Projectile>(FindObjectsSortMode.None)) Destroy(projectile.gameObject);
+            if (WaveManager.Instance != null) WaveManager.Instance.StopForReset();
+            foreach (var boss in FindObjectsByType<BossUnit>(FindObjectsSortMode.None))
             {
-                if (hero != null) Destroy(hero.gameObject);
+                boss.gameObject.SetActive(false);
+                Destroy(boss.gameObject);
+            }
+            foreach (var effect in FindObjectsByType<CombatArt.AttackSpriteEffect>(FindObjectsSortMode.None))
+                Destroy(effect.gameObject);
+            if (StoryCampaignDirector.Instance != null) StoryCampaignDirector.Instance.ResetRun();
+
+            HeroUnit[] allHeroes = FindObjectsByType<HeroUnit>(FindObjectsSortMode.None);
+            foreach (var hero in allHeroes)
+            {
+                if (hero != null && hero.gameObject != null)
+                {
+                    hero.OnDefeated -= OnHeroDefeated;
+                    hero.gameObject.SetActive(false);
+                    Destroy(hero.gameObject);
+                }
             }
             activeAllies.Clear();
 
             EnemyUnit[] enemies = FindObjectsByType<EnemyUnit>(FindObjectsSortMode.None);
             foreach (var e in enemies)
             {
-                if (e != null) Destroy(e.gameObject);
+                if (e != null && e.gameObject != null)
+                {
+                    e.gameObject.SetActive(false);
+                    Destroy(e.gameObject);
+                }
+            }
+
+            var projectiles = FindObjectsByType<WorldOfThePack.CombatArt.CombatSpriteProjectile>(FindObjectsSortMode.None);
+            foreach (var p in projectiles)
+            {
+                if (p != null && p.gameObject != null)
+                {
+                    p.gameObject.SetActive(false);
+                    Destroy(p.gameObject);
+                }
             }
 
             TotalKills = 0;
             Score = 0;
+            MoonCharms = 24;
+            RunSeconds = 0;
+            OnCharmsChanged?.Invoke(MoonCharms);
+            if (alphaLeader != null)
+            {
+                alphaLeader.OnHealthChanged -= OnAlphaHealthChanged;
+            }
             alphaLeader = null;
             currentEnergy = 5f;
             currentMorale = 0f;
             isWolfInstinctActive = false;
+            Time.timeScale = 1.0f;
+            GameOverReason = "";
+
+            if (FormationController.Instance != null)
+            {
+                FormationController.Instance.ResetFormationSlots();
+            }
+
+            if (FormationController.Instance != null)
+                FormationController.Instance.SetAnchorPosition(new Vector3(0f, 0.4f, 0f));
+            if (CampManager.Instance != null)
+            {
+                CampManager.Instance.ResetCampState();
+            }
 
             // 1. Reset World Biome Generator so the background tiles are placed seamlessly without gaps
             if (WorldBiomeGenerator.Instance != null)
@@ -554,7 +664,7 @@ namespace WorldOfThePack.Game
             WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
             if (wm != null)
             {
-                wm.JumpToWave(0);
+                wm.StopForReset();
             }
 
             // 5. Reset Card Hand Tray
@@ -566,11 +676,24 @@ namespace WorldOfThePack.Game
             StartGame();
         }
 
-        public void TriggerGameOver(string reason = "Defeat")
+        public void TriggerGameOver(string reason = "Wolvy has fallen!")
         {
             if (CurrentState == GameState.GameOver) return;
+            GameOverReason = reason;
             CurrentState = GameState.GameOver;
-            Time.timeScale = 0.4f;
+            Time.timeScale = 0f;
+
+            // Stop waves and pause enemy movement/combat behind the defeat screen
+            WaveManager wm = WaveManager.Instance != null ? WaveManager.Instance : GetComponent<WaveManager>();
+            if (wm != null)
+            {
+                wm.PauseForCamp();
+            }
+            EnemyUnit[] activeEnemies = FindObjectsByType<EnemyUnit>(FindObjectsSortMode.None);
+            foreach (var enemy in activeEnemies)
+            {
+                if (enemy != null) enemy.enabled = false;
+            }
 
             GameHUDController hud = FindFirstObjectByType<GameHUDController>();
             if (hud != null) hud.ShowBanner(reason.ToUpper(), 3.5f);

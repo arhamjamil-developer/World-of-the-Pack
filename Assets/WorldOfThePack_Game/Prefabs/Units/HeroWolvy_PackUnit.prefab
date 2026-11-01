@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5894803568038670452}
   - component: {fileID: 1941429718452944079}
+  - component: {fileID: 5884222863648884630}
+  - component: {fileID: 8258411743813108375}
   m_Layer: 0
   m_Name: HeroWolvy_PackUnit
   m_TagString: Untagged
@@ -69,6 +71,41 @@ MonoBehaviour:
   agroRadius: 3.5
   maxChaseDistance: 2.4
   wolfSurgeDuration: 20
+  followDamping: 0.15
+--- !u!114 &5884222863648884630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183734288844621493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94c788c441c621498c890ced91beba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.CombatArt.UnitAttackPresentation
+  _profile: {fileID: 11400000, guid: 50154cf3ab330ab49b7efac51aa948d7, type: 2}
+  _slashFrames:
+  - {fileID: 1979058251007902988, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -5192981637456959579, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -7535827805478365300, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -898778843444915370, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 4758971716181183180, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 5362855983000165166, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 4304829500287747826, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 3161793923172642494, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+--- !u!114 &8258411743813108375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2183734288844621493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddda60860d68c4347b134d2ee8f09430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Expedition.PackUnitMotion
 --- !u!1001 &4573368283376977572
 PrefabInstance:
   m_ObjectHideFlags: 0

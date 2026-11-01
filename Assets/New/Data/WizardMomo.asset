@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: WizardMomo
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: WizardMomo
+  displayName: Wizard Momo
+  shortName: MOMO
+  humanPortrait: {fileID: -1100317812199566358, guid: 04c0e2440f34b3c4abf51a68f2212faf, type: 3}
+  wolfPortrait: {fileID: 3010782856570604488, guid: dc44360851538194f8a644f28cf3791e, type: 3}
+  idleSprite: {fileID: 775161295, guid: 76a7ad0c3668254458fe5e8018a31a3c, type: 3}
+  wolfIdleSprite: {fileID: 273327083, guid: 3197e758bbaf33b4cb4049d8c86476a6, type: 3}
+  accent: {r: 0.6666667, g: 0.4862745, b: 0.92156863, a: 1}
+  maximumEnergy: 100

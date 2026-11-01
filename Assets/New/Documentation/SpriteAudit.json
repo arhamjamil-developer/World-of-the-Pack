@@ -1,0 +1,1975 @@
+{
+  "auditDateLocal": "2026-11-01",
+  "scope": "Disk inventory and alpha/nonempty-cell checks only. Does not prove animation registration, visual continuity, gameplay integration or iOS readiness.",
+  "pngCount": 15,
+  "expectedBodyFrames": 156,
+  "records": [
+    {
+      "path": "Assets/New/Combat/Art/CaptainBobo_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.296,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 39849,
+          "alphaBoundsInCell": [
+            64,
+            69,
+            302,
+            313
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 40394,
+          "alphaBoundsInCell": [
+            55,
+            88,
+            320,
+            319
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 41322,
+          "alphaBoundsInCell": [
+            65,
+            65,
+            319,
+            322
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 40390,
+          "alphaBoundsInCell": [
+            44,
+            43,
+            301,
+            330
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 37448,
+          "alphaBoundsInCell": [
+            54,
+            74,
+            304,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 39694,
+          "alphaBoundsInCell": [
+            65,
+            69,
+            300,
+            313
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 40288,
+          "alphaBoundsInCell": [
+            67,
+            42,
+            304,
+            304
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 44604,
+          "alphaBoundsInCell": [
+            54,
+            50,
+            313,
+            313
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 42110,
+          "alphaBoundsInCell": [
+            70,
+            35,
+            322,
+            306
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 41063,
+          "alphaBoundsInCell": [
+            70,
+            23,
+            298,
+            308
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 40345,
+          "alphaBoundsInCell": [
+            54,
+            54,
+            305,
+            316
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 40128,
+          "alphaBoundsInCell": [
+            67,
+            42,
+            302,
+            304
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/FairyLulu_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2504,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 35002,
+          "alphaBoundsInCell": [
+            74,
+            97,
+            316,
+            337
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 34183,
+          "alphaBoundsInCell": [
+            68,
+            110,
+            312,
+            350
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 35965,
+          "alphaBoundsInCell": [
+            57,
+            85,
+            306,
+            353
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 41114,
+          "alphaBoundsInCell": [
+            60,
+            49,
+            353,
+            353
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 35670,
+          "alphaBoundsInCell": [
+            72,
+            95,
+            330,
+            354
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 34235,
+          "alphaBoundsInCell": [
+            62,
+            103,
+            305,
+            337
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 32970,
+          "alphaBoundsInCell": [
+            72,
+            79,
+            314,
+            301
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 34632,
+          "alphaBoundsInCell": [
+            64,
+            78,
+            318,
+            303
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 36582,
+          "alphaBoundsInCell": [
+            55,
+            55,
+            321,
+            303
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 39935,
+          "alphaBoundsInCell": [
+            63,
+            26,
+            361,
+            307
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 33631,
+          "alphaBoundsInCell": [
+            74,
+            79,
+            332,
+            303
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 33411,
+          "alphaBoundsInCell": [
+            60,
+            79,
+            304,
+            304
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/HeroWolvy_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2479,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 30942,
+          "alphaBoundsInCell": [
+            56,
+            80,
+            286,
+            317
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 35552,
+          "alphaBoundsInCell": [
+            44,
+            78,
+            313,
+            334
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 34460,
+          "alphaBoundsInCell": [
+            68,
+            45,
+            277,
+            335
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 36875,
+          "alphaBoundsInCell": [
+            24,
+            50,
+            353,
+            335
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 34840,
+          "alphaBoundsInCell": [
+            52,
+            93,
+            361,
+            335
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 31090,
+          "alphaBoundsInCell": [
+            0,
+            81,
+            310,
+            318
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 32347,
+          "alphaBoundsInCell": [
+            50,
+            76,
+            287,
+            305
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 34163,
+          "alphaBoundsInCell": [
+            62,
+            70,
+            308,
+            316
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 35025,
+          "alphaBoundsInCell": [
+            59,
+            39,
+            273,
+            320
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 39049,
+          "alphaBoundsInCell": [
+            24,
+            40,
+            361,
+            323
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 38159,
+          "alphaBoundsInCell": [
+            0,
+            40,
+            361,
+            323
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 32821,
+          "alphaBoundsInCell": [
+            0,
+            76,
+            310,
+            305
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/PrincessElva_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2961,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 38731,
+          "alphaBoundsInCell": [
+            62,
+            78,
+            308,
+            347
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 41883,
+          "alphaBoundsInCell": [
+            63,
+            41,
+            315,
+            349
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 42180,
+          "alphaBoundsInCell": [
+            58,
+            24,
+            301,
+            348
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 42535,
+          "alphaBoundsInCell": [
+            58,
+            31,
+            327,
+            348
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 44076,
+          "alphaBoundsInCell": [
+            66,
+            33,
+            316,
+            349
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 39029,
+          "alphaBoundsInCell": [
+            68,
+            78,
+            313,
+            348
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 39880,
+          "alphaBoundsInCell": [
+            59,
+            71,
+            302,
+            325
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 42497,
+          "alphaBoundsInCell": [
+            63,
+            33,
+            321,
+            328
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 42228,
+          "alphaBoundsInCell": [
+            52,
+            15,
+            305,
+            320
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 42915,
+          "alphaBoundsInCell": [
+            52,
+            25,
+            323,
+            328
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 43363,
+          "alphaBoundsInCell": [
+            64,
+            41,
+            316,
+            330
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 39807,
+          "alphaBoundsInCell": [
+            67,
+            71,
+            311,
+            325
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/Projectiles/ElvaArrow.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2192,
+      "columns": 1,
+      "rows": 1,
+      "expectedFrames": 1,
+      "nonemptyFrames": 1,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 355280,
+          "alphaBoundsInCell": [
+            7,
+            133,
+            2163,
+            591
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/Projectiles/LuluMoonOrb.png",
+      "width": 1324,
+      "height": 1188,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.4811,
+      "columns": 1,
+      "rows": 1,
+      "expectedFrames": 1,
+      "nonemptyFrames": 1,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 760796,
+          "alphaBoundsInCell": [
+            163,
+            109,
+            1157,
+            1085
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/Projectiles/MomoStarBolt.png",
+      "width": 1402,
+      "height": 1122,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.3711,
+      "columns": 1,
+      "rows": 1,
+      "expectedFrames": 1,
+      "nonemptyFrames": 1,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 592559,
+          "alphaBoundsInCell": [
+            245,
+            81,
+            1176,
+            1011
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/Projectiles/TillyGearBolt.png",
+      "width": 1536,
+      "height": 1024,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.3604,
+      "columns": 1,
+      "rows": 1,
+      "expectedFrames": 1,
+      "nonemptyFrames": 1,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 571921,
+          "alphaBoundsInCell": [
+            68,
+            144,
+            1484,
+            859
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/ScoutPip_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2596,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 34585,
+          "alphaBoundsInCell": [
+            61,
+            61,
+            300,
+            336
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 34432,
+          "alphaBoundsInCell": [
+            41,
+            100,
+            347,
+            341
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 34125,
+          "alphaBoundsInCell": [
+            84,
+            66,
+            303,
+            345
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 36546,
+          "alphaBoundsInCell": [
+            56,
+            70,
+            361,
+            345
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 35446,
+          "alphaBoundsInCell": [
+            0,
+            78,
+            322,
+            344
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 34607,
+          "alphaBoundsInCell": [
+            65,
+            61,
+            304,
+            336
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 37351,
+          "alphaBoundsInCell": [
+            62,
+            30,
+            312,
+            286
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 38402,
+          "alphaBoundsInCell": [
+            56,
+            55,
+            361,
+            294
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 36750,
+          "alphaBoundsInCell": [
+            0,
+            32,
+            310,
+            294
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 38697,
+          "alphaBoundsInCell": [
+            57,
+            34,
+            361,
+            296
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 37667,
+          "alphaBoundsInCell": [
+            0,
+            43,
+            325,
+            294
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 37087,
+          "alphaBoundsInCell": [
+            68,
+            30,
+            314,
+            287
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/TinkerTilly_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2583,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 35339,
+          "alphaBoundsInCell": [
+            100,
+            81,
+            325,
+            327
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 37298,
+          "alphaBoundsInCell": [
+            84,
+            85,
+            344,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 35323,
+          "alphaBoundsInCell": [
+            58,
+            73,
+            307,
+            331
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 35885,
+          "alphaBoundsInCell": [
+            36,
+            37,
+            312,
+            338
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 34568,
+          "alphaBoundsInCell": [
+            41,
+            92,
+            273,
+            338
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 35618,
+          "alphaBoundsInCell": [
+            47,
+            81,
+            273,
+            327
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 34533,
+          "alphaBoundsInCell": [
+            106,
+            45,
+            294,
+            300
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 38408,
+          "alphaBoundsInCell": [
+            89,
+            40,
+            328,
+            292
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 37302,
+          "alphaBoundsInCell": [
+            83,
+            43,
+            304,
+            295
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 38664,
+          "alphaBoundsInCell": [
+            68,
+            10,
+            315,
+            299
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 37269,
+          "alphaBoundsInCell": [
+            70,
+            44,
+            282,
+            303
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 33540,
+          "alphaBoundsInCell": [
+            63,
+            48,
+            247,
+            298
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Combat/Art/WizardMomo_Attack_North.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.2761,
+      "columns": 6,
+      "rows": 2,
+      "expectedFrames": 12,
+      "nonemptyFrames": 12,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 34510,
+          "alphaBoundsInCell": [
+            76,
+            64,
+            304,
+            312
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 38607,
+          "alphaBoundsInCell": [
+            65,
+            80,
+            343,
+            315
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 38091,
+          "alphaBoundsInCell": [
+            86,
+            68,
+            322,
+            318
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 42010,
+          "alphaBoundsInCell": [
+            87,
+            27,
+            344,
+            321
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 38613,
+          "alphaBoundsInCell": [
+            80,
+            80,
+            347,
+            318
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 34588,
+          "alphaBoundsInCell": [
+            77,
+            64,
+            306,
+            312
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 40428,
+          "alphaBoundsInCell": [
+            79,
+            41,
+            303,
+            298
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 43474,
+          "alphaBoundsInCell": [
+            84,
+            53,
+            348,
+            302
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 41223,
+          "alphaBoundsInCell": [
+            81,
+            39,
+            307,
+            299
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 42876,
+          "alphaBoundsInCell": [
+            80,
+            6,
+            322,
+            300
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 44635,
+          "alphaBoundsInCell": [
+            81,
+            47,
+            339,
+            302
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 40028,
+          "alphaBoundsInCell": [
+            88,
+            43,
+            311,
+            299
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Enemy/Art/Elsa_South.png",
+      "width": 1536,
+      "height": 1024,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.413,
+      "columns": 6,
+      "rows": 4,
+      "expectedFrames": 24,
+      "nonemptyFrames": 24,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 30872,
+          "alphaBoundsInCell": [
+            30,
+            11,
+            236,
+            249
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 32225,
+          "alphaBoundsInCell": [
+            27,
+            10,
+            234,
+            250
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 31648,
+          "alphaBoundsInCell": [
+            32,
+            6,
+            231,
+            249
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 32663,
+          "alphaBoundsInCell": [
+            24,
+            9,
+            230,
+            249
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 32700,
+          "alphaBoundsInCell": [
+            21,
+            10,
+            229,
+            249
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 32808,
+          "alphaBoundsInCell": [
+            23,
+            11,
+            229,
+            250
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 28268,
+          "alphaBoundsInCell": [
+            29,
+            9,
+            227,
+            247
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 28176,
+          "alphaBoundsInCell": [
+            25,
+            9,
+            224,
+            247
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 28776,
+          "alphaBoundsInCell": [
+            21,
+            8,
+            217,
+            248
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 28968,
+          "alphaBoundsInCell": [
+            12,
+            10,
+            224,
+            248
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 29593,
+          "alphaBoundsInCell": [
+            22,
+            9,
+            225,
+            248
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 29138,
+          "alphaBoundsInCell": [
+            30,
+            9,
+            224,
+            248
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "visiblePixels": 31729,
+          "alphaBoundsInCell": [
+            32,
+            6,
+            235,
+            242
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "visiblePixels": 32755,
+          "alphaBoundsInCell": [
+            28,
+            8,
+            254,
+            244
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "visiblePixels": 31839,
+          "alphaBoundsInCell": [
+            10,
+            7,
+            255,
+            245
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "visiblePixels": 39901,
+          "alphaBoundsInCell": [
+            0,
+            7,
+            255,
+            249
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "visiblePixels": 33646,
+          "alphaBoundsInCell": [
+            0,
+            3,
+            239,
+            250
+          ]
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "visiblePixels": 31578,
+          "alphaBoundsInCell": [
+            26,
+            6,
+            228,
+            245
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "visiblePixels": 31948,
+          "alphaBoundsInCell": [
+            26,
+            5,
+            244,
+            233
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "visiblePixels": 28382,
+          "alphaBoundsInCell": [
+            26,
+            22,
+            246,
+            228
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "visiblePixels": 25242,
+          "alphaBoundsInCell": [
+            12,
+            28,
+            255,
+            218
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "visiblePixels": 24700,
+          "alphaBoundsInCell": [
+            0,
+            68,
+            255,
+            222
+          ]
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "visiblePixels": 23663,
+          "alphaBoundsInCell": [
+            0,
+            86,
+            255,
+            225
+          ]
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "visiblePixels": 23516,
+          "alphaBoundsInCell": [
+            0,
+            92,
+            241,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Enemy/Art/Rudra_South.png",
+      "width": 1536,
+      "height": 1024,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.4454,
+      "columns": 6,
+      "rows": 4,
+      "expectedFrames": 24,
+      "nonemptyFrames": 24,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 34505,
+          "alphaBoundsInCell": [
+            9,
+            14,
+            246,
+            253
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 34436,
+          "alphaBoundsInCell": [
+            18,
+            13,
+            255,
+            253
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 34296,
+          "alphaBoundsInCell": [
+            21,
+            12,
+            252,
+            254
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 34288,
+          "alphaBoundsInCell": [
+            19,
+            16,
+            254,
+            250
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 33496,
+          "alphaBoundsInCell": [
+            18,
+            16,
+            253,
+            254
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 32697,
+          "alphaBoundsInCell": [
+            20,
+            16,
+            244,
+            254
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 29526,
+          "alphaBoundsInCell": [
+            18,
+            15,
+            233,
+            255
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 28977,
+          "alphaBoundsInCell": [
+            21,
+            17,
+            232,
+            255
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 29367,
+          "alphaBoundsInCell": [
+            22,
+            14,
+            237,
+            255
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 29919,
+          "alphaBoundsInCell": [
+            22,
+            10,
+            242,
+            254
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 28911,
+          "alphaBoundsInCell": [
+            39,
+            13,
+            248,
+            254
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 28724,
+          "alphaBoundsInCell": [
+            27,
+            15,
+            234,
+            254
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "visiblePixels": 31135,
+          "alphaBoundsInCell": [
+            17,
+            32,
+            241,
+            248
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "visiblePixels": 32730,
+          "alphaBoundsInCell": [
+            17,
+            23,
+            255,
+            253
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "visiblePixels": 37268,
+          "alphaBoundsInCell": [
+            0,
+            0,
+            244,
+            251
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "visiblePixels": 41811,
+          "alphaBoundsInCell": [
+            4,
+            30,
+            255,
+            251
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "visiblePixels": 32091,
+          "alphaBoundsInCell": [
+            0,
+            18,
+            246,
+            246
+          ]
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "visiblePixels": 31485,
+          "alphaBoundsInCell": [
+            16,
+            27,
+            240,
+            254
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "visiblePixels": 31974,
+          "alphaBoundsInCell": [
+            10,
+            6,
+            255,
+            236
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "visiblePixels": 32328,
+          "alphaBoundsInCell": [
+            0,
+            12,
+            255,
+            235
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "visiblePixels": 24258,
+          "alphaBoundsInCell": [
+            0,
+            58,
+            235,
+            231
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "visiblePixels": 26148,
+          "alphaBoundsInCell": [
+            12,
+            84,
+            255,
+            236
+          ]
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "visiblePixels": 22388,
+          "alphaBoundsInCell": [
+            0,
+            108,
+            255,
+            240
+          ]
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "visiblePixels": 20256,
+          "alphaBoundsInCell": [
+            12,
+            126,
+            247,
+            237
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Enemy/Art/Soldier_South.png",
+      "width": 1536,
+      "height": 1024,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.3338,
+      "columns": 6,
+      "rows": 4,
+      "expectedFrames": 24,
+      "nonemptyFrames": 24,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 23596,
+          "alphaBoundsInCell": [
+            46,
+            19,
+            238,
+            236
+          ]
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "visiblePixels": 22934,
+          "alphaBoundsInCell": [
+            41,
+            24,
+            234,
+            237
+          ]
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "visiblePixels": 23047,
+          "alphaBoundsInCell": [
+            41,
+            20,
+            226,
+            236
+          ]
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "visiblePixels": 22907,
+          "alphaBoundsInCell": [
+            37,
+            21,
+            222,
+            238
+          ]
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "visiblePixels": 22740,
+          "alphaBoundsInCell": [
+            32,
+            23,
+            219,
+            237
+          ]
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "visiblePixels": 23480,
+          "alphaBoundsInCell": [
+            28,
+            19,
+            214,
+            236
+          ]
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "visiblePixels": 22987,
+          "alphaBoundsInCell": [
+            53,
+            15,
+            239,
+            231
+          ]
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "visiblePixels": 22597,
+          "alphaBoundsInCell": [
+            39,
+            11,
+            234,
+            231
+          ]
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "visiblePixels": 23023,
+          "alphaBoundsInCell": [
+            37,
+            11,
+            228,
+            229
+          ]
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "visiblePixels": 22807,
+          "alphaBoundsInCell": [
+            30,
+            11,
+            218,
+            233
+          ]
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "visiblePixels": 22472,
+          "alphaBoundsInCell": [
+            30,
+            15,
+            217,
+            235
+          ]
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "visiblePixels": 22969,
+          "alphaBoundsInCell": [
+            29,
+            15,
+            216,
+            232
+          ]
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "visiblePixels": 24231,
+          "alphaBoundsInCell": [
+            49,
+            12,
+            253,
+            225
+          ]
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "visiblePixels": 24737,
+          "alphaBoundsInCell": [
+            48,
+            1,
+            240,
+            223
+          ]
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "visiblePixels": 30213,
+          "alphaBoundsInCell": [
+            21,
+            14,
+            243,
+            228
+          ]
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "visiblePixels": 36211,
+          "alphaBoundsInCell": [
+            5,
+            32,
+            247,
+            242
+          ]
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "visiblePixels": 26287,
+          "alphaBoundsInCell": [
+            23,
+            14,
+            254,
+            228
+          ]
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "visiblePixels": 22991,
+          "alphaBoundsInCell": [
+            28,
+            14,
+            220,
+            232
+          ]
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "visiblePixels": 26148,
+          "alphaBoundsInCell": [
+            31,
+            9,
+            255,
+            195
+          ]
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "visiblePixels": 24636,
+          "alphaBoundsInCell": [
+            0,
+            17,
+            255,
+            196
+          ]
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "visiblePixels": 23071,
+          "alphaBoundsInCell": [
+            0,
+            16,
+            250,
+            192
+          ]
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "visiblePixels": 21450,
+          "alphaBoundsInCell": [
+            3,
+            44,
+            255,
+            200
+          ]
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "visiblePixels": 17626,
+          "alphaBoundsInCell": [
+            0,
+            87,
+            237,
+            206
+          ]
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "visiblePixels": 17634,
+          "alphaBoundsInCell": [
+            3,
+            93,
+            240,
+            204
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Assets/New/Enemy/Projectiles/ElsaArrow.png",
+      "width": 2172,
+      "height": 724,
+      "hasTransparentPixels": true,
+      "opaqueFraction": 0.1892,
+      "columns": 1,
+      "rows": 1,
+      "expectedFrames": 1,
+      "nonemptyFrames": 1,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "visiblePixels": 304660,
+          "alphaBoundsInCell": [
+            19,
+            175,
+            2152,
+            545
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSceneDuplicateObjectIds": []
+}

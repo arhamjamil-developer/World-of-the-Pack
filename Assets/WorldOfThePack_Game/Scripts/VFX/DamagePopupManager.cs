@@ -25,20 +25,27 @@ namespace WorldOfThePack.Game
         {
             if (instance == this) instance = null;
         }
+        public void ClearPopups()
+        {
+            StopAllCoroutines();
+            foreach (Transform child in transform) Destroy(child.gameObject);
+        }
 
         public static void ShowPopup(Vector3 worldPos, float amount, bool isEnemyHit, bool isHeal = false)
         {
+            if (amount <= 0) return;
             Instance.CreatePopup(worldPos, amount, isEnemyHit, isHeal);
         }
 
         private void CreatePopup(Vector3 worldPos, float amount, bool isEnemyHit, bool isHeal)
         {
             GameObject go = new GameObject("DamagePopup");
+            go.transform.SetParent(transform, true);
             go.transform.position = worldPos + new Vector3(Random.Range(-0.25f, 0.25f), Random.Range(0f, 0.2f), 0f);
 
             TextMeshPro tmp = go.AddComponent<TextMeshPro>();
             tmp.alignment = TextAlignmentOptions.Center;
-            tmp.fontSize = isHeal ? 4.5f : isEnemyHit ? 5.2f : 4.2f;
+            tmp.fontSize = isHeal ? 2.2f : isEnemyHit ? 2.5f : 2.2f;
             tmp.sortingOrder = 1500;
 
             if (isHeal)
@@ -62,10 +69,10 @@ namespace WorldOfThePack.Game
 
         private IEnumerator AnimatePopup(GameObject go, TextMeshPro tmp)
         {
-            float duration = 0.75f;
+            float duration = 0.6f;
             float elapsed = 0f;
             Vector3 startPos = go.transform.position;
-            Vector3 targetPos = startPos + Vector3.up * 1.1f;
+            Vector3 targetPos = startPos + Vector3.up * .45f;
             Color startColor = tmp.color;
 
             while (elapsed < duration)

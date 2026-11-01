@@ -60,11 +60,14 @@ namespace WorldOfThePack.Game
         private float currentForwardSpeed;
         private float targetAnchorX = 0f;
         private int currentFormationIndex = 0;
+        private UnityEngine.EventSystems.PointerEventData uiPointer;
+        private readonly List<UnityEngine.EventSystems.RaycastResult> uiHits = new List<UnityEngine.EventSystems.RaycastResult>();
 
         public Vector3 AnchorPosition => anchorPosition;
         public bool IsMarching => isMarching;
         public float CurrentSpeed => currentForwardSpeed;
         public int CurrentFormationIndex => currentFormationIndex;
+        public string FormationName => currentFormationIndex == 1 ? "GUARD" : currentFormationIndex == 2 ? "FOCUS" : "MARCH";
 
         public event Action<FormationSlot, HeroUnit> OnHeroAssignedToSlot;
         public event Action<FormationSlot> OnSlotVacated;
@@ -84,6 +87,9 @@ namespace WorldOfThePack.Game
 
         private void Update()
         {
+            if (GameDirector.Instance != null && GameDirector.Instance.CurrentState != GameState.Playing) return;
+            if (GameDirector.Instance != null && GameDirector.Instance.IsDecisionPending) return;
+            if (CampManager.Instance != null && CampManager.Instance.IsAtCamp) return;
             if (isMarching)
             {
                 HandleTouchProgression();
@@ -114,6 +120,16 @@ namespace WorldOfThePack.Game
             }
 
             float speedGoal = idleCrawlSpeed;
+            var eventSystem = UnityEngine.EventSystems.EventSystem.current;
+            if (isTouching && eventSystem != null)
+            {
+                if (uiPointer == null) uiPointer = new UnityEngine.EventSystems.PointerEventData(eventSystem);
+                uiPointer.position = touchScreenPos;
+                uiHits.Clear();
+                eventSystem.RaycastAll(uiPointer, uiHits);
+                if (uiHits.Count > 0) isTouching = false;
+            }
+            if (isTouching && Camera.main != null && !Camera.main.pixelRect.Contains(touchScreenPos)) isTouching = false;
 
             if (isTouching && Camera.main != null)
             {
@@ -220,6 +236,18 @@ namespace WorldOfThePack.Game
                         break;
                 }
             }
+        }
+
+        public void ResetFormationSlots()
+        {
+            if (slots == null) return;
+            foreach (var s in slots)
+            {
+                s.assignedHero = null;
+            }
+            currentFormationIndex = 0;
+            currentForwardSpeed = 0;
+            InitializeFormationSlots();
         }
 
         private void InitializeFormationSlots()

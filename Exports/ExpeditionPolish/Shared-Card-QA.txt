@@ -1,0 +1,3 @@
+Seven variants inherit changed font and CardFace size: True
+Nested card deploy through EventSystem hit: True; hit=DeployOrCharging
+Phone page-dot EventSystem click reaches page 5: True

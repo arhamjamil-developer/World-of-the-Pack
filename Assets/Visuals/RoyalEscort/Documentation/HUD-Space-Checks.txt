@@ -1,0 +1,12 @@
+Passed
+PASS: Both panels initialize with valid visible groups
+PASS: Upper handle hides only the upper HUD
+PASS: Hidden upper panel has a readable Show HUD label
+PASS: Pause remains available while upper HUD is hidden
+PASS: Resume works with hidden upper HUD
+PASS: Upper handle restores the HUD
+PASS: Hiding cards clears selection and disables hidden input
+PASS: Collapsed lower handle stays at the screen edge with Show cards
+PASS: Cards can be restored independently
+PASS: Card Inspector definitions remain unchanged
+PASS: Visible text fits the restored full view

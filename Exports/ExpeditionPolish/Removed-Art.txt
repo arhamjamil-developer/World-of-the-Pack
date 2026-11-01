@@ -1,0 +1,20 @@
+Assets/Characters/Enemies/Archer_Test.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_BossBar.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_BrambleBrute.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Card1.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_DeployRing.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Dots.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_EnemyArcher.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_EnemyPriest.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_EnemySoldier1.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_EnemySoldier2.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Formation.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Hearts.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Moonshift.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_NextCamp 1.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_NextCamp.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Pause.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Title.png
+Assets/UI/WorldOfThePack/Art/Controls/Test_Wave.png
+Assets/VFX/WorldOfThePack/Art/Telegraph_OrangeSlam1_2s.png
+Assets/VFX/WorldOfThePack/Art/VFX_GoldenMoonSlash.png

@@ -1,0 +1,82 @@
+[
+  {
+    "path": "Assets/Characters/Enemies/Archer_Test.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_BossBar.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_BrambleBrute.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Card1.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_DeployRing.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Dots.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_EnemyArcher.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_EnemyPriest.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_EnemySoldier1.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_EnemySoldier2.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Formation.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Hearts.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Moonshift.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_NextCamp 1.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_NextCamp.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Pause.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Title.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/UI/WorldOfThePack/Art/Controls/Test_Wave.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/VFX/WorldOfThePack/Art/Telegraph_OrangeSlam1_2s.png",
+    "refs": []
+  },
+  {
+    "path": "Assets/VFX/WorldOfThePack/Art/VFX_GoldenMoonSlash.png",
+    "refs": []
+  }
+]

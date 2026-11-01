@@ -67,16 +67,25 @@ namespace WorldOfThePack.UI
         private bool isDragging = false;
         private bool isScrollingParent = false;
         private bool isWolfForm = false;
+        private bool _tacticalSelected;
 
         public float Energy => energy;
+        public TMP_Text charmCostLabel;
         public float CardCost => 100f;
         public int MaximumEnergy => 100;
         public bool IsPending => pending;
         public bool HasActiveHero => deployedHeroes.Exists(h => h != null && h.IsAlive);
         public int ActiveHeroCount => deployedHeroes.FindAll(h => h != null && h.IsAlive).Count;
         public bool HasEnoughEnergy => energy >= 99.5f;
-        public bool IsWolfSurgeReady => HasActiveHero && !locked && !pending && (GameDirector.Instance != null && GameDirector.Instance.IsWolfInstinctActive);
-        public bool IsDeployReady => !locked && !pending && HasEnoughEnergy;
+        // Moonshift is commanded for the whole pack from the toolbar.
+        public bool IsWolfSurgeReady => false;
+        public int CharmPrice => GameDirector.Instance != null && definition != null ? GameDirector.Instance.CharmCost(definition.heroId) : 0;
+        public bool IsDeployReady => !locked && !pending && HasEnoughEnergy && definition != null &&
+            GameDirector.Instance != null && GameDirector.Instance.CurrentState == GameState.Playing &&
+            !GameDirector.Instance.IsDecisionPending &&
+            (TutorialManager.Instance == null || TutorialManager.Instance.AllowsCard(definition.heroId)) &&
+            GameDirector.Instance.CanAfford(definition.heroId) && GameDirector.Instance.ActiveAllyCount < GameDirector.Instance.MaxAllies &&
+            (CampManager.Instance == null || !CampManager.Instance.IsAtCamp);
         public bool IsReady => IsDeployReady || IsWolfSurgeReady;
         public HeroUnit ActiveHero => deployedHeroes.Find(h => h != null && h.IsAlive);
 
@@ -112,6 +121,9 @@ namespace WorldOfThePack.UI
 
         public void Bind(HeroCardDefinition hero, float initialEnergy, bool wolf = false)
         {
+            foreach (var previous in deployedHeroes) if (previous != null) previous.OnDefeated -= OnHeroDefeated;
+            deployedHeroes.Clear();
+            isWolfForm = wolf;
             definition = hero;
             pending = false;
             locked = false;
@@ -176,12 +188,17 @@ namespace WorldOfThePack.UI
             isWolfForm = wolf;
             if (portraitView != null) portraitView.SetForm(wolf);
         }
-        public void SetSelected(bool value) { if (selectionFrame != null) selectionFrame.enabled = value; }
+        public void SetSelected(bool value) { _tacticalSelected=value; if (selectionFrame != null) selectionFrame.enabled = value; }
         public void SetDisplayName(string value) { displayNameOverride = value; Refresh(); }
         public void SetCardAlpha(float a) { if (canvasGroup != null) canvasGroup.alpha = a; }
 
         public void OnPointerDown(PointerEventData eventData)
         {
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing)
+            {
+                ArenaDirector.Instance.SelectCard(this);
+                return;
+            }
             // Tactical lift and preview trigger
             if (IsDeployReady && !isDragging)
             {
@@ -191,11 +208,12 @@ namespace WorldOfThePack.UI
 
         private void OnButtonClicked()
         {
+            if (GameDirector.Instance != null && GameDirector.Instance.CurrentState != GameState.Playing) return;
             if (IsDeployReady)
             {
                 pending = true;
                 deployRequested.Invoke(definition);
-                SetEnergy(0);
+                // The successful spawn calls ConfirmDeployment; a rejected spawn retains its charge.
                 Refresh();
             }
             else if (HasActiveHero && IsWolfSurgeReady)
@@ -264,6 +282,7 @@ namespace WorldOfThePack.UI
 
             isScrollingParent = false;
             isDragging = true;
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing) ArenaDirector.Instance.SelectCard(this);
             originalLocalPos = rectTransform.localPosition;
             rectTransform.localScale = Vector3.one * 1.08f;
 
@@ -323,6 +342,7 @@ namespace WorldOfThePack.UI
             Vector3 worldPos = GetWorldPosition(eventData.position);
             int laneIndex = LaneSystem.GetNearestLaneIndex(worldPos.x);
             worldPos.x = LaneSystem.GetLaneX(laneIndex); // Snap preview to lane
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing) worldPos = ArenaDirector.Instance.SnapDeployment(worldPos);
 
             if (LaneOverlayRenderer.Instance != null)
             {
@@ -426,6 +446,12 @@ namespace WorldOfThePack.UI
 
         private bool IsValidPlacement(Vector3 worldPos)
         {
+            var arena = ArenaDirector.Instance;
+            if (arena != null && arena.IsPreparing)
+            {
+                var cell = arena.SnapDeployment(worldPos);
+                return arena.IsValidCell(worldPos) && (TutorialManager.Instance == null || TutorialManager.Instance.AllowsPlacement(definition.heroId,cell));
+            }
             Camera cam = Camera.main;
             float camY = cam != null ? cam.transform.position.y : 0f;
 
@@ -461,6 +487,14 @@ namespace WorldOfThePack.UI
 
         public void Refresh()
         {
+            bool showWolf = GameDirector.Instance != null && GameDirector.Instance.IsWolfInstinctActive;
+            if (isWolfForm != showWolf) SetForm(showWolf);
+            if (charmCostLabel != null)
+            {
+                charmCostLabel.text = CharmPrice.ToString();
+                charmCostLabel.color = GameDirector.Instance == null || definition == null || GameDirector.Instance.CanAfford(definition.heroId)
+                    ? new Color(.8f, 1f, .92f) : new Color(1f, .55f, .43f);
+            }
             if (nameLabel != null)
             {
                 nameLabel.text = !string.IsNullOrEmpty(displayNameOverride) ? displayNameOverride : definition == null ? "HERO" : definition.shortName;
@@ -476,7 +510,7 @@ namespace WorldOfThePack.UI
             }
             else
             {
-                if (energyLabel != null) energyLabel.text = $"{Mathf.RoundToInt(energy)} / 100";
+                if (energyLabel != null) energyLabel.text = $"{Mathf.RoundToInt(energy)}% CHARGE";
                 if (energyFill != null)
                 {
                     energyFill.type = Image.Type.Filled;
@@ -484,7 +518,7 @@ namespace WorldOfThePack.UI
                     energyFill.fillAmount = Mathf.Clamp01(energy / 100f);
                     if (readyFillSprite != null && chargingFillSprite != null)
                     {
-                        energyFill.sprite = IsReady ? readyFillSprite : chargingFillSprite;
+                        energyFill.sprite = HasEnoughEnergy ? readyFillSprite : chargingFillSprite;
                     }
                 }
             }
@@ -533,7 +567,7 @@ namespace WorldOfThePack.UI
             // Golden radiant border when wolf surge is ready or surging
             if (selectionFrame != null)
             {
-                selectionFrame.enabled = IsWolfSurgeReady || (liveHero != null && liveHero.IsSurgingWolf);
+                selectionFrame.enabled = _tacticalSelected || IsWolfSurgeReady || (liveHero != null && liveHero.IsSurgingWolf);
                 if (selectionFrame.enabled)
                 {
                     selectionFrame.color = new Color(1.0f, 0.85f, 0.2f, 0.95f);

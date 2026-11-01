@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 826946391bd5c6b48b33a920ab2651fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -80931489289965471
+    second: WavePanel_0
+  - first:
+      213: -4268057861898556297
+    second: WavePanel_1
+  - first:
+      213: -7647972313223410904
+    second: WavePanel_2
+  - first:
+      213: 8140837583169927021
+    second: WavePanel_3
+  - first:
+      213: -862227910677958450
+    second: WavePanel_4
+  - first:
+      213: 5167928318968654068
+    second: WavePanel_5
+  - first:
+      213: 8540985010692779422
+    second: WavePanel_6
+  - first:
+      213: -3529801554741224622
+    second: WavePanel_7
+  - first:
+      213: 6368148771928673470
+    second: WavePanel_8
+  - first:
+      213: -3659188711245462712
+    second: WavePanel_9
+  - first:
+      213: 2481814336113063432
+    second: WavePanel_10
+  - first:
+      213: -3823803429668823100
+    second: WavePanel_11
+  - first:
+      213: -1918125365968049206
+    second: WavePanel_12
+  - first:
+      213: 2021823853947031576
+    second: WavePanel_13
+  - first:
+      213: -5173843585219295838
+    second: WavePanel_14
+  - first:
+      213: 5775258752249830106
+    second: WavePanel_15
+  - first:
+      213: -1596934587945591686
+    second: WavePanel_16
+  - first:
+      213: 4379910858024965214
+    second: WavePanel_17
+  - first:
+      213: -3360878551292379974
+    second: WavePanel_18
+  - first:
+      213: -6326870795441321958
+    second: WavePanel_19
+  - first:
+      213: 4818502770031429569
+    second: WavePanel_20
+  - first:
+      213: 3650389101687230894
+    second: WavePanel_21
+  - first:
+      213: -2011840981636489926
+    second: WavePanel_22
+  - first:
+      213: 3501640571883336727
+    second: WavePanel_23
+  - first:
+      213: -4904445909138543348
+    second: WavePanel_24
+  - first:
+      213: -1457230992404900540
+    second: WavePanel_25
+  - first:
+      213: -4476932547629382598
+    second: WavePanel_26
+  - first:
+      213: -8934613603834224838
+    second: WavePanel_27
+  - first:
+      213: 7628892277535435605
+    second: WavePanel_28
+  - first:
+      213: -8431695870607386101
+    second: WavePanel_29
+  - first:
+      213: -3988685523749147727
+    second: WavePanel_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WavePanel
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 102
+        width: 2131
+        height: 535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1607ab14d3970eef0800000000000000
+      internalID: -80931489289965471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 42c9a7c981fae284090221009fa29812
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WavePanel: -80931489289965471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

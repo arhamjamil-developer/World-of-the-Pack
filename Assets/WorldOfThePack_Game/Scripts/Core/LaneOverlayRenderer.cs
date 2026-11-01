@@ -73,7 +73,7 @@ namespace WorldOfThePack.Game
                 SpriteRenderer sr = col.AddComponent<SpriteRenderer>();
                 sr.sprite = CreateBoxSprite();
                 sr.sortingOrder = -90;
-                sr.color = (i == 2) ? alphaLaneColor : new Color(1f, 1f, 1f, 0.03f);
+                sr.color = Color.clear;
                 col.transform.localScale = new Vector3(LaneSystem.LaneSpacing * 0.95f, overlayHeight, 1f);
 
                 laneHighlights[i] = col;
@@ -95,8 +95,8 @@ namespace WorldOfThePack.Game
                 lr.startWidth = 0.02f;
                 lr.endWidth = 0.02f;
                 lr.material = GetLineMaterial();
-                lr.startColor = normalDividerColor;
-                lr.endColor = normalDividerColor;
+                lr.startColor = Color.clear;
+                lr.endColor = Color.clear;
                 lr.sortingOrder = -89;
 
                 dividers[i] = lr;
@@ -115,7 +115,7 @@ namespace WorldOfThePack.Game
                     if (laneHighlights[i] != null)
                     {
                         var sr = laneHighlights[i].GetComponent<SpriteRenderer>();
-                        if (sr != null) sr.color = (i == 2) ? alphaLaneColor : new Color(1f, 1f, 1f, 0.03f);
+                        if (sr != null) sr.color = Color.clear;
                     }
                 }
                 return;

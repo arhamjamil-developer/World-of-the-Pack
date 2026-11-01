@@ -39,6 +39,9 @@ namespace WorldOfThePack.Game
         [SerializeField] private GameObject soldierPrefab;
         [SerializeField] private GameObject houndPrefab;
         [SerializeField] private GameObject captainPrefab;
+        [SerializeField] private GameObject rudraPrefab;
+        [SerializeField] private GameObject elsaPrefab;
+        [SerializeField] private GameObject bossPrefab;
 
         private static WaveManager instance;
         public static WaveManager Instance
@@ -62,6 +65,24 @@ namespace WorldOfThePack.Game
         private int remainingEnemiesInWave;
         private readonly List<EnemyUnit> activeEnemies = new List<EnemyUnit>();
         private bool isPausedForCamp = false;
+        private bool cancelEncounterForCamp;
+        public void StopForReset()
+        {
+            StopAllCoroutines();
+            isPausedForCamp = false;
+            cancelEncounterForCamp = false;
+            IsWaveActive = false;
+            remainingEnemiesInWave = 0;
+            activeEnemies.Clear();
+            CurrentWaveIndex = 0;
+        }
+        public void CancelEncounterAtCamp()
+        {
+            isPausedForCamp = true;
+            cancelEncounterForCamp = true;
+            remainingEnemiesInWave = 0;
+            activeEnemies.Clear();
+        }
 
         public void PauseForCamp()
         {
@@ -99,7 +120,11 @@ namespace WorldOfThePack.Game
         {
 #if UNITY_EDITOR
             if (soldierPrefab == null)
-                soldierPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/WorldOfThePack_Game/Prefabs/Units/Enemy_Soldier.prefab");
+                soldierPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/New/Enemy/Prefabs/Enemy_Soldier.prefab");
+            if (rudraPrefab == null)
+                rudraPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/New/Enemy/Prefabs/Enemy_Rudra.prefab");
+            if (elsaPrefab == null)
+                elsaPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/New/Enemy/Prefabs/Enemy_Elsa.prefab");
             if (houndPrefab == null)
                 houndPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/WorldOfThePack_Game/Prefabs/Units/Enemy_Hound.prefab");
             if (captainPrefab == null)
@@ -109,6 +134,8 @@ namespace WorldOfThePack.Game
 
         public void StartFirstWave()
         {
+            isPausedForCamp = false;
+            cancelEncounterForCamp = false;
             StopAllCoroutines();
             foreach (var e in activeEnemies)
             {
@@ -123,6 +150,8 @@ namespace WorldOfThePack.Game
 
         public void JumpToWave(int waveIndex)
         {
+            isPausedForCamp = false;
+            cancelEncounterForCamp = false;
             StopAllCoroutines();
             foreach (var e in activeEnemies)
             {
@@ -131,7 +160,7 @@ namespace WorldOfThePack.Game
             activeEnemies.Clear();
             remainingEnemiesInWave = 0;
 
-            CurrentWaveIndex = Mathf.Clamp(waveIndex, 0, authoredWaves.Count - 1);
+            CurrentWaveIndex = Mathf.Max(0, waveIndex);
             StartCoroutine(WaveRoutine());
         }
 
@@ -152,29 +181,26 @@ namespace WorldOfThePack.Game
                     yield return new WaitForSeconds(0.5f);
                 }
 
-                IsWaveActive = true;
-                string wName = CurrentWaveName;
-                OnWaveStarted?.Invoke(CurrentWaveIndex + 1, wName);
-
-                WaveDefinition currentWave = GetWave(CurrentWaveIndex);
-                remainingEnemiesInWave = currentWave.spawns.Count;
-
-                // Boss at wave 5 (index 4) or every 5th wave in endless mode
-                if (CurrentWaveIndex == 4 || (CurrentWaveIndex > 4 && (CurrentWaveIndex + 1) % 5 == 0))
+                WaveDefinition preview = GetWave(CurrentWaveIndex);
+                int bonusEnemies = WorldOfThePack.Expedition.TrailDecisionDirector.Instance != null ? WorldOfThePack.Expedition.TrailDecisionDirector.Instance.ExtraEnemies : 0;
+                bool bossWave=(CurrentWaveIndex+1)%5==0;
+                remainingEnemiesInWave=preview.spawns.Count+bonusEnemies;
+                cancelEncounterForCamp=false;
+                System.Action stage=()=>
                 {
-                    SpawnBoss();
-                }
-
-                for (int i = 0; i < currentWave.spawns.Count; i++)
-                {
-                    var cfg = currentWave.spawns[i];
-                    if (cfg.spawnDelay > 0f)
+                    if(bossWave)SpawnBoss();
+                    for(int i=0;i<preview.spawns.Count+bonusEnemies;i++)
                     {
-                        yield return new WaitForSeconds(cfg.spawnDelay);
+                        var config=i<preview.spawns.Count?preview.spawns[i]:new EnemySpawnConfig {type=EnemyType.Soldier};
+                        SpawnEnemy(config.type,config.laneX,config.angle);
                     }
-
-                    SpawnEnemy(cfg.type, cfg.laneX, cfg.angle);
-                }
+                };
+                if(ArenaDirector.Instance!=null)
+                    yield return ArenaDirector.Instance.PrepareEncounter(CurrentWaveIndex+1,remainingEnemiesInWave+(bossWave?1:0),CurrentWaveName,stage);
+                else stage();
+                while(GameDirector.Instance!=null && GameDirector.Instance.CurrentState!=GameState.Playing)yield return null;
+                IsWaveActive=true;
+                OnWaveStarted?.Invoke(CurrentWaveIndex+1,CurrentWaveName);
 
                 // Wait until all enemies in wave are defeated
                 while (remainingEnemiesInWave > 0)
@@ -183,10 +209,12 @@ namespace WorldOfThePack.Game
                 }
 
                 IsWaveActive = false;
+                while (isPausedForCamp) yield return null;
+                ArenaDirector.Instance?.EndBattle(CurrentWaveIndex + 1);
                 OnWaveCompleted?.Invoke(CurrentWaveIndex + 1);
 
                 CurrentWaveIndex++;
-                if (CurrentWaveIndex >= authoredWaves.Count)
+                if (CurrentWaveIndex == authoredWaves.Count)
                 {
                     OnAllWavesCompleted?.Invoke();
                 }
@@ -198,6 +226,7 @@ namespace WorldOfThePack.Game
         private void SpawnEnemy(EnemyType type, float laneX, SpawnAngle angle = SpawnAngle.North)
         {
             float baseY = Camera.main != null ? Camera.main.transform.position.y : (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f);
+            if (ArenaDirector.Instance != null && FormationController.Instance != null) baseY = FormationController.Instance.AnchorPosition.y - 1.2f;
             Vector3 spawnPos;
             Vector2 entryDir;
 
@@ -217,12 +246,15 @@ namespace WorldOfThePack.Game
                     break;
             }
 
+            if (ArenaDirector.Instance != null) spawnPos=ArenaDirector.Instance.ReserveEnemyPosition(type);
             CombatVFXPool.SpawnEffect("EnemySpawn", spawnPos);
 
             GameObject prefab = type switch
             {
-                EnemyType.Hound => houndPrefab,
-                EnemyType.Captain => captainPrefab,
+                EnemyType.Hound => soldierPrefab,
+                EnemyType.Captain => rudraPrefab,
+                EnemyType.Rudra => rudraPrefab,
+                EnemyType.Elsa => elsaPrefab,
                 _ => soldierPrefab
             };
 
@@ -240,6 +272,7 @@ namespace WorldOfThePack.Game
             if (enemy == null) enemy = go.AddComponent<EnemyUnit>();
 
             enemy.SetEntryDirection(entryDir);
+            enemy.ApplyWaveDifficulty(CurrentWaveIndex);
 
             activeEnemies.Add(enemy);
             enemy.OnDefeated += OnEnemyDefeated;
@@ -255,16 +288,21 @@ namespace WorldOfThePack.Game
         {
             float baseY = Camera.main != null ? Camera.main.transform.position.y : (FormationController.Instance != null ? FormationController.Instance.AnchorPosition.y : 0f);
             Vector3 bossPos = new Vector3(0f, baseY + 5.0f, 0f);
-            GameObject bossPrefab = null;
+            if (ArenaDirector.Instance != null) bossPos = ArenaDirector.Instance.ReserveEnemyPosition(EnemyType.Rudra,true);
+            GameObject bPrefab = bossPrefab;
 #if UNITY_EDITOR
-            bossPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/WorldOfThePack_Game/Prefabs/Units/Boss_AncientThornGuardian.prefab");
-#endif
-            if (bossPrefab != null)
+            if (bPrefab == null)
             {
-                GameObject bossGo = Instantiate(bossPrefab, bossPos, Quaternion.identity);
+                bPrefab = UnityEditor.AssetDatabase.LoadAssetAtPath<GameObject>("Assets/WorldOfThePack_Game/Prefabs/Units/Boss_AncientThornGuardian.prefab");
+            }
+#endif
+            if (bPrefab != null)
+            {
+                GameObject bossGo = Instantiate(bPrefab, bossPos, Quaternion.identity);
                 BossUnit bu = bossGo.GetComponent<BossUnit>();
                 if (bu != null)
                 {
+                    bu.ApplyWaveDifficulty(CurrentWaveIndex);
                     remainingEnemiesInWave++;
                     bu.OnDefeated += (c) =>
                     {
@@ -286,15 +324,6 @@ namespace WorldOfThePack.Game
                 activeEnemies.Remove(eu);
                 remainingEnemiesInWave = Mathf.Max(0, remainingEnemiesInWave - 1);
 
-                // Distribute +20 energy to all charging cards
-                CardDeckManager deck = FindFirstObjectByType<CardDeckManager>();
-                if (deck != null)
-                {
-                    deck.DistributeKillEnergy(20f, eu.Position);
-                }
-
-                DamagePopupManager.ShowPopup(eu.Position + Vector3.up * 0.4f, 20, false, true);
-
                 if (activeEnemies.Count == 0 && CinemachineCombatDirector.Instance != null)
                 {
                     CinemachineCombatDirector.Instance.UnlockCombatEncounter();
@@ -306,37 +335,36 @@ namespace WorldOfThePack.Game
         {
             if (index < authoredWaves.Count) return authoredWaves[index];
 
-            // Procedural endless wave scaling
+            // Procedural endless wave scaling with bounded threat budget (4 to 10 enemies max)
             WaveDefinition def = new WaveDefinition
             {
                 waveName = "Endless Hunt " + (index + 1)
             };
-            int count = 4 + index * 2;
+            int count = Mathf.Clamp(4 + (index - 4), 4, 10);
             for (int i = 0; i < count; i++)
             {
                 EnemyType t = EnemyType.Soldier;
                 SpawnAngle a = SpawnAngle.North;
 
-                if (i % 3 == 0)
+                if (i % 4 == 1)
                 {
-                    t = EnemyType.Hound;
+                    t = EnemyType.Elsa;
+                }
+                else if (i % 4 == 2)
+                {
+                    t = EnemyType.Rudra;
+                }
+                else if (i % 4 == 3)
+                {
+                    t = EnemyType.Soldier;
                     a = (i % 2 == 0) ? SpawnAngle.FlankLeft : SpawnAngle.FlankRight;
-                }
-                else if (i == count - 1 && index >= 2)
-                {
-                    t = EnemyType.Captain;
-                    a = SpawnAngle.North;
-                }
-                else if (i % 4 == 0)
-                {
-                    a = SpawnAngle.FlankRight;
                 }
 
                 def.spawns.Add(new EnemySpawnConfig
                 {
                     type = t,
-                    spawnDelay = UnityEngine.Random.Range(0.5f, 1.4f),
-                    laneX = UnityEngine.Random.Range(-1.44f, 1.44f),
+                    spawnDelay = UnityEngine.Random.Range(0.8f, 1.8f),
+                    laneX = UnityEngine.Random.Range(-1.2f, 1.2f),
                     angle = a
                 });
             }
@@ -347,54 +375,35 @@ namespace WorldOfThePack.Game
         {
             if (authoredWaves.Count > 0) return;
 
-            // Wave 1: Forest Patrol Squad (3 Vanguard Soldiers abreast + 2 Flanking Hounds)
-            WaveDefinition w1 = new WaveDefinition { waveName = "Forest Patrol Squad" };
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = -0.75f, angle = SpawnAngle.North });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.15f, laneX = 0.0f, angle = SpawnAngle.North });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.15f, laneX = 0.75f, angle = SpawnAngle.North });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.2f, laneX = -1.4f, angle = SpawnAngle.FlankLeft });
-            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 1.4f, angle = SpawnAngle.FlankRight });
+            // Wave 1: Solitary Scouts (Teach visible sword windup and basic attack pacing)
+            WaveDefinition w1 = new WaveDefinition { waveName = "Forest Patrol Scouts" };
+            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.4f, laneX = -0.4f, angle = SpawnAngle.North });
+            w1.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.6f, laneX = 0.4f, angle = SpawnAngle.North });
             authoredWaves.Add(w1);
 
-            // Wave 2: Hound Hunting Pack (Dual-Pincer Swarm + Support Line)
-            WaveDefinition w2 = new WaveDefinition { waveName = "Hound Hunting Pack" };
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = -1.3f, angle = SpawnAngle.FlankLeft });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 1.3f, angle = SpawnAngle.FlankRight });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.4f, laneX = -0.6f, angle = SpawnAngle.North });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 0.6f, angle = SpawnAngle.North });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.5f, laneX = -0.5f, angle = SpawnAngle.North });
-            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 0.5f, angle = SpawnAngle.North });
+            // Wave 2: Royal Archer Elsa (Teach bow draw and readable arrow projectile)
+            WaveDefinition w2 = new WaveDefinition { waveName = "Royal Archer Elsa" };
+            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.4f, laneX = -0.5f, angle = SpawnAngle.North });
+            w2.spawns.Add(new EnemySpawnConfig { type = EnemyType.Elsa, spawnDelay = 1.2f, laneX = 0.5f, angle = SpawnAngle.North });
             authoredWaves.Add(w2);
 
-            // Wave 3: Treeline Pincer & Hunter Captain
-            WaveDefinition w3 = new WaveDefinition { waveName = "Treeline Pincer & Captain" };
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.3f, laneX = -0.8f, angle = SpawnAngle.North });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 0.8f, angle = SpawnAngle.North });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.8f, laneX = -1.4f, angle = SpawnAngle.FlankLeft });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 1.4f, angle = SpawnAngle.FlankRight });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 1.5f, laneX = 0.0f, angle = SpawnAngle.North });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.3f, laneX = -0.5f, angle = SpawnAngle.North });
-            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 0.5f, angle = SpawnAngle.North });
+            // Wave 3: Iron Bodyguard Rudra (Teach heavy gauntlet slam warning)
+            WaveDefinition w3 = new WaveDefinition { waveName = "Iron Bodyguard Rudra" };
+            w3.spawns.Add(new EnemySpawnConfig { type = EnemyType.Rudra, spawnDelay = 0.5f, laneX = 0.0f, angle = SpawnAngle.North });
             authoredWaves.Add(w3);
 
-            // Wave 4: Royal Vanguard Heavy Legion
-            WaveDefinition w4 = new WaveDefinition { waveName = "Royal Vanguard Legion" };
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = -1.0f, angle = SpawnAngle.North });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 0.0f, angle = SpawnAngle.North });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 1.0f, angle = SpawnAngle.North });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 1.0f, laneX = -1.4f, angle = SpawnAngle.FlankLeft });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 1.4f, angle = SpawnAngle.FlankRight });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 1.5f, laneX = -0.6f, angle = SpawnAngle.North });
-            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 0.4f, laneX = 0.6f, angle = SpawnAngle.North });
+            // Wave 4: Royal Escort Formation (Combine: Rudra guarding Elsa + flanking Soldier)
+            WaveDefinition w4 = new WaveDefinition { waveName = "Royal Escort Formation" };
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Rudra, spawnDelay = 0.3f, laneX = -0.3f, angle = SpawnAngle.North });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Elsa, spawnDelay = 0.6f, laneX = 0.3f, angle = SpawnAngle.North });
+            w4.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.4f, laneX = 1.2f, angle = SpawnAngle.FlankRight });
             authoredWaves.Add(w4);
 
-            // Wave 5: Bramble Brute Colossus Boss & Escort
-            WaveDefinition w5 = new WaveDefinition { waveName = "Bramble Brute Colossus" };
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.3f, laneX = -1.4f, angle = SpawnAngle.FlankLeft });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Hound, spawnDelay = 0.2f, laneX = 1.4f, angle = SpawnAngle.FlankRight });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 1.0f, laneX = -0.8f, angle = SpawnAngle.North });
+            // Wave 5: Bramble Brute Boss & Escort
+            WaveDefinition w5 = new WaveDefinition { waveName = "Ancient Thorn Guardian" };
+            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.4f, laneX = -0.8f, angle = SpawnAngle.North });
             w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Soldier, spawnDelay = 0.2f, laneX = 0.8f, angle = SpawnAngle.North });
-            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Captain, spawnDelay = 1.5f, laneX = 0.0f, angle = SpawnAngle.North });
+            w5.spawns.Add(new EnemySpawnConfig { type = EnemyType.Rudra, spawnDelay = 1.6f, laneX = 0.0f, angle = SpawnAngle.North });
             authoredWaves.Add(w5);
         }
 

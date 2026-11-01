@@ -1,0 +1,22 @@
+Passed
+PASS: Restart has one leader and a collapsed task handle
+PASS: Task handle opens readable task artwork
+PASS: Task text fits: CLEAR THE TRAIL
+PASS: Task text fits: GROW THE PACK
+PASS: Task text fits: CALL THE MOON
+PASS: Task text fits: HOLD TOGETHER
+PASS: Task text fits: FIND A REFUGE
+PASS: Task text fits: BREAK THE PATROL
+PASS: First-wave ranged recruit succeeds
+PASS: Wave one survives; incomplete three-kill task grants no reward
+PASS: A partly charged card cannot be selected or spent
+PASS: Occupied-cell rejection retains charge and charms
+PASS: Wave-two support and tank recruitment succeed
+PASS: Mixed sword-and-bow wave clears; kill task pays exactly once
+PASS: Task advances to recruiting and accepts a new ally
+PASS: Recruitment task pays once and records the correct total
+PASS: Pause freezes gameplay and closes the task drawer
+PASS: Deployment freezes shared, hero and HUD cooldown timers together
+PASS: Wave ten stages nine unique enemies plus a boss
+PASS: Queen death shows defeat, empty hearts and no task overlay
+PASS: Retry resets the queen, one-leader pack, currency and tasks

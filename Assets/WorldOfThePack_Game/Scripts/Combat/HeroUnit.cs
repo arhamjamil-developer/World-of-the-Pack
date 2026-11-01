@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using WorldOfThePack.VFX;
+using WorldOfThePack.CombatArt;
 
 namespace WorldOfThePack.Game
 {
@@ -49,6 +50,7 @@ namespace WorldOfThePack.Game
         private float special02CooldownTimer = 0f;
         private float passiveTimer = 0f;
         private float attackAnimEndTime = 0f;
+        private UnitAttackPresentation attackPresentation;
 
         private HeroState currentState = HeroState.JoiningFormation;
         private FormationSlot assignedSlot;
@@ -105,9 +107,11 @@ namespace WorldOfThePack.Game
         {
             faction = UnitFaction.Allies;
             base.Awake();
+            attackPresentation = GetComponent<UnitAttackPresentation>();
 
             LoadHeroKitIfNeeded();
             ConfigureHeroFromKit();
+            if (ArenaDirector.Instance != null && (heroKit == null || !heroKit.isRanged)) attackRange = .76f;
 
             baseAttackDamage = attackDamage;
             baseAttackInterval = attackInterval;
@@ -400,6 +404,10 @@ namespace WorldOfThePack.Game
 
         protected override void Update()
         {
+            if (GameDirector.Instance != null && GameDirector.Instance.CurrentState != GameState.Playing) return;
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing) return;
+            if (GameDirector.Instance != null && GameDirector.Instance.IsDecisionPending) return;
+            if (CampManager.Instance != null && CampManager.Instance.IsAtCamp) return;
             base.Update();
 
             if (!IsAlive) return;
@@ -461,6 +469,8 @@ namespace WorldOfThePack.Game
         protected override void UpdateBehavior()
         {
             if (currentState == HeroState.Transforming || currentState == HeroState.Dead) return;
+            // Finish the authored strike/cast before following, healing or selecting a new action.
+            if (Time.time < attackAnimEndTime || currentState == HeroState.CastingSpecial) return;
 
             Vector3 slotTarget = GetFormationSlotTarget();
 
@@ -540,14 +550,17 @@ namespace WorldOfThePack.Game
                     }
 
                     float distToTarget = Vector2.Distance(transform.position, currentTarget.Position);
-                    if (distToTarget <= attackRange)
+                    bool aligned = heroKit != null && heroKit.isRanged ||
+                        (Mathf.Abs(Position.x-currentTarget.Position.x)<.48f && Position.y<=currentTarget.Position.y+.1f);
+                    if (distToTarget <= attackRange && aligned)
                     {
                         currentState = HeroState.Attacking;
                         SetAnimationAction(0);
                     }
                     else
                     {
-                        MoveTowards(currentTarget.Position, moveSpeed);
+                        Vector3 approach = heroKit != null && heroKit.isRanged ? currentTarget.Position : currentTarget.Position+Vector3.down*.64f;
+                        MoveTowards(approach, moveSpeed);
                     }
                     break;
 
@@ -669,7 +682,7 @@ namespace WorldOfThePack.Game
             if (useSpecial02) special02CooldownTimer = ability.cooldown;
             else special01CooldownTimer = ability.cooldown;
 
-            SetAnimationAction(ability.animatorAction);
+            SetAnimationAction(isWolfForm ? ability.animatorAction : 2);
 
             if (!string.IsNullOrEmpty(ability.vfxName))
             {
@@ -730,7 +743,7 @@ namespace WorldOfThePack.Game
             yield return new WaitForSeconds(0.35f);
 
             float heal = heroKit != null && heroKit.special01 != null ? heroKit.special01.value : 45f;
-            ally.Heal(heal);
+            if (IsAlive && ally != null && ally.IsAlive) ally.Heal(heal);
 
             yield return new WaitForSeconds(0.25f);
             SetAnimationAction(0);
@@ -751,13 +764,55 @@ namespace WorldOfThePack.Game
 
         private void PerformAttack(Combatant target)
         {
+            if (attackPresentation != null) attackPresentation.Windup(target.Position);
             nextAttackTime = Time.time + attackInterval;
-            attackAnimEndTime = Time.time + 0.45f;
+            float animationSpeed = isWolfForm ? 1.25f : 1f;
+            float duration = attackPresentation != null ? attackPresentation.Duration : .6f;
+            attackAnimEndTime = Time.time + duration / animationSpeed;
             SetAnimationAction(2);
-            float attackSpeed = Mathf.Clamp(1.2f / Mathf.Max(0.4f, attackInterval), 0.8f, 2.2f);
-            SetAnimationPlaybackSpeed(attackSpeed);
+            SetAnimationPlaybackSpeed(animationSpeed);
+            StartCoroutine(ReleaseAttackRoutine(target, animationSpeed));
+        }
+        public void PerformPackStrike(BossUnit boss, int order)
+        {
+            if (!IsAlive || boss == null || !boss.IsAlive) return;
+            StartCoroutine(PackStrikeRoutine(boss, order));
+        }
+        private IEnumerator PackStrikeRoutine(BossUnit boss, int order)
+        {
+            yield return new WaitForSeconds(order * .07f);
+            if (!IsAlive || boss == null || !boss.IsAlive || GameDirector.Instance.CurrentState != GameState.Playing) yield break;
+            if (heroKit != null && heroKit.isHealer)
+            {
+                GameDirector.Instance.HealPack(12);
+                yield break;
+            }
+            attackAnimEndTime = Time.time + .65f;
+            nextAttackTime = attackAnimEndTime + .2f;
+            SetAnimationAction(2);
+            if (attackPresentation != null) attackPresentation.Windup(boss.Position);
+            yield return new WaitForSeconds(.22f);
+            if (!IsAlive || boss == null || !boss.IsAlive || GameDirector.Instance.CurrentState != GameState.Playing) yield break;
+            if (attackPresentation != null && attackPresentation.Profile != null && attackPresentation.Profile.projectile != null)
+                attackPresentation.Shoot(this, boss, attackDamage * 1.8f);
+            else
+            {
+                boss.TakeDamage(attackDamage * 1.8f, this);
+                if (attackPresentation != null) attackPresentation.Impact(boss.Position);
+            }
+        }
+
+        private IEnumerator ReleaseAttackRoutine(Combatant target, float animationSpeed)
+        {
+            float delay = attackPresentation != null ? attackPresentation.ReleaseDelay : .3f;
+            yield return new WaitForSeconds(delay / animationSpeed);
+            if (!IsAlive || target == null || !target.IsAlive) yield break;
+            if (GameDirector.Instance == null || GameDirector.Instance.CurrentState != GameState.Playing ||
+                (CampManager.Instance != null && CampManager.Instance.IsAtCamp)) yield break;
 
             float finalDamage = attackDamage;
+            if (FormationController.Instance != null)
+                finalDamage *= FormationController.Instance.CurrentFormationIndex == 2 ? 1.2f : FormationController.Instance.CurrentFormationIndex == 1 ? .8f : 1;
 
             if (heroKit != null && heroKit.passiveType == PassiveType.NaturePrecision)
             {
@@ -773,21 +828,36 @@ namespace WorldOfThePack.Game
 
             if (isRangedAttack)
             {
-                Projectile.SpawnProjectile(transform.position + Vector3.up * 0.4f, target, finalDamage, vfx);
-
+                Combatant secondary = null;
                 if (heroKit != null && heroKit.passiveType == PassiveType.StarChain)
                 {
-                    Combatant secondary = FindSecondaryTarget(target, 2.5f);
-                    if (secondary != null)
-                    {
-                        Projectile.SpawnProjectile(target.Position, secondary, finalDamage * heroKit.passiveMagnitude, vfx);
-                    }
+                    secondary = FindSecondaryTarget(target, 2.5f);
                 }
+                if (attackPresentation != null && attackPresentation.Profile != null && attackPresentation.Profile.projectile != null)
+                    attackPresentation.Shoot(this, target, finalDamage, secondary, heroKit != null ? heroKit.passiveMagnitude : 0);
+                else
+                    Projectile.SpawnProjectile(transform.position + Vector3.up * .4f, target, finalDamage, vfx);
             }
             else
             {
-                target.TakeDamage(finalDamage, this);
-                CombatVFXPool.SpawnEffect(vfx, target.Position + Vector3.up * 0.2f);
+                if (Vector2.Distance(Position, target.Position) > attackRange * 1.5f) yield break;
+                var profile = attackPresentation != null ? attackPresentation.Profile : null;
+                bool doubleStrike = profile != null && profile.doubleStrike;
+                target.TakeDamage(finalDamage * (doubleStrike ? .55f : 1), this);
+                if (attackPresentation != null) attackPresentation.Impact(target.Position);
+                else CombatVFXPool.SpawnEffect(vfx, target.Position + Vector3.up * .2f);
+                if (profile != null && profile.cleaveRadius > 0)
+                {
+                    foreach (var enemy in EnemyUnit.ActiveEnemies)
+                        if (enemy != target && enemy != null && enemy.IsAlive && Vector2.Distance(enemy.Position, target.Position) <= profile.cleaveRadius)
+                            enemy.TakeDamage(finalDamage * profile.cleaveFraction, this);
+                }
+                if (doubleStrike)
+                {
+                    yield return new WaitForSeconds(.1f / animationSpeed);
+                    if (IsAlive && target != null && target.IsAlive && Vector2.Distance(Position, target.Position) <= attackRange * 1.5f)
+                    { target.TakeDamage(finalDamage * .45f, this); attackPresentation.Impact(target.Position); }
+                }
             }
         }
 
@@ -806,11 +876,11 @@ namespace WorldOfThePack.Game
 
         private void ApplyFlockSeparation()
         {
-            HeroUnit[] allies = FindObjectsByType<HeroUnit>(FindObjectsSortMode.None);
+            var allies = Combatant.LivingUnits;
             Vector3 push = Vector3.zero;
             foreach (var ally in allies)
             {
-                if (ally == this || !ally.IsAlive) continue;
+                if (ally == this || !ally.IsAlive || ally.Faction != Faction) continue;
                 Vector3 diff = transform.position - ally.Position;
                 float dist = diff.magnitude;
                 if (dist < 0.45f && dist > 0.001f)
@@ -823,6 +893,7 @@ namespace WorldOfThePack.Game
 
         private Vector3 GetFormationSlotTarget()
         {
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.TryGetPosition(this, out var arenaPosition)) return arenaPosition;
             if (FormationController.Instance != null)
             {
                 return FormationController.Instance.GetSlotWorldPosition(this);
@@ -846,7 +917,7 @@ namespace WorldOfThePack.Game
             // Match walk animation stride rate precisely with physical speed to eliminate foot-sliding
             float formationSpeed = (FormationController.Instance != null && FormationController.Instance.IsMarching) ? FormationController.Instance.CurrentSpeed : 0f;
             float effectiveSpeed = Mathf.Max(followVelocity.magnitude, formationSpeed);
-            float strideRate = Mathf.Clamp(effectiveSpeed / 1.15f, 0.35f, 2.2f);
+            float strideRate = Mathf.Clamp(effectiveSpeed / .8f, 0.65f, 1.65f);
             SetAnimationPlaybackSpeed(strideRate);
         }
 
@@ -866,17 +937,23 @@ namespace WorldOfThePack.Game
 
         private Combatant FindNearestEnemyWithinRange(float range)
         {
-            EnemyUnit[] enemies = FindObjectsByType<EnemyUnit>(FindObjectsSortMode.None);
+            var focus = WorldOfThePack.Expedition.TrailDecisionDirector.Instance != null ? WorldOfThePack.Expedition.TrailDecisionDirector.Instance.FocusedTarget : null;
+            bool holdingGuard = Role == FormationRole.Tank && FormationController.Instance != null && FormationController.Instance.CurrentFormationIndex == 1;
+            if (!holdingGuard && focus != null && focus.IsAlive && Vector2.Distance(Position, focus.Position) <= range) return focus;
+            var enemies = Combatant.LivingUnits;
             Combatant best = null;
-            float closestDist = range;
+            float closestDist = float.MaxValue;
 
             foreach (var enemy in enemies)
             {
-                if (!enemy.IsAlive) continue;
+                if (enemy == null || !enemy.IsAlive || enemy.Faction == faction) continue;
                 float d = Vector2.Distance(transform.position, enemy.Position);
-                if (d < closestDist)
+                if (d > range) continue;
+                // Prefer the lane this fighter can intercept without crossing the whole arena.
+                float score = d + Mathf.Abs(transform.position.x-enemy.Position.x)*.55f;
+                if (score < closestDist)
                 {
-                    closestDist = d;
+                    closestDist = score;
                     best = enemy;
                 }
             }
@@ -921,6 +998,16 @@ namespace WorldOfThePack.Game
             }
 
             base.TakeDamage(amount, attacker);
+
+            if (isAlpha && GameDirector.Instance != null)
+            {
+                GameDirector.Instance.OnAlphaHealthChanged(currentHealth, maxHealth);
+            }
+        }
+
+        public override void Heal(float amount)
+        {
+            base.Heal(amount);
 
             if (isAlpha && GameDirector.Instance != null)
             {

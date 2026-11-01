@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61806f3fb8fc9534a8bea971b5a50ae9, type: 3}
+  m_Name: PackTasks
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Expedition.PackTaskCatalog
+  tasks:
+  - title: CLEAR THE TRAIL
+    hint: "Defeat scouts \u2022 Reward: 3 charms"
+    kind: 0
+    target: 3
+    reward: 3
+  - title: GROW THE PACK
+    hint: "Deploy a charged card \u2022 Reward: 3 charms"
+    kind: 1
+    target: 1
+    reward: 3
+  - title: CALL THE MOON
+    hint: "Use Moonshift at 50 moon power \u2022 Reward: 4 charms"
+    kind: 2
+    target: 1
+    reward: 4
+  - title: HOLD TOGETHER
+    hint: "Keep the queen safe for 25s \u2022 Reward: 3 charms"
+    kind: 3
+    target: 25
+    reward: 3
+  - title: FIND A REFUGE
+    hint: "Reach the next camp \u2022 Reward: 5 charms"
+    kind: 4
+    target: 1
+    reward: 5
+  - title: BREAK THE PATROL
+    hint: "Defeat five enemies \u2022 Reward: 4 charms"
+    kind: 0
+    target: 5
+    reward: 4

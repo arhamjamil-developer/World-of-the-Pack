@@ -1,0 +1,1 @@
+Retries: 3/3 PASS; bosses=0; telegraphs=0; pickupOrbs=0; health=140; allies=4; campDistance=15.82582

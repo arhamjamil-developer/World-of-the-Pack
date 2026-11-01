@@ -1,0 +1,736 @@
+fileFormatVersion: 2
+guid: 1d970ba2af47c3b4fabdb790c227a0e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1979058251007902988
+    second: MoonSlash_0
+  - first:
+      213: -5192981637456959579
+    second: MoonSlash_1
+  - first:
+      213: -7535827805478365300
+    second: MoonSlash_2
+  - first:
+      213: -898778843444915370
+    second: MoonSlash_3
+  - first:
+      213: 4758971716181183180
+    second: MoonSlash_4
+  - first:
+      213: 5362855983000165166
+    second: MoonSlash_5
+  - first:
+      213: 4304829500287747826
+    second: MoonSlash_6
+  - first:
+      213: 3161793923172642494
+    second: MoonSlash_7
+  - first:
+      213: 4105519080512210008
+    second: MoonSlash_8
+  - first:
+      213: -3464080840429945893
+    second: MoonSlash_9
+  - first:
+      213: 648375519161799359
+    second: MoonSlash_10
+  - first:
+      213: 8752709428275965613
+    second: MoonSlash_11
+  - first:
+      213: 3467977500875423330
+    second: MoonSlash_12
+  - first:
+      213: -2768161126482455036
+    second: MoonSlash_13
+  - first:
+      213: 7095827464319221899
+    second: MoonSlash_14
+  - first:
+      213: -6874307094590056139
+    second: MoonSlash_15
+  - first:
+      213: 2593872035801335393
+    second: MoonSlash_16
+  - first:
+      213: -7867861251158162475
+    second: MoonSlash_17
+  - first:
+      213: -6421367911953357931
+    second: MoonSlash_18
+  - first:
+      213: 6646853590463986725
+    second: MoonSlash_19
+  - first:
+      213: -680398349456715427
+    second: MoonSlash_20
+  - first:
+      213: -668637109100228842
+    second: MoonSlash_21
+  - first:
+      213: 3932277663464875996
+    second: MoonSlash_22
+  - first:
+      213: -1036552411175244734
+    second: MoonSlash_23
+  - first:
+      213: -3817718585109060211
+    second: MoonSlash_24
+  - first:
+      213: -730641857294238785
+    second: MoonSlash_25
+  - first:
+      213: 5168681033132423331
+    second: MoonSlash_26
+  - first:
+      213: -2089579324917944589
+    second: MoonSlash_27
+  - first:
+      213: -5261213174033796540
+    second: MoonSlash_28
+  - first:
+      213: 8439872047459268056
+    second: MoonSlash_29
+  - first:
+      213: -1649904979284527510
+    second: MoonSlash_30
+  - first:
+      213: -4470525840502634113
+    second: MoonSlash_31
+  - first:
+      213: 7399736070192611906
+    second: MoonSlash_32
+  - first:
+      213: 2818835129745868026
+    second: MoonSlash_33
+  - first:
+      213: 5332673386144222631
+    second: MoonSlash_34
+  - first:
+      213: 7631051639953057980
+    second: MoonSlash_35
+  - first:
+      213: -8257313551764270769
+    second: MoonSlash_36
+  - first:
+      213: 6387850516868604715
+    second: MoonSlash_37
+  - first:
+      213: -7042721976774604555
+    second: MoonSlash_38
+  - first:
+      213: 1877866220863301138
+    second: MoonSlash_39
+  - first:
+      213: 5905293752326023003
+    second: MoonSlash_40
+  - first:
+      213: 6254400839551034492
+    second: MoonSlash_41
+  - first:
+      213: -1404692669322200292
+    second: MoonSlash_42
+  - first:
+      213: 5944758478598296017
+    second: MoonSlash_43
+  - first:
+      213: 4974782703537307019
+    second: MoonSlash_44
+  - first:
+      213: 3778940143386641757
+    second: MoonSlash_45
+  - first:
+      213: 24305320250750843
+    second: MoonSlash_46
+  - first:
+      213: 1653970297332688414
+    second: MoonSlash_47
+  - first:
+      213: -5105644816693886332
+    second: MoonSlash_48
+  - first:
+      213: -2350581369237159630
+    second: MoonSlash_49
+  - first:
+      213: -7779395143513218884
+    second: MoonSlash_50
+  - first:
+      213: -2185723206730097206
+    second: MoonSlash_51
+  - first:
+      213: 3547099204118505570
+    second: MoonSlash_52
+  - first:
+      213: -369374718733703882
+    second: MoonSlash_53
+  - first:
+      213: 4325251639318652747
+    second: MoonSlash_54
+  - first:
+      213: 2177975616307467510
+    second: MoonSlash_55
+  - first:
+      213: -124357735258619874
+    second: MoonSlash_56
+  - first:
+      213: 252794669790838300
+    second: MoonSlash_57
+  - first:
+      213: -5716980716380079539
+    second: MoonSlash_58
+  - first:
+      213: 8550024073764837572
+    second: MoonSlash_59
+  - first:
+      213: 8867775645088795956
+    second: MoonSlash_60
+  - first:
+      213: 4741040311126057330
+    second: MoonSlash_61
+  - first:
+      213: 6581083043995136437
+    second: MoonSlash_62
+  - first:
+      213: 1091695423902992114
+    second: MoonSlash_63
+  - first:
+      213: 4443249146853052159
+    second: MoonSlash_64
+  - first:
+      213: -499379381011877507
+    second: MoonSlash_65
+  - first:
+      213: 3864948953061187838
+    second: MoonSlash_66
+  - first:
+      213: -7704017111345914234
+    second: MoonSlash_67
+  - first:
+      213: 4702485685646035987
+    second: MoonSlash_68
+  - first:
+      213: 8364687821550245709
+    second: MoonSlash_69
+  - first:
+      213: -5656059568804792042
+    second: MoonSlash_70
+  - first:
+      213: 3503294231632791457
+    second: MoonSlash_71
+  - first:
+      213: 6468613974562808657
+    second: MoonSlash_72
+  - first:
+      213: -3184536593662305273
+    second: MoonSlash_73
+  - first:
+      213: 3609718372911133904
+    second: MoonSlash_74
+  - first:
+      213: -7309564943552940105
+    second: MoonSlash_75
+  - first:
+      213: -282485121281621200
+    second: MoonSlash_76
+  - first:
+      213: 6793546788618678100
+    second: MoonSlash_77
+  - first:
+      213: 1883024240804657492
+    second: MoonSlash_78
+  - first:
+      213: -6606039152446762796
+    second: MoonSlash_79
+  - first:
+      213: -5161144316456511233
+    second: MoonSlash_80
+  - first:
+      213: -3419076176860627535
+    second: MoonSlash_81
+  - first:
+      213: 1981120708070836408
+    second: MoonSlash_82
+  - first:
+      213: -3921437111034636187
+    second: MoonSlash_83
+  - first:
+      213: 7248947539667151911
+    second: MoonSlash_84
+  - first:
+      213: -2663613551746914643
+    second: MoonSlash_85
+  - first:
+      213: 3769008665578855594
+    second: MoonSlash_86
+  - first:
+      213: 8133351699464513841
+    second: MoonSlash_87
+  - first:
+      213: 4150368347618493153
+    second: MoonSlash_88
+  - first:
+      213: -6174790996548368349
+    second: MoonSlash_89
+  - first:
+      213: -1721881838800726472
+    second: MoonSlash_90
+  - first:
+      213: -999165873073617274
+    second: MoonSlash_91
+  - first:
+      213: 2715769611333757225
+    second: MoonSlash_92
+  - first:
+      213: -4516352080364626804
+    second: MoonSlash_93
+  - first:
+      213: 1006197622214824210
+    second: MoonSlash_94
+  - first:
+      213: -3867845435774750925
+    second: MoonSlash_95
+  - first:
+      213: 1217218920663801743
+    second: MoonSlash_96
+  - first:
+      213: -1375853642181556570
+    second: MoonSlash_97
+  - first:
+      213: 8191497731769480611
+    second: MoonSlash_98
+  - first:
+      213: -7598967552917650288
+    second: MoonSlash_99
+  - first:
+      213: 2569180981962886030
+    second: MoonSlash_100
+  - first:
+      213: -8779647902303747053
+    second: MoonSlash_101
+  - first:
+      213: 943916105871489664
+    second: MoonSlash_102
+  - first:
+      213: 3978779913092031305
+    second: MoonSlash_103
+  - first:
+      213: -5357631434440528519
+    second: MoonSlash_104
+  - first:
+      213: -262670440387925641
+    second: MoonSlash_105
+  - first:
+      213: 6957088805942002683
+    second: MoonSlash_106
+  - first:
+      213: 6093469357417614454
+    second: MoonSlash_107
+  - first:
+      213: 6683192749598328620
+    second: MoonSlash_108
+  - first:
+      213: 3741532956125398992
+    second: MoonSlash_109
+  - first:
+      213: -3555469963116796214
+    second: MoonSlash_110
+  - first:
+      213: 2194243241618655746
+    second: MoonSlash_111
+  - first:
+      213: 4501120037568696717
+    second: MoonSlash_112
+  - first:
+      213: 8764323896984758925
+    second: MoonSlash_113
+  - first:
+      213: 7853947432244688104
+    second: MoonSlash_114
+  - first:
+      213: -4000851455471264797
+    second: MoonSlash_115
+  - first:
+      213: -8876415445883854231
+    second: MoonSlash_116
+  - first:
+      213: 5714294351451451319
+    second: MoonSlash_117
+  - first:
+      213: -5501155227136909732
+    second: MoonSlash_118
+  - first:
+      213: 2664720258059350375
+    second: MoonSlash_119
+  - first:
+      213: 8720211896418807262
+    second: MoonSlash_120
+  - first:
+      213: -903661733211359056
+    second: MoonSlash_121
+  - first:
+      213: 8010358015452639187
+    second: MoonSlash_122
+  - first:
+      213: -2253802331593010284
+    second: MoonSlash_123
+  - first:
+      213: -7632051677583213572
+    second: MoonSlash_124
+  - first:
+      213: 2161433060536011743
+    second: MoonSlash_125
+  - first:
+      213: -1915027256138105013
+    second: MoonSlash_126
+  - first:
+      213: 5743015313889320677
+    second: MoonSlash_127
+  - first:
+      213: 3125107850796236332
+    second: MoonSlash_128
+  - first:
+      213: 1603623182731549245
+    second: MoonSlash_129
+  - first:
+      213: -2810453393091349436
+    second: MoonSlash_130
+  - first:
+      213: -3283243614241353643
+    second: MoonSlash_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MoonSlash_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05c1296ef6077b10800000000000000
+      internalID: 1979058251007902988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_1
+      rect:
+        serializedVersion: 2
+        x: 443.5
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7604ed6b2dee7b0800000000000000
+      internalID: -5192981637456959579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_2
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8753f5998c5b6790800000000000000
+      internalID: -7535827805478365300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_3
+      rect:
+        serializedVersion: 2
+        x: 1330.5
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65354d06765e683f0800000000000000
+      internalID: -898778843444915370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca4c1fcf834b0240800000000000000
+      internalID: 4758971716181183180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_5
+      rect:
+        serializedVersion: 2
+        x: 443.5
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b9d485a11bc6a40800000000000000
+      internalID: 5362855983000165166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_6
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6064f5f93ddbb30800000000000000
+      internalID: 4304829500287747826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MoonSlash_7
+      rect:
+        serializedVersion: 2
+        x: 1330.5
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebea1bb32d2f0eb20800000000000000
+      internalID: 3161793923172642494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 12b015ec903531e45884c2bb533a9b2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MoonSlash_0: 1979058251007902988
+      MoonSlash_1: -5192981637456959579
+      MoonSlash_2: -7535827805478365300
+      MoonSlash_3: -898778843444915370
+      MoonSlash_4: 4758971716181183180
+      MoonSlash_5: 5362855983000165166
+      MoonSlash_6: 4304829500287747826
+      MoonSlash_7: 3161793923172642494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

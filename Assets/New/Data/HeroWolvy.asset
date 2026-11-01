@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0823dc1b92ff644e83a767fd8ae5678, type: 3}
+  m_Name: HeroWolvy
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.UI.HeroCardDefinition
+  heroId: HeroWolvy
+  displayName: Hero Wolvy
+  shortName: WOLVY
+  humanPortrait: {fileID: -4135498156039392608, guid: d18f1001f1c6e374fa6d2771348d5bb1, type: 3}
+  wolfPortrait: {fileID: -805305165875769478, guid: 83641231fe301714c925f02a4ed4ee93, type: 3}
+  idleSprite: {fileID: -1820154012, guid: c82f455f08218ae44a64e4b49eaf48a4, type: 3}
+  wolfIdleSprite: {fileID: 1667726223, guid: 75618dbae7f5659419a5d22569ce1d21, type: 3}
+  accent: {r: 0.28627452, g: 0.6431373, b: 0.9647059, a: 1}
+  maximumEnergy: 100

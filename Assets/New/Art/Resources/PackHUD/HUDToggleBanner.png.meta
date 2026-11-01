@@ -1,0 +1,266 @@
+fileFormatVersion: 2
+guid: e96528b4686c5d54f8f3cc3871f20723
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -232922040910638788
+    second: HUDToggleBanner_0
+  - first:
+      213: 4868683101516053258
+    second: HUDToggleBanner_1
+  - first:
+      213: -2466216976115956002
+    second: HUDToggleBanner_2
+  - first:
+      213: 4589091037964340864
+    second: HUDToggleBanner_3
+  - first:
+      213: -2323441543505978821
+    second: HUDToggleBanner_4
+  - first:
+      213: -548424031451731436
+    second: HUDToggleBanner_5
+  - first:
+      213: 5017291892046785592
+    second: HUDToggleBanner_6
+  - first:
+      213: -6965662287721492183
+    second: HUDToggleBanner_7
+  - first:
+      213: -7920495297778855845
+    second: HUDToggleBanner_8
+  - first:
+      213: 3444643676895282952
+    second: HUDToggleBanner_9
+  - first:
+      213: 1671675104144810527
+    second: HUDToggleBanner_10
+  - first:
+      213: -6769065999108529458
+    second: HUDToggleBanner_11
+  - first:
+      213: -1235368189662614084
+    second: HUDToggleBanner_12
+  - first:
+      213: -8599439219678158144
+    second: HUDToggleBanner_13
+  - first:
+      213: 7068057973836942259
+    second: HUDToggleBanner_14
+  - first:
+      213: -6834793710014040727
+    second: HUDToggleBanner_15
+  - first:
+      213: 2988691144716364167
+    second: HUDToggleBanner_16
+  - first:
+      213: 4735612696826098852
+    second: HUDToggleBanner_17
+  - first:
+      213: 418513706649022959
+    second: HUDToggleBanner_18
+  - first:
+      213: 6667068097906902685
+    second: HUDToggleBanner_19
+  - first:
+      213: -6945022645958127885
+    second: HUDToggleBanner_20
+  - first:
+      213: 4756333981364297364
+    second: HUDToggleBanner_21
+  - first:
+      213: 1093088181656340674
+    second: HUDToggleBanner_22
+  - first:
+      213: 4425091754998687149
+    second: HUDToggleBanner_23
+  - first:
+      213: -5871629033137818563
+    second: HUDToggleBanner_24
+  - first:
+      213: -45374015150758567
+    second: HUDToggleBanner_25
+  - first:
+      213: 9126882268108825702
+    second: HUDToggleBanner_26
+  - first:
+      213: -4608636437679782357
+    second: HUDToggleBanner_27
+  - first:
+      213: 421275564095288051
+    second: HUDToggleBanner_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HUDToggleBanner
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 227
+        width: 1926
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 100, y: 40, z: 100, w: 40}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daaf88225084288438a66e62ca80fb25
+      internalID: 384303549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 36a5cd087e0bbcf49970584d1e33f293
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HUDToggleBanner: 384303549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

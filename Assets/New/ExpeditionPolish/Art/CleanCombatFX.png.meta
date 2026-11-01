@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 35de424b2b77df64c8f736f33f2ae4e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1396927726207324189
+    second: CleanCombatFX_0
+  - first:
+      213: 6821619961162589999
+    second: CleanCombatFX_1
+  - first:
+      213: -6079340429561795164
+    second: CleanCombatFX_2
+  - first:
+      213: -7797357218292369965
+    second: CleanCombatFX_3
+  - first:
+      213: -6090927909384225945
+    second: CleanCombatFX_4
+  - first:
+      213: -3357606269899358085
+    second: CleanCombatFX_5
+  - first:
+      213: 6475179845675617801
+    second: CleanCombatFX_6
+  - first:
+      213: 6679212049623598845
+    second: CleanCombatFX_7
+  - first:
+      213: -5070754027822764350
+    second: CleanCombatFX_8
+  - first:
+      213: -8071660263070897746
+    second: CleanCombatFX_9
+  - first:
+      213: 644516368508315359
+    second: CleanCombatFX_10
+  - first:
+      213: 4269880909691581841
+    second: CleanCombatFX_11
+  - first:
+      213: -8211207483396781033
+    second: CleanCombatFX_12
+  - first:
+      213: 8109380035256502428
+    second: CleanCombatFX_13
+  - first:
+      213: -6222338855091949684
+    second: CleanCombatFX_14
+  - first:
+      213: -7479046448936785466
+    second: CleanCombatFX_15
+  - first:
+      213: 4453354201595817631
+    second: CleanCombatFX_16
+  - first:
+      213: 1166288242087250371
+    second: CleanCombatFX_17
+  - first:
+      213: 8131076434546522291
+    second: CleanCombatFX_18
+  - first:
+      213: 1806821767050667219
+    second: CleanCombatFX_19
+  - first:
+      213: 6172713023832462282
+    second: CleanCombatFX_20
+  - first:
+      213: -852877086152651057
+    second: CleanCombatFX_21
+  - first:
+      213: 181691359559973981
+    second: CleanCombatFX_22
+  - first:
+      213: 3960380574985224799
+    second: CleanCombatFX_23
+  - first:
+      213: -2847373274070531648
+    second: CleanCombatFX_24
+  - first:
+      213: 4827516183600189159
+    second: CleanCombatFX_25
+  - first:
+      213: 2786850902749993409
+    second: CleanCombatFX_26
+  - first:
+      213: -15149389262169805
+    second: CleanCombatFX_27
+  - first:
+      213: -4635447585650611495
+    second: CleanCombatFX_28
+  - first:
+      213: -1493810002697814784
+    second: CleanCombatFX_29
+  - first:
+      213: -7070323569368817925
+    second: CleanCombatFX_30
+  - first:
+      213: -8049378543488113133
+    second: CleanCombatFX_31
+  - first:
+      213: -6805283463587834132
+    second: CleanCombatFX_32
+  - first:
+      213: -6950928374658214942
+    second: CleanCombatFX_33
+  - first:
+      213: -1510677059744077302
+    second: CleanCombatFX_34
+  - first:
+      213: -2286425892898160773
+    second: CleanCombatFX_35
+  - first:
+      213: 29829988757562278
+    second: CleanCombatFX_36
+  - first:
+      213: -2947866650779101173
+    second: CleanCombatFX_37
+  - first:
+      213: 7673775704056559712
+    second: CleanCombatFX_38
+  - first:
+      213: -43705167378375858
+    second: CleanCombatFX_39
+  - first:
+      213: -3127232480838711756
+    second: CleanCombatFX_40
+  - first:
+      213: 5164598733314007158
+    second: CleanCombatFX_41
+  - first:
+      213: 4383135256680793974
+    second: CleanCombatFX_42
+  - first:
+      213: 6754483849187958691
+    second: CleanCombatFX_43
+  - first:
+      213: 5650830256440802568
+    second: CleanCombatFX_44
+  - first:
+      213: 6779871289030158742
+    second: CleanCombatFX_45
+  - first:
+      213: -8809285658836071868
+    second: CleanCombatFX_46
+  - first:
+      213: 5861183401427145206
+    second: CleanCombatFX_47
+  - first:
+      213: 5899999869488645046
+    second: CleanCombatFX_48
+  - first:
+      213: 7665370416301443904
+    second: CleanCombatFX_49
+  - first:
+      213: 6417700974644248029
+    second: CleanCombatFX_50
+  - first:
+      213: 3677292349503363623
+    second: CleanCombatFX_51
+  - first:
+      213: -6103599118491498699
+    second: CleanCombatFX_52
+  - first:
+      213: -5587530239328963771
+    second: CleanCombatFX_53
+  - first:
+      213: -1826905725631474638
+    second: CleanCombatFX_54
+  - first:
+      213: 2287457946012695224
+    second: CleanCombatFX_55
+  - first:
+      213: -8956352181870821227
+    second: CleanCombatFX_56
+  - first:
+      213: -4254198631192085798
+    second: CleanCombatFX_57
+  - first:
+      213: -727729790328590806
+    second: CleanCombatFX_58
+  - first:
+      213: 7010735381736829227
+    second: CleanCombatFX_59
+  - first:
+      213: -6852722324561074778
+    second: CleanCombatFX_60
+  - first:
+      213: 776384995779781573
+    second: CleanCombatFX_61
+  - first:
+      213: -2030102598475789132
+    second: CleanCombatFX_62
+  - first:
+      213: 2852574589453311508
+    second: CleanCombatFX_63
+  - first:
+      213: 9195747377261759987
+    second: CleanCombatFX_64
+  - first:
+      213: 263333738548041477
+    second: CleanCombatFX_65
+  - first:
+      213: -5500051706480386102
+    second: CleanCombatFX_66
+  - first:
+      213: -182125515097244617
+    second: CleanCombatFX_67
+  - first:
+      213: -6389580661121541324
+    second: CleanCombatFX_68
+  - first:
+      213: 2777373374832815585
+    second: CleanCombatFX_69
+  - first:
+      213: 8823312913840245096
+    second: CleanCombatFX_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CleanFX_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 940.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa910762dc232146a0f58e40de4a20a
+      internalID: -1818371198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_0_1
+      rect:
+        serializedVersion: 2
+        x: 313.5
+        y: 940.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb71fddfea84a24daaeb6725fb5d854
+      internalID: 802556887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_0_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 940.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1dc8906fe8aee4d8a493c15bac85d3
+      internalID: 1248535950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_0_3
+      rect:
+        serializedVersion: 2
+        x: 940.5
+        y: 940.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed8f662cfc07434cae6ae1d6cc74975
+      internalID: 2026639954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 627
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e71926943db54a8bd3f8406a45146
+      internalID: 2001784510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_1_1
+      rect:
+        serializedVersion: 2
+        x: 313.5
+        y: 627
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0499957ed8db4fbaec963f389c87f
+      internalID: 779507515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_1_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 627
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e0c50a50deca640abdf2edf5a2209d
+      internalID: 1258884800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_1_3
+      rect:
+        serializedVersion: 2
+        x: 940.5
+        y: 627
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9327f7349bea14796ecb9a83c901a7
+      internalID: 1057711193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4a662b316dd4a4c8ed95ab9e17e3be
+      internalID: -273628969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_2_1
+      rect:
+        serializedVersion: 2
+        x: 313.5
+        y: 313.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34960c7f4597d9945ad0aa1aef4d2fed
+      internalID: -718210956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_2_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 313.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d1d6dbc5ed65740a7a06532b92eece
+      internalID: 1790279003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_2_3
+      rect:
+        serializedVersion: 2
+        x: 940.5
+        y: 313.5
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a21ef7f5ac964988260661d2efda3
+      internalID: -1922262077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367b7155d83f36f48b1f01bdc3dddaac
+      internalID: 540865998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_3_1
+      rect:
+        serializedVersion: 2
+        x: 313.5
+        y: 0
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef9229a135fb3449aa2c5a65a3ad052
+      internalID: 998108170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_3_2
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 0
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56a1f12e1a846e4ea03725adc8f111c
+      internalID: 90893511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CleanFX_3_3
+      rect:
+        serializedVersion: 2
+        x: 940.5
+        y: 0
+        width: 313.5
+        height: 313.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d28c88534c1b428c761b078eb8f9f
+      internalID: -722195155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9dd3ab88f954c804a9e72517fc67c8ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CleanFX_0_0: -1818371198
+      CleanFX_0_1: 802556887
+      CleanFX_0_2: 1248535950
+      CleanFX_0_3: 2026639954
+      CleanFX_1_0: 2001784510
+      CleanFX_1_1: 779507515
+      CleanFX_1_2: 1258884800
+      CleanFX_1_3: 1057711193
+      CleanFX_2_0: -273628969
+      CleanFX_2_1: -718210956
+      CleanFX_2_2: 1790279003
+      CleanFX_2_3: -1922262077
+      CleanFX_3_0: 540865998
+      CleanFX_3_1: 998108170
+      CleanFX_3_2: 90893511
+      CleanFX_3_3: -722195155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

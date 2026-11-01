@@ -1,10 +1,17 @@
 using System;
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace WorldOfThePack.Game
 {
     public abstract class Combatant : MonoBehaviour, IDamageable
     {
+        private static readonly List<Combatant> livingUnits = new List<Combatant>();
+        public static IReadOnlyList<Combatant> LivingUnits => livingUnits;
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void ResetLiving() => livingUnits.Clear();
+        protected virtual void OnEnable() { if (!livingUnits.Contains(this)) livingUnits.Add(this); }
+        protected virtual void OnDisable() => livingUnits.Remove(this);
         [Header("Identity & Faction")]
         [SerializeField] protected UnitFaction faction = UnitFaction.Allies;
         [SerializeField] protected string unitName = "Combatant";
@@ -26,7 +33,7 @@ namespace WorldOfThePack.Game
 
         public UnitFaction Faction => faction;
         public Vector3 Position => transform.position;
-        public bool IsAlive => currentHealth > 0f;
+        public bool IsAlive => !isDead && currentHealth > 0f;
         public float HealthPercent => Mathf.Clamp01(currentHealth / Mathf.Max(1f, maxHealth));
         public float MaxHealth => maxHealth;
         public float CurrentHealth => currentHealth;
@@ -39,6 +46,8 @@ namespace WorldOfThePack.Game
         protected float nextAttackTime;
         protected Combatant currentTarget;
         protected bool isDead;
+        private SpriteRenderer _contactShadow;
+        private static Sprite _shadowSprite;
 
         protected virtual void Awake()
         {
@@ -71,14 +80,20 @@ namespace WorldOfThePack.Game
         protected virtual void Start()
         {
             SetAnimationAction(0); // Idle
+            BuildContactShadow();
         }
 
         protected virtual void Update()
         {
             if (isDead) return;
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing) return;
+            if (GameDirector.Instance != null && GameDirector.Instance.CurrentState != GameState.Playing) return;
+            if (GameDirector.Instance != null && GameDirector.Instance.IsDecisionPending) return;
+            if (CampManager.Instance != null && CampManager.Instance.IsAtCamp) return;
 
             UpdateSortingOrder();
             UpdateBehavior();
+            ResolveCrowding();
         }
 
         protected virtual void UpdateSortingOrder()
@@ -89,14 +104,52 @@ namespace WorldOfThePack.Game
                 float camY = Camera.main != null ? Camera.main.transform.position.y : 0f;
                 float relativeY = transform.position.y - camY;
                 bodyRenderer.sortingOrder = 200 + Mathf.RoundToInt(-relativeY * 16f);
+                if (_contactShadow != null) _contactShadow.sortingOrder = bodyRenderer.sortingOrder-2;
             }
         }
 
         protected abstract void UpdateBehavior();
+        private void ResolveCrowding()
+        {
+            if (ArenaDirector.Instance == null || this is QueenEscort) return;
+            Vector3 push=Vector3.zero;
+            foreach(var unit in livingUnits)
+            {
+                if(unit==this || !unit.IsAlive)continue;
+                Vector3 delta=Position-unit.Position; float distance=delta.magnitude;
+                float spacing=unit is QueenEscort?.85f:unit.Faction==Faction?.43f:.53f;
+                if(distance>=spacing)continue;
+                if(distance<.001f)delta=GetInstanceID()>unit.GetInstanceID()?Vector3.right:Vector3.left;
+                push+=delta.normalized*(spacing-distance);
+            }
+            transform.position+=Vector3.ClampMagnitude(push,.4f)*Time.deltaTime*3;
+        }
+        private void BuildContactShadow()
+        {
+            if (ArenaDirector.Instance == null) return;
+            if (_shadowSprite == null)
+            {
+                const int size=32;var texture=new Texture2D(size,size,TextureFormat.RGBA32,false);
+                for(int y=0;y<size;y++)for(int x=0;x<size;x++)
+                {
+                    float distance=new Vector2((x-15.5f)/15.5f,(y-15.5f)/15.5f).magnitude;
+                    texture.SetPixel(x,y,new Color(.035f,.025f,.02f,Mathf.Clamp01(1-distance)*.5f));
+                }
+                texture.Apply();_shadowSprite=Sprite.Create(texture,new Rect(0,0,size,size),new Vector2(.5f,.5f),size);
+            }
+            var shadow=new GameObject("Contact shadow");shadow.transform.SetParent(transform,false);
+            shadow.transform.localPosition=Vector3.down*.1f;
+            float sizeMultiplier=this is QueenEscort?2.2f:1;
+            shadow.transform.localScale=new Vector3(.66f/Mathf.Max(.1f,transform.lossyScale.x),.22f/Mathf.Max(.1f,transform.lossyScale.y),1)*sizeMultiplier;
+            _contactShadow=shadow.AddComponent<SpriteRenderer>();_contactShadow.sprite=_shadowSprite;
+        }
 
         public virtual void TakeDamage(float amount, Combatant attacker = null)
         {
             if (isDead) return;
+            var formation = FormationController.Instance;
+            if (faction == UnitFaction.Allies && formation != null)
+                amount *= formation.CurrentFormationIndex == 1 ? .7f : formation.CurrentFormationIndex == 2 ? 1.2f : 1f;
 
             currentHealth = Mathf.Max(0f, currentHealth - amount);
             OnHealthChanged?.Invoke(currentHealth, maxHealth);
@@ -115,10 +168,12 @@ namespace WorldOfThePack.Game
         {
             if (isDead) return;
 
+            float previous = currentHealth;
             currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
             OnHealthChanged?.Invoke(currentHealth, maxHealth);
             UpdateHealthBarUI();
-            DamagePopupManager.ShowPopup(transform.position + Vector3.up * 0.8f, amount, false, true);
+            float restored = currentHealth - previous;
+            if (restored >= 5) DamagePopupManager.ShowPopup(transform.position + Vector3.up * 0.6f, restored, false, true);
         }
 
         protected virtual void Die(Combatant killer)
@@ -127,6 +182,7 @@ namespace WorldOfThePack.Game
             isDead = true;
 
             SetAnimationAction(3); // Dead
+            SetAnimationPlaybackSpeed(1f);
 
             if (healthBarPivot != null) healthBarPivot.gameObject.SetActive(false);
             if (selectionRing != null) selectionRing.gameObject.SetActive(false);
@@ -142,7 +198,7 @@ namespace WorldOfThePack.Game
 
         protected void SetAnimationAction(int actionIndex)
         {
-            if (animator != null && animator.gameObject.activeInHierarchy)
+            if (animator != null && animator.gameObject.activeInHierarchy && animator.runtimeAnimatorController != null)
             {
                 animator.SetInteger("Action", actionIndex);
                 if (actionIndex == 0) // Idle

@@ -155,6 +155,13 @@ namespace WorldOfThePack.Game
             Vector3 currentPos = trackingTarget.position;
             Vector3 anchor = FormationController.Instance.AnchorPosition;
             Vector3 desiredPos;
+            if (ArenaDirector.Instance != null)
+            {
+                // Keep the throne above the card hand even when a distant squad is staged.
+                isEncounterLocked = false;
+                trackingTarget.position = Vector3.SmoothDamp(currentPos, new Vector3(0,anchor.y+1f,0), ref cameraVelocity,.2f);
+                return;
+            }
 
             // Search for active enemies to calculate real-time combat clash distance & midpoint
             EnemyUnit[] enemies = FindObjectsByType<EnemyUnit>(FindObjectsSortMode.None);
@@ -245,7 +252,10 @@ namespace WorldOfThePack.Game
                 if (vcam != null)
                 {
                     vcam.transform.position = new Vector3(0f, resetPos.y, -10f);
+                    vcam.PreviousStateIsValid = false;
+                    vcam.ForceCameraPosition(new Vector3(0f, resetPos.y, -10f), Quaternion.identity);
                 }
+                if (Camera.main != null) Camera.main.transform.position = new Vector3(0f, resetPos.y, -10f);
             }
         }
 

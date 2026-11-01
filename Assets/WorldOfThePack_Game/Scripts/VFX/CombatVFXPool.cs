@@ -23,6 +23,12 @@ namespace WorldOfThePack.Game
 
         private readonly Dictionary<string, GameObject> prefabCache = new Dictionary<string, GameObject>();
         private readonly Dictionary<string, Queue<GameObject>> pool = new Dictionary<string, Queue<GameObject>>();
+        public void ClearForRun()
+        {
+            StopAllCoroutines();
+            foreach (Transform child in transform) { child.gameObject.SetActive(false); Destroy(child.gameObject); }
+            pool.Clear();
+        }
 
         [System.Serializable]
         public struct NamedPrefab
@@ -83,6 +89,7 @@ namespace WorldOfThePack.Game
             if (prefab != null)
             {
                 GameObject instance = Instantiate(prefab, position, rotation);
+                instance.transform.SetParent(transform, true);
                 instance.name = effectName;
 
                 var flipbook = instance.GetComponent<SpriteFlipbookEffect>();
@@ -146,6 +153,7 @@ namespace WorldOfThePack.Game
         private GameObject CreateProceduralSpark(string effectName, Vector3 position)
         {
             GameObject spark = new GameObject("Spark_" + effectName);
+            spark.transform.SetParent(transform, true);
             spark.transform.position = position;
             SpriteRenderer sr = spark.AddComponent<SpriteRenderer>();
             sr.sprite = GetSparkSprite();

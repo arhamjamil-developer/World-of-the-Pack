@@ -49,12 +49,7 @@ namespace WorldOfThePack.VFX
             // Impact pop
             CombatVFXPool.SpawnEffect("MagicImpact", end);
 
-            // Grant energy to cards
-            CardDeckManager deck = FindFirstObjectByType<CardDeckManager>();
-            if (deck != null)
-            {
-                deck.DistributeEnergy(energy);
-            }
+            // Visual only: GameDirector awarded combat charge once at defeat.
 
             Destroy(gameObject);
         }

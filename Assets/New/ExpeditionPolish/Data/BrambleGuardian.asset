@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 879e1b7d6312d54439d9ebb0c16924ce, type: 3}
+  m_Name: BrambleGuardian
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Game.BossDefinition
+  bossId: AncientThornGuardian
+  bossName: Bramble Guardian
+  bossTitle: The Forest Keeper
+  biome: 0
+  maxHealth: 650
+  moveSpeed: 0.65
+  basicAttackDamage: 18
+  attackInterval: 2
+  attackRange: 1.4
+  breachDamage: 50
+  energyReward: 120
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  specialAttacks:
+  - attackName: Root Slam
+    telegraphType: 2
+    telegraphDuration: 1.5
+    damage: 32
+    radius: 0.95
+    cooldown: 6
+    vfxName: EnemySlamCircle
+    isStunAttack: 0
+    stunDuration: 1.5
+  - attackName: Bramble Sweep
+    telegraphType: 2
+    telegraphDuration: 1.65
+    damage: 28
+    radius: 1.25
+    cooldown: 8
+    vfxName: EnemySlamCircle
+    isStunAttack: 0
+    stunDuration: 1.5
+  enrageHealthPercent: 0.4
+  enrageAttackSpeedMultiplier: 1.35
+  moonShardsReward: 80
+  moonFragmentIndex: 1
+  unlockedHeroOnDefeat: 

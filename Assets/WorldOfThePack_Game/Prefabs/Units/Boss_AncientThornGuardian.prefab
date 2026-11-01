@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1, y: 2.1, z: 2.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3291797301807590321}
@@ -79,9 +79,9 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 210
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -7590592099920119826, guid: c39766f63ceb1b24589cd979683eafa9, type: 3}
+  m_Sprite: {fileID: -938784500, guid: 4105a55e1c2cd7f4c96fd6469260b1ad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,6 +101,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3291797301807590321}
   - component: {fileID: 5694303988551058543}
+  - component: {fileID: 620717282161726583}
+  - component: {fileID: 7892799812529532456}
+  - component: {fileID: 4275277578133898084}
+  - component: {fileID: 3662459893624591040}
+  - component: {fileID: 8819216399817453594}
   m_Layer: 0
   m_Name: Boss_AncientThornGuardian
   m_TagString: Untagged
@@ -144,10 +149,114 @@ MonoBehaviour:
   attackRange: 1.2
   attackDamage: 20
   attackInterval: 1.2
-  animator: {fileID: 0}
-  bodyRenderer: {fileID: 0}
+  animator: {fileID: 7892799812529532456}
+  bodyRenderer: {fileID: 2845849759920166589}
   healthBarPivot: {fileID: 0}
   healthBarFill: {fileID: 0}
   selectionRing: {fileID: 0}
-  bossDefinition: {fileID: 11400000, guid: ae8061979fb72a94ca54f697ff5b5093, type: 2}
+  bossDefinition: {fileID: 11400000, guid: cb475c7fba47d53408c6248836a04a2e, type: 2}
   bossId: AncientThornGuardian
+--- !u!114 &620717282161726583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107631198671342163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddda60860d68c4347b134d2ee8f09430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Expedition.PackUnitMotion
+--- !u!95 &7892799812529532456
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107631198671342163}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 32bc64b499869bc42901263423244a0a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4275277578133898084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107631198671342163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c94c788c441c621498c890ced91beba7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.CombatArt.UnitAttackPresentation
+  _profile: {fileID: 11400000, guid: 3b9c61eaddde14346ba03d8f186def4e, type: 2}
+  _slashFrames:
+  - {fileID: 1979058251007902988, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -5192981637456959579, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -7535827805478365300, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: -898778843444915370, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 4758971716181183180, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 5362855983000165166, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 4304829500287747826, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+  - {fileID: 3161793923172642494, guid: 1d970ba2af47c3b4fabdb790c227a0e1, type: 3}
+--- !u!114 &3662459893624591040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107631198671342163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037ae07b02d30884c8623b41cc498701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Expedition.PackEnemyTarget
+--- !u!58 &8819216399817453594
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6107631198671342163}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.45}
+  m_Radius: 0.8

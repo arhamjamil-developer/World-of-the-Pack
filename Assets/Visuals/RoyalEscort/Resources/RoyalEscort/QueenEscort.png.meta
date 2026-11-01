@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 1c5bcbab761183d419db6a23c0c76ab2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2330419223328572351
+    second: QueenEscort_0
+  - first:
+      213: 2498040994652936487
+    second: QueenEscort_1
+  - first:
+      213: -546067075868369355
+    second: QueenEscort_2
+  - first:
+      213: 8977614601090785306
+    second: QueenEscort_3
+  - first:
+      213: 3951040904464746387
+    second: QueenEscort_4
+  - first:
+      213: 2578812337308151664
+    second: QueenEscort_5
+  - first:
+      213: 7270295927096884470
+    second: QueenEscort_6
+  - first:
+      213: 4431820564395731718
+    second: QueenEscort_7
+  - first:
+      213: 2563403704258420233
+    second: QueenEscort_8
+  - first:
+      213: -8133176437344133998
+    second: QueenEscort_9
+  - first:
+      213: -6222727623190328688
+    second: QueenEscort_10
+  - first:
+      213: -7276469890972446648
+    second: QueenEscort_11
+  - first:
+      213: 4893731834123541438
+    second: QueenEscort_12
+  - first:
+      213: -257793796273048686
+    second: QueenEscort_13
+  - first:
+      213: -3415634165769657298
+    second: QueenEscort_14
+  - first:
+      213: 251856890474404119
+    second: QueenEscort_15
+  - first:
+      213: -3403446816878570514
+    second: QueenEscort_16
+  - first:
+      213: -6911723743648330749
+    second: QueenEscort_17
+  - first:
+      213: -5058930641466526692
+    second: QueenEscort_18
+  - first:
+      213: -5698270612073419264
+    second: QueenEscort_19
+  - first:
+      213: -6943255216299987444
+    second: QueenEscort_20
+  - first:
+      213: 187942335357109397
+    second: QueenEscort_21
+  - first:
+      213: -8555995906014441983
+    second: QueenEscort_22
+  - first:
+      213: -2878122992162941333
+    second: QueenEscort_23
+  - first:
+      213: 2525396457636235934
+    second: QueenEscort_24
+  - first:
+      213: 5298509935502762316
+    second: QueenEscort_25
+  - first:
+      213: -1202676865598804208
+    second: QueenEscort_26
+  - first:
+      213: -2924334899127762091
+    second: QueenEscort_27
+  - first:
+      213: 7534142141392733072
+    second: QueenEscort_28
+  - first:
+      213: -950913661317288051
+    second: QueenEscort_29
+  - first:
+      213: -13639617941151153
+    second: QueenEscort_30
+  - first:
+      213: 2729704592461314585
+    second: QueenEscort_31
+  - first:
+      213: 8117146737657578565
+    second: QueenEscort_32
+  - first:
+      213: -7811617062782870976
+    second: QueenEscort_33
+  - first:
+      213: 1733545343785435340
+    second: QueenEscort_34
+  - first:
+      213: 258290091889829549
+    second: QueenEscort_35
+  - first:
+      213: 7048744189445471298
+    second: QueenEscort_36
+  - first:
+      213: -7334880357008857480
+    second: QueenEscort_37
+  - first:
+      213: 8227809836159295503
+    second: QueenEscort_38
+  - first:
+      213: -6688866421831142542
+    second: QueenEscort_39
+  - first:
+      213: -4029868781312058540
+    second: QueenEscort_40
+  - first:
+      213: 2988562196745062813
+    second: QueenEscort_41
+  - first:
+      213: 9100055715411541665
+    second: QueenEscort_42
+  - first:
+      213: -1774331761554664431
+    second: QueenEscort_43
+  - first:
+      213: -9165847338632625621
+    second: QueenEscort_44
+  - first:
+      213: 32618843353875572
+    second: QueenEscort_45
+  - first:
+      213: 8278257917601854232
+    second: QueenEscort_46
+  - first:
+      213: 2039783251004974608
+    second: QueenEscort_47
+  - first:
+      213: -2978002579910455195
+    second: QueenEscort_48
+  - first:
+      213: -4766815259458953153
+    second: QueenEscort_49
+  - first:
+      213: -1227044295221479627
+    second: QueenEscort_50
+  - first:
+      213: 9074058218221724114
+    second: QueenEscort_51
+  - first:
+      213: 8145107614622299396
+    second: QueenEscort_52
+  - first:
+      213: 7589718065784679970
+    second: QueenEscort_53
+  - first:
+      213: 4548966844642884456
+    second: QueenEscort_54
+  - first:
+      213: -6752467838949379235
+    second: QueenEscort_55
+  - first:
+      213: 7285734200143872669
+    second: QueenEscort_56
+  - first:
+      213: 1594567682474105451
+    second: QueenEscort_57
+  - first:
+      213: -4180273901650309301
+    second: QueenEscort_58
+  - first:
+      213: 2028277503708102149
+    second: QueenEscort_59
+  - first:
+      213: 3121176648864323211
+    second: QueenEscort_60
+  - first:
+      213: -3510145609074946544
+    second: QueenEscort_61
+  - first:
+      213: -8685146378946524343
+    second: QueenEscort_62
+  - first:
+      213: -3630025584086661908
+    second: QueenEscort_63
+  - first:
+      213: 3977791456404124168
+    second: QueenEscort_64
+  - first:
+      213: -3130173575872793742
+    second: QueenEscort_65
+  - first:
+      213: -1934877031096140536
+    second: QueenEscort_66
+  - first:
+      213: 3071900826018853880
+    second: QueenEscort_67
+  - first:
+      213: -840174431441948652
+    second: QueenEscort_68
+  - first:
+      213: 3407422591792679434
+    second: QueenEscort_69
+  - first:
+      213: -3094847648192825427
+    second: QueenEscort_70
+  - first:
+      213: 8830505861306700946
+    second: QueenEscort_71
+  - first:
+      213: 2380706919302099861
+    second: QueenEscort_72
+  - first:
+      213: -7480293587495115418
+    second: QueenEscort_73
+  - first:
+      213: -6673136306377799819
+    second: QueenEscort_74
+  - first:
+      213: -1715934255240559500
+    second: QueenEscort_75
+  - first:
+      213: -3101573287060654087
+    second: QueenEscort_76
+  - first:
+      213: 5277295534047199525
+    second: QueenEscort_77
+  - first:
+      213: -6555380781497540402
+    second: QueenEscort_78
+  - first:
+      213: 6699270046569963756
+    second: QueenEscort_79
+  - first:
+      213: 4800554033775145080
+    second: QueenEscort_80
+  - first:
+      213: -8897932567907205844
+    second: QueenEscort_81
+  - first:
+      213: 4873579778358364381
+    second: QueenEscort_82
+  - first:
+      213: -707222285351701445
+    second: QueenEscort_83
+  - first:
+      213: 5190540085051788094
+    second: QueenEscort_84
+  - first:
+      213: 7101903053509102509
+    second: QueenEscort_85
+  - first:
+      213: 9043572852645949203
+    second: QueenEscort_86
+  - first:
+      213: 4771714426615928496
+    second: QueenEscort_87
+  - first:
+      213: -2548808976104420025
+    second: QueenEscort_88
+  - first:
+      213: 2769947032181378686
+    second: QueenEscort_89
+  - first:
+      213: 5368737455715088518
+    second: QueenEscort_90
+  - first:
+      213: -5411404892655623363
+    second: QueenEscort_91
+  - first:
+      213: 4212617859309097488
+    second: QueenEscort_92
+  - first:
+      213: -4299186377488896958
+    second: QueenEscort_93
+  - first:
+      213: -7762327658496801711
+    second: QueenEscort_94
+  - first:
+      213: 604260718967588315
+    second: QueenEscort_95
+  - first:
+      213: 7156993594729542465
+    second: QueenEscort_96
+  - first:
+      213: 33201501160957082
+    second: QueenEscort_97
+  - first:
+      213: 8935319537302175499
+    second: QueenEscort_98
+  - first:
+      213: -6822490855330083736
+    second: QueenEscort_99
+  - first:
+      213: -3347222742917861264
+    second: QueenEscort_100
+  - first:
+      213: -6257043396569486507
+    second: QueenEscort_101
+  - first:
+      213: -2114539770905862737
+    second: QueenEscort_102
+  - first:
+      213: -6252390993933244645
+    second: QueenEscort_103
+  - first:
+      213: -6704179789463803075
+    second: QueenEscort_104
+  - first:
+      213: 1777749059544890726
+    second: QueenEscort_105
+  - first:
+      213: 7597887251101413708
+    second: QueenEscort_106
+  - first:
+      213: -7396302384287518629
+    second: QueenEscort_107
+  - first:
+      213: -542749458109272248
+    second: QueenEscort_108
+  - first:
+      213: -2453713482726338626
+    second: QueenEscort_109
+  - first:
+      213: 8239145474103303977
+    second: QueenEscort_110
+  - first:
+      213: -3783947115482088706
+    second: QueenEscort_111
+  - first:
+      213: -7892806627114753683
+    second: QueenEscort_112
+  - first:
+      213: -6257745767955105240
+    second: QueenEscort_113
+  - first:
+      213: -7432266418277920668
+    second: QueenEscort_114
+  - first:
+      213: -3941852381174652806
+    second: QueenEscort_115
+  - first:
+      213: -7922163277333442192
+    second: QueenEscort_116
+  - first:
+      213: 1371282446044225181
+    second: QueenEscort_117
+  - first:
+      213: -2420337227226192610
+    second: QueenEscort_118
+  - first:
+      213: -6741841552991086817
+    second: QueenEscort_119
+  - first:
+      213: -73435251707922155
+    second: QueenEscort_120
+  - first:
+      213: 381207830698334053
+    second: QueenEscort_121
+  - first:
+      213: 6852419293795776658
+    second: QueenEscort_122
+  - first:
+      213: -2615034601793230901
+    second: QueenEscort_123
+  - first:
+      213: -3921256031348315795
+    second: QueenEscort_124
+  - first:
+      213: 7046421390682267578
+    second: QueenEscort_125
+  - first:
+      213: -1388783503498258380
+    second: QueenEscort_126
+  - first:
+      213: -6789981246562837131
+    second: QueenEscort_127
+  - first:
+      213: 95462317463163728
+    second: QueenEscort_128
+  - first:
+      213: -1888601162512006427
+    second: QueenEscort_129
+  - first:
+      213: 7621679768993166528
+    second: QueenEscort_130
+  - first:
+      213: -6364854107575708933
+    second: QueenEscort_131
+  - first:
+      213: 3829203065263984887
+    second: QueenEscort_132
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 230
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: QueenEscort_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c1d0b49b00ed9459c9a20c299bd6d5
+      internalID: 1758567117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_01
+      rect:
+        serializedVersion: 2
+        x: 443.5
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e629ef68089d84eab2ae92406b6aa5
+      internalID: 1369259758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_02
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf2922333d41e47af8e0e3c2aeb7cd
+      internalID: -1962006352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_03
+      rect:
+        serializedVersion: 2
+        x: 1330.5
+        y: 443.5
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e7294fa14ee74f9856a5b5d970759
+      internalID: 1149109037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5846e8ab3404a2f43a3c56918ae46ca3
+      internalID: 1864883200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_05
+      rect:
+        serializedVersion: 2
+        x: 443.5
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7fd2c81118dec47a93b4a6bb1c5e05
+      internalID: -1062200581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_06
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf14d2ab6eebe74baf3a3c41ec36814
+      internalID: -1048486606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: QueenEscort_07
+      rect:
+        serializedVersion: 2
+        x: 1330.5
+        y: 0
+        width: 443.5
+        height: 443.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6deb8b3dea3784eafbe285270764c2
+      internalID: -1922951224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f74370b9965a3254a95eeb676d559568
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      QueenEscort_00: 1758567117
+      QueenEscort_01: 1369259758
+      QueenEscort_02: -1962006352
+      QueenEscort_03: 1149109037
+      QueenEscort_04: 1864883200
+      QueenEscort_05: -1062200581
+      QueenEscort_06: -1048486606
+      QueenEscort_07: -1922951224
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

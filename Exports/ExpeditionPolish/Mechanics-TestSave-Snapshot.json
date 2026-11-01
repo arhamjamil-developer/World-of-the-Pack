@@ -1,0 +1,29 @@
+{
+    "saveVersion": 1,
+    "currentChapter": 5,
+    "isCampaignCompleted": false,
+    "isEndlessUnlocked": false,
+    "isTutorialCompleted": true,
+    "moonFragmentsCollected": 5,
+    "moonShards": 660,
+    "unlockedHeroIds": [
+        "HeroWolvy",
+        "CaptainBobo",
+        "PrincessElva",
+        "FairyLulu"
+    ],
+    "upgrades": [
+        {
+            "upgradeKey": "PackHealth",
+            "level": 1
+        }
+    ],
+    "bestDistance": 0.0,
+    "totalEnemiesDefeated": 0,
+    "totalBossesDefeated": 0,
+    "totalHeroesRescued": 0,
+    "masterVolume": 1.0,
+    "musicVolume": 0.8500000238418579,
+    "sfxVolume": 0.949999988079071,
+    "hapticsEnabled": true
+}

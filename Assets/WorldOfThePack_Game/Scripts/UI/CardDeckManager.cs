@@ -24,11 +24,7 @@ namespace WorldOfThePack.Game
 
         private void Update()
         {
-            if (GameDirector.Instance == null || GameDirector.Instance.CurrentState != GameState.Playing) return;
-
-            // Continuous passive trickle charge (approx +3.5% energy per second) so cards constantly progress
-            float passiveFill = 3.5f * Time.deltaTime;
-            DistributeEnergy(passiveFill);
+            // Combat awards charge; waiting does not silently fill every card.
         }
 
         private void FindCardSlotsIfNeeded()
@@ -79,6 +75,7 @@ namespace WorldOfThePack.Game
 
         public void InitializeHand()
         {
+            isWolfForm = false;
             if (cardSlots == null || cardSlots.Length == 0 || heroDefinitions.Count == 0) return;
 
             for (int i = 0; i < cardSlots.Length; i++)
@@ -86,10 +83,11 @@ namespace WorldOfThePack.Game
                 if (cardSlots[i] == null) continue;
 
                 // Match definition by heroId if card slot contains heroId in its name, else fallback by index
-                HeroCardDefinition def = null;
+                HeroCardDefinition def = cardSlots[i].Definition;
                 string slotName = cardSlots[i].gameObject.name;
                 foreach (var d in heroDefinitions)
                 {
+                    if (def != null) break;
                     if (d != null && slotName.Contains(d.heroId))
                     {
                         def = d;
@@ -102,20 +100,8 @@ namespace WorldOfThePack.Game
                 cardSlots[i].deployRequested.RemoveAllListeners();
                 cardSlots[i].deployAtPositionRequested.RemoveAllListeners();
 
-                // Slot 0 (Hero Wolvy) starts ready at 100 energy for instant first deployment!
-                // Other slots match mockup progression: Elva 60, Lulu 40, Bobo 80, Pip 30
-                float initialEnergy = i switch
-                {
-                    0 => 100f,
-                    1 => 60f,
-                    2 => 40f,
-                    3 => 80f,
-                    4 => 30f,
-                    _ => 20f + i * 10f
-                };
-
-                // Start in Human Form
-                cardSlots[i].Bind(def, initialEnergy: initialEnergy, wolf: false);
+                // The opening arena offers the full roster; combat earns subsequent charges.
+                cardSlots[i].Bind(def, initialEnergy: 100f, wolf: false);
 
                 // Listen to deployment requests
                 HeroDeploymentCard card = cardSlots[i];
@@ -132,10 +118,17 @@ namespace WorldOfThePack.Game
                 return;
             }
 
+            if (ArenaDirector.Instance != null && ArenaDirector.Instance.IsPreparing)
+            {
+                card.CancelDeployment();
+                ArenaDirector.Instance.SelectCard(card);
+                return;
+            }
             HeroUnit spawnedHero = GameDirector.Instance.DeployHero(heroDef);
             if (spawnedHero != null)
             {
                 card.ConfirmDeployment(spawnedHero);
+                TutorialManager.Instance?.UnitPlaced(spawnedHero);
             }
             else
             {
@@ -155,6 +148,7 @@ namespace WorldOfThePack.Game
             if (spawnedHero != null)
             {
                 card.ConfirmDeployment(spawnedHero);
+                TutorialManager.Instance?.UnitPlaced(spawnedHero);
             }
             else
             {
@@ -165,6 +159,7 @@ namespace WorldOfThePack.Game
         public void DistributeEnergy(float amount)
         {
             if (cardSlots == null) return;
+            amount *= CampManager.Instance != null ? CampManager.Instance.EnergyRegenMultiplier : 1f;
             foreach (var card in cardSlots)
             {
                 if (card != null)

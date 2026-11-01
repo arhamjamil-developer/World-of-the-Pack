@@ -101,6 +101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5145798339541947318}
   - component: {fileID: 4967127146866632947}
+  - component: {fileID: 7706234424186495327}
   m_Layer: 0
   m_Name: Enemy_Hound
   m_TagString: Untagged
@@ -152,6 +153,19 @@ MonoBehaviour:
   enemyType: 1
   energyReward: 25
   breachDamage: 15
+  enemyDefinition: {fileID: 0}
   hasTelegraph: 0
   telegraphDuration: 1
   telegraphPrefabName: EnemyConeSouth
+--- !u!114 &7706234424186495327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7292565568402218281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddda60860d68c4347b134d2ee8f09430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WorldOfThePack.Expedition.PackUnitMotion
