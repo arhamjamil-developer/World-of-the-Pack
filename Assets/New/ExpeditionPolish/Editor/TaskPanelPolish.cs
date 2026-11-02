@@ -18,23 +18,23 @@ namespace WorldOfThePack.Expedition.Editor
             var hud=Object.FindFirstObjectByType<PackGameplayHUD>();var tasks=hud.GetComponent<PackTaskDirector>();
             var safe=hud.transform.Find("SafeArea");
             _font=AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/New/Fonts/Simpletix SDF.asset") ?? AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset");
-            _frame=Resources.Load<Sprite>("PackHUD/TaskPanelCompact") ?? Resources.Load<Sprite>("RoyalEscort/TutorialPanel");
+            _frame=Resources.Load<Sprite>("PackHUD/TaskMiniBanner_v2") ?? Resources.Load<Sprite>("PackHUD/TaskPanelCompact") ?? Resources.Load<Sprite>("RoyalEscort/TutorialPanel");
             var prior=safe.Find("TaskSidebar");if(prior!=null)Undo.DestroyObjectImmediate(prior.gameObject);
             var root=Rect("TaskSidebar",safe,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero);
             Undo.RegisterCreatedObjectUndo(root.gameObject,"Polish task sidebar");
-            var panel=Rect("TaskJournal",root,new Vector2(0,.64f),new Vector2(0,.64f),new Vector2(64,0),new Vector2(390,324));panel.pivot=new Vector2(0,.5f);
+            var panel=Rect("TaskJournal",root,new Vector2(0,.64f),new Vector2(0,.64f),new Vector2(54,0),new Vector2(410,250));panel.pivot=new Vector2(0,.5f);
             var outer=panel.gameObject.AddComponent<Image>();outer.sprite=_frame;outer.type=Image.Type.Sliced;outer.color=Color.white;
             var group=panel.gameObject.AddComponent<CanvasGroup>();
             var paper=Rect("Ivory reading inset",panel,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero);
-            var title=Text("Objective",paper,new Vector2(24,-20),new Vector2(304,58),"Clear the trail",28,new Color(.16f,.12f,.08f),FontStyles.Bold);
-            var instruction=Text("Instruction",paper,new Vector2(24,-82),new Vector2(342,60),"Defeat scouts",25,new Color(.23f,.18f,.12f),FontStyles.Bold);
-            var progress=Text("Progress count",paper,new Vector2(24,-150),new Vector2(342,29),"0 / 3 enemies defeated",23,new Color(.15f,.28f,.26f),FontStyles.Bold);
-            var track=Rect("Progress track",paper,new Vector2(0,1),new Vector2(0,1),new Vector2(24,-187),new Vector2(342,9));track.pivot=new Vector2(0,.5f);
+            var title=Text("Objective",paper,new Vector2(112,-20),new Vector2(260,42),"Clear the trail",25,new Color(.16f,.12f,.08f),FontStyles.Bold);
+            var instruction=Text("Instruction",paper,new Vector2(112,-64),new Vector2(270,48),"Defeat scouts",21,new Color(.23f,.18f,.12f),FontStyles.Bold);
+            var progress=Text("Progress count",paper,new Vector2(112,-116),new Vector2(270,27),"0 / 3 enemies defeated",19,new Color(.15f,.28f,.26f),FontStyles.Bold);
+            var track=Rect("Progress track",paper,new Vector2(0,1),new Vector2(0,1),new Vector2(112,-146),new Vector2(270,8));track.pivot=new Vector2(0,.5f);
             track.gameObject.AddComponent<Image>().color=new Color(.16f,.3f,.27f,.2f);
             var fill=Rect("Progress fill",track,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero).gameObject.AddComponent<Image>();
             fill.sprite=AssetDatabase.GetBuiltinExtraResource<Sprite>("UI/Skin/UISprite.psd");fill.type=Image.Type.Filled;fill.fillMethod=Image.FillMethod.Horizontal;fill.fillOrigin=0;fill.fillAmount=0;
-            var reward=Text("Reward",paper,new Vector2(24,-202),new Vector2(342,29),"Reward +3 charms",23,new Color(.42f,.25f,.06f),FontStyles.Bold);
-            var tip=Text("Small tactical tip",paper,new Vector2(24,-244),new Vector2(342,61),"Tip: Guard ranged allies with a tank.",22,new Color(.3f,.34f,.32f),FontStyles.Bold);
+            var reward=Text("Reward",paper,new Vector2(112,-160),new Vector2(270,26),"Reward +3 charms",19,new Color(.42f,.25f,.06f),FontStyles.Bold);
+            var tip=Text("Small tactical tip",paper,new Vector2(112,-192),new Vector2(270,38),"Tip: Guard ranged allies with a tank.",17,new Color(.3f,.34f,.32f),FontStyles.Bold);
             var closeRect=Rect("Close journal",panel,new Vector2(1,1),new Vector2(1,1),new Vector2(-26,-26),new Vector2(40,40));
             closeRect.gameObject.AddComponent<Image>().color=new Color(.22f,.29f,.25f,.14f);
             var close=closeRect.gameObject.AddComponent<Button>();
@@ -57,7 +57,7 @@ namespace WorldOfThePack.Expedition.Editor
             // Keep the legacy references intact, but hide their old full-width presentation.
             if(tasks.titleLabel!=null)tasks.titleLabel.enabled=false;if(tasks.detailLabel!=null)tasks.detailLabel.enabled=false;if(tasks.progressFill!=null)tasks.progressFill.enabled=false;
             var old=tasks.titleLabel!=null?tasks.titleLabel.transform.parent.Find("TaskPlate"):null;if(old!=null)old.GetComponent<Image>().enabled=false;
-            panel.anchoredPosition=new Vector2(-410,0);group.alpha=0;group.interactable=group.blocksRaycasts=false;
+            panel.anchoredPosition=new Vector2(-430,0);group.alpha=0;group.interactable=group.blocksRaycasts=false;
             EditorSceneManager.MarkSceneDirty(hud.gameObject.scene);EditorSceneManager.SaveScene(hud.gameObject.scene);
             return "Task sidebar authored and saved. Existing card and task catalog references preserved.";
         }

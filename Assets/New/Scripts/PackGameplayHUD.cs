@@ -23,7 +23,7 @@ namespace WorldOfThePack.NewUI
         public GameObject pausePanel, campPanel, endPanel, bossPanel;
         public CardDeckManager deck;
         public HeroDeploymentCard[] cards;
-        [SerializeField, Range(1, 1000)] private int _wave = 1;
+        [SerializeField, Range(1, 99999)] private int _wave = 1;
         [SerializeField, Min(0)] private float _moonCooldownSeconds = 12;
         [SerializeField, Min(.01f)] private float _metersPerWorldUnit = 4;
         private GameDirector _game;
@@ -170,8 +170,8 @@ namespace WorldOfThePack.NewUI
         }
         public void SetWave(int value)
         {
-            _wave = Mathf.Clamp(value, 1, 1000);
-            if (waveLabel != null) waveLabel.text = $"WAVE {_wave:00}";
+            _wave = Mathf.Clamp(value, 1, WaveManager.MaxWaveNumber);
+            if (waveLabel != null) waveLabel.text = _wave < 100 ? $"WAVE {_wave:00}" : $"WAVE {_wave}";
         }
         private void OnWave(int number, string title) => SetWave(number);
         public void SetHearts(float current, float maximum)

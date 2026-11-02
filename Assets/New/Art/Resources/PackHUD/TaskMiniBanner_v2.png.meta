@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 8800d3d1fcd77fc4bb476bdd29cd1193
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1558452694892952760
+    second: TaskMiniBanner_v2_0
+  - first:
+      213: -1570242800045398007
+    second: TaskMiniBanner_v2_1
+  - first:
+      213: -2373579143267553178
+    second: TaskMiniBanner_v2_2
+  - first:
+      213: -5448129485231520254
+    second: TaskMiniBanner_v2_3
+  - first:
+      213: -6657613235509232757
+    second: TaskMiniBanner_v2_4
+  - first:
+      213: -5190959973955469793
+    second: TaskMiniBanner_v2_5
+  - first:
+      213: 4283767489239587649
+    second: TaskMiniBanner_v2_6
+  - first:
+      213: -7802622575025678819
+    second: TaskMiniBanner_v2_7
+  - first:
+      213: 5204280278572167765
+    second: TaskMiniBanner_v2_8
+  - first:
+      213: -3205938951619309467
+    second: TaskMiniBanner_v2_9
+  - first:
+      213: -526988898404595716
+    second: TaskMiniBanner_v2_10
+  - first:
+      213: 3142258160190301683
+    second: TaskMiniBanner_v2_11
+  - first:
+      213: -762803357290380582
+    second: TaskMiniBanner_v2_12
+  - first:
+      213: 6463468234410697159
+    second: TaskMiniBanner_v2_13
+  - first:
+      213: 5331689081018607010
+    second: TaskMiniBanner_v2_14
+  - first:
+      213: -4035544152195206015
+    second: TaskMiniBanner_v2_15
+  - first:
+      213: -1163038130404124117
+    second: TaskMiniBanner_v2_16
+  - first:
+      213: 7390646930810573680
+    second: TaskMiniBanner_v2_17
+  - first:
+      213: 4418298387925192014
+    second: TaskMiniBanner_v2_18
+  - first:
+      213: 122070761517746689
+    second: TaskMiniBanner_v2_19
+  - first:
+      213: -231470658593494180
+    second: TaskMiniBanner_v2_20
+  - first:
+      213: 2035302802528250528
+    second: TaskMiniBanner_v2_21
+  - first:
+      213: 743148960289797027
+    second: TaskMiniBanner_v2_22
+  - first:
+      213: 7260055776156681164
+    second: TaskMiniBanner_v2_23
+  - first:
+      213: -5676957443868839203
+    second: TaskMiniBanner_v2_24
+  - first:
+      213: -1290468272373682385
+    second: TaskMiniBanner_v2_25
+  - first:
+      213: 721883133663115713
+    second: TaskMiniBanner_v2_26
+  - first:
+      213: 326540646553024240
+    second: TaskMiniBanner_v2_27
+  - first:
+      213: -9137522162981275365
+    second: TaskMiniBanner_v2_28
+  - first:
+      213: 1573752771335205022
+    second: TaskMiniBanner_v2_29
+  - first:
+      213: 6110971335867238492
+    second: TaskMiniBanner_v2_30
+  - first:
+      213: -4245312866691793201
+    second: TaskMiniBanner_v2_31
+  - first:
+      213: 6776490290754182377
+    second: TaskMiniBanner_v2_32
+  - first:
+      213: 6696817255071692477
+    second: TaskMiniBanner_v2_33
+  - first:
+      213: -2772721062392241151
+    second: TaskMiniBanner_v2_34
+  - first:
+      213: 1550615317764995992
+    second: TaskMiniBanner_v2_35
+  - first:
+      213: -4483812660765771329
+    second: TaskMiniBanner_v2_36
+  - first:
+      213: 2093776015146045648
+    second: TaskMiniBanner_v2_37
+  - first:
+      213: -8799817448401049944
+    second: TaskMiniBanner_v2_38
+  - first:
+      213: -7141325339303279409
+    second: TaskMiniBanner_v2_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TaskMiniBanner_v2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 146
+        width: 1986
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 70, y: 70, z: 70, w: 70}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d85dc07b9ee64392f1575911f15af
+      internalID: 555497809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bcb4cd76da66c7f4486aa13a69e812f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TaskMiniBanner_v2: 555497809
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

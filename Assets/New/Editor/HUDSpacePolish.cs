@@ -19,6 +19,7 @@ namespace WorldOfThePack.NewUI.Editor
             if(EditorApplication.isPlaying)return "Stop Play Mode first.";
             AssetDatabase.Refresh();EnsureFont();
             Import("Assets/New/Art/Resources/PackHUD/TaskPanelCompact.png",70);
+            Import("Assets/New/Art/Resources/PackHUD/TaskMiniBanner_v2.png",70);
             Import("Assets/New/Art/Resources/PackHUD/HUDToggleBanner.png",30);
             TaskPanelPolish.Build();
             var hud=Object.FindFirstObjectByType<PackGameplayHUD>();var safe=hud.transform.Find("SafeArea");
@@ -27,9 +28,9 @@ namespace WorldOfThePack.NewUI.Editor
             var rootRect=(RectTransform)root.transform;rootRect.anchorMin=Vector2.zero;rootRect.anchorMax=Vector2.one;rootRect.sizeDelta=Vector2.zero;
             root.transform.SetSiblingIndex(2);
             var font=AssetDatabase.LoadAssetAtPath<TMP_FontAsset>(FontPath);var art=Resources.Load<Sprite>("PackHUD/HUDToggleBanner");
-            var upper=Button(root.transform,"Upper HUD handle",new Vector2(.5f,1),new Vector2(0,-22),new Vector2(240,44),"Hide HUD  ^",font,art);
-            var lower=Button(root.transform,"Lower card handle",new Vector2(.5f,0),new Vector2(0,524),new Vector2(260,44),"Hide cards  v",font,art);
-            var pause=Button(root.transform,"Always available pause",new Vector2(.5f,1),new Vector2(153,-22),new Vector2(48,44),"II",font,art);
+            var upper=Button(root.transform,"Upper HUD handle",new Vector2(.5f,1),new Vector2(0,-28),new Vector2(64,56),"×",font,art);
+            var lower=Button(root.transform,"Lower card handle",new Vector2(.5f,0),new Vector2(0,524),new Vector2(64,56),"×",font,art);
+            var pause=Button(root.transform,"Always available pause",new Vector2(.5f,1),new Vector2(68,-28),new Vector2(52,56),"II",font,art);
             var top=(RectTransform)safe.Find("TopHUD");var bottom=(RectTransform)safe.Find("CardHand");
             top.anchoredPosition=bottom.anchoredPosition=Vector2.zero;
             ArrangeTop(hud,top,font);
@@ -111,7 +112,7 @@ namespace WorldOfThePack.NewUI.Editor
             var image=go.GetComponent<Image>();image.sprite=art;image.type=Image.Type.Sliced;image.color=Color.white;
             var text=new GameObject("Label",typeof(RectTransform),typeof(TextMeshProUGUI));text.transform.SetParent(go.transform,false);
             var r=(RectTransform)text.transform;r.anchorMin=Vector2.zero;r.anchorMax=Vector2.one;r.offsetMin=new Vector2(10,3);r.offsetMax=new Vector2(-10,-3);
-            var tmp=text.GetComponent<TextMeshProUGUI>();tmp.font=font;tmp.fontSize=23;tmp.fontStyle=FontStyles.Bold;tmp.text=label;tmp.color=new Color(1,.95f,.8f);tmp.alignment=TextAlignmentOptions.Center;tmp.raycastTarget=false;
+            var tmp=text.GetComponent<TextMeshProUGUI>();tmp.font=font;tmp.fontSize=label=="II"?20:42;tmp.fontStyle=FontStyles.Bold;tmp.text=label;tmp.color=label=="×"?new Color(.79f,.24f,.2f):new Color(1,.95f,.8f);tmp.alignment=TextAlignmentOptions.Center;tmp.raycastTarget=false;
             return go.GetComponent<Button>();
         }
     }

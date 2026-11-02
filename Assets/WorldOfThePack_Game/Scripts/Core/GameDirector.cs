@@ -162,6 +162,11 @@ namespace WorldOfThePack.Game
         {
             currentEnergy = 5f;
             currentMorale = 0f;
+            // MainMenuController persists the chosen mode because the gameplay scene is
+            // loaded independently. Read it before the first wave starts so Story and
+            // Endless are genuinely different runs.
+            bool endless = string.Equals(PlayerPrefs.GetString("GameMode", "Story"), "Endless", StringComparison.OrdinalIgnoreCase);
+            StoryCampaignDirector.Instance?.SetEndlessMode(endless);
             StartGame();
         }
 

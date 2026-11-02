@@ -28,7 +28,7 @@ namespace WorldOfThePack.Expedition
         {
             _game=GameDirector.Instance; _camp=CampManager.Instance;
             _handle.onClick.AddListener(Toggle); _close.onClick.AddListener(Close);
-            Close(); _panel.anchoredPosition=new Vector2(-410,0); _panelGroup.alpha=0;
+            Close(); _panel.anchoredPosition=new Vector2(-430,0); _panelGroup.alpha=0;
         }
         private void OnDestroy()
         { if(_handle!=null)_handle.onClick.RemoveListener(Toggle);if(_close!=null)_close.onClick.RemoveListener(Close); }
@@ -64,7 +64,7 @@ namespace WorldOfThePack.Expedition
             _fill.color=complete?new Color(.83f,.57f,.13f):new Color(.14f,.47f,.4f);
             _unreadDot.enabled=_unread;
             float t=1-Mathf.Exp(-16*Time.unscaledDeltaTime);
-            _panel.anchoredPosition=Vector2.Lerp(_panel.anchoredPosition,new Vector2(IsOpen?64:-410,0),t);
+            _panel.anchoredPosition=Vector2.Lerp(_panel.anchoredPosition,new Vector2(IsOpen?54:-430,0),t);
             _panelGroup.alpha=Mathf.Lerp(_panelGroup.alpha,IsOpen?1:0,t);
             _panelGroup.interactable=_panelGroup.blocksRaycasts=IsOpen;
         }

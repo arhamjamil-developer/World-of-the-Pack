@@ -15,6 +15,9 @@ namespace WorldOfThePack.Game
 
     public class WaveManager : MonoBehaviour
     {
+        // A practical, display-safe finish line for the generated expedition. The loop is
+        // still procedural from wave six onward, so no authored-wave list can terminate it.
+        public const int MaxWaveNumber = 99999;
         [System.Serializable]
         public class EnemySpawnConfig
         {
@@ -212,6 +215,13 @@ namespace WorldOfThePack.Game
                 while (isPausedForCamp) yield return null;
                 ArenaDirector.Instance?.EndBattle(CurrentWaveIndex + 1);
                 OnWaveCompleted?.Invoke(CurrentWaveIndex + 1);
+
+                if (CurrentWaveIndex + 1 >= MaxWaveNumber)
+                {
+                    OnAllWavesCompleted?.Invoke();
+                    Debug.Log("[WaveManager] Endless Expedition reached wave 99,999.");
+                    yield break;
+                }
 
                 CurrentWaveIndex++;
                 if (CurrentWaveIndex == authoredWaves.Count)

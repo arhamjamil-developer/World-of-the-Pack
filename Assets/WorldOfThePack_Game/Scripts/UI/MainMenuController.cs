@@ -123,27 +123,15 @@ namespace WorldOfThePack.Game
                 campaignChapterLabel.text = $"CHAPTER {data.currentChapter}: {GetChapterName(data.currentChapter)}";
             }
 
-            if (endlessLockedBadge != null)
-            {
-                endlessLockedBadge.SetActive(!data.isEndlessUnlocked);
-            }
-
-            if (endlessStartButton != null)
-            {
-                endlessStartButton.interactable = data.isEndlessUnlocked;
-            }
+            // Both advertised modes must be immediately playable. Campaign progression
+            // still records chapters, but Endless is a separate, always-available run.
+            if (endlessLockedBadge != null) endlessLockedBadge.SetActive(false);
+            if (endlessStartButton != null) endlessStartButton.interactable = true;
         }
 
         private void OnEndlessClicked()
         {
-            if (SaveManager.Instance != null && SaveManager.Instance.Data.isEndlessUnlocked)
-            {
-                LaunchGameplay("Endless");
-            }
-            else
-            {
-                ShowModeSelect();
-            }
+            LaunchGameplay("Endless");
         }
 
         private void PurchaseUpgrade(string key, int cost)

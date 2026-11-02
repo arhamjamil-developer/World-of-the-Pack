@@ -13,8 +13,9 @@ namespace WorldOfThePack.NewUI
         [SerializeField] private TMP_Text _upperLabel, _lowerLabel;
         [SerializeField] private GameObject _controls;
         [Header("Icon-only controls")]
-        [SerializeField] private Sprite _upIcon, _closeIcon;
-        [SerializeField] private Image _upperGlyph, _lowerGlyph;
+        // Labels are deliberately glyph-only: a red close mark while a panel is visible,
+        // and an upward chevron when it can be restored. This keeps the controls readable
+        // at iPhone size without relying on locale-specific Hide/Show copy.
         private Vector2 _topOrigin, _bottomOrigin;
         private Vector2 _lowerOrigin;
         private GameDirector _game;
@@ -32,8 +33,6 @@ namespace WorldOfThePack.NewUI
         {
             _game=GameDirector.Instance;_hud=GetComponent<PackGameplayHUD>();
             if(_upperLabel!=null)ArenaDirector.Instance?.ApplyCompactStyle(_upperLabel.font);
-            if(_upperLabel!=null)_upperLabel.gameObject.SetActive(false);
-            if(_lowerLabel!=null)_lowerLabel.gameObject.SetActive(false);
             _upperButton.onClick.AddListener(ToggleUpper);_lowerButton.onClick.AddListener(ToggleCards);_pause.onClick.AddListener(Pause);
         }
         private void OnDestroy()
@@ -72,12 +71,18 @@ namespace WorldOfThePack.NewUI
             _topGroup.interactable=_topGroup.blocksRaycasts=UpperVisible;
             _bottomGroup.interactable=_bottomGroup.blocksRaycasts=CardsVisible;
             _lowerHandle.anchoredPosition=new Vector2(_lowerOrigin.x,Mathf.Max(24,_lowerOrigin.y+_bottom.anchoredPosition.y-_bottomOrigin.y));
-            if(_upperGlyph!=null)
-            {
-                _upperGlyph.sprite=UpperVisible?_closeIcon:_upIcon;
-                _upperGlyph.rectTransform.localRotation=Quaternion.Euler(0,0,UpperVisible?0:180);
-            }
-            if(_lowerGlyph!=null)_lowerGlyph.sprite=CardsVisible?_closeIcon:_upIcon;
+            SetGlyph(_upperLabel, UpperVisible);
+            SetGlyph(_lowerLabel, CardsVisible);
+        }
+
+        private static void SetGlyph(TMP_Text label, bool panelVisible)
+        {
+            if (label == null) return;
+            label.gameObject.SetActive(true);
+            label.text = panelVisible ? "×" : "⌃";
+            label.color = panelVisible ? new Color32(202, 62, 53, 255) : new Color32(255, 236, 181, 255);
+            label.outlineColor = panelVisible ? new Color32(80, 19, 18, 255) : new Color32(43, 28, 13, 255);
+            label.outlineWidth = .2f;
         }
     }
 }
