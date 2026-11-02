@@ -12,12 +12,18 @@ namespace WorldOfThePack.NewUI
         [SerializeField] private Button _upperButton, _lowerButton, _pause;
         [SerializeField] private TMP_Text _upperLabel, _lowerLabel;
         [SerializeField] private GameObject _controls;
+        [Header("Glossy UI Sprites")]
+        [SerializeField] private Sprite _closeSprite;
+        [SerializeField] private Sprite _openSprite;
+        [SerializeField] private Image _upperIconImage;
+        [SerializeField] private Image _lowerIconImage;
+        [SerializeField] private RectTransform _upperHandle;
         [Header("Icon-only controls")]
         // Labels are deliberately glyph-only: a red close mark while a panel is visible,
         // and an upward chevron when it can be restored. This keeps the controls readable
         // at iPhone size without relying on locale-specific Hide/Show copy.
         private Vector2 _topOrigin, _bottomOrigin;
-        private Vector2 _lowerOrigin;
+        private Vector2 _lowerOrigin, _upperOrigin;
         private GameDirector _game;
         private PackGameplayHUD _hud;
         private ArenaPhase _lastPhase;
@@ -26,6 +32,8 @@ namespace WorldOfThePack.NewUI
         private void Awake()
         {
             _topOrigin=_top.anchoredPosition;_bottomOrigin=_bottom.anchoredPosition;_lowerOrigin=_lowerHandle.anchoredPosition;
+            if(_upperHandle==null && _upperButton!=null)_upperHandle=_upperButton.GetComponent<RectTransform>();
+            if(_upperHandle!=null)_upperOrigin=_upperHandle.anchoredPosition;
             if(_topGroup==null && !_top.TryGetComponent(out _topGroup))_topGroup=_top.gameObject.AddComponent<CanvasGroup>();
             if(_bottomGroup==null && !_bottom.TryGetComponent(out _bottomGroup))_bottomGroup=_bottom.gameObject.AddComponent<CanvasGroup>();
         }
@@ -70,9 +78,35 @@ namespace WorldOfThePack.NewUI
             _bottomGroup.alpha=Mathf.Lerp(_bottomGroup.alpha,CardsVisible?1:0,t);
             _topGroup.interactable=_topGroup.blocksRaycasts=UpperVisible;
             _bottomGroup.interactable=_bottomGroup.blocksRaycasts=CardsVisible;
-            _lowerHandle.anchoredPosition=new Vector2(_lowerOrigin.x,Mathf.Max(24,_lowerOrigin.y+_bottom.anchoredPosition.y-_bottomOrigin.y));
-            SetGlyph(_upperLabel, UpperVisible);
-            SetGlyph(_lowerLabel, CardsVisible);
+            if(_lowerHandle!=null)_lowerHandle.anchoredPosition=new Vector2(_lowerOrigin.x,Mathf.Max(24,_lowerOrigin.y+_bottom.anchoredPosition.y-_bottomOrigin.y));
+            if(_upperHandle!=null)_upperHandle.anchoredPosition=new Vector2(_upperOrigin.x,Mathf.Min(-28,_upperOrigin.y+_top.anchoredPosition.y-_topOrigin.y));
+            UpdateIcon(_upperIconImage, _upperLabel, UpperVisible, isUpper: true);
+            UpdateIcon(_lowerIconImage, _lowerLabel, CardsVisible, isUpper: false);
+        }
+
+        private void UpdateIcon(Image iconImage, TMP_Text label, bool panelVisible, bool isUpper)
+        {
+            if (iconImage != null && _closeSprite != null && _openSprite != null)
+            {
+                if (label != null) label.gameObject.SetActive(false);
+                iconImage.gameObject.SetActive(true);
+                if (panelVisible)
+                {
+                    iconImage.sprite = _closeSprite;
+                    iconImage.rectTransform.localEulerAngles = Vector3.zero;
+                    iconImage.rectTransform.localScale = Vector3.one;
+                }
+                else
+                {
+                    iconImage.sprite = _openSprite;
+                    iconImage.rectTransform.localEulerAngles = Vector3.zero;
+                    iconImage.rectTransform.localScale = isUpper ? new Vector3(1, -1, 1) : Vector3.one;
+                }
+            }
+            else
+            {
+                SetGlyph(label, panelVisible);
+            }
         }
 
         private static void SetGlyph(TMP_Text label, bool panelVisible)
